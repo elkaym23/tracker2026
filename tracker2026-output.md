@@ -1,0 +1,24279 @@
+# 📁 PROJECT EXPORT FOR LLMs
+
+## 📊 Project Information
+
+- **Project Name**: `tracker2026`
+- **Generated On**: 2026-01-07 02:45:10 (Etc/GMT+5 / GMT-05:00)
+- **Total Files Processed**: 100
+- **Export Tool**: Easy Whole Project to Single Text File for LLMs v1.1.0
+- **Tool Author**: Jota / José Guilherme Pandolfi
+
+### ⚙️ Export Configuration
+
+| Setting | Value |
+|---------|-------|
+| Language | `en` |
+| Max File Size | `1 MB` |
+| Include Hidden Files | `false` |
+| Output Format | `both` |
+
+## 🌳 Project Structure
+
+```
+├── 📁 public/
+│   ├── 📄 favicon.ico
+│   ├── 📄 placeholder.svg
+│   └── 📄 robots.txt (174 B)
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── 📁 ui/
+│   │   │   ├── 📄 accordion.tsx (2.08 KB)
+│   │   │   ├── 📄 alert-dialog.tsx (4.47 KB)
+│   │   │   ├── 📄 alert.tsx (1.55 KB)
+│   │   │   ├── 📄 aspect-ratio.tsx (148 B)
+│   │   │   ├── 📄 avatar.tsx (1.42 KB)
+│   │   │   ├── 📄 badge.tsx (1.17 KB)
+│   │   │   ├── 📄 breadcrumb.tsx (2.71 KB)
+│   │   │   ├── 📄 button.tsx (2.66 KB)
+│   │   │   ├── 📄 calendar.tsx (2.56 KB)
+│   │   │   ├── 📄 card.tsx (2.75 KB)
+│   │   │   ├── 📄 carousel.tsx (7.33 KB)
+│   │   │   ├── 📄 chart.tsx (12.27 KB)
+│   │   │   ├── 📄 checkbox.tsx (1.1 KB)
+│   │   │   ├── 📄 collapsible.tsx (329 B)
+│   │   │   ├── 📄 command.tsx (5.1 KB)
+│   │   │   ├── 📄 context-menu.tsx (7.59 KB)
+│   │   │   ├── 📄 dialog.tsx (3.95 KB)
+│   │   │   ├── 📄 drawer.tsx (3.09 KB)
+│   │   │   ├── 📄 dropdown-menu.tsx (7.67 KB)
+│   │   │   ├── 📄 form.tsx (4.3 KB)
+│   │   │   ├── 📄 hover-card.tsx (1.23 KB)
+│   │   │   ├── 📄 input-otp.tsx (2.34 KB)
+│   │   │   ├── 📄 input.tsx (821 B)
+│   │   │   ├── 📄 label.tsx (713 B)
+│   │   │   ├── 📄 menubar.tsx (8.35 KB)
+│   │   │   ├── 📄 navigation-menu.tsx (5.27 KB)
+│   │   │   ├── 📄 pagination.tsx (2.83 KB)
+│   │   │   ├── 📄 popover.tsx (1.3 KB)
+│   │   │   ├── 📄 progress.tsx (830 B)
+│   │   │   ├── 📄 radio-group.tsx (1.53 KB)
+│   │   │   ├── 📄 resizable.tsx (1.77 KB)
+│   │   │   ├── 📄 scroll-area.tsx (1.68 KB)
+│   │   │   ├── 📄 select.tsx (5.95 KB)
+│   │   │   ├── 📄 separator.tsx (746 B)
+│   │   │   ├── 📄 sheet.tsx (4.44 KB)
+│   │   │   ├── 📄 sidebar.tsx (25.54 KB)
+│   │   │   ├── 📄 skeleton.tsx (243 B)
+│   │   │   ├── 📄 slider.tsx (1.1 KB)
+│   │   │   ├── 📄 sonner.tsx (1016 B)
+│   │   │   ├── 📄 switch.tsx (1.21 KB)
+│   │   │   ├── 📄 table.tsx (2.83 KB)
+│   │   │   ├── 📄 tabs.tsx (2.01 KB)
+│   │   │   ├── 📄 textarea.tsx (772 B)
+│   │   │   ├── 📄 toast.tsx (5 KB)
+│   │   │   ├── 📄 toaster.tsx (898 B)
+│   │   │   ├── 📄 toggle-group.tsx (1.83 KB)
+│   │   │   ├── 📄 toggle.tsx (1.52 KB)
+│   │   │   ├── 📄 tooltip.tsx (1.19 KB)
+│   │   │   └── 📄 use-toast.ts (85 B)
+│   │   ├── 📄 AnalyticsDashboard.tsx (16.26 KB)
+│   │   ├── 📄 BTSQuote.tsx (5.2 KB)
+│   │   ├── 📄 BudgetTracker.tsx (13.37 KB)
+│   │   ├── 📄 CalendarView.tsx (25.01 KB)
+│   │   ├── 📄 DailyTodos.tsx (6.6 KB)
+│   │   ├── 📄 DataExport.tsx (11.68 KB)
+│   │   ├── 📄 DateHeader.tsx (2.81 KB)
+│   │   ├── 📄 HabitTracker.tsx (17.04 KB)
+│   │   ├── 📄 JournalHistory.tsx (10.49 KB)
+│   │   ├── 📄 MoodBoard.tsx (5.35 KB)
+│   │   ├── 📄 Navigation.tsx (7.11 KB)
+│   │   ├── 📄 NavLink.tsx (859 B)
+│   │   ├── 📄 QuickJournal.tsx (8.36 KB)
+│   │   ├── 📄 QuickStats.tsx (6.07 KB)
+│   │   ├── 📄 ReadingProgress.tsx (9.36 KB)
+│   │   └── 📄 SelfCareChecklist.tsx (7.11 KB)
+│   ├── 📁 hooks/
+│   │   ├── 📄 use-mobile.tsx (633 B)
+│   │   ├── 📄 use-toast.ts (3.68 KB)
+│   │   └── 📄 useRealtimeSubscription.ts (2.61 KB)
+│   ├── 📁 integrations/
+│   │   └── 📁 supabase/
+│   │       ├── 📄 client.ts (439 B)
+│   │       └── 📄 types.ts (9.64 KB)
+│   ├── 📁 lib/
+│   │   ├── 📄 dateUtils.ts (3.65 KB)
+│   │   ├── 📄 db.ts (16.42 KB)
+│   │   ├── 📄 storage.ts (9.43 KB)
+│   │   └── 📄 utils.ts (177 B)
+│   ├── 📁 pages/
+│   │   ├── 📄 Index.tsx (3.97 KB)
+│   │   └── 📄 NotFound.tsx (827 B)
+│   ├── 📄 App.css (648 B)
+│   ├── 📄 App.tsx (980 B)
+│   ├── 📄 index.css (4.8 KB)
+│   ├── 📄 main.tsx (166 B)
+│   └── 📄 vite-env.d.ts (216 B)
+├── 📁 supabase/
+│   └── 📄 config.toml (35 B)
+├── 📄 bun.lock (188.23 KB)
+├── 📄 components.json (488 B)
+├── 📄 eslint.config.js (871 B)
+├── 📄 index.html (1.35 KB)
+├── 📄 package-lock.json (291.25 KB)
+├── 📄 package.json (3.07 KB)
+├── 📄 postcss.config.js (99 B)
+├── 📄 README.md (2.12 KB)
+├── 📄 tailwind.config.ts (4.31 KB)
+├── 📄 tsconfig.app.json (792 B)
+├── 📄 tsconfig.app.tsbuildinfo (456.31 KB)
+├── 📄 tsconfig.json (509 B)
+├── 📄 tsconfig.node.json (603 B)
+├── 📄 tsconfig.node.tsbuildinfo (154.99 KB)
+└── 📄 vite.config.ts (504 B)
+```
+
+## 📑 Table of Contents
+
+**Project Files:**
+
+- [📄 public/robots.txt](#📄-public-robots-txt)
+- [📄 src/components/ui/accordion.tsx](#📄-src-components-ui-accordion-tsx)
+- [📄 src/components/ui/alert-dialog.tsx](#📄-src-components-ui-alert-dialog-tsx)
+- [📄 src/components/ui/alert.tsx](#📄-src-components-ui-alert-tsx)
+- [📄 src/components/ui/aspect-ratio.tsx](#📄-src-components-ui-aspect-ratio-tsx)
+- [📄 src/components/ui/avatar.tsx](#📄-src-components-ui-avatar-tsx)
+- [📄 src/components/ui/badge.tsx](#📄-src-components-ui-badge-tsx)
+- [📄 src/components/ui/breadcrumb.tsx](#📄-src-components-ui-breadcrumb-tsx)
+- [📄 src/components/ui/button.tsx](#📄-src-components-ui-button-tsx)
+- [📄 src/components/ui/calendar.tsx](#📄-src-components-ui-calendar-tsx)
+- [📄 src/components/ui/card.tsx](#📄-src-components-ui-card-tsx)
+- [📄 src/components/ui/carousel.tsx](#📄-src-components-ui-carousel-tsx)
+- [📄 src/components/ui/chart.tsx](#📄-src-components-ui-chart-tsx)
+- [📄 src/components/ui/checkbox.tsx](#📄-src-components-ui-checkbox-tsx)
+- [📄 src/components/ui/collapsible.tsx](#📄-src-components-ui-collapsible-tsx)
+- [📄 src/components/ui/command.tsx](#📄-src-components-ui-command-tsx)
+- [📄 src/components/ui/context-menu.tsx](#📄-src-components-ui-context-menu-tsx)
+- [📄 src/components/ui/dialog.tsx](#📄-src-components-ui-dialog-tsx)
+- [📄 src/components/ui/drawer.tsx](#📄-src-components-ui-drawer-tsx)
+- [📄 src/components/ui/dropdown-menu.tsx](#📄-src-components-ui-dropdown-menu-tsx)
+- [📄 src/components/ui/form.tsx](#📄-src-components-ui-form-tsx)
+- [📄 src/components/ui/hover-card.tsx](#📄-src-components-ui-hover-card-tsx)
+- [📄 src/components/ui/input-otp.tsx](#📄-src-components-ui-input-otp-tsx)
+- [📄 src/components/ui/input.tsx](#📄-src-components-ui-input-tsx)
+- [📄 src/components/ui/label.tsx](#📄-src-components-ui-label-tsx)
+- [📄 src/components/ui/menubar.tsx](#📄-src-components-ui-menubar-tsx)
+- [📄 src/components/ui/navigation-menu.tsx](#📄-src-components-ui-navigation-menu-tsx)
+- [📄 src/components/ui/pagination.tsx](#📄-src-components-ui-pagination-tsx)
+- [📄 src/components/ui/popover.tsx](#📄-src-components-ui-popover-tsx)
+- [📄 src/components/ui/progress.tsx](#📄-src-components-ui-progress-tsx)
+- [📄 src/components/ui/radio-group.tsx](#📄-src-components-ui-radio-group-tsx)
+- [📄 src/components/ui/resizable.tsx](#📄-src-components-ui-resizable-tsx)
+- [📄 src/components/ui/scroll-area.tsx](#📄-src-components-ui-scroll-area-tsx)
+- [📄 src/components/ui/select.tsx](#📄-src-components-ui-select-tsx)
+- [📄 src/components/ui/separator.tsx](#📄-src-components-ui-separator-tsx)
+- [📄 src/components/ui/sheet.tsx](#📄-src-components-ui-sheet-tsx)
+- [📄 src/components/ui/sidebar.tsx](#📄-src-components-ui-sidebar-tsx)
+- [📄 src/components/ui/skeleton.tsx](#📄-src-components-ui-skeleton-tsx)
+- [📄 src/components/ui/slider.tsx](#📄-src-components-ui-slider-tsx)
+- [📄 src/components/ui/sonner.tsx](#📄-src-components-ui-sonner-tsx)
+- [📄 src/components/ui/switch.tsx](#📄-src-components-ui-switch-tsx)
+- [📄 src/components/ui/table.tsx](#📄-src-components-ui-table-tsx)
+- [📄 src/components/ui/tabs.tsx](#📄-src-components-ui-tabs-tsx)
+- [📄 src/components/ui/textarea.tsx](#📄-src-components-ui-textarea-tsx)
+- [📄 src/components/ui/toast.tsx](#📄-src-components-ui-toast-tsx)
+- [📄 src/components/ui/toaster.tsx](#📄-src-components-ui-toaster-tsx)
+- [📄 src/components/ui/toggle-group.tsx](#📄-src-components-ui-toggle-group-tsx)
+- [📄 src/components/ui/toggle.tsx](#📄-src-components-ui-toggle-tsx)
+- [📄 src/components/ui/tooltip.tsx](#📄-src-components-ui-tooltip-tsx)
+- [📄 src/components/ui/use-toast.ts](#📄-src-components-ui-use-toast-ts)
+- [📄 src/components/AnalyticsDashboard.tsx](#📄-src-components-analyticsdashboard-tsx)
+- [📄 src/components/BTSQuote.tsx](#📄-src-components-btsquote-tsx)
+- [📄 src/components/BudgetTracker.tsx](#📄-src-components-budgettracker-tsx)
+- [📄 src/components/CalendarView.tsx](#📄-src-components-calendarview-tsx)
+- [📄 src/components/DailyTodos.tsx](#📄-src-components-dailytodos-tsx)
+- [📄 src/components/DataExport.tsx](#📄-src-components-dataexport-tsx)
+- [📄 src/components/DateHeader.tsx](#📄-src-components-dateheader-tsx)
+- [📄 src/components/HabitTracker.tsx](#📄-src-components-habittracker-tsx)
+- [📄 src/components/JournalHistory.tsx](#📄-src-components-journalhistory-tsx)
+- [📄 src/components/MoodBoard.tsx](#📄-src-components-moodboard-tsx)
+- [📄 src/components/Navigation.tsx](#📄-src-components-navigation-tsx)
+- [📄 src/components/NavLink.tsx](#📄-src-components-navlink-tsx)
+- [📄 src/components/QuickJournal.tsx](#📄-src-components-quickjournal-tsx)
+- [📄 src/components/QuickStats.tsx](#📄-src-components-quickstats-tsx)
+- [📄 src/components/ReadingProgress.tsx](#📄-src-components-readingprogress-tsx)
+- [📄 src/components/SelfCareChecklist.tsx](#📄-src-components-selfcarechecklist-tsx)
+- [📄 src/hooks/use-mobile.tsx](#📄-src-hooks-use-mobile-tsx)
+- [📄 src/hooks/use-toast.ts](#📄-src-hooks-use-toast-ts)
+- [📄 src/hooks/useRealtimeSubscription.ts](#📄-src-hooks-userealtimesubscription-ts)
+- [📄 src/integrations/supabase/client.ts](#📄-src-integrations-supabase-client-ts)
+- [📄 src/integrations/supabase/types.ts](#📄-src-integrations-supabase-types-ts)
+- [📄 src/lib/dateUtils.ts](#📄-src-lib-dateutils-ts)
+- [📄 src/lib/db.ts](#📄-src-lib-db-ts)
+- [📄 src/lib/storage.ts](#📄-src-lib-storage-ts)
+- [📄 src/lib/utils.ts](#📄-src-lib-utils-ts)
+- [📄 src/pages/Index.tsx](#📄-src-pages-index-tsx)
+- [📄 src/pages/NotFound.tsx](#📄-src-pages-notfound-tsx)
+- [📄 src/App.css](#📄-src-app-css)
+- [📄 src/App.tsx](#📄-src-app-tsx)
+- [📄 src/index.css](#📄-src-index-css)
+- [📄 src/main.tsx](#📄-src-main-tsx)
+- [📄 src/vite-env.d.ts](#📄-src-vite-env-d-ts)
+- [📄 supabase/config.toml](#📄-supabase-config-toml)
+- [📄 bun.lock](#📄-bun-lock)
+- [📄 components.json](#📄-components-json)
+- [📄 eslint.config.js](#📄-eslint-config-js)
+- [📄 index.html](#📄-index-html)
+- [📄 package-lock.json](#📄-package-lock-json)
+- [📄 package.json](#📄-package-json)
+- [📄 postcss.config.js](#📄-postcss-config-js)
+- [📄 README.md](#📄-readme-md)
+- [📄 tailwind.config.ts](#📄-tailwind-config-ts)
+- [📄 tsconfig.app.json](#📄-tsconfig-app-json)
+- [📄 tsconfig.json](#📄-tsconfig-json)
+- [📄 tsconfig.node.json](#📄-tsconfig-node-json)
+- [📄 vite.config.ts](#📄-vite-config-ts)
+
+---
+
+## 📈 Project Statistics
+
+| Metric | Count |
+|--------|-------|
+| Total Files | 100 |
+| Total Directories | 10 |
+| Text Files | 96 |
+| Binary Files | 4 |
+| Total Size | 1.44 MB |
+
+### 📄 File Types Distribution
+
+| Extension | Count |
+|-----------|-------|
+| `.tsx` | 69 |
+| `.ts` | 12 |
+| `.json` | 6 |
+| `.css` | 2 |
+| `.js` | 2 |
+| `.tsbuildinfo` | 2 |
+| `.ico` | 1 |
+| `.svg` | 1 |
+| `.txt` | 1 |
+| `.toml` | 1 |
+| `.lock` | 1 |
+| `.html` | 1 |
+| `.md` | 1 |
+
+## 💻 File Code Contents
+
+### <a id="📄-public-robots-txt"></a>📄 `public/robots.txt`
+
+**File Info:**
+- **Size**: 174 B
+- **Extension**: `.txt`
+- **Language**: `text`
+- **Location**: `public/robots.txt`
+- **Relative Path**: `public`
+- **Created**: 2026-01-05 01:51:03 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 01:51:10 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `a9b03494151fe90e5decd2405400e106`
+- **SHA256**: `52710c261d851bc1ad35604017862f2a8444e7a0f02cd7b8b49e3ba92e6d4cea`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `public/favicon.ico`
+- `public/placeholder.svg`
+
+### <a id="📄-src-components-ui-accordion-tsx"></a>📄 `src/components/ui/accordion.tsx`
+
+**File Info:**
+- **Size**: 2.08 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/accordion.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:16:45 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:47:21 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `6c640453666f997e1c166c8ae5fb61f8`
+- **SHA256**: `257d7047544958160eeaf5018f011e5a62c70a2cebedbcfe9c1d5bdbe67d4f6f`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as AccordionPrimitive from "@radix-ui/react-accordion";
+import { ChevronDown } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const Accordion = AccordionPrimitive.Root;
+
+const AccordionItem = React.forwardRef<
+    React.ElementRef<typeof AccordionPrimitive.Item>,
+    React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Item>
+>(({ className, ...props }, ref) => (
+    <AccordionPrimitive.Item ref={ref} className={cn("border-b", className)} {...props} />
+));
+AccordionItem.displayName = "AccordionItem";
+
+const AccordionTrigger = React.forwardRef<
+    React.ElementRef<typeof AccordionPrimitive.Trigger>,
+    React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Trigger>
+>(({ className, children, ...props }, ref) => (
+    <AccordionPrimitive.Header className="flex">
+        <AccordionPrimitive.Trigger
+            ref={ref}
+            className={cn(
+                "flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
+                className,
+            )}
+            {...props}
+        >
+            {children}
+            <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" />
+        </AccordionPrimitive.Trigger>
+    </AccordionPrimitive.Header>
+));
+AccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName;
+
+const AccordionContent = React.forwardRef<
+    React.ElementRef<typeof AccordionPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Content>
+>(({ className, children, ...props }, ref) => (
+    <AccordionPrimitive.Content
+        ref={ref}
+        className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+        {...props}
+    >
+        <div className={cn("pb-4 pt-0", className)}>{children}</div>
+    </AccordionPrimitive.Content>
+));
+
+AccordionContent.displayName = AccordionPrimitive.Content.displayName;
+
+export { Accordion, AccordionItem, AccordionTrigger, AccordionContent };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-alert-dialog-tsx"></a>📄 `src/components/ui/alert-dialog.tsx`
+
+**File Info:**
+- **Size**: 4.47 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/alert-dialog.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:09 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:52:28 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `8ba11ecb307eed1aefcdb77d647015dc`
+- **SHA256**: `ab69707d148694b69da71d458796041364384a50a74a400a680a5e9d02d9b18b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog";
+
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
+
+const AlertDialog = AlertDialogPrimitive.Root;
+
+const AlertDialogTrigger = AlertDialogPrimitive.Trigger;
+
+const AlertDialogPortal = AlertDialogPrimitive.Portal;
+
+const AlertDialogOverlay = React.forwardRef<
+    React.ElementRef<typeof AlertDialogPrimitive.Overlay>,
+    React.ComponentPropsWithoutRef<typeof AlertDialogPrimitive.Overlay>
+>(({ className, ...props }, ref) => (
+    <AlertDialogPrimitive.Overlay
+        className={cn(
+            "fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
+            className,
+        )}
+        {...props}
+        ref={ref}
+    />
+));
+AlertDialogOverlay.displayName = AlertDialogPrimitive.Overlay.displayName;
+
+const AlertDialogContent = React.forwardRef<
+    React.ElementRef<typeof AlertDialogPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof AlertDialogPrimitive.Content>
+>(({ className, ...props }, ref) => (
+    <AlertDialogPortal>
+        <AlertDialogOverlay />
+        <AlertDialogPrimitive.Content
+            ref={ref}
+            className={cn(
+                "fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg",
+                className,
+            )}
+            {...props}
+        />
+    </AlertDialogPortal>
+));
+AlertDialogContent.displayName = AlertDialogPrimitive.Content.displayName;
+
+const AlertDialogHeader = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+    <div className={cn("flex flex-col space-y-2 text-center sm:text-left", className)} {...props} />
+);
+AlertDialogHeader.displayName = "AlertDialogHeader";
+
+const AlertDialogFooter = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+    <div className={cn("flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2", className)} {...props} />
+);
+AlertDialogFooter.displayName = "AlertDialogFooter";
+
+const AlertDialogTitle = React.forwardRef<
+    React.ElementRef<typeof AlertDialogPrimitive.Title>,
+    React.ComponentPropsWithoutRef<typeof AlertDialogPrimitive.Title>
+>(({ className, ...props }, ref) => (
+    <AlertDialogPrimitive.Title ref={ref} className={cn("text-lg font-semibold", className)} {...props} />
+));
+AlertDialogTitle.displayName = AlertDialogPrimitive.Title.displayName;
+
+const AlertDialogDescription = React.forwardRef<
+    React.ElementRef<typeof AlertDialogPrimitive.Description>,
+    React.ComponentPropsWithoutRef<typeof AlertDialogPrimitive.Description>
+>(({ className, ...props }, ref) => (
+    <AlertDialogPrimitive.Description ref={ref} className={cn("text-sm text-muted-foreground", className)} {...props} />
+));
+AlertDialogDescription.displayName = AlertDialogPrimitive.Description.displayName;
+
+const AlertDialogAction = React.forwardRef<
+    React.ElementRef<typeof AlertDialogPrimitive.Action>,
+    React.ComponentPropsWithoutRef<typeof AlertDialogPrimitive.Action>
+>(({ className, ...props }, ref) => (
+    <AlertDialogPrimitive.Action ref={ref} className={cn(buttonVariants(), className)} {...props} />
+));
+AlertDialogAction.displayName = AlertDialogPrimitive.Action.displayName;
+
+const AlertDialogCancel = React.forwardRef<
+    React.ElementRef<typeof AlertDialogPrimitive.Cancel>,
+    React.ComponentPropsWithoutRef<typeof AlertDialogPrimitive.Cancel>
+>(({ className, ...props }, ref) => (
+    <AlertDialogPrimitive.Cancel
+        ref={ref}
+        className={cn(buttonVariants({ variant: "outline" }), "mt-2 sm:mt-0", className)}
+        {...props}
+    />
+));
+AlertDialogCancel.displayName = AlertDialogPrimitive.Cancel.displayName;
+
+export {
+    AlertDialog,
+    AlertDialogPortal,
+    AlertDialogOverlay,
+    AlertDialogTrigger,
+    AlertDialogContent,
+    AlertDialogHeader,
+    AlertDialogFooter,
+    AlertDialogTitle,
+    AlertDialogDescription,
+    AlertDialogAction,
+    AlertDialogCancel,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-alert-tsx"></a>📄 `src/components/ui/alert.tsx`
+
+**File Info:**
+- **Size**: 1.55 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/alert.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:15 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:23:09 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `eba34d3096d7c23bcdf5dfb1e725ecff`
+- **SHA256**: `f6e25204c7dbe2d52bca2d8fa6ba2b770cd92fc6b6182b24b8504cd2cfa14235`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+const alertVariants = cva(
+  "relative w-full rounded-lg border p-4 [&>svg~*]:pl-7 [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:text-foreground",
+  {
+    variants: {
+      variant: {
+        default: "bg-background text-foreground",
+        destructive: "border-destructive/50 text-destructive dark:border-destructive [&>svg]:text-destructive",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+    },
+  },
+);
+
+const Alert = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement> & VariantProps<typeof alertVariants>
+>(({ className, variant, ...props }, ref) => (
+  <div ref={ref} role="alert" className={cn(alertVariants({ variant }), className)} {...props} />
+));
+Alert.displayName = "Alert";
+
+const AlertTitle = React.forwardRef<HTMLParagraphElement, React.HTMLAttributes<HTMLHeadingElement>>(
+  ({ className, ...props }, ref) => (
+    <h5 ref={ref} className={cn("mb-1 font-medium leading-none tracking-tight", className)} {...props} />
+  ),
+);
+AlertTitle.displayName = "AlertTitle";
+
+const AlertDescription = React.forwardRef<HTMLParagraphElement, React.HTMLAttributes<HTMLParagraphElement>>(
+  ({ className, ...props }, ref) => (
+    <div ref={ref} className={cn("text-sm [&_p]:leading-relaxed", className)} {...props} />
+  ),
+);
+AlertDescription.displayName = "AlertDescription";
+
+export { Alert, AlertTitle, AlertDescription };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-aspect-ratio-tsx"></a>📄 `src/components/ui/aspect-ratio.tsx`
+
+**File Info:**
+- **Size**: 148 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/aspect-ratio.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:19 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:23:16 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `14c12661aad8c80328c86a18b506c088`
+- **SHA256**: `67c60b91df6dc9fc729390742b04c02d40c19f51f7a2d4f79110911a061266bb`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as AspectRatioPrimitive from "@radix-ui/react-aspect-ratio";
+
+const AspectRatio = AspectRatioPrimitive.Root;
+
+export { AspectRatio };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-avatar-tsx"></a>📄 `src/components/ui/avatar.tsx`
+
+**File Info:**
+- **Size**: 1.42 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/avatar.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:28 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:31:24 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `1fc8f22ddeffa5219e7dbdfe87268529`
+- **SHA256**: `89a24d655855cb6a7995ee7e7f3c0f2e82848da0ebc97cc00c29464567d36c63`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as AvatarPrimitive from "@radix-ui/react-avatar";
+
+import { cn } from "@/lib/utils";
+
+const Avatar = React.forwardRef<
+    React.ElementRef<typeof AvatarPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Root>
+>(({ className, ...props }, ref) => (
+    <AvatarPrimitive.Root
+        ref={ref}
+        className={cn("relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full", className)}
+        {...props}
+    />
+));
+Avatar.displayName = AvatarPrimitive.Root.displayName;
+
+const AvatarImage = React.forwardRef<
+    React.ElementRef<typeof AvatarPrimitive.Image>,
+    React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Image>
+>(({ className, ...props }, ref) => (
+    <AvatarPrimitive.Image ref={ref} className={cn("aspect-square h-full w-full", className)} {...props} />
+));
+AvatarImage.displayName = AvatarPrimitive.Image.displayName;
+
+const AvatarFallback = React.forwardRef<
+    React.ElementRef<typeof AvatarPrimitive.Fallback>,
+    React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Fallback>
+>(({ className, ...props }, ref) => (
+    <AvatarPrimitive.Fallback
+        ref={ref}
+        className={cn("flex h-full w-full items-center justify-center rounded-full bg-muted", className)}
+        {...props}
+    />
+));
+AvatarFallback.displayName = AvatarPrimitive.Fallback.displayName;
+
+export { Avatar, AvatarImage, AvatarFallback };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-badge-tsx"></a>📄 `src/components/ui/badge.tsx`
+
+**File Info:**
+- **Size**: 1.17 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/badge.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:32 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:31:40 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `5eefd89cff8e4254bccd39768df7d508`
+- **SHA256**: `cd7c9ccce4b0ceeb8b7296e899258ccb83bd3f3c5c8c0ac148876d00c05994ef`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+const badgeVariants = cva(
+    "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+    {
+        variants: {
+            variant: {
+                default: "border-transparent bg-primary text-primary-foreground hover:bg-primary/80",
+                secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
+                destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
+                outline: "text-foreground",
+            },
+        },
+        defaultVariants: {
+            variant: "default",
+        },
+    },
+);
+
+export interface BadgeProps extends React.HTMLAttributes<HTMLDivElement>, VariantProps<typeof badgeVariants> { }
+
+function Badge({ className, variant, ...props }: BadgeProps) {
+    return <div className={cn(badgeVariants({ variant }), className)} {...props} />;
+}
+
+export { Badge, badgeVariants };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-breadcrumb-tsx"></a>📄 `src/components/ui/breadcrumb.tsx`
+
+**File Info:**
+- **Size**: 2.71 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/breadcrumb.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:37 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:31:47 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `c277fb2bb0886444a6c8a00296ad924e`
+- **SHA256**: `cdb4909b5375a2b2e3b6613a217b1b357e6fe1bac86a98e0ba9a55ed8a96101d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { Slot } from "@radix-ui/react-slot";
+import { ChevronRight, MoreHorizontal } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const Breadcrumb = React.forwardRef<
+  HTMLElement,
+  React.ComponentPropsWithoutRef<"nav"> & {
+    separator?: React.ReactNode;
+  }
+>(({ ...props }, ref) => <nav ref={ref} aria-label="breadcrumb" {...props} />);
+Breadcrumb.displayName = "Breadcrumb";
+
+const BreadcrumbList = React.forwardRef<HTMLOListElement, React.ComponentPropsWithoutRef<"ol">>(
+  ({ className, ...props }, ref) => (
+    <ol
+      ref={ref}
+      className={cn(
+        "flex flex-wrap items-center gap-1.5 break-words text-sm text-muted-foreground sm:gap-2.5",
+        className,
+      )}
+      {...props}
+    />
+  ),
+);
+BreadcrumbList.displayName = "BreadcrumbList";
+
+const BreadcrumbItem = React.forwardRef<HTMLLIElement, React.ComponentPropsWithoutRef<"li">>(
+  ({ className, ...props }, ref) => (
+    <li ref={ref} className={cn("inline-flex items-center gap-1.5", className)} {...props} />
+  ),
+);
+BreadcrumbItem.displayName = "BreadcrumbItem";
+
+const BreadcrumbLink = React.forwardRef<
+  HTMLAnchorElement,
+  React.ComponentPropsWithoutRef<"a"> & {
+    asChild?: boolean;
+  }
+>(({ asChild, className, ...props }, ref) => {
+  const Comp = asChild ? Slot : "a";
+
+  return <Comp ref={ref} className={cn("transition-colors hover:text-foreground", className)} {...props} />;
+});
+BreadcrumbLink.displayName = "BreadcrumbLink";
+
+const BreadcrumbPage = React.forwardRef<HTMLSpanElement, React.ComponentPropsWithoutRef<"span">>(
+  ({ className, ...props }, ref) => (
+    <span
+      ref={ref}
+      role="link"
+      aria-disabled="true"
+      aria-current="page"
+      className={cn("font-normal text-foreground", className)}
+      {...props}
+    />
+  ),
+);
+BreadcrumbPage.displayName = "BreadcrumbPage";
+
+const BreadcrumbSeparator = ({ children, className, ...props }: React.ComponentProps<"li">) => (
+  <li role="presentation" aria-hidden="true" className={cn("[&>svg]:size-3.5", className)} {...props}>
+    {children ?? <ChevronRight />}
+  </li>
+);
+BreadcrumbSeparator.displayName = "BreadcrumbSeparator";
+
+const BreadcrumbEllipsis = ({ className, ...props }: React.ComponentProps<"span">) => (
+  <span
+    role="presentation"
+    aria-hidden="true"
+    className={cn("flex h-9 w-9 items-center justify-center", className)}
+    {...props}
+  >
+    <MoreHorizontal className="h-4 w-4" />
+    <span className="sr-only">More</span>
+  </span>
+);
+BreadcrumbEllipsis.displayName = "BreadcrumbElipssis";
+
+export {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+  BreadcrumbEllipsis,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-button-tsx"></a>📄 `src/components/ui/button.tsx`
+
+**File Info:**
+- **Size**: 2.66 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/button.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:40 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:31:55 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `9043bd5c5ec7be12db90595a6b7c84af`
+- **SHA256**: `3c69295bff8b88cbf3ff1b57318dc6458ae87ec405111c250ded514e2e885537`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { Slot } from "@radix-ui/react-slot";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+const buttonVariants = cva(
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-[0.98]",
+  {
+    variants: {
+      variant: {
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/20",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+        outline: "border border-border bg-transparent hover:bg-secondary hover:text-secondary-foreground",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+        ghost: "hover:bg-secondary hover:text-secondary-foreground",
+        link: "text-primary underline-offset-4 hover:underline",
+        habit: "bg-habit/10 text-habit border border-habit/30 hover:bg-habit/20",
+        journal: "bg-journal/10 text-journal border border-journal/30 hover:bg-journal/20",
+        reading: "bg-reading/10 text-reading border border-reading/30 hover:bg-reading/20",
+        calendar: "bg-calendar/10 text-calendar border border-calendar/30 hover:bg-calendar/20",
+        budget: "bg-budget/10 text-budget border border-budget/30 hover:bg-budget/20",
+        success: "bg-success text-success-foreground hover:bg-success/90 shadow-lg shadow-success/20",
+        glass: "bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-card/70",
+      },
+      size: {
+        default: "h-10 px-4 py-2",
+        sm: "h-9 rounded-md px-3",
+        lg: "h-12 rounded-lg px-8 text-base",
+        xl: "h-14 rounded-xl px-10 text-lg",
+        icon: "h-10 w-10",
+        "icon-sm": "h-8 w-8",
+        "icon-lg": "h-12 w-12",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  }
+);
+
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
+    VariantProps<typeof buttonVariants> {
+  asChild?: boolean;
+}
+
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant, size, asChild = false, ...props }, ref) => {
+    const Comp = asChild ? Slot : "button";
+    return <Comp className={cn(buttonVariants({ variant, size, className }))} ref={ref} {...props} />;
+  }
+);
+Button.displayName = "Button";
+
+export { Button, buttonVariants };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-calendar-tsx"></a>📄 `src/components/ui/calendar.tsx`
+
+**File Info:**
+- **Size**: 2.56 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/calendar.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:45 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:32:06 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `1a2e76319e667991b06dc99e74b9b631`
+- **SHA256**: `a52d8aeed9df4b5eefc45e489b488923f036ca7ea08bc73530256fe317a93b99`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { DayPicker } from "react-day-picker";
+
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
+
+export type CalendarProps = React.ComponentProps<typeof DayPicker>;
+
+function Calendar({ className, classNames, showOutsideDays = true, ...props }: CalendarProps) {
+  return (
+    <DayPicker
+      showOutsideDays={showOutsideDays}
+      className={cn("p-3", className)}
+      classNames={{
+        months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
+        month: "space-y-4",
+        caption: "flex justify-center pt-1 relative items-center",
+        caption_label: "text-sm font-medium",
+        nav: "space-x-1 flex items-center",
+        nav_button: cn(
+          buttonVariants({ variant: "outline" }),
+          "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100",
+        ),
+        nav_button_previous: "absolute left-1",
+        nav_button_next: "absolute right-1",
+        table: "w-full border-collapse space-y-1",
+        head_row: "flex",
+        head_cell: "text-muted-foreground rounded-md w-9 font-normal text-[0.8rem]",
+        row: "flex w-full mt-2",
+        cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
+        day: cn(buttonVariants({ variant: "ghost" }), "h-9 w-9 p-0 font-normal aria-selected:opacity-100"),
+        day_range_end: "day-range-end",
+        day_selected:
+          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
+        day_today: "bg-accent text-accent-foreground",
+        day_outside:
+          "day-outside text-muted-foreground opacity-50 aria-selected:bg-accent/50 aria-selected:text-muted-foreground aria-selected:opacity-30",
+        day_disabled: "text-muted-foreground opacity-50",
+        day_range_middle: "aria-selected:bg-accent aria-selected:text-accent-foreground",
+        day_hidden: "invisible",
+        ...classNames,
+      }}
+      components={{
+        IconLeft: ({ ..._props }) => <ChevronLeft className="h-4 w-4" />,
+        IconRight: ({ ..._props }) => <ChevronRight className="h-4 w-4" />,
+      }}
+      {...props}
+    />
+  );
+}
+Calendar.displayName = "Calendar";
+
+export { Calendar };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-card-tsx"></a>📄 `src/components/ui/card.tsx`
+
+**File Info:**
+- **Size**: 2.75 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/card.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:49 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:32:23 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `7ab3eba626a61fe8c0f29d1e4d7078c0`
+- **SHA256**: `b528a46c3179a6d3816dbf80e54088e2fd428592975f1ab27d5d23d0b024c6f6`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+const cardVariants = cva(
+    "rounded-xl border text-card-foreground shadow-sm transition-all duration-200",
+    {
+        variants: {
+            variant: {
+                default: "bg-card border-border",
+                habit: "bg-habit/5 border-habit/20",
+                journal: "bg-journal/5 border-journal/20",
+                reading: "bg-reading/5 border-reading/20",
+                calendar: "bg-calendar/5 border-calendar/20",
+                budget: "bg-budget/5 border-budget/20",
+                glass: "bg-card/50 backdrop-blur-xl border-border/50",
+            },
+        },
+        defaultVariants: {
+            variant: "default",
+        },
+    }
+);
+
+export interface CardProps
+    extends React.HTMLAttributes<HTMLDivElement>,
+    VariantProps<typeof cardVariants> { }
+
+const Card = React.forwardRef<HTMLDivElement, CardProps>(
+    ({ className, variant, ...props }, ref) => (
+        <div
+            ref={ref}
+            className={cn(cardVariants({ variant, className }))}
+            {...props}
+        />
+    )
+);
+Card.displayName = "Card";
+
+const CardHeader = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+    ({ className, ...props }, ref) => (
+        <div ref={ref} className={cn("flex flex-col space-y-1.5 p-5", className)} {...props} />
+    )
+);
+CardHeader.displayName = "CardHeader";
+
+const CardTitle = React.forwardRef<HTMLParagraphElement, React.HTMLAttributes<HTMLHeadingElement>>(
+    ({ className, ...props }, ref) => (
+        <h3
+            ref={ref}
+            className={cn("text-lg font-semibold leading-none tracking-tight", className)}
+            {...props}
+        />
+    )
+);
+CardTitle.displayName = "CardTitle";
+
+const CardDescription = React.forwardRef<HTMLParagraphElement, React.HTMLAttributes<HTMLParagraphElement>>(
+    ({ className, ...props }, ref) => (
+        <p ref={ref} className={cn("text-sm text-muted-foreground", className)} {...props} />
+    )
+);
+CardDescription.displayName = "CardDescription";
+
+const CardContent = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+    ({ className, ...props }, ref) => <div ref={ref} className={cn("p-5 pt-0", className)} {...props} />
+);
+CardContent.displayName = "CardContent";
+
+const CardFooter = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+    ({ className, ...props }, ref) => (
+        <div ref={ref} className={cn("flex items-center p-5 pt-0", className)} {...props} />
+    )
+);
+CardFooter.displayName = "CardFooter";
+
+export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent, cardVariants };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-carousel-tsx"></a>📄 `src/components/ui/carousel.tsx`
+
+**File Info:**
+- **Size**: 7.33 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/carousel.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:52 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:32:32 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `ad9b013f81eb54c7a3af28f704119fdf`
+- **SHA256**: `c9810a0d1d123b3fb316598a3f82f79ca04e7a55d3a9bb8a3b03aaf828abfdc0`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import useEmblaCarousel, { type UseEmblaCarouselType } from "embla-carousel-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+
+type CarouselApi = UseEmblaCarouselType[1];
+type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
+type CarouselOptions = UseCarouselParameters[0];
+type CarouselPlugin = UseCarouselParameters[1];
+
+type CarouselProps = {
+    opts?: CarouselOptions;
+    plugins?: CarouselPlugin;
+    orientation?: "horizontal" | "vertical";
+    setApi?: (api: CarouselApi) => void;
+};
+
+type CarouselContextProps = {
+    carouselRef: ReturnType<typeof useEmblaCarousel>[0];
+    api: ReturnType<typeof useEmblaCarousel>[1];
+    scrollPrev: () => void;
+    scrollNext: () => void;
+    canScrollPrev: boolean;
+    canScrollNext: boolean;
+} & CarouselProps;
+
+const CarouselContext = React.createContext<CarouselContextProps | null>(null);
+
+function useCarousel() {
+    const context = React.useContext(CarouselContext);
+
+    if (!context) {
+        throw new Error("useCarousel must be used within a <Carousel />");
+    }
+
+    return context;
+}
+
+const Carousel = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement> & CarouselProps>(
+    ({ orientation = "horizontal", opts, setApi, plugins, className, children, ...props }, ref) => {
+        const [carouselRef, api] = useEmblaCarousel(
+            {
+                ...opts,
+                axis: orientation === "horizontal" ? "x" : "y",
+            },
+            plugins,
+        );
+        const [canScrollPrev, setCanScrollPrev] = React.useState(false);
+        const [canScrollNext, setCanScrollNext] = React.useState(false);
+
+        const onSelect = React.useCallback((api: CarouselApi) => {
+            if (!api) {
+                return;
+            }
+
+            setCanScrollPrev(api.canScrollPrev());
+            setCanScrollNext(api.canScrollNext());
+        }, []);
+
+        const scrollPrev = React.useCallback(() => {
+            api?.scrollPrev();
+        }, [api]);
+
+        const scrollNext = React.useCallback(() => {
+            api?.scrollNext();
+        }, [api]);
+
+        const handleKeyDown = React.useCallback(
+            (event: React.KeyboardEvent<HTMLDivElement>) => {
+                if (event.key === "ArrowLeft") {
+                    event.preventDefault();
+                    scrollPrev();
+                } else if (event.key === "ArrowRight") {
+                    event.preventDefault();
+                    scrollNext();
+                }
+            },
+            [scrollPrev, scrollNext],
+        );
+
+        React.useEffect(() => {
+            if (!api || !setApi) {
+                return;
+            }
+
+            setApi(api);
+        }, [api, setApi]);
+
+        React.useEffect(() => {
+            if (!api) {
+                return;
+            }
+
+            onSelect(api);
+            api.on("reInit", onSelect);
+            api.on("select", onSelect);
+
+            return () => {
+                api?.off("select", onSelect);
+            };
+        }, [api, onSelect]);
+
+        return (
+            <CarouselContext.Provider
+                value={{
+                    carouselRef,
+                    api: api,
+                    opts,
+                    orientation: orientation || (opts?.axis === "y" ? "vertical" : "horizontal"),
+                    scrollPrev,
+                    scrollNext,
+                    canScrollPrev,
+                    canScrollNext,
+                }}
+            >
+                <div
+                    ref={ref}
+                    onKeyDownCapture={handleKeyDown}
+                    className={cn("relative", className)}
+                    role="region"
+                    aria-roledescription="carousel"
+                    {...props}
+                >
+                    {children}
+                </div>
+            </CarouselContext.Provider>
+        );
+    },
+);
+Carousel.displayName = "Carousel";
+
+const CarouselContent = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+    ({ className, ...props }, ref) => {
+        const { carouselRef, orientation } = useCarousel();
+
+        return (
+            <div ref={carouselRef} className="overflow-hidden">
+                <div
+                    ref={ref}
+                    className={cn("flex", orientation === "horizontal" ? "-ml-4" : "-mt-4 flex-col", className)}
+                    {...props}
+                />
+            </div>
+        );
+    },
+);
+CarouselContent.displayName = "CarouselContent";
+
+const CarouselItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+    ({ className, ...props }, ref) => {
+        const { orientation } = useCarousel();
+
+        return (
+            <div
+                ref={ref}
+                role="group"
+                aria-roledescription="slide"
+                className={cn("min-w-0 shrink-0 grow-0 basis-full", orientation === "horizontal" ? "pl-4" : "pt-4", className)}
+                {...props}
+            />
+        );
+    },
+);
+CarouselItem.displayName = "CarouselItem";
+
+const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProps<typeof Button>>(
+    ({ className, variant = "outline", size = "icon", ...props }, ref) => {
+        const { orientation, scrollPrev, canScrollPrev } = useCarousel();
+
+        return (
+            <Button
+                ref={ref}
+                variant={variant}
+                size={size}
+                className={cn(
+                    "absolute h-8 w-8 rounded-full",
+                    orientation === "horizontal"
+                        ? "-left-12 top-1/2 -translate-y-1/2"
+                        : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
+                    className,
+                )}
+                disabled={!canScrollPrev}
+                onClick={scrollPrev}
+                {...props}
+            >
+                <ArrowLeft className="h-4 w-4" />
+                <span className="sr-only">Previous slide</span>
+            </Button>
+        );
+    },
+);
+CarouselPrevious.displayName = "CarouselPrevious";
+
+const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<typeof Button>>(
+    ({ className, variant = "outline", size = "icon", ...props }, ref) => {
+        const { orientation, scrollNext, canScrollNext } = useCarousel();
+
+        return (
+            <Button
+                ref={ref}
+                variant={variant}
+                size={size}
+                className={cn(
+                    "absolute h-8 w-8 rounded-full",
+                    orientation === "horizontal"
+                        ? "-right-12 top-1/2 -translate-y-1/2"
+                        : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
+                    className,
+                )}
+                disabled={!canScrollNext}
+                onClick={scrollNext}
+                {...props}
+            >
+                <ArrowRight className="h-4 w-4" />
+                <span className="sr-only">Next slide</span>
+            </Button>
+        );
+    },
+);
+CarouselNext.displayName = "CarouselNext";
+
+export { type CarouselApi, Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-chart-tsx"></a>📄 `src/components/ui/chart.tsx`
+
+**File Info:**
+- **Size**: 12.27 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/chart.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:17:58 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:32:39 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `9c855e4277393729d1edd7d26e666618`
+- **SHA256**: `96c74a57b71801919cc265748ebe0a9110c485f83d68c40543e458939b9d4b74`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as RechartsPrimitive from "recharts";
+
+import { cn } from "@/lib/utils";
+
+// Format: { THEME_NAME: CSS_SELECTOR }
+const THEMES = { light: "", dark: ".dark" } as const;
+
+export type ChartConfig = {
+    [k in string]: {
+        label?: React.ReactNode;
+        icon?: React.ComponentType;
+    } & ({ color?: string; theme?: never } | { color?: never; theme: Record<keyof typeof THEMES, string> });
+};
+
+type ChartContextProps = {
+    config: ChartConfig;
+};
+
+const ChartContext = React.createContext<ChartContextProps | null>(null);
+
+function useChart() {
+    const context = React.useContext(ChartContext);
+
+    if (!context) {
+        throw new Error("useChart must be used within a <ChartContainer />");
+    }
+
+    return context;
+}
+
+const ChartContainer = React.forwardRef<
+    HTMLDivElement,
+    React.ComponentProps<"div"> & {
+        config: ChartConfig;
+        children: React.ComponentProps<typeof RechartsPrimitive.ResponsiveContainer>["children"];
+    }
+>(({ id, className, children, config, ...props }, ref) => {
+    const uniqueId = React.useId();
+    const chartId = `chart-${id || uniqueId.replace(/:/g, "")}`;
+
+    return (
+        <ChartContext.Provider value={{ config }}>
+            <div
+                data-chart={chartId}
+                ref={ref}
+                className={cn(
+                    "flex aspect-video justify-center text-xs [&_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&_.recharts-dot[stroke='#fff']]:stroke-transparent [&_.recharts-layer]:outline-none [&_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&_.recharts-radial-bar-background-sector]:fill-muted [&_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&_.recharts-reference-line_[stroke='#ccc']]:stroke-border [&_.recharts-sector[stroke='#fff']]:stroke-transparent [&_.recharts-sector]:outline-none [&_.recharts-surface]:outline-none",
+                    className,
+                )}
+                {...props}
+            >
+                <ChartStyle id={chartId} config={config} />
+                <RechartsPrimitive.ResponsiveContainer>{children}</RechartsPrimitive.ResponsiveContainer>
+            </div>
+        </ChartContext.Provider>
+    );
+});
+ChartContainer.displayName = "Chart";
+
+const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
+    const colorConfig = Object.entries(config).filter(([_, config]) => config.theme || config.color);
+
+    if (!colorConfig.length) {
+        return null;
+    }
+
+    return (
+        <style
+            dangerouslySetInnerHTML={{
+                __html: Object.entries(THEMES)
+                    .map(
+                        ([theme, prefix]) => `
+${prefix} [data-chart=${id}] {
+${colorConfig
+                                .map(([key, itemConfig]) => {
+                                    const color = itemConfig.theme?.[theme as keyof typeof itemConfig.theme] || itemConfig.color;
+                                    return color ? `  --color-${key}: ${color};` : null;
+                                })
+                                .join("\n")}
+}
+`,
+                    )
+                    .join("\n"),
+            }}
+        />
+    );
+};
+
+const ChartTooltip = RechartsPrimitive.Tooltip;
+
+const ChartTooltipContent = React.forwardRef<
+    HTMLDivElement,
+    React.ComponentProps<typeof RechartsPrimitive.Tooltip> &
+    React.ComponentProps<"div"> & {
+        hideLabel?: boolean;
+        hideIndicator?: boolean;
+        indicator?: "line" | "dot" | "dashed";
+        nameKey?: string;
+        labelKey?: string;
+    }
+>(
+    (
+        {
+            active,
+            payload,
+            className,
+            indicator = "dot",
+            hideLabel = false,
+            hideIndicator = false,
+            label,
+            labelFormatter,
+            labelClassName,
+            formatter,
+            color,
+            nameKey,
+            labelKey,
+        },
+        ref,
+    ) => {
+        const { config } = useChart();
+
+        const tooltipLabel = React.useMemo(() => {
+            if (hideLabel || !payload?.length) {
+                return null;
+            }
+
+            const [item] = payload;
+            const key = `${labelKey || item.dataKey || item.name || "value"}`;
+            const itemConfig = getPayloadConfigFromPayload(config, item, key);
+            const value =
+                !labelKey && typeof label === "string"
+                    ? config[label as keyof typeof config]?.label || label
+                    : itemConfig?.label;
+
+            if (labelFormatter) {
+                return <div className={cn("font-medium", labelClassName)}>{labelFormatter(value, payload)}</div>;
+            }
+
+            if (!value) {
+                return null;
+            }
+
+            return <div className={cn("font-medium", labelClassName)}>{value}</div>;
+        }, [label, labelFormatter, payload, hideLabel, labelClassName, config, labelKey]);
+
+        if (!active || !payload?.length) {
+            return null;
+        }
+
+        const nestLabel = payload.length === 1 && indicator !== "dot";
+
+        return (
+            <div
+                ref={ref}
+                className={cn(
+                    "grid min-w-[8rem] items-start gap-1.5 rounded-lg border border-border/50 bg-background px-2.5 py-1.5 text-xs shadow-xl",
+                    className,
+                )}
+            >
+                {!nestLabel ? tooltipLabel : null}
+                <div className="grid gap-1.5">
+                    {payload.map((item, index) => {
+                        const key = `${nameKey || item.name || item.dataKey || "value"}`;
+                        const itemConfig = getPayloadConfigFromPayload(config, item, key);
+                        const indicatorColor = color || item.payload.fill || item.color;
+
+                        return (
+                            <div
+                                key={item.dataKey}
+                                className={cn(
+                                    "flex w-full flex-wrap items-stretch gap-2 [&>svg]:h-2.5 [&>svg]:w-2.5 [&>svg]:text-muted-foreground",
+                                    indicator === "dot" && "items-center",
+                                )}
+                            >
+                                {formatter && item?.value !== undefined && item.name ? (
+                                    formatter(item.value, item.name, item, index, item.payload)
+                                ) : (
+                                    <>
+                                        {itemConfig?.icon ? (
+                                            <itemConfig.icon />
+                                        ) : (
+                                            !hideIndicator && (
+                                                <div
+                                                    className={cn("shrink-0 rounded-[2px] border-[--color-border] bg-[--color-bg]", {
+                                                        "h-2.5 w-2.5": indicator === "dot",
+                                                        "w-1": indicator === "line",
+                                                        "w-0 border-[1.5px] border-dashed bg-transparent": indicator === "dashed",
+                                                        "my-0.5": nestLabel && indicator === "dashed",
+                                                    })}
+                                                    style={
+                                                        {
+                                                            "--color-bg": indicatorColor,
+                                                            "--color-border": indicatorColor,
+                                                        } as React.CSSProperties
+                                                    }
+                                                />
+                                            )
+                                        )}
+                                        <div
+                                            className={cn(
+                                                "flex flex-1 justify-between leading-none",
+                                                nestLabel ? "items-end" : "items-center",
+                                            )}
+                                        >
+                                            <div className="grid gap-1.5">
+                                                {nestLabel ? tooltipLabel : null}
+                                                <span className="text-muted-foreground">{itemConfig?.label || item.name}</span>
+                                            </div>
+                                            {item.value && (
+                                                <span className="font-mono font-medium tabular-nums text-foreground">
+                                                    {item.value.toLocaleString()}
+                                                </span>
+                                            )}
+                                        </div>
+                                    </>
+                                )}
+                            </div>
+                        );
+                    })}
+                </div>
+            </div>
+        );
+    },
+);
+ChartTooltipContent.displayName = "ChartTooltip";
+
+const ChartLegend = RechartsPrimitive.Legend;
+
+const ChartLegendContent = React.forwardRef<
+    HTMLDivElement,
+    React.ComponentProps<"div"> &
+    Pick<RechartsPrimitive.LegendProps, "payload" | "verticalAlign"> & {
+        hideIcon?: boolean;
+        nameKey?: string;
+    }
+>(({ className, hideIcon = false, payload, verticalAlign = "bottom", nameKey }, ref) => {
+    const { config } = useChart();
+
+    if (!payload?.length) {
+        return null;
+    }
+
+    return (
+        <div
+            ref={ref}
+            className={cn("flex items-center justify-center gap-4", verticalAlign === "top" ? "pb-3" : "pt-3", className)}
+        >
+            {payload.map((item) => {
+                const key = `${nameKey || item.dataKey || "value"}`;
+                const itemConfig = getPayloadConfigFromPayload(config, item, key);
+
+                return (
+                    <div
+                        key={item.value}
+                        className={cn("flex items-center gap-1.5 [&>svg]:h-3 [&>svg]:w-3 [&>svg]:text-muted-foreground")}
+                    >
+                        {itemConfig?.icon && !hideIcon ? (
+                            <itemConfig.icon />
+                        ) : (
+                            <div
+                                className="h-2 w-2 shrink-0 rounded-[2px]"
+                                style={{
+                                    backgroundColor: item.color,
+                                }}
+                            />
+                        )}
+                        {itemConfig?.label}
+                    </div>
+                );
+            })}
+        </div>
+    );
+});
+ChartLegendContent.displayName = "ChartLegend";
+
+// Helper to extract item config from a payload.
+function getPayloadConfigFromPayload(config: ChartConfig, payload: unknown, key: string) {
+    if (typeof payload !== "object" || payload === null) {
+        return undefined;
+    }
+
+    const payloadPayload =
+        "payload" in payload && typeof payload.payload === "object" && payload.payload !== null
+            ? payload.payload
+            : undefined;
+
+    let configLabelKey: string = key;
+
+    if (key in payload && typeof payload[key as keyof typeof payload] === "string") {
+        configLabelKey = payload[key as keyof typeof payload] as string;
+    } else if (
+        payloadPayload &&
+        key in payloadPayload &&
+        typeof payloadPayload[key as keyof typeof payloadPayload] === "string"
+    ) {
+        configLabelKey = payloadPayload[key as keyof typeof payloadPayload] as string;
+    }
+
+    return configLabelKey in config ? config[configLabelKey] : config[key as keyof typeof config];
+}
+
+export { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent, ChartStyle };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-checkbox-tsx"></a>📄 `src/components/ui/checkbox.tsx`
+
+**File Info:**
+- **Size**: 1.1 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/checkbox.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:03 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:32:47 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `c2147b494f1ff2f4534b2c12b1a27278`
+- **SHA256**: `44708170109a0327043d3c138cb24a4b8814e3c9db685659c552207b5d09ea46`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
+import { Check } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const Checkbox = React.forwardRef<
+    React.ElementRef<typeof CheckboxPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof CheckboxPrimitive.Root>
+>(({ className, ...props }, ref) => (
+    <CheckboxPrimitive.Root
+        ref={ref}
+        className={cn(
+            "peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+            className,
+        )}
+        {...props}
+    >
+        <CheckboxPrimitive.Indicator className={cn("flex items-center justify-center text-current")}>
+            <Check className="h-4 w-4" />
+        </CheckboxPrimitive.Indicator>
+    </CheckboxPrimitive.Root>
+));
+Checkbox.displayName = CheckboxPrimitive.Root.displayName;
+
+export { Checkbox };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-collapsible-tsx"></a>📄 `src/components/ui/collapsible.tsx`
+
+**File Info:**
+- **Size**: 329 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/collapsible.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:07 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:33:02 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `72fafa9d8b58f83ec9b7c8f141bfdd42`
+- **SHA256**: `f375e9bb056882208fc140c8f65d8878398c891351d369950bf4cd431e4a98e6`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as CollapsiblePrimitive from "@radix-ui/react-collapsible";
+
+const Collapsible = CollapsiblePrimitive.Root;
+
+const CollapsibleTrigger = CollapsiblePrimitive.CollapsibleTrigger;
+
+const CollapsibleContent = CollapsiblePrimitive.CollapsibleContent;
+
+export { Collapsible, CollapsibleTrigger, CollapsibleContent };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-command-tsx"></a>📄 `src/components/ui/command.tsx`
+
+**File Info:**
+- **Size**: 5.1 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/command.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:11 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:33:13 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `81d89598767f2f994d8bcd767a5e8212`
+- **SHA256**: `7a31a3f886c05938efe9c906fedc6b9309af381bd90571c6bce1b5a2089a8ee6`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { type DialogProps } from "@radix-ui/react-dialog";
+import { Command as CommandPrimitive } from "cmdk";
+import { Search } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
+
+const Command = React.forwardRef<
+    React.ElementRef<typeof CommandPrimitive>,
+    React.ComponentPropsWithoutRef<typeof CommandPrimitive>
+>(({ className, ...props }, ref) => (
+    <CommandPrimitive
+        ref={ref}
+        className={cn(
+            "flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground",
+            className,
+        )}
+        {...props}
+    />
+));
+Command.displayName = CommandPrimitive.displayName;
+
+interface CommandDialogProps extends DialogProps { }
+
+const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
+    return (
+        <Dialog {...props}>
+            <DialogContent className="overflow-hidden p-0 shadow-lg">
+                <Command className="[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group]:not([hidden])_~[cmdk-group]]:pt-0 [&_[cmdk-group]]:px-2 [&_[cmdk-input-wrapper]_svg]:h-5 [&_[cmdk-input-wrapper]_svg]:w-5 [&_[cmdk-input]]:h-12 [&_[cmdk-item]]:px-2 [&_[cmdk-item]]:py-3 [&_[cmdk-item]_svg]:h-5 [&_[cmdk-item]_svg]:w-5">
+                    {children}
+                </Command>
+            </DialogContent>
+        </Dialog>
+    );
+};
+
+const CommandInput = React.forwardRef<
+    React.ElementRef<typeof CommandPrimitive.Input>,
+    React.ComponentPropsWithoutRef<typeof CommandPrimitive.Input>
+>(({ className, ...props }, ref) => (
+    <div className="flex items-center border-b px-3" cmdk-input-wrapper="">
+        <Search className="mr-2 h-4 w-4 shrink-0 opacity-50" />
+        <CommandPrimitive.Input
+            ref={ref}
+            className={cn(
+                "flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50",
+                className,
+            )}
+            {...props}
+        />
+    </div>
+));
+
+CommandInput.displayName = CommandPrimitive.Input.displayName;
+
+const CommandList = React.forwardRef<
+    React.ElementRef<typeof CommandPrimitive.List>,
+    React.ComponentPropsWithoutRef<typeof CommandPrimitive.List>
+>(({ className, ...props }, ref) => (
+    <CommandPrimitive.List
+        ref={ref}
+        className={cn("max-h-[300px] overflow-y-auto overflow-x-hidden", className)}
+        {...props}
+    />
+));
+
+CommandList.displayName = CommandPrimitive.List.displayName;
+
+const CommandEmpty = React.forwardRef<
+    React.ElementRef<typeof CommandPrimitive.Empty>,
+    React.ComponentPropsWithoutRef<typeof CommandPrimitive.Empty>
+>((props, ref) => <CommandPrimitive.Empty ref={ref} className="py-6 text-center text-sm" {...props} />);
+
+CommandEmpty.displayName = CommandPrimitive.Empty.displayName;
+
+const CommandGroup = React.forwardRef<
+    React.ElementRef<typeof CommandPrimitive.Group>,
+    React.ComponentPropsWithoutRef<typeof CommandPrimitive.Group>
+>(({ className, ...props }, ref) => (
+    <CommandPrimitive.Group
+        ref={ref}
+        className={cn(
+            "overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",
+            className,
+        )}
+        {...props}
+    />
+));
+
+CommandGroup.displayName = CommandPrimitive.Group.displayName;
+
+const CommandSeparator = React.forwardRef<
+    React.ElementRef<typeof CommandPrimitive.Separator>,
+    React.ComponentPropsWithoutRef<typeof CommandPrimitive.Separator>
+>(({ className, ...props }, ref) => (
+    <CommandPrimitive.Separator ref={ref} className={cn("-mx-1 h-px bg-border", className)} {...props} />
+));
+CommandSeparator.displayName = CommandPrimitive.Separator.displayName;
+
+const CommandItem = React.forwardRef<
+    React.ElementRef<typeof CommandPrimitive.Item>,
+    React.ComponentPropsWithoutRef<typeof CommandPrimitive.Item>
+>(({ className, ...props }, ref) => (
+    <CommandPrimitive.Item
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[disabled=true]:pointer-events-none data-[selected='true']:bg-accent data-[selected=true]:text-accent-foreground data-[disabled=true]:opacity-50",
+            className,
+        )}
+        {...props}
+    />
+));
+
+CommandItem.displayName = CommandPrimitive.Item.displayName;
+
+const CommandShortcut = ({ className, ...props }: React.HTMLAttributes<HTMLSpanElement>) => {
+    return <span className={cn("ml-auto text-xs tracking-widest text-muted-foreground", className)} {...props} />;
+};
+CommandShortcut.displayName = "CommandShortcut";
+
+export {
+    Command,
+    CommandDialog,
+    CommandInput,
+    CommandList,
+    CommandEmpty,
+    CommandGroup,
+    CommandItem,
+    CommandShortcut,
+    CommandSeparator,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-context-menu-tsx"></a>📄 `src/components/ui/context-menu.tsx`
+
+**File Info:**
+- **Size**: 7.59 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/context-menu.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:14 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:33:19 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `9980c696becdb388b41a8c9d4e2dd62c`
+- **SHA256**: `086d3ec6a73f99ae5718dbc9102ad2106f88b2406bb78166e40044f63a1d4e38`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as ContextMenuPrimitive from "@radix-ui/react-context-menu";
+import { Check, ChevronRight, Circle } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const ContextMenu = ContextMenuPrimitive.Root;
+
+const ContextMenuTrigger = ContextMenuPrimitive.Trigger;
+
+const ContextMenuGroup = ContextMenuPrimitive.Group;
+
+const ContextMenuPortal = ContextMenuPrimitive.Portal;
+
+const ContextMenuSub = ContextMenuPrimitive.Sub;
+
+const ContextMenuRadioGroup = ContextMenuPrimitive.RadioGroup;
+
+const ContextMenuSubTrigger = React.forwardRef<
+    React.ElementRef<typeof ContextMenuPrimitive.SubTrigger>,
+    React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.SubTrigger> & {
+        inset?: boolean;
+    }
+>(({ className, inset, children, ...props }, ref) => (
+    <ContextMenuPrimitive.SubTrigger
+        ref={ref}
+        className={cn(
+            "flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[state=open]:bg-accent data-[state=open]:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            inset && "pl-8",
+            className,
+        )}
+        {...props}
+    >
+        {children}
+        <ChevronRight className="ml-auto h-4 w-4" />
+    </ContextMenuPrimitive.SubTrigger>
+));
+ContextMenuSubTrigger.displayName = ContextMenuPrimitive.SubTrigger.displayName;
+
+const ContextMenuSubContent = React.forwardRef<
+    React.ElementRef<typeof ContextMenuPrimitive.SubContent>,
+    React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.SubContent>
+>(({ className, ...props }, ref) => (
+    <ContextMenuPrimitive.SubContent
+        ref={ref}
+        className={cn(
+            "z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover p-1 text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+            className,
+        )}
+        {...props}
+    />
+));
+ContextMenuSubContent.displayName = ContextMenuPrimitive.SubContent.displayName;
+
+const ContextMenuContent = React.forwardRef<
+    React.ElementRef<typeof ContextMenuPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.Content>
+>(({ className, ...props }, ref) => (
+    <ContextMenuPrimitive.Portal>
+        <ContextMenuPrimitive.Content
+            ref={ref}
+            className={cn(
+                "z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover p-1 text-popover-foreground shadow-md animate-in fade-in-80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+                className,
+            )}
+            {...props}
+        />
+    </ContextMenuPrimitive.Portal>
+));
+ContextMenuContent.displayName = ContextMenuPrimitive.Content.displayName;
+
+const ContextMenuItem = React.forwardRef<
+    React.ElementRef<typeof ContextMenuPrimitive.Item>,
+    React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.Item> & {
+        inset?: boolean;
+    }
+>(({ className, inset, ...props }, ref) => (
+    <ContextMenuPrimitive.Item
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            inset && "pl-8",
+            className,
+        )}
+        {...props}
+    />
+));
+ContextMenuItem.displayName = ContextMenuPrimitive.Item.displayName;
+
+const ContextMenuCheckboxItem = React.forwardRef<
+    React.ElementRef<typeof ContextMenuPrimitive.CheckboxItem>,
+    React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.CheckboxItem>
+>(({ className, children, checked, ...props }, ref) => (
+    <ContextMenuPrimitive.CheckboxItem
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            className,
+        )}
+        checked={checked}
+        {...props}
+    >
+        <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+            <ContextMenuPrimitive.ItemIndicator>
+                <Check className="h-4 w-4" />
+            </ContextMenuPrimitive.ItemIndicator>
+        </span>
+        {children}
+    </ContextMenuPrimitive.CheckboxItem>
+));
+ContextMenuCheckboxItem.displayName = ContextMenuPrimitive.CheckboxItem.displayName;
+
+const ContextMenuRadioItem = React.forwardRef<
+    React.ElementRef<typeof ContextMenuPrimitive.RadioItem>,
+    React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.RadioItem>
+>(({ className, children, ...props }, ref) => (
+    <ContextMenuPrimitive.RadioItem
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            className,
+        )}
+        {...props}
+    >
+        <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+            <ContextMenuPrimitive.ItemIndicator>
+                <Circle className="h-2 w-2 fill-current" />
+            </ContextMenuPrimitive.ItemIndicator>
+        </span>
+        {children}
+    </ContextMenuPrimitive.RadioItem>
+));
+ContextMenuRadioItem.displayName = ContextMenuPrimitive.RadioItem.displayName;
+
+const ContextMenuLabel = React.forwardRef<
+    React.ElementRef<typeof ContextMenuPrimitive.Label>,
+    React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.Label> & {
+        inset?: boolean;
+    }
+>(({ className, inset, ...props }, ref) => (
+    <ContextMenuPrimitive.Label
+        ref={ref}
+        className={cn("px-2 py-1.5 text-sm font-semibold text-foreground", inset && "pl-8", className)}
+        {...props}
+    />
+));
+ContextMenuLabel.displayName = ContextMenuPrimitive.Label.displayName;
+
+const ContextMenuSeparator = React.forwardRef<
+    React.ElementRef<typeof ContextMenuPrimitive.Separator>,
+    React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.Separator>
+>(({ className, ...props }, ref) => (
+    <ContextMenuPrimitive.Separator ref={ref} className={cn("-mx-1 my-1 h-px bg-border", className)} {...props} />
+));
+ContextMenuSeparator.displayName = ContextMenuPrimitive.Separator.displayName;
+
+const ContextMenuShortcut = ({ className, ...props }: React.HTMLAttributes<HTMLSpanElement>) => {
+    return <span className={cn("ml-auto text-xs tracking-widest text-muted-foreground", className)} {...props} />;
+};
+ContextMenuShortcut.displayName = "ContextMenuShortcut";
+
+export {
+    ContextMenu,
+    ContextMenuTrigger,
+    ContextMenuContent,
+    ContextMenuItem,
+    ContextMenuCheckboxItem,
+    ContextMenuRadioItem,
+    ContextMenuLabel,
+    ContextMenuSeparator,
+    ContextMenuShortcut,
+    ContextMenuGroup,
+    ContextMenuPortal,
+    ContextMenuSub,
+    ContextMenuSubContent,
+    ContextMenuSubTrigger,
+    ContextMenuRadioGroup,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-dialog-tsx"></a>📄 `src/components/ui/dialog.tsx`
+
+**File Info:**
+- **Size**: 3.95 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/dialog.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:23 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:33:31 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `efb88e4b3fe8b13cba4fff5f1d5e0c60`
+- **SHA256**: `3af6f0a66c7e9fa4d2dd580cba549a739e4e355ef8022f55025fb0012ac870a2`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as DialogPrimitive from "@radix-ui/react-dialog";
+import { X } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const Dialog = DialogPrimitive.Root;
+
+const DialogTrigger = DialogPrimitive.Trigger;
+
+const DialogPortal = DialogPrimitive.Portal;
+
+const DialogClose = DialogPrimitive.Close;
+
+const DialogOverlay = React.forwardRef<
+    React.ElementRef<typeof DialogPrimitive.Overlay>,
+    React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay>
+>(({ className, ...props }, ref) => (
+    <DialogPrimitive.Overlay
+        ref={ref}
+        className={cn(
+            "fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
+            className,
+        )}
+        {...props}
+    />
+));
+DialogOverlay.displayName = DialogPrimitive.Overlay.displayName;
+
+const DialogContent = React.forwardRef<
+    React.ElementRef<typeof DialogPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content>
+>(({ className, children, ...props }, ref) => (
+    <DialogPortal>
+        <DialogOverlay />
+        <DialogPrimitive.Content
+            ref={ref}
+            className={cn(
+                "fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg",
+                className,
+            )}
+            {...props}
+        >
+            {children}
+            <DialogPrimitive.Close className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity data-[state=open]:bg-accent data-[state=open]:text-muted-foreground hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none">
+                <X className="h-4 w-4" />
+                <span className="sr-only">Close</span>
+            </DialogPrimitive.Close>
+        </DialogPrimitive.Content>
+    </DialogPortal>
+));
+DialogContent.displayName = DialogPrimitive.Content.displayName;
+
+const DialogHeader = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+    <div className={cn("flex flex-col space-y-1.5 text-center sm:text-left", className)} {...props} />
+);
+DialogHeader.displayName = "DialogHeader";
+
+const DialogFooter = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+    <div className={cn("flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2", className)} {...props} />
+);
+DialogFooter.displayName = "DialogFooter";
+
+const DialogTitle = React.forwardRef<
+    React.ElementRef<typeof DialogPrimitive.Title>,
+    React.ComponentPropsWithoutRef<typeof DialogPrimitive.Title>
+>(({ className, ...props }, ref) => (
+    <DialogPrimitive.Title
+        ref={ref}
+        className={cn("text-lg font-semibold leading-none tracking-tight", className)}
+        {...props}
+    />
+));
+DialogTitle.displayName = DialogPrimitive.Title.displayName;
+
+const DialogDescription = React.forwardRef<
+    React.ElementRef<typeof DialogPrimitive.Description>,
+    React.ComponentPropsWithoutRef<typeof DialogPrimitive.Description>
+>(({ className, ...props }, ref) => (
+    <DialogPrimitive.Description ref={ref} className={cn("text-sm text-muted-foreground", className)} {...props} />
+));
+DialogDescription.displayName = DialogPrimitive.Description.displayName;
+
+export {
+    Dialog,
+    DialogPortal,
+    DialogOverlay,
+    DialogClose,
+    DialogTrigger,
+    DialogContent,
+    DialogHeader,
+    DialogFooter,
+    DialogTitle,
+    DialogDescription,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-drawer-tsx"></a>📄 `src/components/ui/drawer.tsx`
+
+**File Info:**
+- **Size**: 3.09 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/drawer.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:28 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:33:40 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `6e76ed043152fcabbb02a0b39511cc1d`
+- **SHA256**: `3ae07c0beaeecab86d646e85f248316aa0c93ce66023e8e0959278a8169d0391`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { Drawer as DrawerPrimitive } from "vaul";
+
+import { cn } from "@/lib/utils";
+
+const Drawer = ({ shouldScaleBackground = true, ...props }: React.ComponentProps<typeof DrawerPrimitive.Root>) => (
+    <DrawerPrimitive.Root shouldScaleBackground={shouldScaleBackground} {...props} />
+);
+Drawer.displayName = "Drawer";
+
+const DrawerTrigger = DrawerPrimitive.Trigger;
+
+const DrawerPortal = DrawerPrimitive.Portal;
+
+const DrawerClose = DrawerPrimitive.Close;
+
+const DrawerOverlay = React.forwardRef<
+    React.ElementRef<typeof DrawerPrimitive.Overlay>,
+    React.ComponentPropsWithoutRef<typeof DrawerPrimitive.Overlay>
+>(({ className, ...props }, ref) => (
+    <DrawerPrimitive.Overlay ref={ref} className={cn("fixed inset-0 z-50 bg-black/80", className)} {...props} />
+));
+DrawerOverlay.displayName = DrawerPrimitive.Overlay.displayName;
+
+const DrawerContent = React.forwardRef<
+    React.ElementRef<typeof DrawerPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof DrawerPrimitive.Content>
+>(({ className, children, ...props }, ref) => (
+    <DrawerPortal>
+        <DrawerOverlay />
+        <DrawerPrimitive.Content
+            ref={ref}
+            className={cn(
+                "fixed inset-x-0 bottom-0 z-50 mt-24 flex h-auto flex-col rounded-t-[10px] border bg-background",
+                className,
+            )}
+            {...props}
+        >
+            <div className="mx-auto mt-4 h-2 w-[100px] rounded-full bg-muted" />
+            {children}
+        </DrawerPrimitive.Content>
+    </DrawerPortal>
+));
+DrawerContent.displayName = "DrawerContent";
+
+const DrawerHeader = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+    <div className={cn("grid gap-1.5 p-4 text-center sm:text-left", className)} {...props} />
+);
+DrawerHeader.displayName = "DrawerHeader";
+
+const DrawerFooter = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+    <div className={cn("mt-auto flex flex-col gap-2 p-4", className)} {...props} />
+);
+DrawerFooter.displayName = "DrawerFooter";
+
+const DrawerTitle = React.forwardRef<
+    React.ElementRef<typeof DrawerPrimitive.Title>,
+    React.ComponentPropsWithoutRef<typeof DrawerPrimitive.Title>
+>(({ className, ...props }, ref) => (
+    <DrawerPrimitive.Title
+        ref={ref}
+        className={cn("text-lg font-semibold leading-none tracking-tight", className)}
+        {...props}
+    />
+));
+DrawerTitle.displayName = DrawerPrimitive.Title.displayName;
+
+const DrawerDescription = React.forwardRef<
+    React.ElementRef<typeof DrawerPrimitive.Description>,
+    React.ComponentPropsWithoutRef<typeof DrawerPrimitive.Description>
+>(({ className, ...props }, ref) => (
+    <DrawerPrimitive.Description ref={ref} className={cn("text-sm text-muted-foreground", className)} {...props} />
+));
+DrawerDescription.displayName = DrawerPrimitive.Description.displayName;
+
+export {
+    Drawer,
+    DrawerPortal,
+    DrawerOverlay,
+    DrawerTrigger,
+    DrawerClose,
+    DrawerContent,
+    DrawerHeader,
+    DrawerFooter,
+    DrawerTitle,
+    DrawerDescription,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-dropdown-menu-tsx"></a>📄 `src/components/ui/dropdown-menu.tsx`
+
+**File Info:**
+- **Size**: 7.67 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/dropdown-menu.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:33 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:33:47 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `729f652dd7b352e49ea119fc98cb70b5`
+- **SHA256**: `ddd50e59db0cb44ad4fb7eee021924fecfa0386e50a7d395f0b59313901499c1`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
+import { Check, ChevronRight, Circle } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const DropdownMenu = DropdownMenuPrimitive.Root;
+
+const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger;
+
+const DropdownMenuGroup = DropdownMenuPrimitive.Group;
+
+const DropdownMenuPortal = DropdownMenuPrimitive.Portal;
+
+const DropdownMenuSub = DropdownMenuPrimitive.Sub;
+
+const DropdownMenuRadioGroup = DropdownMenuPrimitive.RadioGroup;
+
+const DropdownMenuSubTrigger = React.forwardRef<
+    React.ElementRef<typeof DropdownMenuPrimitive.SubTrigger>,
+    React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.SubTrigger> & {
+        inset?: boolean;
+    }
+>(({ className, inset, children, ...props }, ref) => (
+    <DropdownMenuPrimitive.SubTrigger
+        ref={ref}
+        className={cn(
+            "flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[state=open]:bg-accent focus:bg-accent",
+            inset && "pl-8",
+            className,
+        )}
+        {...props}
+    >
+        {children}
+        <ChevronRight className="ml-auto h-4 w-4" />
+    </DropdownMenuPrimitive.SubTrigger>
+));
+DropdownMenuSubTrigger.displayName = DropdownMenuPrimitive.SubTrigger.displayName;
+
+const DropdownMenuSubContent = React.forwardRef<
+    React.ElementRef<typeof DropdownMenuPrimitive.SubContent>,
+    React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.SubContent>
+>(({ className, ...props }, ref) => (
+    <DropdownMenuPrimitive.SubContent
+        ref={ref}
+        className={cn(
+            "z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover p-1 text-popover-foreground shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+            className,
+        )}
+        {...props}
+    />
+));
+DropdownMenuSubContent.displayName = DropdownMenuPrimitive.SubContent.displayName;
+
+const DropdownMenuContent = React.forwardRef<
+    React.ElementRef<typeof DropdownMenuPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Content>
+>(({ className, sideOffset = 4, ...props }, ref) => (
+    <DropdownMenuPrimitive.Portal>
+        <DropdownMenuPrimitive.Content
+            ref={ref}
+            sideOffset={sideOffset}
+            className={cn(
+                "z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover p-1 text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+                className,
+            )}
+            {...props}
+        />
+    </DropdownMenuPrimitive.Portal>
+));
+DropdownMenuContent.displayName = DropdownMenuPrimitive.Content.displayName;
+
+const DropdownMenuItem = React.forwardRef<
+    React.ElementRef<typeof DropdownMenuPrimitive.Item>,
+    React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Item> & {
+        inset?: boolean;
+    }
+>(({ className, inset, ...props }, ref) => (
+    <DropdownMenuPrimitive.Item
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            inset && "pl-8",
+            className,
+        )}
+        {...props}
+    />
+));
+DropdownMenuItem.displayName = DropdownMenuPrimitive.Item.displayName;
+
+const DropdownMenuCheckboxItem = React.forwardRef<
+    React.ElementRef<typeof DropdownMenuPrimitive.CheckboxItem>,
+    React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.CheckboxItem>
+>(({ className, children, checked, ...props }, ref) => (
+    <DropdownMenuPrimitive.CheckboxItem
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            className,
+        )}
+        checked={checked}
+        {...props}
+    >
+        <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+            <DropdownMenuPrimitive.ItemIndicator>
+                <Check className="h-4 w-4" />
+            </DropdownMenuPrimitive.ItemIndicator>
+        </span>
+        {children}
+    </DropdownMenuPrimitive.CheckboxItem>
+));
+DropdownMenuCheckboxItem.displayName = DropdownMenuPrimitive.CheckboxItem.displayName;
+
+const DropdownMenuRadioItem = React.forwardRef<
+    React.ElementRef<typeof DropdownMenuPrimitive.RadioItem>,
+    React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.RadioItem>
+>(({ className, children, ...props }, ref) => (
+    <DropdownMenuPrimitive.RadioItem
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            className,
+        )}
+        {...props}
+    >
+        <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+            <DropdownMenuPrimitive.ItemIndicator>
+                <Circle className="h-2 w-2 fill-current" />
+            </DropdownMenuPrimitive.ItemIndicator>
+        </span>
+        {children}
+    </DropdownMenuPrimitive.RadioItem>
+));
+DropdownMenuRadioItem.displayName = DropdownMenuPrimitive.RadioItem.displayName;
+
+const DropdownMenuLabel = React.forwardRef<
+    React.ElementRef<typeof DropdownMenuPrimitive.Label>,
+    React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Label> & {
+        inset?: boolean;
+    }
+>(({ className, inset, ...props }, ref) => (
+    <DropdownMenuPrimitive.Label
+        ref={ref}
+        className={cn("px-2 py-1.5 text-sm font-semibold", inset && "pl-8", className)}
+        {...props}
+    />
+));
+DropdownMenuLabel.displayName = DropdownMenuPrimitive.Label.displayName;
+
+const DropdownMenuSeparator = React.forwardRef<
+    React.ElementRef<typeof DropdownMenuPrimitive.Separator>,
+    React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Separator>
+>(({ className, ...props }, ref) => (
+    <DropdownMenuPrimitive.Separator ref={ref} className={cn("-mx-1 my-1 h-px bg-muted", className)} {...props} />
+));
+DropdownMenuSeparator.displayName = DropdownMenuPrimitive.Separator.displayName;
+
+const DropdownMenuShortcut = ({ className, ...props }: React.HTMLAttributes<HTMLSpanElement>) => {
+    return <span className={cn("ml-auto text-xs tracking-widest opacity-60", className)} {...props} />;
+};
+DropdownMenuShortcut.displayName = "DropdownMenuShortcut";
+
+export {
+    DropdownMenu,
+    DropdownMenuTrigger,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuCheckboxItem,
+    DropdownMenuRadioItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuShortcut,
+    DropdownMenuGroup,
+    DropdownMenuPortal,
+    DropdownMenuSub,
+    DropdownMenuSubContent,
+    DropdownMenuSubTrigger,
+    DropdownMenuRadioGroup,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-form-tsx"></a>📄 `src/components/ui/form.tsx`
+
+**File Info:**
+- **Size**: 4.3 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/form.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:37 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:33:55 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `526701b619b06825ed3955ac58eb1e35`
+- **SHA256**: `fa3900db901188fc31765e7a3f92a60cf19fef5c0493902519b56ba2d809bcfa`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as LabelPrimitive from "@radix-ui/react-label";
+import { Slot } from "@radix-ui/react-slot";
+import { Controller, ControllerProps, FieldPath, FieldValues, FormProvider, useFormContext } from "react-hook-form";
+
+import { cn } from "@/lib/utils";
+import { Label } from "@/components/ui/label";
+
+const Form = FormProvider;
+
+type FormFieldContextValue<
+    TFieldValues extends FieldValues = FieldValues,
+    TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
+> = {
+    name: TName;
+};
+
+const FormFieldContext = React.createContext<FormFieldContextValue>({} as FormFieldContextValue);
+
+const FormField = <
+    TFieldValues extends FieldValues = FieldValues,
+    TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
+>({
+    ...props
+}: ControllerProps<TFieldValues, TName>) => {
+    return (
+        <FormFieldContext.Provider value={{ name: props.name }}>
+            <Controller {...props} />
+        </FormFieldContext.Provider>
+    );
+};
+
+const useFormField = () => {
+    const fieldContext = React.useContext(FormFieldContext);
+    const itemContext = React.useContext(FormItemContext);
+    const { getFieldState, formState } = useFormContext();
+
+    const fieldState = getFieldState(fieldContext.name, formState);
+
+    if (!fieldContext) {
+        throw new Error("useFormField should be used within <FormField>");
+    }
+
+    const { id } = itemContext;
+
+    return {
+        id,
+        name: fieldContext.name,
+        formItemId: `${id}-form-item`,
+        formDescriptionId: `${id}-form-item-description`,
+        formMessageId: `${id}-form-item-message`,
+        ...fieldState,
+    };
+};
+
+type FormItemContextValue = {
+    id: string;
+};
+
+const FormItemContext = React.createContext<FormItemContextValue>({} as FormItemContextValue);
+
+const FormItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+    ({ className, ...props }, ref) => {
+        const id = React.useId();
+
+        return (
+            <FormItemContext.Provider value={{ id }}>
+                <div ref={ref} className={cn("space-y-2", className)} {...props} />
+            </FormItemContext.Provider>
+        );
+    },
+);
+FormItem.displayName = "FormItem";
+
+const FormLabel = React.forwardRef<
+    React.ElementRef<typeof LabelPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root>
+>(({ className, ...props }, ref) => {
+    const { error, formItemId } = useFormField();
+
+    return <Label ref={ref} className={cn(error && "text-destructive", className)} htmlFor={formItemId} {...props} />;
+});
+FormLabel.displayName = "FormLabel";
+
+const FormControl = React.forwardRef<React.ElementRef<typeof Slot>, React.ComponentPropsWithoutRef<typeof Slot>>(
+    ({ ...props }, ref) => {
+        const { error, formItemId, formDescriptionId, formMessageId } = useFormField();
+
+        return (
+            <Slot
+                ref={ref}
+                id={formItemId}
+                aria-describedby={!error ? `${formDescriptionId}` : `${formDescriptionId} ${formMessageId}`}
+                aria-invalid={!!error}
+                {...props}
+            />
+        );
+    },
+);
+FormControl.displayName = "FormControl";
+
+const FormDescription = React.forwardRef<HTMLParagraphElement, React.HTMLAttributes<HTMLParagraphElement>>(
+    ({ className, ...props }, ref) => {
+        const { formDescriptionId } = useFormField();
+
+        return <p ref={ref} id={formDescriptionId} className={cn("text-sm text-muted-foreground", className)} {...props} />;
+    },
+);
+FormDescription.displayName = "FormDescription";
+
+const FormMessage = React.forwardRef<HTMLParagraphElement, React.HTMLAttributes<HTMLParagraphElement>>(
+    ({ className, children, ...props }, ref) => {
+        const { error, formMessageId } = useFormField();
+        const body = error ? String(error?.message) : children;
+
+        if (!body) {
+            return null;
+        }
+
+        return (
+            <p ref={ref} id={formMessageId} className={cn("text-sm font-medium text-destructive", className)} {...props}>
+                {body}
+            </p>
+        );
+    },
+);
+FormMessage.displayName = "FormMessage";
+
+export { useFormField, Form, FormItem, FormLabel, FormControl, FormDescription, FormMessage, FormField };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-hover-card-tsx"></a>📄 `src/components/ui/hover-card.tsx`
+
+**File Info:**
+- **Size**: 1.23 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/hover-card.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:42 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:34:03 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `013a2a8e3dda0860a5535f603b653def`
+- **SHA256**: `0aa6fa1d638834c5e423efdf00159790176eedc5db15f118eed4b054e6a01745`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as HoverCardPrimitive from "@radix-ui/react-hover-card";
+
+import { cn } from "@/lib/utils";
+
+const HoverCard = HoverCardPrimitive.Root;
+
+const HoverCardTrigger = HoverCardPrimitive.Trigger;
+
+const HoverCardContent = React.forwardRef<
+    React.ElementRef<typeof HoverCardPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof HoverCardPrimitive.Content>
+>(({ className, align = "center", sideOffset = 4, ...props }, ref) => (
+    <HoverCardPrimitive.Content
+        ref={ref}
+        align={align}
+        sideOffset={sideOffset}
+        className={cn(
+            "z-50 w-64 rounded-md border bg-popover p-4 text-popover-foreground shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+            className,
+        )}
+        {...props}
+    />
+));
+HoverCardContent.displayName = HoverCardPrimitive.Content.displayName;
+
+export { HoverCard, HoverCardTrigger, HoverCardContent };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-input-otp-tsx"></a>📄 `src/components/ui/input-otp.tsx`
+
+**File Info:**
+- **Size**: 2.34 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/input-otp.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:51 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:34:11 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `e3ee6831f41c064610ab6dabc4806c6c`
+- **SHA256**: `4121164c478df72bce7790d5bc569d727506c759bdfa2a3133eac3e4364646e2`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { OTPInput, OTPInputContext } from "input-otp";
+import { Dot } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const InputOTP = React.forwardRef<React.ElementRef<typeof OTPInput>, React.ComponentPropsWithoutRef<typeof OTPInput>>(
+    ({ className, containerClassName, ...props }, ref) => (
+        <OTPInput
+            ref={ref}
+            containerClassName={cn("flex items-center gap-2 has-[:disabled]:opacity-50", containerClassName)}
+            className={cn("disabled:cursor-not-allowed", className)}
+            {...props}
+        />
+    ),
+);
+InputOTP.displayName = "InputOTP";
+
+const InputOTPGroup = React.forwardRef<React.ElementRef<"div">, React.ComponentPropsWithoutRef<"div">>(
+    ({ className, ...props }, ref) => <div ref={ref} className={cn("flex items-center", className)} {...props} />,
+);
+InputOTPGroup.displayName = "InputOTPGroup";
+
+const InputOTPSlot = React.forwardRef<
+    React.ElementRef<"div">,
+    React.ComponentPropsWithoutRef<"div"> & { index: number }
+>(({ index, className, ...props }, ref) => {
+    const inputOTPContext = React.useContext(OTPInputContext);
+    const { char, hasFakeCaret, isActive } = inputOTPContext.slots[index];
+
+    return (
+        <div
+            ref={ref}
+            className={cn(
+                "relative flex h-10 w-10 items-center justify-center border-y border-r border-input text-sm transition-all first:rounded-l-md first:border-l last:rounded-r-md",
+                isActive && "z-10 ring-2 ring-ring ring-offset-background",
+                className,
+            )}
+            {...props}
+        >
+            {char}
+            {hasFakeCaret && (
+                <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+                    <div className="animate-caret-blink h-4 w-px bg-foreground duration-1000" />
+                </div>
+            )}
+        </div>
+    );
+});
+InputOTPSlot.displayName = "InputOTPSlot";
+
+const InputOTPSeparator = React.forwardRef<React.ElementRef<"div">, React.ComponentPropsWithoutRef<"div">>(
+    ({ ...props }, ref) => (
+        <div ref={ref} role="separator" {...props}>
+            <Dot />
+        </div>
+    ),
+);
+InputOTPSeparator.displayName = "InputOTPSeparator";
+
+export { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-input-tsx"></a>📄 `src/components/ui/input.tsx`
+
+**File Info:**
+- **Size**: 821 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/input.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:18:57 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:34:25 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `c9e808ff72f69a97513b516a31d5705a`
+- **SHA256**: `3b09ee25c1c65e8890236eb3df0bb7b664f21ca694481815b955cbe6fdf25b22`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+
+import { cn } from "@/lib/utils";
+
+const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
+  ({ className, type, ...props }, ref) => {
+    return (
+      <input
+        type={type}
+        className={cn(
+          "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm",
+          className,
+        )}
+        ref={ref}
+        {...props}
+      />
+    );
+  },
+);
+Input.displayName = "Input";
+
+export { Input };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-label-tsx"></a>📄 `src/components/ui/label.tsx`
+
+**File Info:**
+- **Size**: 713 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/label.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:19:04 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:34:33 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `a8c075269b5971c2ab072603b5166cc2`
+- **SHA256**: `9365711e408fc8add0e7a7fe4ddf513ee346b98a54aa1de131f34a9afedc753d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as LabelPrimitive from "@radix-ui/react-label";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+const labelVariants = cva("text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70");
+
+const Label = React.forwardRef<
+  React.ElementRef<typeof LabelPrimitive.Root>,
+  React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root> & VariantProps<typeof labelVariants>
+>(({ className, ...props }, ref) => (
+  <LabelPrimitive.Root ref={ref} className={cn(labelVariants(), className)} {...props} />
+));
+Label.displayName = LabelPrimitive.Root.displayName;
+
+export { Label };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-menubar-tsx"></a>📄 `src/components/ui/menubar.tsx`
+
+**File Info:**
+- **Size**: 8.35 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/menubar.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:19:08 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:34:41 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `f5c71dafb24b50fed3e1bd6d5e7ac962`
+- **SHA256**: `3498a183c69850f918bf791b00b629db079492b8055631a37470300723fcc054`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as MenubarPrimitive from "@radix-ui/react-menubar";
+import { Check, ChevronRight, Circle } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const MenubarMenu = MenubarPrimitive.Menu;
+
+const MenubarGroup = MenubarPrimitive.Group;
+
+const MenubarPortal = MenubarPrimitive.Portal;
+
+const MenubarSub = MenubarPrimitive.Sub;
+
+const MenubarRadioGroup = MenubarPrimitive.RadioGroup;
+
+const Menubar = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Root>
+>(({ className, ...props }, ref) => (
+    <MenubarPrimitive.Root
+        ref={ref}
+        className={cn("flex h-10 items-center space-x-1 rounded-md border bg-background p-1", className)}
+        {...props}
+    />
+));
+Menubar.displayName = MenubarPrimitive.Root.displayName;
+
+const MenubarTrigger = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.Trigger>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Trigger>
+>(({ className, ...props }, ref) => (
+    <MenubarPrimitive.Trigger
+        ref={ref}
+        className={cn(
+            "flex cursor-default select-none items-center rounded-sm px-3 py-1.5 text-sm font-medium outline-none data-[state=open]:bg-accent data-[state=open]:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            className,
+        )}
+        {...props}
+    />
+));
+MenubarTrigger.displayName = MenubarPrimitive.Trigger.displayName;
+
+const MenubarSubTrigger = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.SubTrigger>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.SubTrigger> & {
+        inset?: boolean;
+    }
+>(({ className, inset, children, ...props }, ref) => (
+    <MenubarPrimitive.SubTrigger
+        ref={ref}
+        className={cn(
+            "flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[state=open]:bg-accent data-[state=open]:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            inset && "pl-8",
+            className,
+        )}
+        {...props}
+    >
+        {children}
+        <ChevronRight className="ml-auto h-4 w-4" />
+    </MenubarPrimitive.SubTrigger>
+));
+MenubarSubTrigger.displayName = MenubarPrimitive.SubTrigger.displayName;
+
+const MenubarSubContent = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.SubContent>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.SubContent>
+>(({ className, ...props }, ref) => (
+    <MenubarPrimitive.SubContent
+        ref={ref}
+        className={cn(
+            "z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover p-1 text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+            className,
+        )}
+        {...props}
+    />
+));
+MenubarSubContent.displayName = MenubarPrimitive.SubContent.displayName;
+
+const MenubarContent = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Content>
+>(({ className, align = "start", alignOffset = -4, sideOffset = 8, ...props }, ref) => (
+    <MenubarPrimitive.Portal>
+        <MenubarPrimitive.Content
+            ref={ref}
+            align={align}
+            alignOffset={alignOffset}
+            sideOffset={sideOffset}
+            className={cn(
+                "z-50 min-w-[12rem] overflow-hidden rounded-md border bg-popover p-1 text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+                className,
+            )}
+            {...props}
+        />
+    </MenubarPrimitive.Portal>
+));
+MenubarContent.displayName = MenubarPrimitive.Content.displayName;
+
+const MenubarItem = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.Item>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Item> & {
+        inset?: boolean;
+    }
+>(({ className, inset, ...props }, ref) => (
+    <MenubarPrimitive.Item
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            inset && "pl-8",
+            className,
+        )}
+        {...props}
+    />
+));
+MenubarItem.displayName = MenubarPrimitive.Item.displayName;
+
+const MenubarCheckboxItem = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.CheckboxItem>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.CheckboxItem>
+>(({ className, children, checked, ...props }, ref) => (
+    <MenubarPrimitive.CheckboxItem
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            className,
+        )}
+        checked={checked}
+        {...props}
+    >
+        <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+            <MenubarPrimitive.ItemIndicator>
+                <Check className="h-4 w-4" />
+            </MenubarPrimitive.ItemIndicator>
+        </span>
+        {children}
+    </MenubarPrimitive.CheckboxItem>
+));
+MenubarCheckboxItem.displayName = MenubarPrimitive.CheckboxItem.displayName;
+
+const MenubarRadioItem = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.RadioItem>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.RadioItem>
+>(({ className, children, ...props }, ref) => (
+    <MenubarPrimitive.RadioItem
+        ref={ref}
+        className={cn(
+            "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            className,
+        )}
+        {...props}
+    >
+        <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+            <MenubarPrimitive.ItemIndicator>
+                <Circle className="h-2 w-2 fill-current" />
+            </MenubarPrimitive.ItemIndicator>
+        </span>
+        {children}
+    </MenubarPrimitive.RadioItem>
+));
+MenubarRadioItem.displayName = MenubarPrimitive.RadioItem.displayName;
+
+const MenubarLabel = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.Label>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Label> & {
+        inset?: boolean;
+    }
+>(({ className, inset, ...props }, ref) => (
+    <MenubarPrimitive.Label
+        ref={ref}
+        className={cn("px-2 py-1.5 text-sm font-semibold", inset && "pl-8", className)}
+        {...props}
+    />
+));
+MenubarLabel.displayName = MenubarPrimitive.Label.displayName;
+
+const MenubarSeparator = React.forwardRef<
+    React.ElementRef<typeof MenubarPrimitive.Separator>,
+    React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Separator>
+>(({ className, ...props }, ref) => (
+    <MenubarPrimitive.Separator ref={ref} className={cn("-mx-1 my-1 h-px bg-muted", className)} {...props} />
+));
+MenubarSeparator.displayName = MenubarPrimitive.Separator.displayName;
+
+const MenubarShortcut = ({ className, ...props }: React.HTMLAttributes<HTMLSpanElement>) => {
+    return <span className={cn("ml-auto text-xs tracking-widest text-muted-foreground", className)} {...props} />;
+};
+MenubarShortcut.displayname = "MenubarShortcut";
+
+export {
+    Menubar,
+    MenubarMenu,
+    MenubarTrigger,
+    MenubarContent,
+    MenubarItem,
+    MenubarSeparator,
+    MenubarLabel,
+    MenubarCheckboxItem,
+    MenubarRadioGroup,
+    MenubarRadioItem,
+    MenubarPortal,
+    MenubarSubContent,
+    MenubarSubTrigger,
+    MenubarGroup,
+    MenubarSub,
+    MenubarShortcut,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-navigation-menu-tsx"></a>📄 `src/components/ui/navigation-menu.tsx`
+
+**File Info:**
+- **Size**: 5.27 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/navigation-menu.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:19:14 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:35:17 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `447f55f30bacdae9f97b09093f4249f1`
+- **SHA256**: `c3fd7ed23b80ab59b6a44ffcf47d8bf8aa2ab243afcae113e87347246ee37daf`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
+import { cva } from "class-variance-authority";
+import { ChevronDown } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const NavigationMenu = React.forwardRef<
+    React.ElementRef<typeof NavigationMenuPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Root>
+>(({ className, children, ...props }, ref) => (
+    <NavigationMenuPrimitive.Root
+        ref={ref}
+        className={cn("relative z-10 flex max-w-max flex-1 items-center justify-center", className)}
+        {...props}
+    >
+        {children}
+        <NavigationMenuViewport />
+    </NavigationMenuPrimitive.Root>
+));
+NavigationMenu.displayName = NavigationMenuPrimitive.Root.displayName;
+
+const NavigationMenuList = React.forwardRef<
+    React.ElementRef<typeof NavigationMenuPrimitive.List>,
+    React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.List>
+>(({ className, ...props }, ref) => (
+    <NavigationMenuPrimitive.List
+        ref={ref}
+        className={cn("group flex flex-1 list-none items-center justify-center space-x-1", className)}
+        {...props}
+    />
+));
+NavigationMenuList.displayName = NavigationMenuPrimitive.List.displayName;
+
+const NavigationMenuItem = NavigationMenuPrimitive.Item;
+
+const navigationMenuTriggerStyle = cva(
+    "group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50",
+);
+
+const NavigationMenuTrigger = React.forwardRef<
+    React.ElementRef<typeof NavigationMenuPrimitive.Trigger>,
+    React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Trigger>
+>(({ className, children, ...props }, ref) => (
+    <NavigationMenuPrimitive.Trigger
+        ref={ref}
+        className={cn(navigationMenuTriggerStyle(), "group", className)}
+        {...props}
+    >
+        {children}{" "}
+        <ChevronDown
+            className="relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180"
+            aria-hidden="true"
+        />
+    </NavigationMenuPrimitive.Trigger>
+));
+NavigationMenuTrigger.displayName = NavigationMenuPrimitive.Trigger.displayName;
+
+const NavigationMenuContent = React.forwardRef<
+    React.ElementRef<typeof NavigationMenuPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Content>
+>(({ className, ...props }, ref) => (
+    <NavigationMenuPrimitive.Content
+        ref={ref}
+        className={cn(
+            "left-0 top-0 w-full data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 md:absolute md:w-auto",
+            className,
+        )}
+        {...props}
+    />
+));
+NavigationMenuContent.displayName = NavigationMenuPrimitive.Content.displayName;
+
+const NavigationMenuLink = NavigationMenuPrimitive.Link;
+
+const NavigationMenuViewport = React.forwardRef<
+    React.ElementRef<typeof NavigationMenuPrimitive.Viewport>,
+    React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Viewport>
+>(({ className, ...props }, ref) => (
+    <div className={cn("absolute left-0 top-full flex justify-center")}>
+        <NavigationMenuPrimitive.Viewport
+            className={cn(
+                "origin-top-center relative mt-1.5 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 md:w-[var(--radix-navigation-menu-viewport-width)]",
+                className,
+            )}
+            ref={ref}
+            {...props}
+        />
+    </div>
+));
+NavigationMenuViewport.displayName = NavigationMenuPrimitive.Viewport.displayName;
+
+const NavigationMenuIndicator = React.forwardRef<
+    React.ElementRef<typeof NavigationMenuPrimitive.Indicator>,
+    React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Indicator>
+>(({ className, ...props }, ref) => (
+    <NavigationMenuPrimitive.Indicator
+        ref={ref}
+        className={cn(
+            "top-full z-[1] flex h-1.5 items-end justify-center overflow-hidden data-[state=visible]:animate-in data-[state=hidden]:animate-out data-[state=hidden]:fade-out data-[state=visible]:fade-in",
+            className,
+        )}
+        {...props}
+    >
+        <div className="relative top-[60%] h-2 w-2 rotate-45 rounded-tl-sm bg-border shadow-md" />
+    </NavigationMenuPrimitive.Indicator>
+));
+NavigationMenuIndicator.displayName = NavigationMenuPrimitive.Indicator.displayName;
+
+export {
+    navigationMenuTriggerStyle,
+    NavigationMenu,
+    NavigationMenuList,
+    NavigationMenuItem,
+    NavigationMenuContent,
+    NavigationMenuTrigger,
+    NavigationMenuLink,
+    NavigationMenuIndicator,
+    NavigationMenuViewport,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-pagination-tsx"></a>📄 `src/components/ui/pagination.tsx`
+
+**File Info:**
+- **Size**: 2.83 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/pagination.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:19:26 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:35:33 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `4b39532985a73091b360ca07ed8a3e6d`
+- **SHA256**: `1e60bb48962892a91efde64f7bc66607e0f5565f952bfb4f78874cf9513c888e`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { ChevronLeft, ChevronRight, MoreHorizontal } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+import { ButtonProps, buttonVariants } from "@/components/ui/button";
+
+const Pagination = ({ className, ...props }: React.ComponentProps<"nav">) => (
+    <nav
+        role="navigation"
+        aria-label="pagination"
+        className={cn("mx-auto flex w-full justify-center", className)}
+        {...props}
+    />
+);
+Pagination.displayName = "Pagination";
+
+const PaginationContent = React.forwardRef<HTMLUListElement, React.ComponentProps<"ul">>(
+    ({ className, ...props }, ref) => (
+        <ul ref={ref} className={cn("flex flex-row items-center gap-1", className)} {...props} />
+    ),
+);
+PaginationContent.displayName = "PaginationContent";
+
+const PaginationItem = React.forwardRef<HTMLLIElement, React.ComponentProps<"li">>(({ className, ...props }, ref) => (
+    <li ref={ref} className={cn("", className)} {...props} />
+));
+PaginationItem.displayName = "PaginationItem";
+
+type PaginationLinkProps = {
+    isActive?: boolean;
+} & Pick<ButtonProps, "size"> &
+    React.ComponentProps<"a">;
+
+const PaginationLink = ({ className, isActive, size = "icon", ...props }: PaginationLinkProps) => (
+    <a
+        aria-current={isActive ? "page" : undefined}
+        className={cn(
+            buttonVariants({
+                variant: isActive ? "outline" : "ghost",
+                size,
+            }),
+            className,
+        )}
+        {...props}
+    />
+);
+PaginationLink.displayName = "PaginationLink";
+
+const PaginationPrevious = ({ className, ...props }: React.ComponentProps<typeof PaginationLink>) => (
+    <PaginationLink aria-label="Go to previous page" size="default" className={cn("gap-1 pl-2.5", className)} {...props}>
+        <ChevronLeft className="h-4 w-4" />
+        <span>Previous</span>
+    </PaginationLink>
+);
+PaginationPrevious.displayName = "PaginationPrevious";
+
+const PaginationNext = ({ className, ...props }: React.ComponentProps<typeof PaginationLink>) => (
+    <PaginationLink aria-label="Go to next page" size="default" className={cn("gap-1 pr-2.5", className)} {...props}>
+        <span>Next</span>
+        <ChevronRight className="h-4 w-4" />
+    </PaginationLink>
+);
+PaginationNext.displayName = "PaginationNext";
+
+const PaginationEllipsis = ({ className, ...props }: React.ComponentProps<"span">) => (
+    <span aria-hidden className={cn("flex h-9 w-9 items-center justify-center", className)} {...props}>
+        <MoreHorizontal className="h-4 w-4" />
+        <span className="sr-only">More pages</span>
+    </span>
+);
+PaginationEllipsis.displayName = "PaginationEllipsis";
+
+export {
+    Pagination,
+    PaginationContent,
+    PaginationEllipsis,
+    PaginationItem,
+    PaginationLink,
+    PaginationNext,
+    PaginationPrevious,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-popover-tsx"></a>📄 `src/components/ui/popover.tsx`
+
+**File Info:**
+- **Size**: 1.3 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/popover.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:19:33 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:35:44 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `533c46429cb692c0b52775f553be6b56`
+- **SHA256**: `f6edc2b34f458807e4b2f1cdd0fa87efc50d6804f69b2e863e5ec9e9d365f33d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as PopoverPrimitive from "@radix-ui/react-popover";
+
+import { cn } from "@/lib/utils";
+
+const Popover = PopoverPrimitive.Root;
+
+const PopoverTrigger = PopoverPrimitive.Trigger;
+
+const PopoverContent = React.forwardRef<
+    React.ElementRef<typeof PopoverPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof PopoverPrimitive.Content>
+>(({ className, align = "center", sideOffset = 4, ...props }, ref) => (
+    <PopoverPrimitive.Portal>
+        <PopoverPrimitive.Content
+            ref={ref}
+            align={align}
+            sideOffset={sideOffset}
+            className={cn(
+                "z-50 w-72 rounded-md border bg-popover p-4 text-popover-foreground shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+                className,
+            )}
+            {...props}
+        />
+    </PopoverPrimitive.Portal>
+));
+PopoverContent.displayName = PopoverPrimitive.Content.displayName;
+
+export { Popover, PopoverTrigger, PopoverContent };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-progress-tsx"></a>📄 `src/components/ui/progress.tsx`
+
+**File Info:**
+- **Size**: 830 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/progress.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:19:38 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:35:51 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `3f7eeead2ed6b77cfa12a9965283a9e6`
+- **SHA256**: `18d9b5b0401aa04e3681a3bd9d84a793e5f72fde630203691ac11773f1dd98cf`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as ProgressPrimitive from "@radix-ui/react-progress";
+
+import { cn } from "@/lib/utils";
+
+const Progress = React.forwardRef<
+    React.ElementRef<typeof ProgressPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof ProgressPrimitive.Root>
+>(({ className, value, ...props }, ref) => (
+    <ProgressPrimitive.Root
+        ref={ref}
+        className={cn("relative h-4 w-full overflow-hidden rounded-full bg-secondary", className)}
+        {...props}
+    >
+        <ProgressPrimitive.Indicator
+            className="h-full w-full flex-1 bg-primary transition-all"
+            style={{ transform: `translateX(-${100 - (value || 0)}%)` }}
+        />
+    </ProgressPrimitive.Root>
+));
+Progress.displayName = ProgressPrimitive.Root.displayName;
+
+export { Progress };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-radio-group-tsx"></a>📄 `src/components/ui/radio-group.tsx`
+
+**File Info:**
+- **Size**: 1.53 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/radio-group.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:19:45 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:36:03 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `8b372e9ac89485ee4901c85cf7bc4700`
+- **SHA256**: `30499187778439055848b54e82f26307cc6f698f0dda1f1b2e55fb9522111665`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as RadioGroupPrimitive from "@radix-ui/react-radio-group";
+import { Circle } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const RadioGroup = React.forwardRef<
+    React.ElementRef<typeof RadioGroupPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof RadioGroupPrimitive.Root>
+>(({ className, ...props }, ref) => {
+    return <RadioGroupPrimitive.Root className={cn("grid gap-2", className)} {...props} ref={ref} />;
+});
+RadioGroup.displayName = RadioGroupPrimitive.Root.displayName;
+
+const RadioGroupItem = React.forwardRef<
+    React.ElementRef<typeof RadioGroupPrimitive.Item>,
+    React.ComponentPropsWithoutRef<typeof RadioGroupPrimitive.Item>
+>(({ className, ...props }, ref) => {
+    return (
+        <RadioGroupPrimitive.Item
+            ref={ref}
+            className={cn(
+                "aspect-square h-4 w-4 rounded-full border border-primary text-primary ring-offset-background focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+                className,
+            )}
+            {...props}
+        >
+            <RadioGroupPrimitive.Indicator className="flex items-center justify-center">
+                <Circle className="h-2.5 w-2.5 fill-current text-current" />
+            </RadioGroupPrimitive.Indicator>
+        </RadioGroupPrimitive.Item>
+    );
+});
+RadioGroupItem.displayName = RadioGroupPrimitive.Item.displayName;
+
+export { RadioGroup, RadioGroupItem };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-resizable-tsx"></a>📄 `src/components/ui/resizable.tsx`
+
+**File Info:**
+- **Size**: 1.77 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/resizable.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:19:55 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:36:12 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `c3545bcfe210616ab5ab427659396d66`
+- **SHA256**: `7b34c9b65feab9f11adb08b3ecf35c9ea3bcc24f81493fe80d37631c5f0be4e3`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { GripVertical } from "lucide-react";
+import * as ResizablePrimitive from "react-resizable-panels";
+
+import { cn } from "@/lib/utils";
+
+const ResizablePanelGroup = ({ className, ...props }: React.ComponentProps<typeof ResizablePrimitive.PanelGroup>) => (
+    <ResizablePrimitive.PanelGroup
+        className={cn("flex h-full w-full data-[panel-group-direction=vertical]:flex-col", className)}
+        {...props}
+    />
+);
+
+const ResizablePanel = ResizablePrimitive.Panel;
+
+const ResizableHandle = ({
+    withHandle,
+    className,
+    ...props
+}: React.ComponentProps<typeof ResizablePrimitive.PanelResizeHandle> & {
+    withHandle?: boolean;
+}) => (
+    <ResizablePrimitive.PanelResizeHandle
+        className={cn(
+            "relative flex w-px items-center justify-center bg-border after:absolute after:inset-y-0 after:left-1/2 after:w-1 after:-translate-x-1/2 data-[panel-group-direction=vertical]:h-px data-[panel-group-direction=vertical]:w-full data-[panel-group-direction=vertical]:after:left-0 data-[panel-group-direction=vertical]:after:h-1 data-[panel-group-direction=vertical]:after:w-full data-[panel-group-direction=vertical]:after:-translate-y-1/2 data-[panel-group-direction=vertical]:after:translate-x-0 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1 [&[data-panel-group-direction=vertical]>div]:rotate-90",
+            className,
+        )}
+        {...props}
+    >
+        {withHandle && (
+            <div className="z-10 flex h-4 w-3 items-center justify-center rounded-sm border bg-border">
+                <GripVertical className="h-2.5 w-2.5" />
+            </div>
+        )}
+    </ResizablePrimitive.PanelResizeHandle>
+);
+
+export { ResizablePanelGroup, ResizablePanel, ResizableHandle };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-scroll-area-tsx"></a>📄 `src/components/ui/scroll-area.tsx`
+
+**File Info:**
+- **Size**: 1.68 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/scroll-area.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:20:10 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:36:20 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `5db35acdf189f31b9910b4f3cfb31134`
+- **SHA256**: `3bf4d1df1b9a19bc50bf9a1cef6d04b8cf4c0ea960ac0d1382ae95da350d647c`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as ScrollAreaPrimitive from "@radix-ui/react-scroll-area";
+
+import { cn } from "@/lib/utils";
+
+const ScrollArea = React.forwardRef<
+    React.ElementRef<typeof ScrollAreaPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof ScrollAreaPrimitive.Root>
+>(({ className, children, ...props }, ref) => (
+    <ScrollAreaPrimitive.Root ref={ref} className={cn("relative overflow-hidden", className)} {...props}>
+        <ScrollAreaPrimitive.Viewport className="h-full w-full rounded-[inherit]">{children}</ScrollAreaPrimitive.Viewport>
+        <ScrollBar />
+        <ScrollAreaPrimitive.Corner />
+    </ScrollAreaPrimitive.Root>
+));
+ScrollArea.displayName = ScrollAreaPrimitive.Root.displayName;
+
+const ScrollBar = React.forwardRef<
+    React.ElementRef<typeof ScrollAreaPrimitive.ScrollAreaScrollbar>,
+    React.ComponentPropsWithoutRef<typeof ScrollAreaPrimitive.ScrollAreaScrollbar>
+>(({ className, orientation = "vertical", ...props }, ref) => (
+    <ScrollAreaPrimitive.ScrollAreaScrollbar
+        ref={ref}
+        orientation={orientation}
+        className={cn(
+            "flex touch-none select-none transition-colors",
+            orientation === "vertical" && "h-full w-2.5 border-l border-l-transparent p-[1px]",
+            orientation === "horizontal" && "h-2.5 flex-col border-t border-t-transparent p-[1px]",
+            className,
+        )}
+        {...props}
+    >
+        <ScrollAreaPrimitive.ScrollAreaThumb className="relative flex-1 rounded-full bg-border" />
+    </ScrollAreaPrimitive.ScrollAreaScrollbar>
+));
+ScrollBar.displayName = ScrollAreaPrimitive.ScrollAreaScrollbar.displayName;
+
+export { ScrollArea, ScrollBar };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-select-tsx"></a>📄 `src/components/ui/select.tsx`
+
+**File Info:**
+- **Size**: 5.95 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/select.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:20:18 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:36:28 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `b48f9f3415e1f9336ca8a5bf47991a4d`
+- **SHA256**: `0dcb9e238ae87249145535e59290a477b4723880f4d8f3ddc7b60355a346c8f3`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as SelectPrimitive from "@radix-ui/react-select";
+import { Check, ChevronDown, ChevronUp } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const Select = SelectPrimitive.Root;
+
+const SelectGroup = SelectPrimitive.Group;
+
+const SelectValue = SelectPrimitive.Value;
+
+const SelectTrigger = React.forwardRef<
+    React.ElementRef<typeof SelectPrimitive.Trigger>,
+    React.ComponentPropsWithoutRef<typeof SelectPrimitive.Trigger>
+>(({ className, children, ...props }, ref) => (
+    <SelectPrimitive.Trigger
+        ref={ref}
+        className={cn(
+            "flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1",
+            className,
+        )}
+        {...props}
+    >
+        {children}
+        <SelectPrimitive.Icon asChild>
+            <ChevronDown className="h-4 w-4 opacity-50" />
+        </SelectPrimitive.Icon>
+    </SelectPrimitive.Trigger>
+));
+SelectTrigger.displayName = SelectPrimitive.Trigger.displayName;
+
+const SelectScrollUpButton = React.forwardRef<
+    React.ElementRef<typeof SelectPrimitive.ScrollUpButton>,
+    React.ComponentPropsWithoutRef<typeof SelectPrimitive.ScrollUpButton>
+>(({ className, ...props }, ref) => (
+    <SelectPrimitive.ScrollUpButton
+        ref={ref}
+        className={cn("flex cursor-default items-center justify-center py-1", className)}
+        {...props}
+    >
+        <ChevronUp className="h-4 w-4" />
+    </SelectPrimitive.ScrollUpButton>
+));
+SelectScrollUpButton.displayName = SelectPrimitive.ScrollUpButton.displayName;
+
+const SelectScrollDownButton = React.forwardRef<
+    React.ElementRef<typeof SelectPrimitive.ScrollDownButton>,
+    React.ComponentPropsWithoutRef<typeof SelectPrimitive.ScrollDownButton>
+>(({ className, ...props }, ref) => (
+    <SelectPrimitive.ScrollDownButton
+        ref={ref}
+        className={cn("flex cursor-default items-center justify-center py-1", className)}
+        {...props}
+    >
+        <ChevronDown className="h-4 w-4" />
+    </SelectPrimitive.ScrollDownButton>
+));
+SelectScrollDownButton.displayName = SelectPrimitive.ScrollDownButton.displayName;
+
+const SelectContent = React.forwardRef<
+    React.ElementRef<typeof SelectPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof SelectPrimitive.Content>
+>(({ className, children, position = "popper", ...props }, ref) => (
+    <SelectPrimitive.Portal>
+        <SelectPrimitive.Content
+            ref={ref}
+            className={cn(
+                "relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+                position === "popper" &&
+                "data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1",
+                className,
+            )}
+            position={position}
+            {...props}
+        >
+            <SelectScrollUpButton />
+            <SelectPrimitive.Viewport
+                className={cn(
+                    "p-1",
+                    position === "popper" &&
+                    "h-[var(--radix-select-trigger-height)] w-full min-w-[var(--radix-select-trigger-width)]",
+                )}
+            >
+                {children}
+            </SelectPrimitive.Viewport>
+            <SelectScrollDownButton />
+        </SelectPrimitive.Content>
+    </SelectPrimitive.Portal>
+));
+SelectContent.displayName = SelectPrimitive.Content.displayName;
+
+const SelectLabel = React.forwardRef<
+    React.ElementRef<typeof SelectPrimitive.Label>,
+    React.ComponentPropsWithoutRef<typeof SelectPrimitive.Label>
+>(({ className, ...props }, ref) => (
+    <SelectPrimitive.Label ref={ref} className={cn("py-1.5 pl-8 pr-2 text-sm font-semibold", className)} {...props} />
+));
+SelectLabel.displayName = SelectPrimitive.Label.displayName;
+
+const SelectItem = React.forwardRef<
+    React.ElementRef<typeof SelectPrimitive.Item>,
+    React.ComponentPropsWithoutRef<typeof SelectPrimitive.Item>
+>(({ className, children, ...props }, ref) => (
+    <SelectPrimitive.Item
+        ref={ref}
+        className={cn(
+            "relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-accent focus:text-accent-foreground",
+            className,
+        )}
+        {...props}
+    >
+        <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+            <SelectPrimitive.ItemIndicator>
+                <Check className="h-4 w-4" />
+            </SelectPrimitive.ItemIndicator>
+        </span>
+
+        <SelectPrimitive.ItemText>{children}</SelectPrimitive.ItemText>
+    </SelectPrimitive.Item>
+));
+SelectItem.displayName = SelectPrimitive.Item.displayName;
+
+const SelectSeparator = React.forwardRef<
+    React.ElementRef<typeof SelectPrimitive.Separator>,
+    React.ComponentPropsWithoutRef<typeof SelectPrimitive.Separator>
+>(({ className, ...props }, ref) => (
+    <SelectPrimitive.Separator ref={ref} className={cn("-mx-1 my-1 h-px bg-muted", className)} {...props} />
+));
+SelectSeparator.displayName = SelectPrimitive.Separator.displayName;
+
+export {
+    Select,
+    SelectGroup,
+    SelectValue,
+    SelectTrigger,
+    SelectContent,
+    SelectLabel,
+    SelectItem,
+    SelectSeparator,
+    SelectScrollUpButton,
+    SelectScrollDownButton,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-separator-tsx"></a>📄 `src/components/ui/separator.tsx`
+
+**File Info:**
+- **Size**: 746 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/separator.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:20:33 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:36:36 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `b8dbd7425963317a34932b33dbcba661`
+- **SHA256**: `bf0f6322ad4f8714d0887ffaba53576073c13165e650fbe5b2108e3b1df41673`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as SeparatorPrimitive from "@radix-ui/react-separator";
+
+import { cn } from "@/lib/utils";
+
+const Separator = React.forwardRef<
+    React.ElementRef<typeof SeparatorPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof SeparatorPrimitive.Root>
+>(({ className, orientation = "horizontal", decorative = true, ...props }, ref) => (
+    <SeparatorPrimitive.Root
+        ref={ref}
+        decorative={decorative}
+        orientation={orientation}
+        className={cn("shrink-0 bg-border", orientation === "horizontal" ? "h-[1px] w-full" : "h-full w-[1px]", className)}
+        {...props}
+    />
+));
+Separator.displayName = SeparatorPrimitive.Root.displayName;
+
+export { Separator };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-sheet-tsx"></a>📄 `src/components/ui/sheet.tsx`
+
+**File Info:**
+- **Size**: 4.44 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/sheet.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:20:43 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:36:43 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `b8fa6aa3a5c31f9ac248b2a459f566eb`
+- **SHA256**: `56d11b5be1acd1a1077772f07f8b64201d674d0083525bf68812abe0040e71cc`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as SheetPrimitive from "@radix-ui/react-dialog";
+import { cva, type VariantProps } from "class-variance-authority";
+import { X } from "lucide-react";
+import * as React from "react";
+
+import { cn } from "@/lib/utils";
+
+const Sheet = SheetPrimitive.Root;
+
+const SheetTrigger = SheetPrimitive.Trigger;
+
+const SheetClose = SheetPrimitive.Close;
+
+const SheetPortal = SheetPrimitive.Portal;
+
+const SheetOverlay = React.forwardRef<
+    React.ElementRef<typeof SheetPrimitive.Overlay>,
+    React.ComponentPropsWithoutRef<typeof SheetPrimitive.Overlay>
+>(({ className, ...props }, ref) => (
+    <SheetPrimitive.Overlay
+        className={cn(
+            "fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
+            className,
+        )}
+        {...props}
+        ref={ref}
+    />
+));
+SheetOverlay.displayName = SheetPrimitive.Overlay.displayName;
+
+const sheetVariants = cva(
+    "fixed z-50 gap-4 bg-background p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500",
+    {
+        variants: {
+            side: {
+                top: "inset-x-0 top-0 border-b data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top",
+                bottom:
+                    "inset-x-0 bottom-0 border-t data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom",
+                left: "inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",
+                right:
+                    "inset-y-0 right-0 h-full w-3/4  border-l data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm",
+            },
+        },
+        defaultVariants: {
+            side: "right",
+        },
+    },
+);
+
+interface SheetContentProps
+    extends React.ComponentPropsWithoutRef<typeof SheetPrimitive.Content>,
+    VariantProps<typeof sheetVariants> { }
+
+const SheetContent = React.forwardRef<React.ElementRef<typeof SheetPrimitive.Content>, SheetContentProps>(
+    ({ side = "right", className, children, ...props }, ref) => (
+        <SheetPortal>
+            <SheetOverlay />
+            <SheetPrimitive.Content ref={ref} className={cn(sheetVariants({ side }), className)} {...props}>
+                {children}
+                <SheetPrimitive.Close className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity data-[state=open]:bg-secondary hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none">
+                    <X className="h-4 w-4" />
+                    <span className="sr-only">Close</span>
+                </SheetPrimitive.Close>
+            </SheetPrimitive.Content>
+        </SheetPortal>
+    ),
+);
+SheetContent.displayName = SheetPrimitive.Content.displayName;
+
+const SheetHeader = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+    <div className={cn("flex flex-col space-y-2 text-center sm:text-left", className)} {...props} />
+);
+SheetHeader.displayName = "SheetHeader";
+
+const SheetFooter = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+    <div className={cn("flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2", className)} {...props} />
+);
+SheetFooter.displayName = "SheetFooter";
+
+const SheetTitle = React.forwardRef<
+    React.ElementRef<typeof SheetPrimitive.Title>,
+    React.ComponentPropsWithoutRef<typeof SheetPrimitive.Title>
+>(({ className, ...props }, ref) => (
+    <SheetPrimitive.Title ref={ref} className={cn("text-lg font-semibold text-foreground", className)} {...props} />
+));
+SheetTitle.displayName = SheetPrimitive.Title.displayName;
+
+const SheetDescription = React.forwardRef<
+    React.ElementRef<typeof SheetPrimitive.Description>,
+    React.ComponentPropsWithoutRef<typeof SheetPrimitive.Description>
+>(({ className, ...props }, ref) => (
+    <SheetPrimitive.Description ref={ref} className={cn("text-sm text-muted-foreground", className)} {...props} />
+));
+SheetDescription.displayName = SheetPrimitive.Description.displayName;
+
+export {
+    Sheet,
+    SheetClose,
+    SheetContent,
+    SheetDescription,
+    SheetFooter,
+    SheetHeader,
+    SheetOverlay,
+    SheetPortal,
+    SheetTitle,
+    SheetTrigger,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-sidebar-tsx"></a>📄 `src/components/ui/sidebar.tsx`
+
+**File Info:**
+- **Size**: 25.54 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/sidebar.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:20:49 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:36:54 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `421f6f081e5236e9a89dfb64543d79f9`
+- **SHA256**: `c4449d96844dc67802b5180ec05dca2a7eaadc5d2064ea94db18c3cf2b4b2bec`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import { Slot } from "@radix-ui/react-slot";
+import { VariantProps, cva } from "class-variance-authority";
+import { PanelLeft } from "lucide-react";
+
+import { useIsMobile } from "@/hooks/use-mobile";
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Separator } from "@/components/ui/separator";
+import { Sheet, SheetContent } from "@/components/ui/sheet";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+
+const SIDEBAR_COOKIE_NAME = "sidebar:state";
+const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
+const SIDEBAR_WIDTH = "16rem";
+const SIDEBAR_WIDTH_MOBILE = "18rem";
+const SIDEBAR_WIDTH_ICON = "3rem";
+const SIDEBAR_KEYBOARD_SHORTCUT = "b";
+
+type SidebarContext = {
+    state: "expanded" | "collapsed";
+    open: boolean;
+    setOpen: (open: boolean) => void;
+    openMobile: boolean;
+    setOpenMobile: (open: boolean) => void;
+    isMobile: boolean;
+    toggleSidebar: () => void;
+};
+
+const SidebarContext = React.createContext<SidebarContext | null>(null);
+
+function useSidebar() {
+    const context = React.useContext(SidebarContext);
+    if (!context) {
+        throw new Error("useSidebar must be used within a SidebarProvider.");
+    }
+
+    return context;
+}
+
+const SidebarProvider = React.forwardRef<
+    HTMLDivElement,
+    React.ComponentProps<"div"> & {
+        defaultOpen?: boolean;
+        open?: boolean;
+        onOpenChange?: (open: boolean) => void;
+    }
+>(({ defaultOpen = true, open: openProp, onOpenChange: setOpenProp, className, style, children, ...props }, ref) => {
+    const isMobile = useIsMobile();
+    const [openMobile, setOpenMobile] = React.useState(false);
+
+    // This is the internal state of the sidebar.
+    // We use openProp and setOpenProp for control from outside the component.
+    const [_open, _setOpen] = React.useState(defaultOpen);
+    const open = openProp ?? _open;
+    const setOpen = React.useCallback(
+        (value: boolean | ((value: boolean) => boolean)) => {
+            const openState = typeof value === "function" ? value(open) : value;
+            if (setOpenProp) {
+                setOpenProp(openState);
+            } else {
+                _setOpen(openState);
+            }
+
+            // This sets the cookie to keep the sidebar state.
+            document.cookie = `${SIDEBAR_COOKIE_NAME}=${openState}; path=/; max-age=${SIDEBAR_COOKIE_MAX_AGE}`;
+        },
+        [setOpenProp, open],
+    );
+
+    // Helper to toggle the sidebar.
+    const toggleSidebar = React.useCallback(() => {
+        return isMobile ? setOpenMobile((open) => !open) : setOpen((open) => !open);
+    }, [isMobile, setOpen, setOpenMobile]);
+
+    // Adds a keyboard shortcut to toggle the sidebar.
+    React.useEffect(() => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.key === SIDEBAR_KEYBOARD_SHORTCUT && (event.metaKey || event.ctrlKey)) {
+                event.preventDefault();
+                toggleSidebar();
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [toggleSidebar]);
+
+    // We add a state so that we can do data-state="expanded" or "collapsed".
+    // This makes it easier to style the sidebar with Tailwind classes.
+    const state = open ? "expanded" : "collapsed";
+
+    const contextValue = React.useMemo<SidebarContext>(
+        () => ({
+            state,
+            open,
+            setOpen,
+            isMobile,
+            openMobile,
+            setOpenMobile,
+            toggleSidebar,
+        }),
+        [state, open, setOpen, isMobile, openMobile, setOpenMobile, toggleSidebar],
+    );
+
+    return (
+        <SidebarContext.Provider value={contextValue}>
+            <TooltipProvider delayDuration={0}>
+                <div
+                    style={
+                        {
+                            "--sidebar-width": SIDEBAR_WIDTH,
+                            "--sidebar-width-icon": SIDEBAR_WIDTH_ICON,
+                            ...style,
+                        } as React.CSSProperties
+                    }
+                    className={cn("group/sidebar-wrapper flex min-h-svh w-full has-[[data-variant=inset]]:bg-sidebar", className)}
+                    ref={ref}
+                    {...props}
+                >
+                    {children}
+                </div>
+            </TooltipProvider>
+        </SidebarContext.Provider>
+    );
+});
+SidebarProvider.displayName = "SidebarProvider";
+
+const Sidebar = React.forwardRef<
+    HTMLDivElement,
+    React.ComponentProps<"div"> & {
+        side?: "left" | "right";
+        variant?: "sidebar" | "floating" | "inset";
+        collapsible?: "offcanvas" | "icon" | "none";
+    }
+>(({ side = "left", variant = "sidebar", collapsible = "offcanvas", className, children, ...props }, ref) => {
+    const { isMobile, state, openMobile, setOpenMobile } = useSidebar();
+
+    if (collapsible === "none") {
+        return (
+            <div
+                className={cn("flex h-full w-[--sidebar-width] flex-col bg-sidebar text-sidebar-foreground", className)}
+                ref={ref}
+                {...props}
+            >
+                {children}
+            </div>
+        );
+    }
+
+    if (isMobile) {
+        return (
+            <Sheet open={openMobile} onOpenChange={setOpenMobile} {...props}>
+                <SheetContent
+                    data-sidebar="sidebar"
+                    data-mobile="true"
+                    className="w-[--sidebar-width] bg-sidebar p-0 text-sidebar-foreground [&>button]:hidden"
+                    style={
+                        {
+                            "--sidebar-width": SIDEBAR_WIDTH_MOBILE,
+                        } as React.CSSProperties
+                    }
+                    side={side}
+                >
+                    <div className="flex h-full w-full flex-col">{children}</div>
+                </SheetContent>
+            </Sheet>
+        );
+    }
+
+    return (
+        <div
+            ref={ref}
+            className="group peer hidden text-sidebar-foreground md:block"
+            data-state={state}
+            data-collapsible={state === "collapsed" ? collapsible : ""}
+            data-variant={variant}
+            data-side={side}
+        >
+            {/* This is what handles the sidebar gap on desktop */}
+            <div
+                className={cn(
+                    "relative h-svh w-[--sidebar-width] bg-transparent transition-[width] duration-200 ease-linear",
+                    "group-data-[collapsible=offcanvas]:w-0",
+                    "group-data-[side=right]:rotate-180",
+                    variant === "floating" || variant === "inset"
+                        ? "group-data-[collapsible=icon]:w-[calc(var(--sidebar-width-icon)_+_theme(spacing.4))]"
+                        : "group-data-[collapsible=icon]:w-[--sidebar-width-icon]",
+                )}
+            />
+            <div
+                className={cn(
+                    "fixed inset-y-0 z-10 hidden h-svh w-[--sidebar-width] transition-[left,right,width] duration-200 ease-linear md:flex",
+                    side === "left"
+                        ? "left-0 group-data-[collapsible=offcanvas]:left-[calc(var(--sidebar-width)*-1)]"
+                        : "right-0 group-data-[collapsible=offcanvas]:right-[calc(var(--sidebar-width)*-1)]",
+                    // Adjust the padding for floating and inset variants.
+                    variant === "floating" || variant === "inset"
+                        ? "p-2 group-data-[collapsible=icon]:w-[calc(var(--sidebar-width-icon)_+_theme(spacing.4)_+2px)]"
+                        : "group-data-[collapsible=icon]:w-[--sidebar-width-icon] group-data-[side=left]:border-r group-data-[side=right]:border-l",
+                    className,
+                )}
+                {...props}
+            >
+                <div
+                    data-sidebar="sidebar"
+                    className="flex h-full w-full flex-col bg-sidebar group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:border-sidebar-border group-data-[variant=floating]:shadow"
+                >
+                    {children}
+                </div>
+            </div>
+        </div>
+    );
+});
+Sidebar.displayName = "Sidebar";
+
+const SidebarTrigger = React.forwardRef<React.ElementRef<typeof Button>, React.ComponentProps<typeof Button>>(
+    ({ className, onClick, ...props }, ref) => {
+        const { toggleSidebar } = useSidebar();
+
+        return (
+            <Button
+                ref={ref}
+                data-sidebar="trigger"
+                variant="ghost"
+                size="icon"
+                className={cn("h-7 w-7", className)}
+                onClick={(event) => {
+                    onClick?.(event);
+                    toggleSidebar();
+                }}
+                {...props}
+            >
+                <PanelLeft />
+                <span className="sr-only">Toggle Sidebar</span>
+            </Button>
+        );
+    },
+);
+SidebarTrigger.displayName = "SidebarTrigger";
+
+const SidebarRail = React.forwardRef<HTMLButtonElement, React.ComponentProps<"button">>(
+    ({ className, ...props }, ref) => {
+        const { toggleSidebar } = useSidebar();
+
+        return (
+            <button
+                ref={ref}
+                data-sidebar="rail"
+                aria-label="Toggle Sidebar"
+                tabIndex={-1}
+                onClick={toggleSidebar}
+                title="Toggle Sidebar"
+                className={cn(
+                    "absolute inset-y-0 z-20 hidden w-4 -translate-x-1/2 transition-all ease-linear after:absolute after:inset-y-0 after:left-1/2 after:w-[2px] group-data-[side=left]:-right-4 group-data-[side=right]:left-0 hover:after:bg-sidebar-border sm:flex",
+                    "[[data-side=left]_&]:cursor-w-resize [[data-side=right]_&]:cursor-e-resize",
+                    "[[data-side=left][data-state=collapsed]_&]:cursor-e-resize [[data-side=right][data-state=collapsed]_&]:cursor-w-resize",
+                    "group-data-[collapsible=offcanvas]:translate-x-0 group-data-[collapsible=offcanvas]:after:left-full group-data-[collapsible=offcanvas]:hover:bg-sidebar",
+                    "[[data-side=left][data-collapsible=offcanvas]_&]:-right-2",
+                    "[[data-side=right][data-collapsible=offcanvas]_&]:-left-2",
+                    className,
+                )}
+                {...props}
+            />
+        );
+    },
+);
+SidebarRail.displayName = "SidebarRail";
+
+const SidebarInset = React.forwardRef<HTMLDivElement, React.ComponentProps<"main">>(({ className, ...props }, ref) => {
+    return (
+        <main
+            ref={ref}
+            className={cn(
+                "relative flex min-h-svh flex-1 flex-col bg-background",
+                "peer-data-[variant=inset]:min-h-[calc(100svh-theme(spacing.4))] md:peer-data-[variant=inset]:m-2 md:peer-data-[state=collapsed]:peer-data-[variant=inset]:ml-2 md:peer-data-[variant=inset]:ml-0 md:peer-data-[variant=inset]:rounded-xl md:peer-data-[variant=inset]:shadow",
+                className,
+            )}
+            {...props}
+        />
+    );
+});
+SidebarInset.displayName = "SidebarInset";
+
+const SidebarInput = React.forwardRef<React.ElementRef<typeof Input>, React.ComponentProps<typeof Input>>(
+    ({ className, ...props }, ref) => {
+        return (
+            <Input
+                ref={ref}
+                data-sidebar="input"
+                className={cn(
+                    "h-8 w-full bg-background shadow-none focus-visible:ring-2 focus-visible:ring-sidebar-ring",
+                    className,
+                )}
+                {...props}
+            />
+        );
+    },
+);
+SidebarInput.displayName = "SidebarInput";
+
+const SidebarHeader = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(({ className, ...props }, ref) => {
+    return <div ref={ref} data-sidebar="header" className={cn("flex flex-col gap-2 p-2", className)} {...props} />;
+});
+SidebarHeader.displayName = "SidebarHeader";
+
+const SidebarFooter = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(({ className, ...props }, ref) => {
+    return <div ref={ref} data-sidebar="footer" className={cn("flex flex-col gap-2 p-2", className)} {...props} />;
+});
+SidebarFooter.displayName = "SidebarFooter";
+
+const SidebarSeparator = React.forwardRef<React.ElementRef<typeof Separator>, React.ComponentProps<typeof Separator>>(
+    ({ className, ...props }, ref) => {
+        return (
+            <Separator
+                ref={ref}
+                data-sidebar="separator"
+                className={cn("mx-2 w-auto bg-sidebar-border", className)}
+                {...props}
+            />
+        );
+    },
+);
+SidebarSeparator.displayName = "SidebarSeparator";
+
+const SidebarContent = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(({ className, ...props }, ref) => {
+    return (
+        <div
+            ref={ref}
+            data-sidebar="content"
+            className={cn(
+                "flex min-h-0 flex-1 flex-col gap-2 overflow-auto group-data-[collapsible=icon]:overflow-hidden",
+                className,
+            )}
+            {...props}
+        />
+    );
+});
+SidebarContent.displayName = "SidebarContent";
+
+const SidebarGroup = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(({ className, ...props }, ref) => {
+    return (
+        <div
+            ref={ref}
+            data-sidebar="group"
+            className={cn("relative flex w-full min-w-0 flex-col p-2", className)}
+            {...props}
+        />
+    );
+});
+SidebarGroup.displayName = "SidebarGroup";
+
+const SidebarGroupLabel = React.forwardRef<HTMLDivElement, React.ComponentProps<"div"> & { asChild?: boolean }>(
+    ({ className, asChild = false, ...props }, ref) => {
+        const Comp = asChild ? Slot : "div";
+
+        return (
+            <Comp
+                ref={ref}
+                data-sidebar="group-label"
+                className={cn(
+                    "flex h-8 shrink-0 items-center rounded-md px-2 text-xs font-medium text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opa] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0",
+                    "group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0",
+                    className,
+                )}
+                {...props}
+            />
+        );
+    },
+);
+SidebarGroupLabel.displayName = "SidebarGroupLabel";
+
+const SidebarGroupAction = React.forwardRef<HTMLButtonElement, React.ComponentProps<"button"> & { asChild?: boolean }>(
+    ({ className, asChild = false, ...props }, ref) => {
+        const Comp = asChild ? Slot : "button";
+
+        return (
+            <Comp
+                ref={ref}
+                data-sidebar="group-action"
+                className={cn(
+                    "absolute right-3 top-3.5 flex aspect-square w-5 items-center justify-center rounded-md p-0 text-sidebar-foreground outline-none ring-sidebar-ring transition-transform hover:bg-sidebar-accent hover:text-sidebar-accent-foreground focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0",
+                    // Increases the hit area of the button on mobile.
+                    "after:absolute after:-inset-2 after:md:hidden",
+                    "group-data-[collapsible=icon]:hidden",
+                    className,
+                )}
+                {...props}
+            />
+        );
+    },
+);
+SidebarGroupAction.displayName = "SidebarGroupAction";
+
+const SidebarGroupContent = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(
+    ({ className, ...props }, ref) => (
+        <div ref={ref} data-sidebar="group-content" className={cn("w-full text-sm", className)} {...props} />
+    ),
+);
+SidebarGroupContent.displayName = "SidebarGroupContent";
+
+const SidebarMenu = React.forwardRef<HTMLUListElement, React.ComponentProps<"ul">>(({ className, ...props }, ref) => (
+    <ul ref={ref} data-sidebar="menu" className={cn("flex w-full min-w-0 flex-col gap-1", className)} {...props} />
+));
+SidebarMenu.displayName = "SidebarMenu";
+
+const SidebarMenuItem = React.forwardRef<HTMLLIElement, React.ComponentProps<"li">>(({ className, ...props }, ref) => (
+    <li ref={ref} data-sidebar="menu-item" className={cn("group/menu-item relative", className)} {...props} />
+));
+SidebarMenuItem.displayName = "SidebarMenuItem";
+
+const sidebarMenuButtonVariants = cva(
+    "peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left text-sm outline-none ring-sidebar-ring transition-[width,height,padding] hover:bg-sidebar-accent hover:text-sidebar-accent-foreground focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0",
+    {
+        variants: {
+            variant: {
+                default: "hover:bg-sidebar-accent hover:text-sidebar-accent-foreground",
+                outline:
+                    "bg-background shadow-[0_0_0_1px_hsl(var(--sidebar-border))] hover:bg-sidebar-accent hover:text-sidebar-accent-foreground hover:shadow-[0_0_0_1px_hsl(var(--sidebar-accent))]",
+            },
+            size: {
+                default: "h-8 text-sm",
+                sm: "h-7 text-xs",
+                lg: "h-12 text-sm group-data-[collapsible=icon]:!p-0",
+            },
+        },
+        defaultVariants: {
+            variant: "default",
+            size: "default",
+        },
+    },
+);
+
+const SidebarMenuButton = React.forwardRef<
+    HTMLButtonElement,
+    React.ComponentProps<"button"> & {
+        asChild?: boolean;
+        isActive?: boolean;
+        tooltip?: string | React.ComponentProps<typeof TooltipContent>;
+    } & VariantProps<typeof sidebarMenuButtonVariants>
+>(({ asChild = false, isActive = false, variant = "default", size = "default", tooltip, className, ...props }, ref) => {
+    const Comp = asChild ? Slot : "button";
+    const { isMobile, state } = useSidebar();
+
+    const button = (
+        <Comp
+            ref={ref}
+            data-sidebar="menu-button"
+            data-size={size}
+            data-active={isActive}
+            className={cn(sidebarMenuButtonVariants({ variant, size }), className)}
+            {...props}
+        />
+    );
+
+    if (!tooltip) {
+        return button;
+    }
+
+    if (typeof tooltip === "string") {
+        tooltip = {
+            children: tooltip,
+        };
+    }
+
+    return (
+        <Tooltip>
+            <TooltipTrigger asChild>{button}</TooltipTrigger>
+            <TooltipContent side="right" align="center" hidden={state !== "collapsed" || isMobile} {...tooltip} />
+        </Tooltip>
+    );
+});
+SidebarMenuButton.displayName = "SidebarMenuButton";
+
+const SidebarMenuAction = React.forwardRef<
+    HTMLButtonElement,
+    React.ComponentProps<"button"> & {
+        asChild?: boolean;
+        showOnHover?: boolean;
+    }
+>(({ className, asChild = false, showOnHover = false, ...props }, ref) => {
+    const Comp = asChild ? Slot : "button";
+
+    return (
+        <Comp
+            ref={ref}
+            data-sidebar="menu-action"
+            className={cn(
+                "absolute right-1 top-1.5 flex aspect-square w-5 items-center justify-center rounded-md p-0 text-sidebar-foreground outline-none ring-sidebar-ring transition-transform peer-hover/menu-button:text-sidebar-accent-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0",
+                // Increases the hit area of the button on mobile.
+                "after:absolute after:-inset-2 after:md:hidden",
+                "peer-data-[size=sm]/menu-button:top-1",
+                "peer-data-[size=default]/menu-button:top-1.5",
+                "peer-data-[size=lg]/menu-button:top-2.5",
+                "group-data-[collapsible=icon]:hidden",
+                showOnHover &&
+                "group-focus-within/menu-item:opacity-100 group-hover/menu-item:opacity-100 data-[state=open]:opacity-100 peer-data-[active=true]/menu-button:text-sidebar-accent-foreground md:opacity-0",
+                className,
+            )}
+            {...props}
+        />
+    );
+});
+SidebarMenuAction.displayName = "SidebarMenuAction";
+
+const SidebarMenuBadge = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(
+    ({ className, ...props }, ref) => (
+        <div
+            ref={ref}
+            data-sidebar="menu-badge"
+            className={cn(
+                "pointer-events-none absolute right-1 flex h-5 min-w-5 select-none items-center justify-center rounded-md px-1 text-xs font-medium tabular-nums text-sidebar-foreground",
+                "peer-hover/menu-button:text-sidebar-accent-foreground peer-data-[active=true]/menu-button:text-sidebar-accent-foreground",
+                "peer-data-[size=sm]/menu-button:top-1",
+                "peer-data-[size=default]/menu-button:top-1.5",
+                "peer-data-[size=lg]/menu-button:top-2.5",
+                "group-data-[collapsible=icon]:hidden",
+                className,
+            )}
+            {...props}
+        />
+    ),
+);
+SidebarMenuBadge.displayName = "SidebarMenuBadge";
+
+const SidebarMenuSkeleton = React.forwardRef<
+    HTMLDivElement,
+    React.ComponentProps<"div"> & {
+        showIcon?: boolean;
+    }
+>(({ className, showIcon = false, ...props }, ref) => {
+    // Random width between 50 to 90%.
+    const width = React.useMemo(() => {
+        return `${Math.floor(Math.random() * 40) + 50}%`;
+    }, []);
+
+    return (
+        <div
+            ref={ref}
+            data-sidebar="menu-skeleton"
+            className={cn("flex h-8 items-center gap-2 rounded-md px-2", className)}
+            {...props}
+        >
+            {showIcon && <Skeleton className="size-4 rounded-md" data-sidebar="menu-skeleton-icon" />}
+            <Skeleton
+                className="h-4 max-w-[--skeleton-width] flex-1"
+                data-sidebar="menu-skeleton-text"
+                style={
+                    {
+                        "--skeleton-width": width,
+                    } as React.CSSProperties
+                }
+            />
+        </div>
+    );
+});
+SidebarMenuSkeleton.displayName = "SidebarMenuSkeleton";
+
+const SidebarMenuSub = React.forwardRef<HTMLUListElement, React.ComponentProps<"ul">>(
+    ({ className, ...props }, ref) => (
+        <ul
+            ref={ref}
+            data-sidebar="menu-sub"
+            className={cn(
+                "mx-3.5 flex min-w-0 translate-x-px flex-col gap-1 border-l border-sidebar-border px-2.5 py-0.5",
+                "group-data-[collapsible=icon]:hidden",
+                className,
+            )}
+            {...props}
+        />
+    ),
+);
+SidebarMenuSub.displayName = "SidebarMenuSub";
+
+const SidebarMenuSubItem = React.forwardRef<HTMLLIElement, React.ComponentProps<"li">>(({ ...props }, ref) => (
+    <li ref={ref} {...props} />
+));
+SidebarMenuSubItem.displayName = "SidebarMenuSubItem";
+
+const SidebarMenuSubButton = React.forwardRef<
+    HTMLAnchorElement,
+    React.ComponentProps<"a"> & {
+        asChild?: boolean;
+        size?: "sm" | "md";
+        isActive?: boolean;
+    }
+>(({ asChild = false, size = "md", isActive, className, ...props }, ref) => {
+    const Comp = asChild ? Slot : "a";
+
+    return (
+        <Comp
+            ref={ref}
+            data-sidebar="menu-sub-button"
+            data-size={size}
+            data-active={isActive}
+            className={cn(
+                "flex h-7 min-w-0 -translate-x-px items-center gap-2 overflow-hidden rounded-md px-2 text-sidebar-foreground outline-none ring-sidebar-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0 [&>svg]:text-sidebar-accent-foreground",
+                "data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground",
+                size === "sm" && "text-xs",
+                size === "md" && "text-sm",
+                "group-data-[collapsible=icon]:hidden",
+                className,
+            )}
+            {...props}
+        />
+    );
+});
+SidebarMenuSubButton.displayName = "SidebarMenuSubButton";
+
+export {
+    Sidebar,
+    SidebarContent,
+    SidebarFooter,
+    SidebarGroup,
+    SidebarGroupAction,
+    SidebarGroupContent,
+    SidebarGroupLabel,
+    SidebarHeader,
+    SidebarInput,
+    SidebarInset,
+    SidebarMenu,
+    SidebarMenuAction,
+    SidebarMenuBadge,
+    SidebarMenuButton,
+    SidebarMenuItem,
+    SidebarMenuSkeleton,
+    SidebarMenuSub,
+    SidebarMenuSubButton,
+    SidebarMenuSubItem,
+    SidebarProvider,
+    SidebarRail,
+    SidebarSeparator,
+    SidebarTrigger,
+    useSidebar,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-skeleton-tsx"></a>📄 `src/components/ui/skeleton.tsx`
+
+**File Info:**
+- **Size**: 243 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/skeleton.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:20:56 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:37:04 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `c9f116eb0cb86952c7878591949e5662`
+- **SHA256**: `230fe8af646aa7d22206b59d339d57be1c5d69f45d3cc9ac45d654eebced91d6`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { cn } from "@/lib/utils";
+
+function Skeleton({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {
+    return <div className={cn("animate-pulse rounded-md bg-muted", className)} {...props} />;
+}
+
+export { Skeleton };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-slider-tsx"></a>📄 `src/components/ui/slider.tsx`
+
+**File Info:**
+- **Size**: 1.1 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/slider.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:21:13 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:37:11 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `573546cdbaf1f77db200d08a6718c07b`
+- **SHA256**: `7ad17ab585f22663372868caff909ccc7cf5315486760b3b88e6eac190987d67`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as SliderPrimitive from "@radix-ui/react-slider";
+
+import { cn } from "@/lib/utils";
+
+const Slider = React.forwardRef<
+    React.ElementRef<typeof SliderPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof SliderPrimitive.Root>
+>(({ className, ...props }, ref) => (
+    <SliderPrimitive.Root
+        ref={ref}
+        className={cn("relative flex w-full touch-none select-none items-center", className)}
+        {...props}
+    >
+        <SliderPrimitive.Track className="relative h-2 w-full grow overflow-hidden rounded-full bg-secondary">
+            <SliderPrimitive.Range className="absolute h-full bg-primary" />
+        </SliderPrimitive.Track>
+        <SliderPrimitive.Thumb className="block h-5 w-5 rounded-full border-2 border-primary bg-background ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50" />
+    </SliderPrimitive.Root>
+));
+Slider.displayName = SliderPrimitive.Root.displayName;
+
+export { Slider };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-sonner-tsx"></a>📄 `src/components/ui/sonner.tsx`
+
+**File Info:**
+- **Size**: 1016 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/sonner.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:21:22 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:37:19 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `f1aa56cefadec244203253b20480e40e`
+- **SHA256**: `26af24f87510d7de7a4acabfb57ed9a382689ea74ce052c76634af479abe56bd`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useTheme } from "next-themes";
+import { Toaster as Sonner, toast } from "sonner";
+
+type ToasterProps = React.ComponentProps<typeof Sonner>;
+
+const Toaster = ({ ...props }: ToasterProps) => {
+    const { theme = "system" } = useTheme();
+
+    return (
+        <Sonner
+            theme={theme as ToasterProps["theme"]}
+            className="toaster group"
+            toastOptions={{
+                classNames: {
+                    toast:
+                        "group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg",
+                    description: "group-[.toast]:text-muted-foreground",
+                    actionButton: "group-[.toast]:bg-primary group-[.toast]:text-primary-foreground",
+                    cancelButton: "group-[.toast]:bg-muted group-[.toast]:text-muted-foreground",
+                },
+            }}
+            {...props}
+        />
+    );
+};
+
+export { Toaster, toast };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-switch-tsx"></a>📄 `src/components/ui/switch.tsx`
+
+**File Info:**
+- **Size**: 1.21 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/switch.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:21:33 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:37:27 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `4defae7017dcaddf998e0934f3ace600`
+- **SHA256**: `b59989c9f680d97b5b00f755e27d51045fc7f1a0aea23f8531f06b76713edba5`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as SwitchPrimitives from "@radix-ui/react-switch";
+
+import { cn } from "@/lib/utils";
+
+const Switch = React.forwardRef<
+    React.ElementRef<typeof SwitchPrimitives.Root>,
+    React.ComponentPropsWithoutRef<typeof SwitchPrimitives.Root>
+>(({ className, ...props }, ref) => (
+    <SwitchPrimitives.Root
+        className={cn(
+            "peer inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors data-[state=checked]:bg-primary data-[state=unchecked]:bg-input focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50",
+            className,
+        )}
+        {...props}
+        ref={ref}
+    >
+        <SwitchPrimitives.Thumb
+            className={cn(
+                "pointer-events-none block h-5 w-5 rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-5 data-[state=unchecked]:translate-x-0",
+            )}
+        />
+    </SwitchPrimitives.Root>
+));
+Switch.displayName = SwitchPrimitives.Root.displayName;
+
+export { Switch };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-table-tsx"></a>📄 `src/components/ui/table.tsx`
+
+**File Info:**
+- **Size**: 2.83 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/table.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:21:43 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:37:40 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `89676670785ebd206d6e9493ef6cf945`
+- **SHA256**: `412e2a47b9de92f6bc1beb7b13f25e75d0a2d74cd20403cbc0283d001c8608a3`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+
+import { cn } from "@/lib/utils";
+
+const Table = React.forwardRef<HTMLTableElement, React.HTMLAttributes<HTMLTableElement>>(
+    ({ className, ...props }, ref) => (
+        <div className="relative w-full overflow-auto">
+            <table ref={ref} className={cn("w-full caption-bottom text-sm", className)} {...props} />
+        </div>
+    ),
+);
+Table.displayName = "Table";
+
+const TableHeader = React.forwardRef<HTMLTableSectionElement, React.HTMLAttributes<HTMLTableSectionElement>>(
+    ({ className, ...props }, ref) => <thead ref={ref} className={cn("[&_tr]:border-b", className)} {...props} />,
+);
+TableHeader.displayName = "TableHeader";
+
+const TableBody = React.forwardRef<HTMLTableSectionElement, React.HTMLAttributes<HTMLTableSectionElement>>(
+    ({ className, ...props }, ref) => (
+        <tbody ref={ref} className={cn("[&_tr:last-child]:border-0", className)} {...props} />
+    ),
+);
+TableBody.displayName = "TableBody";
+
+const TableFooter = React.forwardRef<HTMLTableSectionElement, React.HTMLAttributes<HTMLTableSectionElement>>(
+    ({ className, ...props }, ref) => (
+        <tfoot ref={ref} className={cn("border-t bg-muted/50 font-medium [&>tr]:last:border-b-0", className)} {...props} />
+    ),
+);
+TableFooter.displayName = "TableFooter";
+
+const TableRow = React.forwardRef<HTMLTableRowElement, React.HTMLAttributes<HTMLTableRowElement>>(
+    ({ className, ...props }, ref) => (
+        <tr
+            ref={ref}
+            className={cn("border-b transition-colors data-[state=selected]:bg-muted hover:bg-muted/50", className)}
+            {...props}
+        />
+    ),
+);
+TableRow.displayName = "TableRow";
+
+const TableHead = React.forwardRef<HTMLTableCellElement, React.ThHTMLAttributes<HTMLTableCellElement>>(
+    ({ className, ...props }, ref) => (
+        <th
+            ref={ref}
+            className={cn(
+                "h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0",
+                className,
+            )}
+            {...props}
+        />
+    ),
+);
+TableHead.displayName = "TableHead";
+
+const TableCell = React.forwardRef<HTMLTableCellElement, React.TdHTMLAttributes<HTMLTableCellElement>>(
+    ({ className, ...props }, ref) => (
+        <td ref={ref} className={cn("p-4 align-middle [&:has([role=checkbox])]:pr-0", className)} {...props} />
+    ),
+);
+TableCell.displayName = "TableCell";
+
+const TableCaption = React.forwardRef<HTMLTableCaptionElement, React.HTMLAttributes<HTMLTableCaptionElement>>(
+    ({ className, ...props }, ref) => (
+        <caption ref={ref} className={cn("mt-4 text-sm text-muted-foreground", className)} {...props} />
+    ),
+);
+TableCaption.displayName = "TableCaption";
+
+export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-tabs-tsx"></a>📄 `src/components/ui/tabs.tsx`
+
+**File Info:**
+- **Size**: 2.01 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/tabs.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:21:47 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:37:49 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `d98cc9e98214b9602fea19099f611632`
+- **SHA256**: `450a514a8f3dfcadc473add54b804447ea088dd9e40b44e59dfb6df86443c503`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as TabsPrimitive from "@radix-ui/react-tabs";
+
+import { cn } from "@/lib/utils";
+
+const Tabs = TabsPrimitive.Root;
+
+const TabsList = React.forwardRef<
+    React.ElementRef<typeof TabsPrimitive.List>,
+    React.ComponentPropsWithoutRef<typeof TabsPrimitive.List>
+>(({ className, ...props }, ref) => (
+    <TabsPrimitive.List
+        ref={ref}
+        className={cn(
+            "inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground",
+            className,
+        )}
+        {...props}
+    />
+));
+TabsList.displayName = TabsPrimitive.List.displayName;
+
+const TabsTrigger = React.forwardRef<
+    React.ElementRef<typeof TabsPrimitive.Trigger>,
+    React.ComponentPropsWithoutRef<typeof TabsPrimitive.Trigger>
+>(({ className, ...props }, ref) => (
+    <TabsPrimitive.Trigger
+        ref={ref}
+        className={cn(
+            "inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+            className,
+        )}
+        {...props}
+    />
+));
+TabsTrigger.displayName = TabsPrimitive.Trigger.displayName;
+
+const TabsContent = React.forwardRef<
+    React.ElementRef<typeof TabsPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof TabsPrimitive.Content>
+>(({ className, ...props }, ref) => (
+    <TabsPrimitive.Content
+        ref={ref}
+        className={cn(
+            "mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+            className,
+        )}
+        {...props}
+    />
+));
+TabsContent.displayName = TabsPrimitive.Content.displayName;
+
+export { Tabs, TabsList, TabsTrigger, TabsContent };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-textarea-tsx"></a>📄 `src/components/ui/textarea.tsx`
+
+**File Info:**
+- **Size**: 772 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/textarea.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:21:56 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:37:59 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `05d1ec7d6c3a836dc5b28d56935174fd`
+- **SHA256**: `3ef3096c7143ea4cfc44be33890b564ab3128cbe3aac54e382188f9254ff9a41`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+
+import { cn } from "@/lib/utils";
+
+export interface TextareaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {}
+
+const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(({ className, ...props }, ref) => {
+  return (
+    <textarea
+      className={cn(
+        "flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+        className,
+      )}
+      ref={ref}
+      {...props}
+    />
+  );
+});
+Textarea.displayName = "Textarea";
+
+export { Textarea };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-toast-tsx"></a>📄 `src/components/ui/toast.tsx`
+
+**File Info:**
+- **Size**: 5 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/toast.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:22:02 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:38:06 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `951f00a0203fe97a09b64305dfbff94e`
+- **SHA256**: `214f06d5ee0fab268a43c5c531fe6ccb9d2a68a1cff533e5c7a20b70af23d004`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as ToastPrimitives from "@radix-ui/react-toast";
+import { cva, type VariantProps } from "class-variance-authority";
+import { X } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+
+const ToastProvider = ToastPrimitives.Provider;
+
+const ToastViewport = React.forwardRef<
+    React.ElementRef<typeof ToastPrimitives.Viewport>,
+    React.ComponentPropsWithoutRef<typeof ToastPrimitives.Viewport>
+>(({ className, ...props }, ref) => (
+    <ToastPrimitives.Viewport
+        ref={ref}
+        className={cn(
+            "fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]",
+            className,
+        )}
+        {...props}
+    />
+));
+ToastViewport.displayName = ToastPrimitives.Viewport.displayName;
+
+const toastVariants = cva(
+    "group pointer-events-auto relative flex w-full items-center justify-between space-x-4 overflow-hidden rounded-md border p-6 pr-8 shadow-lg transition-all data-[swipe=cancel]:translate-x-0 data-[swipe=end]:translate-x-[var(--radix-toast-swipe-end-x)] data-[swipe=move]:translate-x-[var(--radix-toast-swipe-move-x)] data-[swipe=move]:transition-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[swipe=end]:animate-out data-[state=closed]:fade-out-80 data-[state=closed]:slide-out-to-right-full data-[state=open]:slide-in-from-top-full data-[state=open]:sm:slide-in-from-bottom-full",
+    {
+        variants: {
+            variant: {
+                default: "border bg-background text-foreground",
+                destructive: "destructive group border-destructive bg-destructive text-destructive-foreground",
+            },
+        },
+        defaultVariants: {
+            variant: "default",
+        },
+    },
+);
+
+const Toast = React.forwardRef<
+    React.ElementRef<typeof ToastPrimitives.Root>,
+    React.ComponentPropsWithoutRef<typeof ToastPrimitives.Root> & VariantProps<typeof toastVariants>
+>(({ className, variant, ...props }, ref) => {
+    return <ToastPrimitives.Root ref={ref} className={cn(toastVariants({ variant }), className)} {...props} />;
+});
+Toast.displayName = ToastPrimitives.Root.displayName;
+
+const ToastAction = React.forwardRef<
+    React.ElementRef<typeof ToastPrimitives.Action>,
+    React.ComponentPropsWithoutRef<typeof ToastPrimitives.Action>
+>(({ className, ...props }, ref) => (
+    <ToastPrimitives.Action
+        ref={ref}
+        className={cn(
+            "inline-flex h-8 shrink-0 items-center justify-center rounded-md border bg-transparent px-3 text-sm font-medium ring-offset-background transition-colors group-[.destructive]:border-muted/40 hover:bg-secondary group-[.destructive]:hover:border-destructive/30 group-[.destructive]:hover:bg-destructive group-[.destructive]:hover:text-destructive-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 group-[.destructive]:focus:ring-destructive disabled:pointer-events-none disabled:opacity-50",
+            className,
+        )}
+        {...props}
+    />
+));
+ToastAction.displayName = ToastPrimitives.Action.displayName;
+
+const ToastClose = React.forwardRef<
+    React.ElementRef<typeof ToastPrimitives.Close>,
+    React.ComponentPropsWithoutRef<typeof ToastPrimitives.Close>
+>(({ className, ...props }, ref) => (
+    <ToastPrimitives.Close
+        ref={ref}
+        className={cn(
+            "absolute right-2 top-2 rounded-md p-1 text-foreground/50 opacity-0 transition-opacity group-hover:opacity-100 group-[.destructive]:text-red-300 hover:text-foreground group-[.destructive]:hover:text-red-50 focus:opacity-100 focus:outline-none focus:ring-2 group-[.destructive]:focus:ring-red-400 group-[.destructive]:focus:ring-offset-red-600",
+            className,
+        )}
+        toast-close=""
+        {...props}
+    >
+        <X className="h-4 w-4" />
+    </ToastPrimitives.Close>
+));
+ToastClose.displayName = ToastPrimitives.Close.displayName;
+
+const ToastTitle = React.forwardRef<
+    React.ElementRef<typeof ToastPrimitives.Title>,
+    React.ComponentPropsWithoutRef<typeof ToastPrimitives.Title>
+>(({ className, ...props }, ref) => (
+    <ToastPrimitives.Title ref={ref} className={cn("text-sm font-semibold", className)} {...props} />
+));
+ToastTitle.displayName = ToastPrimitives.Title.displayName;
+
+const ToastDescription = React.forwardRef<
+    React.ElementRef<typeof ToastPrimitives.Description>,
+    React.ComponentPropsWithoutRef<typeof ToastPrimitives.Description>
+>(({ className, ...props }, ref) => (
+    <ToastPrimitives.Description ref={ref} className={cn("text-sm opacity-90", className)} {...props} />
+));
+ToastDescription.displayName = ToastPrimitives.Description.displayName;
+
+type ToastProps = React.ComponentPropsWithoutRef<typeof Toast>;
+
+type ToastActionElement = React.ReactElement<typeof ToastAction>;
+
+export {
+    type ToastProps,
+    type ToastActionElement,
+    ToastProvider,
+    ToastViewport,
+    Toast,
+    ToastTitle,
+    ToastDescription,
+    ToastClose,
+    ToastAction,
+};
+
+```
+
+---
+
+### <a id="📄-src-components-ui-toaster-tsx"></a>📄 `src/components/ui/toaster.tsx`
+
+**File Info:**
+- **Size**: 898 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/toaster.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:22:08 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:38:14 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `e81be47927a99787bff626bef9b68f74`
+- **SHA256**: `1e1cac321acdd052269287b91fb8e3e84c281345a6fc0e4f0147465fc9629421`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useToast } from "@/hooks/use-toast";
+import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "@/components/ui/toast";
+
+export function Toaster() {
+    const { toasts } = useToast();
+
+    return (
+        <ToastProvider>
+            {toasts.map(function ({ id, title, description, action, ...props }) {
+                return (
+                    <Toast key={id} {...props}>
+                        <div className="grid gap-1">
+                            {title && <ToastTitle>{title}</ToastTitle>}
+                            {description && <ToastDescription>{description}</ToastDescription>}
+                        </div>
+                        {action}
+                        <ToastClose />
+                    </Toast>
+                );
+            })}
+            <ToastViewport />
+        </ToastProvider>
+    );
+}
+
+```
+
+---
+
+### <a id="📄-src-components-ui-toggle-group-tsx"></a>📄 `src/components/ui/toggle-group.tsx`
+
+**File Info:**
+- **Size**: 1.83 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/toggle-group.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:22:14 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:38:22 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `d1c6f12293121551ec1037deca4a8864`
+- **SHA256**: `4d73cb5c26e664c8f4a59f1ef7c839a3d583fbc265bbf9e1f1d1e1e4f4ae41d9`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as ToggleGroupPrimitive from "@radix-ui/react-toggle-group";
+import { type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+import { toggleVariants } from "@/components/ui/toggle";
+
+const ToggleGroupContext = React.createContext<VariantProps<typeof toggleVariants>>({
+    size: "default",
+    variant: "default",
+});
+
+const ToggleGroup = React.forwardRef<
+    React.ElementRef<typeof ToggleGroupPrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof ToggleGroupPrimitive.Root> & VariantProps<typeof toggleVariants>
+>(({ className, variant, size, children, ...props }, ref) => (
+    <ToggleGroupPrimitive.Root ref={ref} className={cn("flex items-center justify-center gap-1", className)} {...props}>
+        <ToggleGroupContext.Provider value={{ variant, size }}>{children}</ToggleGroupContext.Provider>
+    </ToggleGroupPrimitive.Root>
+));
+
+ToggleGroup.displayName = ToggleGroupPrimitive.Root.displayName;
+
+const ToggleGroupItem = React.forwardRef<
+    React.ElementRef<typeof ToggleGroupPrimitive.Item>,
+    React.ComponentPropsWithoutRef<typeof ToggleGroupPrimitive.Item> & VariantProps<typeof toggleVariants>
+>(({ className, children, variant, size, ...props }, ref) => {
+    const context = React.useContext(ToggleGroupContext);
+
+    return (
+        <ToggleGroupPrimitive.Item
+            ref={ref}
+            className={cn(
+                toggleVariants({
+                    variant: context.variant || variant,
+                    size: context.size || size,
+                }),
+                className,
+            )}
+            {...props}
+        >
+            {children}
+        </ToggleGroupPrimitive.Item>
+    );
+});
+
+ToggleGroupItem.displayName = ToggleGroupPrimitive.Item.displayName;
+
+export { ToggleGroup, ToggleGroupItem };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-toggle-tsx"></a>📄 `src/components/ui/toggle.tsx`
+
+**File Info:**
+- **Size**: 1.52 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/toggle.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:22:21 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:38:28 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `69330bea4a7f380f151e578879783a56`
+- **SHA256**: `b3e1fd8be74d2914eb6e646464ae5040e47a16d2d71ed3cfb0b28cc7393d0efb`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as TogglePrimitive from "@radix-ui/react-toggle";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+const toggleVariants = cva(
+    "inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors hover:bg-muted hover:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=on]:bg-accent data-[state=on]:text-accent-foreground",
+    {
+        variants: {
+            variant: {
+                default: "bg-transparent",
+                outline: "border border-input bg-transparent hover:bg-accent hover:text-accent-foreground",
+            },
+            size: {
+                default: "h-10 px-3",
+                sm: "h-9 px-2.5",
+                lg: "h-11 px-5",
+            },
+        },
+        defaultVariants: {
+            variant: "default",
+            size: "default",
+        },
+    },
+);
+
+const Toggle = React.forwardRef<
+    React.ElementRef<typeof TogglePrimitive.Root>,
+    React.ComponentPropsWithoutRef<typeof TogglePrimitive.Root> & VariantProps<typeof toggleVariants>
+>(({ className, variant, size, ...props }, ref) => (
+    <TogglePrimitive.Root ref={ref} className={cn(toggleVariants({ variant, size, className }))} {...props} />
+));
+
+Toggle.displayName = TogglePrimitive.Root.displayName;
+
+export { Toggle, toggleVariants };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-tooltip-tsx"></a>📄 `src/components/ui/tooltip.tsx`
+
+**File Info:**
+- **Size**: 1.19 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/tooltip.tsx`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:22:28 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:38:36 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `0c3194a3f85d1db7276c6e6a4d216d48`
+- **SHA256**: `2f8eaba56b2ce53cb2fa0637ee7f9532b4b2cd4910cc6992cb37fb2713a084ef`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+import * as TooltipPrimitive from "@radix-ui/react-tooltip";
+
+import { cn } from "@/lib/utils";
+
+const TooltipProvider = TooltipPrimitive.Provider;
+
+const Tooltip = TooltipPrimitive.Root;
+
+const TooltipTrigger = TooltipPrimitive.Trigger;
+
+const TooltipContent = React.forwardRef<
+    React.ElementRef<typeof TooltipPrimitive.Content>,
+    React.ComponentPropsWithoutRef<typeof TooltipPrimitive.Content>
+>(({ className, sideOffset = 4, ...props }, ref) => (
+    <TooltipPrimitive.Content
+        ref={ref}
+        sideOffset={sideOffset}
+        className={cn(
+            "z-50 overflow-hidden rounded-md border bg-popover px-3 py-1.5 text-sm text-popover-foreground shadow-md animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+            className,
+        )}
+        {...props}
+    />
+));
+TooltipContent.displayName = TooltipPrimitive.Content.displayName;
+
+export { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider };
+
+```
+
+---
+
+### <a id="📄-src-components-ui-use-toast-ts"></a>📄 `src/components/ui/use-toast.ts`
+
+**File Info:**
+- **Size**: 85 B
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/components/ui/use-toast.ts`
+- **Relative Path**: `src/components/ui`
+- **Created**: 2026-01-05 02:22:34 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:38:42 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `5bff9ea3904b15a9e1908b128c88e75f`
+- **SHA256**: `3fbe3b856affdf39f3eb2a82c898b96d44560d93d05674ab2fd6105825ca78d1`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useToast, toast } from "@/hooks/use-toast";
+
+export { useToast, toast };
+
+```
+
+---
+
+### <a id="📄-src-components-analyticsdashboard-tsx"></a>📄 `src/components/AnalyticsDashboard.tsx`
+
+**File Info:**
+- **Size**: 16.26 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/AnalyticsDashboard.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 05:20:52 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:30 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `04a174bd9075122ed340f9321041bf54`
+- **SHA256**: `51acede12aa23ce0b0ff6b3651abc19fe21b612a89f6a63e0f8dd4423630da3e`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { BarChart3, TrendingUp, Flame, Heart, BookOpen, CheckCircle } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { habitDb, moodDb, journalDb, bookDb, todoDb } from '@/lib/db';
+
+export function AnalyticsDashboard() {
+    const [stats, setStats] = useState<any>({});
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        loadAnalytics();
+    }, []);
+
+    const loadAnalytics = async () => {
+        try {
+            setLoading(true);
+
+            // Get data from last 30 days
+            const thirtyDaysAgo = new Date();
+            thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+            const startDate = thirtyDaysAgo.toISOString().split('T')[0];
+            const today = new Date().toISOString().split('T')[0];
+
+            // Habits
+            const habits = await habitDb.getAllHabits();
+            const allCompletions = await Promise.all(
+                habits.map(h => habitDb.getCompletions(h.id, startDate, today))
+            ).then(results => results.flat());
+
+            // Calculate habit streaks
+            const habitStats = habits.map(habit => {
+                const completions = allCompletions
+                    .filter(c => c.habit_id === habit.id)
+                    .map(c => c.date)
+                    .sort()
+                    .reverse();
+
+                let streak = 0;
+                const todayDate = new Date(today);
+
+                for (let i = 0; i < 30; i++) {
+                    const checkDate = new Date(todayDate);
+                    checkDate.setDate(checkDate.getDate() - i);
+                    const dateStr = checkDate.toISOString().split('T')[0];
+
+                    if (completions.includes(dateStr)) {
+                        streak++;
+                    } else if (i > 0) {
+                        break;
+                    }
+                }
+
+                const completionRate = completions.length / 30;
+
+                return {
+                    name: habit.name,
+                    streak,
+                    completions: completions.length,
+                    rate: Math.round(completionRate * 100),
+                };
+            });
+
+            // Moods
+            const moods = await moodDb.getAll();
+            const recentMoods = moods.filter(m => m.date >= startDate);
+            const moodCounts = recentMoods.reduce((acc, m) => {
+                acc[m.mood] = (acc[m.mood] || 0) + 1;
+                return acc;
+            }, {} as Record<string, number>);
+
+            // Journals
+            const journals = await journalDb.getAll();
+            const recentJournals = journals.filter(j => j.date >= startDate);
+            const journalsByType = recentJournals.reduce((acc, j) => {
+                const typeTag = j.tags?.find((t: string) => t.startsWith('type:'));
+                if (typeTag) {
+                    const type = typeTag.split(':')[1];
+                    acc[type] = (acc[type] || 0) + 1;
+                }
+                return acc;
+            }, {} as Record<string, number>);
+
+            // Books
+            const books = await bookDb.getAll();
+            const readingBooks = books.filter(b => b.status === 'reading').length;
+            const completedBooks = books.filter(b => b.status === 'completed').length;
+
+            // Todos
+            const last7Days = Array.from({ length: 7 }, (_, i) => {
+                const date = new Date();
+                date.setDate(date.getDate() - i);
+                return date.toISOString().split('T')[0];
+            });
+
+            const todoStats = await Promise.all(
+                last7Days.map(async date => {
+                    const todos = await todoDb.getByDate(date);
+                    const completed = todos.filter(t => t.completed).length;
+                    return {
+                        date,
+                        total: todos.length,
+                        completed,
+                        rate: todos.length > 0 ? Math.round((completed / todos.length) * 100) : 0,
+                    };
+                })
+            );
+
+            setStats({
+                habits: habitStats,
+                moods: moodCounts,
+                journals: journalsByType,
+                books: { reading: readingBooks, completed: completedBooks, total: books.length },
+                todos: todoStats,
+                totalHabitCompletions: allCompletions.length,
+                journalStreak: calculateJournalStreak(journals, today),
+            });
+        } catch (error) {
+            console.error('Error loading analytics:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const calculateJournalStreak = (journals: any[], today: string) => {
+        const dates = [...new Set(journals.map(j => j.date))].sort().reverse();
+        let streak = 0;
+        const todayDate = new Date(today);
+
+        for (let i = 0; i < 365; i++) {
+            const checkDate = new Date(todayDate);
+            checkDate.setDate(checkDate.getDate() - i);
+            const dateStr = checkDate.toISOString().split('T')[0];
+
+            if (dates.includes(dateStr)) {
+                streak++;
+            } else if (i > 0) {
+                break;
+            }
+        }
+
+        return streak;
+    };
+
+    if (loading) {
+        return (
+            <Card>
+                <CardContent className="py-8 text-center text-muted-foreground">
+                    Loading analytics...
+                </CardContent>
+            </Card>
+        );
+    }
+
+    const bestHabit = stats.habits?.sort((a: any, b: any) => b.rate - a.rate)[0];
+    const mostFrequentMood = Object.entries(stats.moods || {}).sort(([, a]: any, [, b]: any) => b - a)[0];
+
+    return (
+        <div className="space-y-4">
+            {/* Overview Stats */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <Card className="bg-gradient-to-br from-primary/10 to-primary/5">
+                    <CardContent className="p-4">
+                        <div className="flex items-center gap-2 mb-2">
+                            <Flame className="h-4 w-4 text-primary" />
+                            <span className="text-xs text-muted-foreground">Journal Streak</span>
+                        </div>
+                        <p className="text-2xl font-bold">{stats.journalStreak || 0}</p>
+                        <p className="text-xs text-muted-foreground">days</p>
+                    </CardContent>
+                </Card>
+
+                <Card className="bg-gradient-to-br from-success/10 to-success/5">
+                    <CardContent className="p-4">
+                        <div className="flex items-center gap-2 mb-2">
+                            <CheckCircle className="h-4 w-4 text-success" />
+                            <span className="text-xs text-muted-foreground">Habit Wins</span>
+                        </div>
+                        <p className="text-2xl font-bold">{stats.totalHabitCompletions || 0}</p>
+                        <p className="text-xs text-muted-foreground">last 30 days</p>
+                    </CardContent>
+                </Card>
+
+                <Card className="bg-gradient-to-br from-love/10 to-love/5">
+                    <CardContent className="p-4">
+                        <div className="flex items-center gap-2 mb-2">
+                            <Heart className="h-4 w-4 text-love" />
+                            <span className="text-xs text-muted-foreground">Top Mood</span>
+                        </div>
+                        <p className="text-lg font-bold capitalize">
+                            {mostFrequentMood?.[0] || 'N/A'}
+                        </p>
+                        <p className="text-xs text-muted-foreground">
+                            {mostFrequentMood?.[1] || 0} times
+                        </p>
+                    </CardContent>
+                </Card>
+
+                <Card className="bg-gradient-to-br from-reading/10 to-reading/5">
+                    <CardContent className="p-4">
+                        <div className="flex items-center gap-2 mb-2">
+                            <BookOpen className="h-4 w-4 text-reading" />
+                            <span className="text-xs text-muted-foreground">Books</span>
+                        </div>
+                        <p className="text-2xl font-bold">{stats.books?.completed || 0}</p>
+                        <p className="text-xs text-muted-foreground">
+                            {stats.books?.reading || 0} reading
+                        </p>
+                    </CardContent>
+                </Card>
+            </div>
+
+            {/* Detailed Analytics */}
+            <Card>
+                <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                        <BarChart3 className="h-5 w-5" />
+                        Detailed Analytics
+                    </CardTitle>
+                </CardHeader>
+                <CardContent>
+                    <Tabs defaultValue="habits">
+                        <TabsList className="grid w-full grid-cols-3">
+                            <TabsTrigger value="habits">Habits</TabsTrigger>
+                            <TabsTrigger value="moods">Moods</TabsTrigger>
+                            <TabsTrigger value="todos">Tasks</TabsTrigger>
+                        </TabsList>
+
+                        <TabsContent value="habits" className="space-y-3 mt-4">
+                            {stats.habits?.length === 0 ? (
+                                <p className="text-center text-muted-foreground py-4">
+                                    No habit data yet
+                                </p>
+                            ) : (
+                                stats.habits?.map((habit: any) => (
+                                    <div
+                                        key={habit.name}
+                                        className="flex items-center justify-between p-3 rounded-lg bg-muted/30 border"
+                                    >
+                                        <div>
+                                            <p className="font-medium">{habit.name}</p>
+                                            <div className="flex items-center gap-3 mt-1">
+                                                <span className="text-xs text-muted-foreground">
+                                                    {habit.streak} day streak
+                                                </span>
+                                                <span className="text-xs text-muted-foreground">
+                                                    {habit.completions} completions
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div className="text-right">
+                                            <p className="text-2xl font-bold text-primary">
+                                                {habit.rate}%
+                                            </p>
+                                            <p className="text-xs text-muted-foreground">
+                                                completion rate
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))
+                            )}
+                            {bestHabit && (
+                                <div className="mt-4 p-3 rounded-lg bg-success/10 border border-success/20">
+                                    <p className="text-sm font-semibold text-success">
+                                        🏆 Best Habit: {bestHabit.name} ({bestHabit.rate}% completion)
+                                    </p>
+                                </div>
+                            )}
+                        </TabsContent>
+
+                        <TabsContent value="moods" className="space-y-3 mt-4">
+                            {Object.entries(stats.moods || {}).length === 0 ? (
+                                <p className="text-center text-muted-foreground py-4">
+                                    No mood data yet
+                                </p>
+                            ) : (
+                                Object.entries(stats.moods || {})
+                                    .sort(([, a]: any, [, b]: any) => b - a)
+                                    .map(([mood, count]: any) => (
+                                        <div
+                                            key={mood}
+                                            className="flex items-center justify-between p-3 rounded-lg bg-muted/30 border"
+                                        >
+                                            <p className="font-medium capitalize">{mood}</p>
+                                            <div className="flex items-center gap-3">
+                                                <div className="h-2 w-32 bg-muted rounded-full overflow-hidden">
+                                                    <div
+                                                        className="h-full bg-primary"
+                                                        style={{
+                                                            width: `${(count / Object.values(stats.moods || {}).reduce((a: any, b: any) => a + b, 0)) * 100}%`,
+                                                        }}
+                                                    />
+                                                </div>
+                                                <span className="font-semibold w-8 text-right">
+                                                    {count}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    ))
+                            )}
+                        </TabsContent>
+
+                        <TabsContent value="todos" className="space-y-3 mt-4">
+                            {stats.todos?.length === 0 ? (
+                                <p className="text-center text-muted-foreground py-4">
+                                    No task data yet
+                                </p>
+                            ) : (
+                                stats.todos?.map((day: any) => (
+                                    <div
+                                        key={day.date}
+                                        className="flex items-center justify-between p-3 rounded-lg bg-muted/30 border"
+                                    >
+                                        <div>
+                                            <p className="font-medium">
+                                                {new Date(day.date).toLocaleDateString('en-US', {
+                                                    weekday: 'short',
+                                                    month: 'short',
+                                                    day: 'numeric',
+                                                })}
+                                            </p>
+                                            <p className="text-xs text-muted-foreground">
+                                                {day.completed}/{day.total} tasks completed
+                                            </p>
+                                        </div>
+                                        <div className="text-right">
+                                            <p className={`text-2xl font-bold ${day.rate === 100 ? 'text-success' : 'text-primary'}`}>
+                                                {day.rate}%
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))
+                            )}
+                        </TabsContent>
+                    </Tabs>
+                </CardContent>
+            </Card>
+        </div>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-btsquote-tsx"></a>📄 `src/components/BTSQuote.tsx`
+
+**File Info:**
+- **Size**: 5.2 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/BTSQuote.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:07:21 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:33 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `d5121dcba17a79b444acf8a0cd77289e`
+- **SHA256**: `0dbb8fcc18868b0bca97f69767772cc6abe74a752f37948ba39c7a58df2cb4a4`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useEffect, useState } from 'react';
+import { Heart, Sparkles, Star } from 'lucide-react';
+import { Card } from '@/components/ui/card';
+
+const btsQuotes = [
+    { quote: "I'm the one I should love in this world.", member: "RM", song: "Epiphany" },
+    { quote: "If you can't fly, then run. If you can't run, then walk.", member: "BTS", song: "Not Today" },
+    { quote: "Life is tough, and things don't always work out well, but we should be brave and go on with our lives.", member: "Suga", song: "" },
+    { quote: "Love yourself, love myself. Peace.", member: "Suga", song: "" },
+    { quote: "Dream, though your beginnings might be humble, may the end be prosperous.", member: "RM", song: "" },
+    { quote: "Even when this rain stops, when clouds go away, I stand here, just the same.", member: "BTS", song: "Forever Rain" },
+    { quote: "You can't stop me lovin' myself!", member: "BTS", song: "Idol" },
+    { quote: "Maybe I made a mistake yesterday, but yesterday's me is still me.", member: "RM", song: "" },
+    { quote: "The flower that blooms in adversity is the most rare and beautiful of all.", member: "Jin", song: "" },
+    { quote: "Life goes on.", member: "BTS", song: "Life Goes On" },
+    { quote: "Purple means I will trust and love you for a long time.", member: "V", song: "" },
+    { quote: "Teamwork makes the dream work.", member: "J-Hope", song: "" },
+    { quote: "Go on your path, even if you live for a day.", member: "Jungkook", song: "" },
+    { quote: "If you don't work hard, there won't be good results.", member: "Jimin", song: "" },
+    { quote: "Find your name, find your voice by speaking yourself.", member: "RM", song: "UN Speech" },
+];
+
+const affirmations = [
+    "You are worthy of love and happiness 💗",
+    "Today is your day to shine, bestie! ✨",
+    "You're doing amazing, sweetie! 🌸",
+    "Be kind to yourself today 💜",
+    "You are stronger than you know 💪",
+    "Sending you purple love! 보라해 💜",
+    "You're a queen and don't forget it! 👑",
+    "Your energy is beautiful today 🦋",
+    "Keep glowing, keep growing 🌷",
+    "You deserve all the good things coming your way 🎀",
+];
+
+export function BTSQuote() {
+    const [quote, setQuote] = useState(btsQuotes[0]);
+    const [affirmation, setAffirmation] = useState(affirmations[0]);
+    const [showSparkle, setShowSparkle] = useState(false);
+
+    useEffect(() => {
+        // Get a random quote based on the day
+        const today = new Date();
+        const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24));
+        setQuote(btsQuotes[dayOfYear % btsQuotes.length]);
+        setAffirmation(affirmations[dayOfYear % affirmations.length]);
+    }, []);
+
+    const handleHeartClick = () => {
+        setShowSparkle(true);
+        setTimeout(() => setShowSparkle(false), 1000);
+    };
+
+    return (
+        <Card className="relative overflow-hidden p-5 bg-gradient-to-br from-bts/10 via-primary/5 to-love/10 border-bts/20">
+            {/* Decorative elements */}
+            <div className="absolute top-2 right-2 text-2xl animate-float">💜</div>
+            <div className="absolute bottom-2 left-2 text-lg opacity-50 animate-float" style={{ animationDelay: '1s' }}>✨</div>
+
+            <div className="relative z-10">
+                <div className="flex items-center gap-2 mb-3">
+                    <div className="p-1.5 rounded-full bg-bts/20">
+                        <Star className="h-4 w-4 text-bts fill-bts/30" />
+                    </div>
+                    <span className="text-xs font-semibold text-bts uppercase tracking-wider">Daily Inspiration</span>
+                </div>
+
+                <blockquote className="text-foreground font-medium text-lg leading-relaxed mb-3">
+                    "{quote.quote}"
+                </blockquote>
+
+                <div className="flex items-center justify-between">
+                    <div className="text-sm text-muted-foreground">
+                        — {quote.member}
+                        {quote.song && <span className="text-bts/70 ml-1">• {quote.song}</span>}
+                    </div>
+                    <button
+                        onClick={handleHeartClick}
+                        className="relative p-2 rounded-full hover:bg-love/10 transition-colors"
+                    >
+                        <Heart className={`h-5 w-5 text-love ${showSparkle ? 'animate-heart-beat' : ''} fill-love/30`} />
+                        {showSparkle && (
+                            <>
+                                <Sparkles className="absolute -top-1 -right-1 h-3 w-3 text-primary animate-sparkle" />
+                                <Sparkles className="absolute -bottom-1 -left-1 h-3 w-3 text-bts animate-sparkle" style={{ animationDelay: '0.2s' }} />
+                            </>
+                        )}
+                    </button>
+                </div>
+
+                <div className="mt-4 pt-3 border-t border-bts/10">
+                    <p className="text-sm text-center text-primary font-medium">
+                        {affirmation}
+                    </p>
+                </div>
+            </div>
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-budgettracker-tsx"></a>📄 `src/components/BudgetTracker.tsx`
+
+**File Info:**
+- **Size**: 13.37 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/BudgetTracker.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 05:20:36 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:38 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `9192e98fc67a691b9798b8b6778596fc`
+- **SHA256**: `f308ee368ff12d1c1b3c749d91e35dd414e4c7cb3efe728261a547a70d6277af`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { DollarSign, Plus, TrendingDown, TrendingUp, Trash2 } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from '@/components/ui/select';
+import { expenseDb } from '@/lib/db';
+
+const categories = [
+    'Food & Dining',
+    'Shopping',
+    'Transportation',
+    'Entertainment',
+    'Bills & Utilities',
+    'Mortgage',
+    'Health & Fitness',
+    'Savings',
+    'Income',
+    'Additional Income',
+    'BTS Merch 💜',
+    'Other',
+];
+
+export function BudgetTracker() {
+    const [expenses, setExpenses] = useState<any[]>([]);
+    const [isAdding, setIsAdding] = useState(false);
+    const [amount, setAmount] = useState('');
+    const [category, setCategory] = useState('');
+    const [description, setDescription] = useState('');
+    const [type, setType] = useState<'expense' | 'income'>('expense');
+    const [loading, setLoading] = useState(true);
+
+    const today = new Date().toISOString().split('T')[0];
+    const firstDayOfMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1)
+        .toISOString()
+        .split('T')[0];
+
+    useEffect(() => {
+        loadExpenses();
+    }, []);
+
+    const loadExpenses = async () => {
+        try {
+            setLoading(true);
+            const data = await expenseDb.getByDateRange(firstDayOfMonth, today);
+            setExpenses(data || []);
+        } catch (error) {
+            console.error('Error loading expenses:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleAdd = async () => {
+        if (amount && category) {
+            try {
+                const newExpense = await expenseDb.create({
+                    date: today,
+                    category,
+                    amount: parseFloat(amount),
+                    description: description || undefined,
+                    type,
+                });
+                setExpenses([newExpense, ...expenses]);
+                setAmount('');
+                setCategory('');
+                setDescription('');
+                setIsAdding(false);
+            } catch (error) {
+                console.error('Error adding expense:', error);
+            }
+        }
+    };
+
+    const handleDelete = async (id: string) => {
+        try {
+            await expenseDb.delete(id);
+            setExpenses(expenses.filter(e => e.id !== id));
+        } catch (error) {
+            console.error('Error deleting expense:', error);
+        }
+    };
+
+    const totalIncome = expenses
+        .filter(e => e.type === 'income')
+        .reduce((sum, e) => sum + parseFloat(e.amount), 0);
+
+    const totalExpenses = expenses
+        .filter(e => e.type === 'expense')
+        .reduce((sum, e) => sum + parseFloat(e.amount), 0);
+
+    const balance = totalIncome - totalExpenses;
+
+    const expensesByCategory = expenses
+        .filter(e => e.type === 'expense')
+        .reduce((acc, e) => {
+            acc[e.category] = (acc[e.category] || 0) + parseFloat(e.amount);
+            return acc;
+        }, {} as Record<string, number>);
+
+    if (loading) {
+        return (
+            <Card variant="budget" className="animate-fade-in">
+                <CardContent className="py-8 text-center text-muted-foreground">
+                    Loading...
+                </CardContent>
+            </Card>
+        );
+    }
+
+    return (
+        <Card variant="budget" className="animate-fade-in">
+            <CardHeader className="flex flex-row items-center justify-between pb-2">
+                <div>
+                    <CardTitle className="flex items-center gap-2 text-budget">
+                        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-budget/20">
+                            <DollarSign className="h-4 w-4" />
+                        </div>
+                        Monthly Budget
+                    </CardTitle>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                        {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+                    </p>
+                </div>
+                <Button
+                    variant="budget"
+                    size="icon-sm"
+                    onClick={() => setIsAdding(!isAdding)}
+                >
+                    <Plus className="h-4 w-4" />
+                </Button>
+            </CardHeader>
+            <CardContent className="space-y-4">
+                {/* Summary Cards */}
+                <div className="grid grid-cols-3 gap-2">
+                    <div className="rounded-lg bg-success/10 p-3 border border-success/20">
+                        <div className="flex items-center gap-1 text-xs text-success mb-1">
+                            <TrendingUp className="h-3 w-3" />
+                            Income
+                        </div>
+                        <p className="text-lg font-bold text-success">
+                            ${totalIncome.toFixed(2)}
+                        </p>
+                    </div>
+                    <div className="rounded-lg bg-destructive/10 p-3 border border-destructive/20">
+                        <div className="flex items-center gap-1 text-xs text-destructive mb-1">
+                            <TrendingDown className="h-3 w-3" />
+                            Expenses
+                        </div>
+                        <p className="text-lg font-bold text-destructive">
+                            ${totalExpenses.toFixed(2)}
+                        </p>
+                    </div>
+                    <div className={`rounded-lg p-3 border ${balance >= 0 ? 'bg-primary/10 border-primary/20' : 'bg-destructive/10 border-destructive/20'}`}>
+                        <div className="text-xs text-muted-foreground mb-1">
+                            Balance
+                        </div>
+                        <p className={`text-lg font-bold ${balance >= 0 ? 'text-primary' : 'text-destructive'}`}>
+                            ${balance.toFixed(2)}
+                        </p>
+                    </div>
+                </div>
+
+                {/* Add Form */}
+                {isAdding && (
+                    <div className="space-y-2 p-3 rounded-lg bg-background/50 border border-budget/30 animate-fade-in">
+                        <div className="flex gap-2">
+                            <Button
+                                variant={type === 'expense' ? 'budget' : 'outline'}
+                                size="sm"
+                                onClick={() => setType('expense')}
+                                className="flex-1"
+                            >
+                                Expense
+                            </Button>
+                            <Button
+                                variant={type === 'income' ? 'budget' : 'outline'}
+                                size="sm"
+                                onClick={() => setType('income')}
+                                className="flex-1"
+                            >
+                                Income
+                            </Button>
+                        </div>
+                        <Input
+                            type="number"
+                            placeholder="Amount"
+                            value={amount}
+                            onChange={(e) => setAmount(e.target.value)}
+                            className="bg-background/50 border-budget/30"
+                            step="0.01"
+                        />
+                        <Select value={category} onValueChange={setCategory}>
+                            <SelectTrigger className="bg-background/50 border-budget/30">
+                                <SelectValue placeholder="Select category" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                {categories.map((cat) => (
+                                    <SelectItem key={cat} value={cat}>
+                                        {cat}
+                                    </SelectItem>
+                                ))}
+                            </SelectContent>
+                        </Select>
+                        <Input
+                            placeholder="Description (optional)"
+                            value={description}
+                            onChange={(e) => setDescription(e.target.value)}
+                            className="bg-background/50 border-budget/30"
+                        />
+                        <Button variant="budget" size="sm" onClick={handleAdd} className="w-full">
+                            Add {type === 'expense' ? 'Expense' : 'Income'}
+                        </Button>
+                    </div>
+                )}
+
+                {/* Category Breakdown */}
+                {Object.keys(expensesByCategory).length > 0 && (
+                    <div className="space-y-2">
+                        <h4 className="text-sm font-semibold text-muted-foreground">By Category</h4>
+                        {Object.entries(expensesByCategory)
+                            .sort(([, a], [, b]) => (b as number) - (a as number))
+                            .map(([cat, amount]) => (
+                                <div key={cat} className="flex items-center justify-between text-sm">
+                                    <span>{cat}</span>
+                                    <span className="font-medium">${(amount as number).toFixed(2)}</span>
+                                </div>
+                            ))}
+                    </div>
+                )}
+
+                {/* Recent Transactions */}
+                <div className="space-y-2">
+                    <h4 className="text-sm font-semibold text-muted-foreground">Recent Transactions</h4>
+                    {expenses.length === 0 ? (
+                        <p className="text-sm text-center text-muted-foreground py-4">
+                            No transactions yet this month
+                        </p>
+                    ) : (
+                        <div className="space-y-2 max-h-64 overflow-y-auto">
+                            {expenses.slice(0, 10).map((expense) => (
+                                <div
+                                    key={expense.id}
+                                    className={`group flex items-center justify-between p-2 rounded-lg border ${expense.type === 'income'
+                                        ? 'bg-success/5 border-success/20'
+                                        : 'bg-background/30 border-border/50'
+                                        }`}
+                                >
+                                    <div className="flex-1">
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-sm font-medium">
+                                                {expense.category}
+                                            </span>
+                                            {expense.type === 'income' ? (
+                                                <TrendingUp className="h-3 w-3 text-success" />
+                                            ) : (
+                                                <TrendingDown className="h-3 w-3 text-destructive" />
+                                            )}
+                                        </div>
+                                        {expense.description && (
+                                            <p className="text-xs text-muted-foreground">
+                                                {expense.description}
+                                            </p>
+                                        )}
+                                        <p className="text-xs text-muted-foreground">
+                                            {new Date(expense.date).toLocaleDateString()}
+                                        </p>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <span className={`font-semibold ${expense.type === 'income' ? 'text-success' : 'text-foreground'
+                                            }`}>
+                                            {expense.type === 'income' ? '+' : '-'}${parseFloat(expense.amount).toFixed(2)}
+                                        </span>
+                                        <Button
+                                            variant="ghost"
+                                            size="icon-sm"
+                                            className="opacity-0 group-hover:opacity-100"
+                                            onClick={() => handleDelete(expense.id)}
+                                        >
+                                            <Trash2 className="h-3 w-3 text-destructive" />
+                                        </Button>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </div>
+            </CardContent>
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-calendarview-tsx"></a>📄 `src/components/CalendarView.tsx`
+
+**File Info:**
+- **Size**: 25.01 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/CalendarView.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-07 02:32:11 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:32:36 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `1acae22a3d867f5d8c0b3ccc0f37d48f`
+- **SHA256**: `b63bd3703ccc1d2b6dc1e3d7136e46912c65702e371dcdd6e190222708efa4f3`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Plus, Edit2, Trash2, Cake, Clock, Bell, Star } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { habitDb, todoDb, journalDb, calendarDb } from '@/lib/db';
+
+export function CalendarView() {
+    const [currentDate, setCurrentDate] = useState(new Date());
+    const [selectedDate, setSelectedDate] = useState<string | null>(null);
+    const [monthData, setMonthData] = useState<any>({
+        habits: [],
+        completions: [],
+        todos: [],
+        journals: [],
+        events: [],
+    });
+    const [loading, setLoading] = useState(true);
+    const [isAddingEvent, setIsAddingEvent] = useState(false);
+    const [editingEvent, setEditingEvent] = useState<any>(null);
+    const [newEvent, setNewEvent] = useState({
+        title: '',
+        description: '',
+        category: 'other' as 'birthday' | 'appointment' | 'reminder' | 'other',
+        time: '',
+        date: '',
+    });
+
+    useEffect(() => {
+        loadMonthData();
+    }, [currentDate]);
+
+    const loadMonthData = async () => {
+        try {
+            setLoading(true);
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+
+            // Get first and last day of month
+            const firstDay = new Date(year, month, 1).toISOString().split('T')[0];
+            const lastDay = new Date(year, month + 1, 0).toISOString().split('T')[0];
+
+            // Load all data for the month
+            const [habits, journals, events] = await Promise.all([
+                habitDb.getAllHabits(),
+                journalDb.getAll(),
+                calendarDb.getByDateRange(firstDay, lastDay),
+            ]);
+
+            // Get completions for all habits in this month
+            const completions = await habitDb.getCompletionsInRange(firstDay, lastDay);
+
+            // Get all todos for each day in the month
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            const todosPromises = [];
+            for (let day = 1; day <= daysInMonth; day++) {
+                const dateStr = new Date(year, month, day).toISOString().split('T')[0];
+                todosPromises.push(todoDb.getByDate(dateStr));
+            }
+            const allTodos = await Promise.all(todosPromises);
+            const todos = allTodos.flat();
+
+            setMonthData({ habits, completions, todos, journals, events });
+        } catch (error) {
+            console.error('Error loading calendar data:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const getDaysInMonth = () => {
+        const year = currentDate.getFullYear();
+        const month = currentDate.getMonth();
+        const firstDay = new Date(year, month, 1);
+        const lastDay = new Date(year, month + 1, 0);
+
+        const daysInMonth = lastDay.getDate();
+        const startingDayOfWeek = firstDay.getDay(); // 0 = Sunday
+
+        return { daysInMonth, startingDayOfWeek };
+    };
+
+    const getDayData = (day: number) => {
+        const year = currentDate.getFullYear();
+        const month = currentDate.getMonth();
+        const dateStr = new Date(year, month, day).toISOString().split('T')[0];
+
+        const completionsCount = monthData.completions.filter((c: any) => c.date === dateStr).length;
+        const todosCount = monthData.todos.filter((t: any) => t.date === dateStr).length;
+        const todosDone = monthData.todos.filter((t: any) => t.date === dateStr && t.completed).length;
+        const hasJournal = monthData.journals.some((j: any) => j.date === dateStr);
+        const eventsCount = monthData.events.filter((e: any) => e.date === dateStr).length;
+
+        return { completionsCount, todosCount, todosDone, hasJournal, eventsCount, dateStr };
+    };
+
+    const handlePrevMonth = () => {
+        setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() - 1));
+        setSelectedDate(null);
+    };
+
+    const handleNextMonth = () => {
+        setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() + 1));
+        setSelectedDate(null);
+    };
+
+    const handleToday = () => {
+        setCurrentDate(new Date());
+        setSelectedDate(new Date().toISOString().split('T')[0]);
+    };
+
+    const handleAddEvent = async () => {
+        if (newEvent.title.trim() && newEvent.date) {
+            try {
+                await calendarDb.create({
+                    ...newEvent,
+                    description: newEvent.description || undefined,
+                    time: newEvent.time || undefined,
+                });
+                await loadMonthData();
+                setIsAddingEvent(false);
+                setNewEvent({ title: '', description: '', category: 'other', time: '', date: '' });
+            } catch (error) {
+                console.error('Error adding event:', error);
+            }
+        }
+    };
+
+    const handleDeleteEvent = async (id: string) => {
+        if (confirm('Delete this event?')) {
+            try {
+                await calendarDb.delete(id);
+                await loadMonthData();
+            } catch (error) {
+                console.error('Error deleting event:', error);
+            }
+        }
+    };
+
+    const openAddEventDialog = (dateStr: string) => {
+        setNewEvent({ ...newEvent, date: dateStr });
+        setIsAddingEvent(true);
+    };
+
+    const isToday = (day: number) => {
+        const today = new Date();
+        return (
+            day === today.getDate() &&
+            currentDate.getMonth() === today.getMonth() &&
+            currentDate.getFullYear() === today.getFullYear()
+        );
+    };
+
+    const { daysInMonth, startingDayOfWeek } = getDaysInMonth();
+    const monthName = currentDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+    const weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+    // Get selected date details
+    const selectedDateData = selectedDate ? (() => {
+        const completions = monthData.completions.filter((c: any) => c.date === selectedDate);
+        const todos = monthData.todos.filter((t: any) => t.date === selectedDate);
+        const journal = monthData.journals.find((j: any) => j.date === selectedDate);
+        const events = monthData.events.filter((e: any) => e.date === selectedDate);
+
+        return { completions, todos, journal, events };
+    })() : null;
+
+    const categoryIcons = {
+        birthday: Cake,
+        appointment: Clock,
+        reminder: Bell,
+        other: Star,
+    };
+
+    const categoryColors = {
+        birthday: 'bg-pink-500/10 text-pink-500 border-pink-500/20',
+        appointment: 'bg-blue-500/10 text-blue-500 border-blue-500/20',
+        reminder: 'bg-yellow-500/10 text-yellow-500 border-yellow-500/20',
+        other: 'bg-purple-500/10 text-purple-500 border-purple-500/20',
+    };
+
+    if (loading) {
+        return (
+            <Card>
+                <CardContent className="py-12 text-center text-muted-foreground">
+                    Loading calendar...
+                </CardContent>
+            </Card>
+        );
+    }
+
+    return (
+        <div className="space-y-6">
+            <Card>
+                <CardHeader>
+                    <div className="flex items-center justify-between">
+                        <CardTitle className="flex items-center gap-2">
+                            <CalendarIcon className="h-5 w-5" />
+                            Calendar
+                        </CardTitle>
+                        <div className="flex items-center gap-2">
+                            <Button variant="outline" size="sm" onClick={handleToday}>
+                                Today
+                            </Button>
+                            <Button variant="ghost" size="icon-sm" onClick={handlePrevMonth}>
+                                <ChevronLeft className="h-4 w-4" />
+                            </Button>
+                            <span className="text-sm font-medium min-w-[140px] text-center">
+                                {monthName}
+                            </span>
+                            <Button variant="ghost" size="icon-sm" onClick={handleNextMonth}>
+                                <ChevronRight className="h-4 w-4" />
+                            </Button>
+                        </div>
+                    </div>
+                </CardHeader>
+                <CardContent>
+                    {/* Calendar Grid */}
+                    <div className="grid grid-cols-7 gap-2">
+                        {/* Week day headers */}
+                        {weekDays.map((day) => (
+                            <div key={day} className="text-center text-xs font-medium text-muted-foreground py-2">
+                                {day}
+                            </div>
+                        ))}
+
+                        {/* Empty cells for days before month starts */}
+                        {Array.from({ length: startingDayOfWeek }).map((_, i) => (
+                            <div key={`empty-${i}`} className="aspect-square" />
+                        ))}
+
+                        {/* Calendar days */}
+                        {Array.from({ length: daysInMonth }).map((_, i) => {
+                            const day = i + 1;
+                            const { completionsCount, todosCount, todosDone, hasJournal, eventsCount, dateStr } = getDayData(day);
+                            const today = isToday(day);
+                            const isSelected = selectedDate === dateStr;
+
+                            return (
+                                <button
+                                    key={day}
+                                    onClick={() => setSelectedDate(dateStr)}
+                                    className={`aspect-square p-2 rounded-lg border transition-all hover:border-primary/50 relative ${today ? 'border-primary bg-primary/5' : 'border-border'
+                                        } ${isSelected ? 'bg-primary/10 border-primary' : ''
+                                        }`}
+                                >
+                                    <div className="flex flex-col h-full">
+                                        <span className={`text-sm font-medium ${today ? 'text-primary' : ''}`}>
+                                            {day}
+                                        </span>
+                                        {eventsCount > 0 && (
+                                            <div className="absolute top-1 right-1">
+                                                <div className="h-1.5 w-1.5 rounded-full bg-pink-500" />
+                                            </div>
+                                        )}
+                                        <div className="flex flex-col gap-0.5 mt-auto">
+                                            {completionsCount > 0 && (
+                                                <div className="h-1 w-full rounded-full bg-success" />
+                                            )}
+                                            {todosCount > 0 && (
+                                                <div className={`h-1 w-full rounded-full ${todosDone === todosCount ? 'bg-primary' : 'bg-muted'
+                                                    }`} />
+                                            )}
+                                            {hasJournal && (
+                                                <div className="h-1 w-full rounded-full bg-journal" />
+                                            )}
+                                        </div>
+                                    </div>
+                                </button>
+                            );
+                        })}
+                    </div>
+
+                    {/* Legend */}
+                    <div className="flex items-center gap-4 mt-4 pt-4 border-t text-xs flex-wrap">
+                        <div className="flex items-center gap-1">
+                            <div className="h-2 w-2 rounded-full bg-success" />
+                            <span className="text-muted-foreground">Habits</span>
+                        </div>
+                        <div className="flex items-center gap-1">
+                            <div className="h-2 w-2 rounded-full bg-primary" />
+                            <span className="text-muted-foreground">Todos</span>
+                        </div>
+                        <div className="flex items-center gap-1">
+                            <div className="h-2 w-2 rounded-full bg-journal" />
+                            <span className="text-muted-foreground">Journal</span>
+                        </div>
+                        <div className="flex items-center gap-1">
+                            <div className="h-2 w-2 rounded-full bg-pink-500" />
+                            <span className="text-muted-foreground">Events</span>
+                        </div>
+                    </div>
+                </CardContent>
+            </Card>
+
+            {/* Selected Date Details */}
+            {selectedDate && selectedDateData && (
+                <Card>
+                    <CardHeader className="flex flex-row items-center justify-between">
+                        <CardTitle className="text-lg">
+                            {new Date(selectedDate + 'T00:00:00').toLocaleDateString('en-US', {
+                                weekday: 'long',
+                                month: 'long',
+                                day: 'numeric',
+                                year: 'numeric'
+                            })}
+                        </CardTitle>
+                        <Button size="sm" onClick={() => openAddEventDialog(selectedDate)}>
+                            <Plus className="h-4 w-4 mr-1" />
+                            Add Event
+                        </Button>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                        {/* Events */}
+                        {selectedDateData.events.length > 0 && (
+                            <div>
+                                <h4 className="text-sm font-semibold mb-2">Events</h4>
+                                <div className="space-y-2">
+                                    {selectedDateData.events.map((event: any) => {
+                                        const Icon = categoryIcons[event.category as keyof typeof categoryIcons];
+                                        return (
+                                            <div
+                                                key={event.id}
+                                                className={`flex items-start justify-between p-3 rounded-lg border ${categoryColors[event.category as keyof typeof categoryColors]
+                                                    }`}
+                                            >
+                                                <div className="flex items-start gap-3 flex-1">
+                                                    <Icon className="h-4 w-4 mt-0.5" />
+                                                    <div className="flex-1">
+                                                        <div className="flex items-center gap-2">
+                                                            <span className="font-medium">{event.title}</span>
+                                                            {event.time && (
+                                                                <Badge variant="outline" className="text-xs">
+                                                                    {event.time}
+                                                                </Badge>
+                                                            )}
+                                                        </div>
+                                                        {event.description && (
+                                                            <p className="text-sm text-muted-foreground mt-1">
+                                                                {event.description}
+                                                            </p>
+                                                        )}
+                                                    </div>
+                                                </div>
+                                                <Button
+                                                    variant="ghost"
+                                                    size="icon-sm"
+                                                    onClick={() => handleDeleteEvent(event.id)}
+                                                    className="text-destructive hover:text-destructive"
+                                                >
+                                                    <Trash2 className="h-3 w-3" />
+                                                </Button>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+                        )}
+                        {/* Habits */}
+                        {selectedDateData.completions.length > 0 && (
+                            <div>
+                                <h4 className="text-sm font-semibold mb-2 flex items-center gap-2">
+                                    <div className="h-2 w-2 rounded-full bg-success" />
+                                    Habits Completed ({selectedDateData.completions.length})
+                                </h4>
+                                <div className="flex flex-wrap gap-2">
+                                    {selectedDateData.completions.map((c: any) => {
+                                        const habit = monthData.habits.find((h: any) => h.id === c.habit_id);
+                                        return habit ? (
+                                            <Badge key={c.id} variant="outline" className="bg-success/10">
+                                                {habit.name}
+                                            </Badge>
+                                        ) : null;
+                                    })}
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Todos */}
+                        {selectedDateData.todos.length > 0 && (
+                            <div>
+                                <h4 className="text-sm font-semibold mb-2 flex items-center gap-2">
+                                    <div className="h-2 w-2 rounded-full bg-primary" />
+                                    Tasks ({selectedDateData.todos.filter((t: any) => t.completed).length}/{selectedDateData.todos.length})
+                                </h4>
+                                <div className="space-y-1">
+                                    {selectedDateData.todos.map((todo: any) => (
+                                        <div key={todo.id} className="flex items-center gap-2 text-sm">
+                                            <div className={`h-1.5 w-1.5 rounded-full ${todo.completed ? 'bg-success' : 'bg-muted'
+                                                }`} />
+                                            <span className={todo.completed ? 'line-through text-muted-foreground' : ''}>
+                                                {todo.text}
+                                            </span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Journal */}
+                        {selectedDateData.journal && (
+                            <div>
+                                <h4 className="text-sm font-semibold mb-2 flex items-center gap-2">
+                                    <div className="h-2 w-2 rounded-full bg-journal" />
+                                    Journal Entry
+                                </h4>
+                                <p className="text-sm text-muted-foreground whitespace-pre-wrap">
+                                    {selectedDateData.journal.content.substring(0, 150)}
+                                    {selectedDateData.journal.content.length > 150 ? '...' : ''}
+                                </p>
+                            </div>
+                        )}
+
+                        {selectedDateData.completions.length === 0 &&
+                            selectedDateData.todos.length === 0 &&
+                            !selectedDateData.journal &&
+                            selectedDateData.events.length === 0 && (
+                                <p className="text-sm text-muted-foreground text-center py-4">
+                                    No activity on this day
+                                </p>
+                            )}
+                    </CardContent>
+                </Card>
+            )}
+
+            {/* Add Event Dialog */}
+            <Dialog open={isAddingEvent} onOpenChange={setIsAddingEvent}>
+                <DialogContent>
+                    <DialogHeader>
+                        <DialogTitle>Add Calendar Event</DialogTitle>
+                    </DialogHeader>
+                    <div className="space-y-4 mt-4">
+                        <div>
+                            <label className="text-sm font-medium mb-2 block">Event Title</label>
+                            <Input
+                                placeholder="Birthday, Doctor appointment, etc."
+                                value={newEvent.title}
+                                onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })}
+                            />
+                        </div>
+
+                        <div>
+                            <label className="text-sm font-medium mb-2 block">Category</label>
+                            <Select
+                                value={newEvent.category}
+                                onValueChange={(value: any) => setNewEvent({ ...newEvent, category: value })}
+                            >
+                                <SelectTrigger>
+                                    <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="birthday">🎂 Birthday</SelectItem>
+                                    <SelectItem value="appointment">🕐 Appointment</SelectItem>
+                                    <SelectItem value="reminder">🔔 Reminder</SelectItem>
+                                    <SelectItem value="other">⭐ Other</SelectItem>
+                                </SelectContent>
+                            </Select>
+                        </div>
+
+                        <div>
+                            <label className="text-sm font-medium mb-2 block">Time (Optional)</label>
+                            <Input
+                                type="time"
+                                value={newEvent.time}
+                                onChange={(e) => setNewEvent({ ...newEvent, time: e.target.value })}
+                            />
+                        </div>
+
+                        <div>
+                            <label className="text-sm font-medium mb-2 block">Description (Optional)</label>
+                            <Textarea
+                                placeholder="Add notes..."
+                                value={newEvent.description}
+                                onChange={(e) => setNewEvent({ ...newEvent, description: e.target.value })}
+                                className="min-h-[80px]"
+                            />
+                        </div>
+
+                        <div className="flex justify-end gap-2">
+                            <Button
+                                variant="outline"
+                                onClick={() => {
+                                    setIsAddingEvent(false);
+                                    setNewEvent({ title: '', description: '', category: 'other', time: '', date: '' });
+                                }}
+                            >
+                                Cancel
+                            </Button>
+                            <Button onClick={handleAddEvent}>
+                                Add Event
+                            </Button>
+                        </div>
+                    </div>
+                </DialogContent>
+            </Dialog>
+        </div>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-dailytodos-tsx"></a>📄 `src/components/DailyTodos.tsx`
+
+**File Info:**
+- **Size**: 6.6 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/DailyTodos.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:07:34 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 05:30:20 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `7e323d506cf32006184af55b313a8258`
+- **SHA256**: `c2a84c7cfc134135418cfac1658033a7c1323054ef1816d184a650f4f67fba13`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { ListTodo, Plus, Trash2, Check } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { todoDb } from '@/lib/db';
+
+export function DailyTodos() {
+    const [todos, setTodos] = useState<any[]>([]);
+    const [newTodoText, setNewTodoText] = useState('');
+    const [loading, setLoading] = useState(true);
+    const today = new Date().toISOString().split('T')[0];
+
+    useEffect(() => {
+        loadTodos();
+    }, [today]);
+
+    const loadTodos = async () => {
+        try {
+            setLoading(true);
+            const data = await todoDb.getByDate(today);
+            setTodos(data || []);
+        } catch (error) {
+            console.error('Error loading todos:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleAddTodo = async () => {
+        if (newTodoText.trim()) {
+            try {
+                const newTodo = await todoDb.create({
+                    date: today,
+                    text: newTodoText.trim(),
+                });
+                setTodos([...todos, newTodo]);
+                setNewTodoText('');
+            } catch (error) {
+                console.error('Error adding todo:', error);
+            }
+        }
+    };
+
+    const handleToggle = async (id: string) => {
+        try {
+            const todo = todos.find(t => t.id === id);
+            if (todo) {
+                await todoDb.update(id, { completed: !todo.completed });
+                setTodos(todos.map(t =>
+                    t.id === id ? { ...t, completed: !t.completed } : t
+                ));
+            }
+        } catch (error) {
+            console.error('Error toggling todo:', error);
+        }
+    };
+
+    const handleRemove = async (id: string) => {
+        try {
+            await todoDb.delete(id);
+            setTodos(todos.filter(t => t.id !== id));
+        } catch (error) {
+            console.error('Error removing todo:', error);
+        }
+    };
+
+    const completedCount = todos.filter(t => t.completed).length;
+    const progress = todos.length > 0 ? (completedCount / todos.length) * 100 : 0;
+
+    if (loading) {
+        return (
+            <Card className="animate-fade-in stagger-2">
+                <CardContent className="py-8 text-center text-muted-foreground">
+                    Loading...
+                </CardContent>
+            </Card>
+        );
+    }
+
+    return (
+        <Card className="animate-fade-in stagger-2">
+            <CardHeader className="pb-2">
+                <div className="flex items-center justify-between">
+                    <CardTitle className="flex items-center gap-2">
+                        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/20">
+                            <ListTodo className="h-4 w-4 text-primary" />
+                        </div>
+                        Today's Tasks
+                    </CardTitle>
+                    <span className="text-sm text-muted-foreground">
+                        {completedCount}/{todos.length}
+                    </span>
+                </div>
+                {todos.length > 0 && (
+                    <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-muted">
+                        <div
+                            className="h-full rounded-full bg-primary transition-all duration-500"
+                            style={{ width: `${progress}%` }}
+                        />
+                    </div>
+                )}
+            </CardHeader>
+            <CardContent className="space-y-3">
+                <div className="flex gap-2">
+                    <Input
+                        placeholder="Add a task..."
+                        value={newTodoText}
+                        onChange={(e) => setNewTodoText(e.target.value)}
+                        onKeyDown={(e) => e.key === 'Enter' && handleAddTodo()}
+                        className="bg-background/50"
+                    />
+                    <Button size="icon" onClick={handleAddTodo}>
+                        <Plus className="h-4 w-4" />
+                    </Button>
+                </div>
+
+                {todos.length === 0 ? (
+                    <div className="py-6 text-center text-muted-foreground">
+                        <p className="text-sm">No tasks for today yet.</p>
+                    </div>
+                ) : (
+                    <div className="space-y-2">
+                        {todos.map((todo) => (
+                            <div
+                                key={todo.id}
+                                className={`group flex items-center gap-3 rounded-lg border border-border/50 p-3 transition-all ${todo.completed ? 'bg-success/5 border-success/20' : 'bg-background/30 hover:border-primary/30'
+                                    }`}
+                            >
+                                <button
+                                    onClick={() => handleToggle(todo.id)}
+                                    className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-md border-2 transition-all ${todo.completed
+                                        ? 'border-success bg-success/20 text-success'
+                                        : 'border-border hover:border-primary'
+                                        }`}
+                                >
+                                    {todo.completed && <Check className="h-3 w-3" />}
+                                </button>
+                                <span
+                                    className={`flex-1 ${todo.completed ? 'text-muted-foreground line-through' : ''
+                                        }`}
+                                >
+                                    {todo.text}
+                                </span>
+                                <Button
+                                    variant="ghost"
+                                    size="icon-sm"
+                                    className="opacity-0 group-hover:opacity-100 text-muted-foreground hover:text-destructive"
+                                    onClick={() => handleRemove(todo.id)}
+                                >
+                                    <Trash2 className="h-3 w-3" />
+                                </Button>
+                            </div>
+                        ))}
+                    </div>
+                )}
+            </CardContent>
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-dataexport-tsx"></a>📄 `src/components/DataExport.tsx`
+
+**File Info:**
+- **Size**: 11.68 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/DataExport.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 05:21:21 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:41 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `41766943d5189a0bab45b5b8961d8754`
+- **SHA256**: `0f114398fde83dfa09f4aeb1dc1f9eaf70556d0b69d2c4e8019a01189e110368`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState } from 'react';
+import { Download, FileText, Calendar, Heart, BookOpen, CheckCircle } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { habitDb, moodDb, journalDb, bookDb, todoDb, expenseDb } from '@/lib/db';
+
+export function DataExport() {
+    const [exporting, setExporting] = useState(false);
+
+    const exportAllData = async () => {
+        try {
+            setExporting(true);
+
+            const [habits, moods, journals, books, todos, expenses] = await Promise.all([
+                habitDb.getAllHabits().then(async (habits) => {
+                    const habitsWithCompletions = await Promise.all(
+                        habits.map(async (habit) => ({
+                            ...habit,
+                            completions: await habitDb.getCompletions(habit.id),
+                        }))
+                    );
+                    return habitsWithCompletions;
+                }),
+                moodDb.getAll(),
+                journalDb.getAll(),
+                bookDb.getAll(),
+                todoDb.getByDate(new Date().toISOString().split('T')[0]), // Today's todos as example
+                expenseDb.getByDateRange(
+                    new Date(new Date().getFullYear(), 0, 1).toISOString().split('T')[0],
+                    new Date().toISOString().split('T')[0]
+                ),
+            ]);
+
+            const exportData = {
+                exportedAt: new Date().toISOString(),
+                exportedBy: 'Tracker 2026',
+                data: {
+                    habits,
+                    moods,
+                    journals,
+                    books,
+                    todos,
+                    expenses,
+                },
+                stats: {
+                    totalHabits: habits.length,
+                    totalMoods: moods.length,
+                    totalJournals: journals.length,
+                    totalBooks: books.length,
+                    totalTodos: todos.length,
+                    totalExpenses: expenses.length,
+                },
+            };
+
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], {
+                type: 'application/json',
+            });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `tracker-backup-${new Date().toISOString().split('T')[0]}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        } catch (error) {
+            console.error('Error exporting data:', error);
+        } finally {
+            setExporting(false);
+        }
+    };
+
+    const exportJournalsAsText = async () => {
+        try {
+            setExporting(true);
+            const journals = await journalDb.getAll();
+
+            let textContent = '# My Journal Entries\n\n';
+            textContent += `Exported: ${new Date().toLocaleDateString()}\n`;
+            textContent += `Total Entries: ${journals.length}\n\n`;
+            textContent += '---\n\n';
+
+            journals
+                .sort((a, b) => b.date.localeCompare(a.date))
+                .forEach((entry) => {
+                    const typeTag = entry.tags?.find((t: string) => t.startsWith('type:'));
+                    const type = typeTag ? typeTag.split(':')[1] : 'general';
+
+                    textContent += `## ${new Date(entry.date).toLocaleDateString('en-US', {
+                        weekday: 'long',
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                    })}\n\n`;
+                    textContent += `**Type:** ${type}\n\n`;
+                    textContent += `${entry.content}\n\n`;
+                    textContent += '---\n\n';
+                });
+
+            const blob = new Blob([textContent], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `journal-entries-${new Date().toISOString().split('T')[0]}.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        } catch (error) {
+            console.error('Error exporting journals:', error);
+        } finally {
+            setExporting(false);
+        }
+    };
+
+    const exportHabitReport = async () => {
+        try {
+            setExporting(true);
+            const habits = await habitDb.getAllHabits();
+
+            let report = '# Habit Tracking Report\n\n';
+            report += `Generated: ${new Date().toLocaleDateString()}\n\n`;
+
+            for (const habit of habits) {
+                const completions = await habitDb.getCompletions(habit.id);
+                const today = new Date().toISOString().split('T')[0];
+
+                // Calculate streak
+                let streak = 0;
+                const dates = completions.map(c => c.date).sort().reverse();
+                const todayDate = new Date(today);
+
+                for (let i = 0; i < 365; i++) {
+                    const checkDate = new Date(todayDate);
+                    checkDate.setDate(checkDate.getDate() - i);
+                    const dateStr = checkDate.toISOString().split('T')[0];
+
+                    if (dates.includes(dateStr)) {
+                        streak++;
+                    } else if (i > 0) {
+                        break;
+                    }
+                }
+
+                report += `## ${habit.name}\n\n`;
+                report += `- Created: ${new Date(habit.created_at).toLocaleDateString()}\n`;
+                report += `- Total Completions: ${completions.length}\n`;
+                report += `- Current Streak: ${streak} days\n`;
+                report += `- Completion Dates:\n`;
+
+                completions
+                    .sort((a, b) => b.date.localeCompare(a.date))
+                    .slice(0, 30)
+                    .forEach((c) => {
+                        report += `  - ${new Date(c.date).toLocaleDateString()}\n`;
+                    });
+
+                report += '\n';
+            }
+
+            const blob = new Blob([report], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `habit-report-${new Date().toISOString().split('T')[0]}.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        } catch (error) {
+            console.error('Error exporting habit report:', error);
+        } finally {
+            setExporting(false);
+        }
+    };
+
+    const exportReadingList = async () => {
+        try {
+            setExporting(true);
+            const books = await bookDb.getAll();
+
+            let content = '# My Reading List\n\n';
+            content += `Exported: ${new Date().toLocaleDateString()}\n`;
+            content += `Total Books: ${books.length}\n\n`;
+
+            const byStatus = {
+                want_to_read: books.filter(b => b.status === 'want_to_read'),
+                reading: books.filter(b => b.status === 'reading'),
+                completed: books.filter(b => b.status === 'completed'),
+            };
+
+            Object.entries(byStatus).forEach(([status, bookList]) => {
+                content += `## ${status.replace('_', ' ').toUpperCase()}\n\n`;
+                if (bookList.length === 0) {
+                    content += 'None\n\n';
+                } else {
+                    bookList.forEach((book) => {
+                        content += `- **${book.title}**\n`;
+                        if (book.author) content += `  Author: ${book.author}\n`;
+                        if (book.started_date) content += `  Started: ${new Date(book.started_date).toLocaleDateString()}\n`;
+                        if (book.completed_date) content += `  Completed: ${new Date(book.completed_date).toLocaleDateString()}\n`;
+                        if (book.notes) content += `  Notes: ${book.notes}\n`;
+                        content += '\n';
+                    });
+                }
+            });
+
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `reading-list-${new Date().toISOString().split('T')[0]}.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        } catch (error) {
+            console.error('Error exporting reading list:', error);
+        } finally {
+            setExporting(false);
+        }
+    };
+
+    return (
+        <Card>
+            <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                    <Download className="h-5 w-5" />
+                    Export Your Data
+                </CardTitle>
+                <p className="text-sm text-muted-foreground">
+                    Download your data for backup or to use elsewhere
+                </p>
+            </CardHeader>
+            <CardContent className="grid gap-3">
+                <Button
+                    variant="outline"
+                    className="w-full justify-start"
+                    onClick={exportAllData}
+                    disabled={exporting}
+                >
+                    <FileText className="h-4 w-4 mr-2" />
+                    Export All Data (JSON)
+                    <span className="ml-auto text-xs text-muted-foreground">
+                        Complete backup
+                    </span>
+                </Button>
+
+                <Button
+                    variant="outline"
+                    className="w-full justify-start"
+                    onClick={exportJournalsAsText}
+                    disabled={exporting}
+                >
+                    <Heart className="h-4 w-4 mr-2" />
+                    Export Journal Entries
+                    <span className="ml-auto text-xs text-muted-foreground">
+                        Text format
+                    </span>
+                </Button>
+
+                <Button
+                    variant="outline"
+                    className="w-full justify-start"
+                    onClick={exportHabitReport}
+                    disabled={exporting}
+                >
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                    Export Habit Report
+                    <span className="ml-auto text-xs text-muted-foreground">
+                        With stats
+                    </span>
+                </Button>
+
+                <Button
+                    variant="outline"
+                    className="w-full justify-start"
+                    onClick={exportReadingList}
+                    disabled={exporting}
+                >
+                    <BookOpen className="h-4 w-4 mr-2" />
+                    Export Reading List
+                    <span className="ml-auto text-xs text-muted-foreground">
+                        All books
+                    </span>
+                </Button>
+
+                {exporting && (
+                    <p className="text-sm text-center text-muted-foreground mt-2">
+                        Preparing export...
+                    </p>
+                )}
+            </CardContent>
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-dateheader-tsx"></a>📄 `src/components/DateHeader.tsx`
+
+**File Info:**
+- **Size**: 2.81 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/DateHeader.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:07:42 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:45 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `2ba586132339d7dcc013803119eb2e8d`
+- **SHA256**: `d00beaaffd39686a70aa06044d0dcb69da26ba759795dea354217080ba892cac`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { Calendar, Settings } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+export function DateHeader() {
+    const now = new Date();
+    const dayOfWeek = now.toLocaleDateString('en-US', { weekday: 'long' });
+    const monthDay = now.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+    const year = now.getFullYear();
+
+    // Calculate days remaining in 2026
+    const endOf2026 = new Date(2026, 11, 31);
+    const startOf2026 = new Date(2026, 0, 1);
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+    const daysRemaining = Math.max(0, Math.ceil((endOf2026.getTime() - today.getTime()) / (1000 * 60 * 60 * 24)));
+    const totalDays = 365;
+    const daysPassed = Math.max(0, Math.ceil((today.getTime() - startOf2026.getTime()) / (1000 * 60 * 60 * 24)));
+    const progressPercent = year >= 2026 ? Math.min(100, (daysPassed / totalDays) * 100) : 0;
+
+    return (
+        <header className="mb-8 animate-fade-in">
+            <div className="flex items-start justify-between">
+                <div>
+                    <div className="flex items-center gap-2 text-muted-foreground mb-1">
+                        <Calendar className="h-4 w-4" />
+                        <span className="text-sm font-medium">{dayOfWeek}</span>
+                    </div>
+                    <h1 className="text-4xl font-bold tracking-tight">
+                        {monthDay}
+                    </h1>
+                    <p className="text-muted-foreground mt-1">
+                        {year === 2026 ? (
+                            <>
+                                <span className="text-primary font-medium">{daysRemaining}</span> days remaining in 2026
+                            </>
+                        ) : (
+                            <span>Tracker 2026</span>
+                        )}
+                    </p>
+                </div>
+                <Button variant="ghost" size="icon">
+                    <Settings className="h-5 w-5" />
+                </Button>
+            </div>
+
+            {year === 2026 && (
+                <div className="mt-4">
+                    <div className="flex items-center justify-between text-xs text-muted-foreground mb-1">
+                        <span>Year Progress</span>
+                        <span>{Math.round(progressPercent)}%</span>
+                    </div>
+                    <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
+                        <div
+                            className="h-full rounded-full bg-gradient-to-r from-primary/80 to-primary transition-all duration-1000"
+                            style={{ width: `${progressPercent}%` }}
+                        />
+                    </div>
+                </div>
+            )}
+        </header>
+    );
+}
+
+```
+
+---
+
+### <a id="📄-src-components-habittracker-tsx"></a>📄 `src/components/HabitTracker.tsx`
+
+**File Info:**
+- **Size**: 17.04 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/HabitTracker.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:07:46 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:50 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `66904b4b246416b68be63092dd0d057c`
+- **SHA256**: `b9df6d8fbcfd9b5141844b4bdc85b1234abc4cc797b76acd7bce7ccc71d98ed1`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { Check, X, Plus, Trash2, Flame } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { habitDb } from '@/lib/db';
+
+export function HabitTracker() {
+    const [habits, setHabits] = useState<any[]>([]);
+    const [completions, setCompletions] = useState<any[]>([]);
+    const [newHabitName, setNewHabitName] = useState('');
+    const [newHabitFrequency, setNewHabitFrequency] = useState<'daily' | 'weekly' | 'monthly'>('daily');
+    const [newHabitTarget, setNewHabitTarget] = useState('1');
+    const [isAdding, setIsAdding] = useState(false);
+    const [loading, setLoading] = useState(true);
+    const today = new Date().toISOString().split('T')[0];
+
+    useEffect(() => {
+        loadData();
+    }, []);
+
+    const loadData = async () => {
+        try {
+            setLoading(true);
+            const habitsData = await habitDb.getAllHabits();
+            setHabits(habitsData || []);
+
+            // Get completions for all habits for the last 30 days
+            const thirtyDaysAgo = new Date();
+            thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+            const startDate = thirtyDaysAgo.toISOString().split('T')[0];
+
+            const completionsData = await Promise.all(
+                (habitsData || []).map((h: any) => habitDb.getCompletions(h.id, startDate, today))
+            ).then(results => results.flat());
+
+            setCompletions(completionsData || []);
+        } catch (error) {
+            console.error('Error loading habits:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleAddHabit = async () => {
+        if (newHabitName.trim()) {
+            try {
+                const habit = await habitDb.createHabit({
+                    name: newHabitName.trim(),
+                    frequency: newHabitFrequency,
+                    target_count: parseInt(newHabitTarget) || 1,
+                });
+                setHabits([...habits, habit]);
+                setNewHabitName('');
+                setNewHabitFrequency('daily');
+                setNewHabitTarget('1');
+                setIsAdding(false);
+            } catch (error) {
+                console.error('Error adding habit:', error);
+            }
+        }
+    };
+
+    const handleRemoveHabit = async (id: string) => {
+        try {
+            await habitDb.archiveHabit(id);
+            setHabits(habits.filter(h => h.id !== id));
+        } catch (error) {
+            console.error('Error removing habit:', error);
+        }
+    };
+
+    const handleToggle = async (habitId: string) => {
+        try {
+            await habitDb.toggleCompletion(habitId, today);
+            // Reload completions
+            const updatedCompletions = await habitDb.getCompletions(habitId);
+            setCompletions(prev => [
+                ...prev.filter(c => c.habit_id !== habitId),
+                ...updatedCompletions
+            ]);
+        } catch (error) {
+            console.error('Error toggling habit:', error);
+        }
+    };
+
+    const getHabitStatus = (habitId: string, date: string): 'completed' | 'missed' | 'pending' | 'locked' => {
+        const completion = completions.find(c => c.habit_id === habitId && c.date === date);
+        const dateObj = new Date(date);
+        const todayObj = new Date(today);
+
+        if (date === today) {
+            return completion ? 'completed' : 'pending';
+        }
+
+        if (dateObj < todayObj) {
+            return completion ? 'completed' : 'missed';
+        }
+
+        return 'locked';
+    };
+
+    const getStreak = (habitId: string): number => {
+        const habitCompletions = completions
+            .filter(c => c.habit_id === habitId)
+            .map(c => c.date)
+            .sort()
+            .reverse();
+
+        if (habitCompletions.length === 0) return 0;
+
+        let streak = 0;
+        const todayDate = new Date(today);
+
+        for (let i = 0; i < 365; i++) {
+            const checkDate = new Date(todayDate);
+            checkDate.setDate(checkDate.getDate() - i);
+            const dateStr = checkDate.toISOString().split('T')[0];
+
+            if (habitCompletions.includes(dateStr)) {
+                streak++;
+            } else if (i > 0) {
+                break;
+            }
+        }
+
+        return streak;
+    };
+
+    const getCompletionRate = (habitId: string): number => {
+        const habit = habits.find(h => h.id === habitId);
+        if (!habit) return 0;
+
+        const createdDate = new Date(habit.created_at).toISOString().split('T')[0];
+        const todayDate = new Date(today);
+        const startDate = new Date(createdDate);
+
+        const daysSinceCreation = Math.floor((todayDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24)) + 1;
+        const completedDays = completions.filter(c => c.habit_id === habitId).length;
+
+        return Math.round((completedDays / Math.max(daysSinceCreation, 1)) * 100);
+    };
+
+    const getLast7Days = () => {
+        const days = [];
+        for (let i = 6; i >= 0; i--) {
+            const date = new Date();
+            date.setDate(date.getDate() - i);
+            days.push(date.toISOString().split('T')[0]);
+        }
+        return days;
+    };
+
+    const formatDayLabel = (dateStr: string) => {
+        const date = new Date(dateStr);
+        return date.toLocaleDateString('en-US', { weekday: 'short' }).charAt(0);
+    };
+
+    const completedToday = habits.filter(h => getHabitStatus(h.id, today) === 'completed').length;
+    const totalHabits = habits.length;
+
+    if (loading) {
+        return (
+            <Card variant="habit" className="animate-fade-in">
+                <CardContent className="py-8 text-center text-muted-foreground">
+                    Loading...
+                </CardContent>
+            </Card>
+        );
+    }
+
+    return (
+        <Card variant="habit" className="animate-fade-in">
+            <CardHeader className="flex flex-row items-center justify-between pb-2">
+                <div>
+                    <CardTitle className="flex items-center gap-2 text-habit">
+                        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-habit/20">
+                            <Check className="h-4 w-4" />
+                        </div>
+                        Today's Habits
+                    </CardTitle>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                        {completedToday} of {totalHabits} completed
+                    </p>
+                </div>
+                <Button
+                    variant="habit"
+                    size="icon-sm"
+                    onClick={() => setIsAdding(!isAdding)}
+                >
+                    <Plus className="h-4 w-4" />
+                </Button>
+            </CardHeader>
+            <CardContent className="space-y-3">
+                {isAdding && (
+                    <div className="space-y-3 animate-fade-in p-3 rounded-lg bg-background/50 border border-habit/30">
+                        <Input
+                            placeholder="New habit name..."
+                            value={newHabitName}
+                            onChange={(e) => setNewHabitName(e.target.value)}
+                            onKeyDown={(e) => e.key === 'Enter' && handleAddHabit()}
+                            className="bg-background/50 border-habit/30 focus:border-habit"
+                            autoFocus
+                        />
+
+                        <div className="flex gap-2">
+                            <Button
+                                variant={newHabitFrequency === 'daily' ? 'habit' : 'outline'}
+                                size="sm"
+                                onClick={() => setNewHabitFrequency('daily')}
+                                className="flex-1"
+                            >
+                                Daily
+                            </Button>
+                            <Button
+                                variant={newHabitFrequency === 'weekly' ? 'habit' : 'outline'}
+                                size="sm"
+                                onClick={() => setNewHabitFrequency('weekly')}
+                                className="flex-1"
+                            >
+                                Weekly
+                            </Button>
+                            <Button
+                                variant={newHabitFrequency === 'monthly' ? 'habit' : 'outline'}
+                                size="sm"
+                                onClick={() => setNewHabitFrequency('monthly')}
+                                className="flex-1"
+                            >
+                                Monthly
+                            </Button>
+                        </div>
+
+                        {(newHabitFrequency === 'weekly' || newHabitFrequency === 'monthly') && (
+                            <div className="flex items-center gap-2">
+                                <span className="text-sm text-muted-foreground">Target:</span>
+                                <Input
+                                    type="number"
+                                    min="1"
+                                    max={newHabitFrequency === 'weekly' ? '7' : '31'}
+                                    value={newHabitTarget}
+                                    onChange={(e) => setNewHabitTarget(e.target.value)}
+                                    className="w-20 bg-background/50 border-habit/30"
+                                />
+                                <span className="text-sm text-muted-foreground">
+                                    times per {newHabitFrequency === 'weekly' ? 'week' : 'month'}
+                                </span>
+                            </div>
+                        )}
+
+                        <Button variant="habit" size="sm" onClick={handleAddHabit} className="w-full">
+                            Add Habit
+                        </Button>
+                    </div>
+                )}
+
+                {habits.length === 0 ? (
+                    <div className="py-8 text-center text-muted-foreground">
+                        <p>No habits yet. Add your first habit above!</p>
+                    </div>
+                ) : (
+                    <div className="space-y-2">
+                        {habits.map((habit) => {
+                            const status = getHabitStatus(habit.id, today);
+                            const streak = getStreak(habit.id);
+                            const rate = getCompletionRate(habit.id);
+                            const last7Days = getLast7Days();
+
+                            return (
+                                <div
+                                    key={habit.id}
+                                    className="group rounded-lg border border-border/50 bg-background/30 p-3 transition-all hover:border-habit/30"
+                                >
+                                    <div className="flex items-center justify-between">
+                                        <div className="flex items-center gap-3 flex-1">
+                                            <button
+                                                onClick={() => handleToggle(habit.id)}
+                                                disabled={status === 'locked'}
+                                                className={`flex h-8 w-8 items-center justify-center rounded-lg border-2 transition-all duration-200 ${status === 'completed'
+                                                    ? 'border-success bg-success/20 text-success animate-check'
+                                                    : status === 'pending'
+                                                        ? 'border-border hover:border-habit hover:bg-habit/10 cursor-pointer'
+                                                        : status === 'missed'
+                                                            ? 'border-destructive/50 bg-destructive/10 text-destructive'
+                                                            : 'border-border/30 bg-muted/20 cursor-not-allowed'
+                                                    }`}
+                                            >
+                                                {status === 'completed' && <Check className="h-4 w-4" />}
+                                                {status === 'missed' && <X className="h-3 w-3" />}
+                                            </button>
+                                            <div className="flex-1">
+                                                <span className={`font-medium ${status === 'completed' ? 'text-success' : ''}`}>
+                                                    {habit.name}
+                                                </span>
+                                                <div className="flex items-center gap-3 mt-1">
+                                                    {habit.frequency === 'daily' && streak > 0 && (
+                                                        <span className="flex items-center gap-1 text-xs text-primary">
+                                                            <Flame className="h-3 w-3" />
+                                                            {streak} day streak
+                                                        </span>
+                                                    )}
+                                                    <span className="text-xs text-muted-foreground capitalize">
+                                                        {habit.frequency}
+                                                        {habit.frequency !== 'daily' && ` (${habit.target_count}x)`}
+                                                    </span>
+                                                    <span className="text-xs text-muted-foreground">
+                                                        {rate}% overall
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="flex items-center gap-1 mr-2">
+                                            {last7Days.map((date) => {
+                                                const dayStatus = getHabitStatus(habit.id, date);
+                                                return (
+                                                    <div
+                                                        key={date}
+                                                        className="flex flex-col items-center"
+                                                        title={date}
+                                                    >
+                                                        <span className="text-[10px] text-muted-foreground mb-0.5">
+                                                            {formatDayLabel(date)}
+                                                        </span>
+                                                        <div
+                                                            className={`h-4 w-4 rounded-sm ${dayStatus === 'completed'
+                                                                ? 'bg-success'
+                                                                : dayStatus === 'missed'
+                                                                    ? 'bg-destructive/50'
+                                                                    : dayStatus === 'pending'
+                                                                        ? 'bg-muted border border-dashed border-habit/50'
+                                                                        : 'bg-muted/30'
+                                                                }`}
+                                                        />
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+
+                                        <Button
+                                            variant="ghost"
+                                            size="icon-sm"
+                                            className="opacity-0 group-hover:opacity-100 text-muted-foreground hover:text-destructive"
+                                            onClick={() => handleRemoveHabit(habit.id)}
+                                        >
+                                            <Trash2 className="h-3 w-3" />
+                                        </Button>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                )}
+            </CardContent>
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-journalhistory-tsx"></a>📄 `src/components/JournalHistory.tsx`
+
+**File Info:**
+- **Size**: 10.49 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/JournalHistory.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-06 05:02:21 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:52 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `c0d4ab2871e2413ab725a50e4871509a`
+- **SHA256**: `8e680e0a177b6c2224ca5eb3d48d04b49e2bb532fe84829041e83c56748782df`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { Calendar, Search, Edit2, Trash2, X } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { journalDb } from '@/lib/db';
+
+export function JournalHistory() {
+    const [entries, setEntries] = useState<any[]>([]);
+    const [filteredEntries, setFilteredEntries] = useState<any[]>([]);
+    const [searchTerm, setSearchTerm] = useState('');
+    const [editingEntry, setEditingEntry] = useState<any | null>(null);
+    const [editContent, setEditContent] = useState('');
+    const [loading, setLoading] = useState(true);
+    const [isDialogOpen, setIsDialogOpen] = useState(false);
+
+    useEffect(() => {
+        loadEntries();
+    }, []);
+
+    useEffect(() => {
+        if (searchTerm.trim()) {
+            const filtered = entries.filter(entry =>
+                entry.content.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                entry.date.includes(searchTerm) ||
+                entry.tags?.some((tag: string) => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+            );
+            setFilteredEntries(filtered);
+        } else {
+            setFilteredEntries(entries);
+        }
+    }, [searchTerm, entries]);
+
+    const loadEntries = async () => {
+        try {
+            setLoading(true);
+            const data = await journalDb.getAll();
+            setEntries(data || []);
+            setFilteredEntries(data || []);
+        } catch (error) {
+            console.error('Error loading journal entries:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleEdit = (entry: any) => {
+        setEditingEntry(entry);
+        setEditContent(entry.content);
+        setIsDialogOpen(true);
+    };
+
+    const handleSaveEdit = async () => {
+        if (editingEntry && editContent.trim()) {
+            try {
+                await journalDb.update(editingEntry.id, { content: editContent.trim() });
+                await loadEntries();
+                setIsDialogOpen(false);
+                setEditingEntry(null);
+                setEditContent('');
+            } catch (error) {
+                console.error('Error updating entry:', error);
+            }
+        }
+    };
+
+    const handleDelete = async (id: string) => {
+        if (confirm('Are you sure you want to delete this journal entry?')) {
+            try {
+                await journalDb.delete(id);
+                await loadEntries();
+            } catch (error) {
+                console.error('Error deleting entry:', error);
+            }
+        }
+    };
+
+    const getEntryType = (entry: any) => {
+        const typeTag = entry.tags?.find((t: string) => t.startsWith('type:'));
+        return typeTag ? typeTag.split(':')[1] : 'general';
+    };
+
+    const getMoodRating = (entry: any) => {
+        const moodTag = entry.tags?.find((t: string) => t.startsWith('mood-rating:'));
+        return moodTag ? parseInt(moodTag.split(':')[1]) : null;
+    };
+
+    const formatDate = (dateStr: string) => {
+        return new Date(dateStr).toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    };
+
+    if (loading) {
+        return (
+            <Card variant="journal">
+                <CardContent className="py-8 text-center text-muted-foreground">
+                    Loading journal entries...
+                </CardContent>
+            </Card>
+        );
+    }
+
+    return (
+        <Card variant="journal" className="animate-fade-in">
+            <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-journal">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-journal/20">
+                        <Calendar className="h-4 w-4" />
+                    </div>
+                    Journal History
+                </CardTitle>
+                <div className="flex items-center gap-2 mt-3">
+                    <div className="relative flex-1">
+                        <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                        <Input
+                            placeholder="Search entries..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                            className="pl-10 bg-background/50 border-journal/30"
+                        />
+                    </div>
+                </div>
+            </CardHeader>
+            <CardContent className="space-y-3">
+                {filteredEntries.length === 0 ? (
+                    <div className="py-8 text-center text-muted-foreground">
+                        <p className="text-sm">
+                            {searchTerm ? 'No entries found matching your search.' : 'No journal entries yet. Start writing!'}
+                        </p>
+                    </div>
+                ) : (
+                    <div className="space-y-3 max-h-[600px] overflow-y-auto pr-2">
+                        {filteredEntries.map((entry) => {
+                            const type = getEntryType(entry);
+                            const moodRating = getMoodRating(entry);
+
+                            return (
+                                <div
+                                    key={entry.id}
+                                    className="group p-4 rounded-lg border border-journal/30 bg-background/30 hover:bg-journal/5 transition-all"
+                                >
+                                    <div className="flex items-start justify-between mb-2">
+                                        <div className="flex-1">
+                                            <div className="flex items-center gap-2 mb-1">
+                                                <span className="text-sm font-semibold text-journal">
+                                                    {formatDate(entry.date)}
+                                                </span>
+                                                <span className="text-xs px-2 py-0.5 rounded-full bg-journal/20 text-journal capitalize">
+                                                    {type}
+                                                </span>
+                                                {moodRating && (
+                                                    <span className="text-xs px-2 py-0.5 rounded-full bg-primary/20 text-primary">
+                                                        Mood: {moodRating}/5
+                                                    </span>
+                                                )}
+                                            </div>
+                                        </div>
+                                        <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                            <Button
+                                                variant="ghost"
+                                                size="icon-sm"
+                                                onClick={() => handleEdit(entry)}
+                                            >
+                                                <Edit2 className="h-3 w-3" />
+                                            </Button>
+                                            <Button
+                                                variant="ghost"
+                                                size="icon-sm"
+                                                onClick={() => handleDelete(entry.id)}
+                                                className="text-destructive hover:text-destructive"
+                                            >
+                                                <Trash2 className="h-3 w-3" />
+                                            </Button>
+                                        </div>
+                                    </div>
+                                    <p className="text-sm text-foreground whitespace-pre-wrap">
+                                        {entry.content}
+                                    </p>
+                                </div>
+                            );
+                        })}
+                    </div>
+                )}
+
+                {/* Edit Dialog */}
+                <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+                    <DialogContent>
+                        <DialogHeader>
+                            <DialogTitle>Edit Journal Entry</DialogTitle>
+                        </DialogHeader>
+                        <div className="space-y-4 mt-4">
+                            <div>
+                                <p className="text-sm text-muted-foreground mb-2">
+                                    {editingEntry && formatDate(editingEntry.date)}
+                                </p>
+                                <Textarea
+                                    value={editContent}
+                                    onChange={(e) => setEditContent(e.target.value)}
+                                    className="min-h-[200px] bg-background/50"
+                                    placeholder="Write your thoughts..."
+                                />
+                            </div>
+                            <div className="flex justify-end gap-2">
+                                <Button
+                                    variant="outline"
+                                    onClick={() => {
+                                        setIsDialogOpen(false);
+                                        setEditingEntry(null);
+                                        setEditContent('');
+                                    }}
+                                >
+                                    Cancel
+                                </Button>
+                                <Button variant="journal" onClick={handleSaveEdit}>
+                                    Save Changes
+                                </Button>
+                            </div>
+                        </div>
+                    </DialogContent>
+                </Dialog>
+            </CardContent>
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-moodboard-tsx"></a>📄 `src/components/MoodBoard.tsx`
+
+**File Info:**
+- **Size**: 5.35 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/MoodBoard.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:07:54 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 04:40:17 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `8ae019e061b1b4af7445f858cfcff3ba`
+- **SHA256**: `581d63eb55a7b69680019216c5710752c3c1a002148aafa3296ddf21d1b7068b`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { Sparkles, Heart, Cloud, Sun, Moon, Star, Flower2, Music } from 'lucide-react';
+import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { moodDb } from '@/lib/db';
+
+const moodOptions = [
+    { mood: 'happy', emoji: '🥰', label: 'Happy', icon: Sun, color: 'bg-calendar/20 text-calendar border-calendar/30' },
+    { mood: 'peaceful', emoji: '😌', label: 'Peaceful', icon: Cloud, color: 'bg-accent/20 text-accent border-accent/30' },
+    { mood: 'excited', emoji: '🤩', label: 'Excited', icon: Sparkles, color: 'bg-love/20 text-love border-love/30' },
+    { mood: 'loved', emoji: '💜', label: 'Loved', icon: Heart, color: 'bg-bts/20 text-bts border-bts/30' },
+    { mood: 'creative', emoji: '✨', label: 'Creative', icon: Star, color: 'bg-primary/20 text-primary border-primary/30' },
+    { mood: 'cozy', emoji: '🌸', label: 'Cozy', icon: Flower2, color: 'bg-secondary/40 text-secondary-foreground border-secondary/50' },
+    { mood: 'dreamy', emoji: '🌙', label: 'Dreamy', icon: Moon, color: 'bg-journal/20 text-journal border-journal/30' },
+    { mood: 'inspired', emoji: '🎵', label: 'BTS Mode', icon: Music, color: 'bg-bts/20 text-bts border-bts/30' },
+];
+
+export function MoodBoard() {
+    const [selectedMood, setSelectedMood] = useState<string | null>(null);
+    const [showConfetti, setShowConfetti] = useState(false);
+    const [loading, setLoading] = useState(true);
+    const today = new Date().toISOString().split('T')[0];
+
+    useEffect(() => {
+        loadMood();
+    }, [today]);
+
+    const loadMood = async () => {
+        try {
+            setLoading(true);
+            const mood = await moodDb.getByDate(today);
+            if (mood) {
+                setSelectedMood(mood.mood);
+            }
+        } catch (error) {
+            console.error('Error loading mood:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleMoodSelect = async (mood: string) => {
+        try {
+            setSelectedMood(mood);
+            setShowConfetti(true);
+
+            const existingMood = await moodDb.getByDate(today);
+
+            if (existingMood) {
+                await moodDb.update(existingMood.id, { mood });
+            } else {
+                await moodDb.create({ date: today, mood });
+            }
+
+            setTimeout(() => setShowConfetti(false), 1500);
+        } catch (error) {
+            console.error('Error saving mood:', error);
+        }
+    };
+
+    if (loading) {
+        return (
+            <Card className="p-5 relative overflow-hidden bg-gradient-to-br from-card via-card to-secondary/20 border-primary/10">
+                <div className="py-8 text-center text-muted-foreground">
+                    Loading...
+                </div>
+            </Card>
+        );
+    }
+
+    return (
+        <Card className="p-5 relative overflow-hidden bg-gradient-to-br from-card via-card to-secondary/20 border-primary/10">
+            {showConfetti && (
+                <div className="absolute inset-0 pointer-events-none z-20">
+                    {[...Array(12)].map((_, i) => (
+                        <span
+                            key={i}
+                            className="absolute animate-sparkle text-lg"
+                            style={{
+                                left: `${Math.random() * 100}%`,
+                                top: `${Math.random() * 100}%`,
+                                animationDelay: `${Math.random() * 0.5}s`,
+                            }}
+                        >
+                            {['💜', '✨', '💗', '🦋', '🌸', '⭐'][i % 6]}
+                        </span>
+                    ))}
+                </div>
+            )}
+
+            <div className="flex items-center gap-2 mb-4">
+                <div className="p-1.5 rounded-full bg-love/20">
+                    <Heart className="h-4 w-4 text-love fill-love/30" />
+                </div>
+                <h3 className="font-semibold text-foreground">How are you feeling?</h3>
+            </div>
+
+            <div className="grid grid-cols-4 gap-2">
+                {moodOptions.map(({ mood, emoji, label, color }) => (
+                    <Button
+                        key={mood}
+                        variant="outline"
+                        onClick={() => handleMoodSelect(mood)}
+                        className={`h-auto flex-col gap-1 py-3 transition-all ${selectedMood === mood
+                            ? `${color} scale-105 glow-primary`
+                            : 'border-border/50 hover:border-primary/50 hover:bg-primary/5'
+                            }`}
+                    >
+                        <span className="text-xl">{emoji}</span>
+                        <span className="text-[10px] font-medium">{label}</span>
+                    </Button>
+                ))}
+            </div>
+
+            {selectedMood && (
+                <div className="mt-4 p-3 rounded-xl bg-primary/10 border border-primary/20 text-center animate-fade-in">
+                    <p className="text-sm text-primary font-medium">
+                        Feeling {moodOptions.find(m => m.mood === selectedMood)?.label.toLowerCase()}? You're glowing! ✨
+                    </p>
+                </div>
+            )}
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-navigation-tsx"></a>📄 `src/components/Navigation.tsx`
+
+**File Info:**
+- **Size**: 7.11 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/Navigation.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:08:00 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:55 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `8286bf6390c7efc4bac97866afc9e9ca`
+- **SHA256**: `fcb7b105a0fd92c320bf42d7900040cedcf73ec99c7a902ef746588a5b7ce87b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState } from 'react';
+import {
+    LayoutDashboard,
+    CheckSquare,
+    BookOpen,
+    Calendar,
+    PiggyBank,
+    PenLine,
+    Menu,
+    X,
+    BarChart3,
+    Settings
+} from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+type Section = 'dashboard' | 'habits' | 'journal' | 'calendar' | 'reading' | 'budget' | 'analytics' | 'settings';
+
+interface NavigationProps {
+    activeSection: Section;
+    onSectionChange: (section: Section) => void;
+}
+
+const navItems: { section: Section; label: string; icon: typeof LayoutDashboard; color: string }[] = [
+    { section: 'dashboard', label: 'Dashboard', icon: LayoutDashboard, color: 'text-primary' },
+    { section: 'habits', label: 'Habits', icon: CheckSquare, color: 'text-habit' },
+    { section: 'journal', label: 'Journal', icon: PenLine, color: 'text-journal' },
+    { section: 'reading', label: 'Reading', icon: BookOpen, color: 'text-reading' },
+    { section: 'budget', label: 'Budget', icon: PiggyBank, color: 'text-budget' },
+    { section: 'analytics', label: 'Analytics', icon: BarChart3, color: 'text-accent' },
+    { section: 'calendar', label: 'Calendar', icon: Calendar, color: 'text-calendar' },
+    { section: 'settings', label: 'Settings', icon: Settings, color: 'text-muted-foreground' },
+];
+
+export function Navigation({ activeSection, onSectionChange }: NavigationProps) {
+    const [isOpen, setIsOpen] = useState(false);
+
+    return (
+        <>
+            {/* Mobile toggle */}
+            <Button
+                variant="ghost"
+                size="icon"
+                className="fixed top-4 left-4 z-50 md:hidden"
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </Button>
+
+            {/* Desktop sidebar */}
+            <nav className="hidden md:flex fixed left-0 top-0 h-full w-20 flex-col items-center gap-2 bg-sidebar border-r border-sidebar-border py-6 overflow-y-auto">
+                <div className="mb-6">
+                    <div className="h-10 w-10 rounded-xl bg-primary flex items-center justify-center text-primary-foreground font-bold">
+                        T
+                    </div>
+                </div>
+
+                {navItems.map(({ section, label, icon: Icon, color }) => (
+                    <button
+                        key={section}
+                        onClick={() => onSectionChange(section)}
+                        className={`group flex flex-col items-center gap-1 rounded-xl p-3 transition-all ${activeSection === section
+                            ? 'bg-sidebar-accent'
+                            : 'hover:bg-sidebar-accent/50'
+                            }`}
+                        title={label}
+                    >
+                        <Icon
+                            className={`h-5 w-5 transition-colors ${activeSection === section ? color : 'text-muted-foreground group-hover:text-foreground'
+                                }`}
+                        />
+                        <span
+                            className={`text-[10px] font-medium ${activeSection === section ? 'text-foreground' : 'text-muted-foreground'
+                                }`}
+                        >
+                            {label}
+                        </span>
+                    </button>
+                ))}
+            </nav>
+
+            {/* Mobile bottom nav - show main 5 items */}
+            <nav className="fixed bottom-0 left-0 right-0 z-40 flex items-center justify-around border-t border-border bg-background/95 backdrop-blur-lg py-2 px-4 md:hidden safe-area-pb">
+                {navItems.slice(0, 5).map(({ section, label, icon: Icon, color }) => (
+                    <button
+                        key={section}
+                        onClick={() => onSectionChange(section)}
+                        className={`flex flex-col items-center gap-0.5 p-2 rounded-lg transition-all ${activeSection === section ? 'bg-secondary' : ''
+                            }`}
+                    >
+                        <Icon
+                            className={`h-5 w-5 ${activeSection === section ? color : 'text-muted-foreground'
+                                }`}
+                        />
+                        <span
+                            className={`text-[10px] ${activeSection === section ? 'text-foreground font-medium' : 'text-muted-foreground'
+                                }`}
+                        >
+                            {label}
+                        </span>
+                    </button>
+                ))}
+            </nav>
+
+            {/* Mobile slide-out menu */}
+            {isOpen && (
+                <div className="fixed inset-0 z-40 md:hidden">
+                    <div
+                        className="absolute inset-0 bg-background/80 backdrop-blur-sm"
+                        onClick={() => setIsOpen(false)}
+                    />
+                    <div className="absolute left-0 top-0 h-full w-64 bg-sidebar border-r border-sidebar-border p-6 animate-slide-up overflow-y-auto">
+                        <div className="flex items-center gap-3 mb-8 mt-8">
+                            <div className="h-10 w-10 rounded-xl bg-primary flex items-center justify-center text-primary-foreground font-bold">
+                                T
+                            </div>
+                            <span className="font-semibold">Tracker 2026</span>
+                        </div>
+
+                        <div className="space-y-1">
+                            {navItems.map(({ section, label, icon: Icon, color }) => (
+                                <button
+                                    key={section}
+                                    onClick={() => {
+                                        onSectionChange(section);
+                                        setIsOpen(false);
+                                    }}
+                                    className={`flex w-full items-center gap-3 rounded-lg p-3 transition-all ${activeSection === section
+                                        ? 'bg-sidebar-accent'
+                                        : 'hover:bg-sidebar-accent/50'
+                                        }`}
+                                >
+                                    <Icon
+                                        className={`h-5 w-5 ${activeSection === section ? color : 'text-muted-foreground'
+                                            }`}
+                                    />
+                                    <span
+                                        className={
+                                            activeSection === section ? 'font-medium' : 'text-muted-foreground'
+                                        }
+                                    >
+                                        {label}
+                                    </span>
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            )}
+        </>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-navlink-tsx"></a>📄 `src/components/NavLink.tsx`
+
+**File Info:**
+- **Size**: 859 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/NavLink.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:08:08 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:56 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `8757e073f151b8782efa04806f70b13d`
+- **SHA256**: `03d15b490af7c2a183d61f22e34292195ad7ceff53fe1db5ccfc4c8f4393039b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { NavLink as RouterNavLink, NavLinkProps } from "react-router-dom";
+import { forwardRef } from "react";
+import { cn } from "@/lib/utils";
+
+interface NavLinkCompatProps extends Omit<NavLinkProps, "className"> {
+    className?: string;
+    activeClassName?: string;
+    pendingClassName?: string;
+}
+
+const NavLink = forwardRef<HTMLAnchorElement, NavLinkCompatProps>(
+    ({ className, activeClassName, pendingClassName, to, ...props }, ref) => {
+        return (
+            <RouterNavLink
+                ref={ref}
+                to={to}
+                className={({ isActive, isPending }) =>
+                    cn(className, isActive && activeClassName, isPending && pendingClassName)
+                }
+                {...props}
+            />
+        );
+    },
+);
+
+NavLink.displayName = "NavLink";
+
+export { NavLink };
+
+```
+
+---
+
+### <a id="📄-src-components-quickjournal-tsx"></a>📄 `src/components/QuickJournal.tsx`
+
+**File Info:**
+- **Size**: 8.36 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/QuickJournal.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:08:13 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:57 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `512035e94f82b2cd64d2d3b319fefc0f`
+- **SHA256**: `775604e2d683db01499ab5ad10942bb0fe38e46d1601f69790cbe1b7827f04eb`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { Sparkles, Star, Smile, PenLine, Save } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Textarea } from '@/components/ui/textarea';
+import { journalDb } from '@/lib/db';
+
+type JournalType = 'highlight' | 'mood' | 'line';
+
+const journalTypes: { type: JournalType; label: string; icon: typeof Sparkles; placeholder: string }[] = [
+    { type: 'highlight', label: 'Highlight', icon: Sparkles, placeholder: "What was today's highlight?" },
+    { type: 'mood', label: 'Mood', icon: Smile, placeholder: 'How are you feeling today?' },
+    { type: 'line', label: 'Line a Day', icon: PenLine, placeholder: 'One sentence about today...' },
+];
+
+const moodOptions = [
+    { value: 1, emoji: '😔', label: 'Rough' },
+    { value: 2, emoji: '😕', label: 'Low' },
+    { value: 3, emoji: '😐', label: 'Okay' },
+    { value: 4, emoji: '🙂', label: 'Good' },
+    { value: 5, emoji: '😄', label: 'Great' },
+];
+
+export function QuickJournal() {
+    const [activeType, setActiveType] = useState<JournalType>('highlight');
+    const [content, setContent] = useState('');
+    const [moodRating, setMoodRating] = useState<number | undefined>();
+    const [todaysEntries, setTodaysEntries] = useState<Record<JournalType, any>>({} as any);
+    const [saved, setSaved] = useState(false);
+    const [loading, setLoading] = useState(true);
+    const today = new Date().toISOString().split('T')[0];
+
+    useEffect(() => {
+        loadEntries();
+    }, [today]);
+
+    useEffect(() => {
+        // Load existing entry for current type
+        const existingEntry = todaysEntries[activeType];
+        if (existingEntry) {
+            setContent(existingEntry.content);
+            if (existingEntry.tags?.includes('mood-rating:')) {
+                const ratingTag = existingEntry.tags.find((t: string) => t.startsWith('mood-rating:'));
+                if (ratingTag) {
+                    setMoodRating(parseInt(ratingTag.split(':')[1]));
+                }
+            }
+        } else {
+            setContent('');
+            setMoodRating(undefined);
+        }
+    }, [activeType, todaysEntries]);
+
+    const loadEntries = async () => {
+        try {
+            setLoading(true);
+            const allEntries = await journalDb.getAll();
+            const todayEntries = allEntries.filter((e: any) => e.date === today);
+
+            const entriesByType: Record<JournalType, any> = {} as any;
+            todayEntries.forEach((entry: any) => {
+                const typeTag = entry.tags?.find((t: string) => t.startsWith('type:'));
+                if (typeTag) {
+                    const type = typeTag.split(':')[1] as JournalType;
+                    entriesByType[type] = entry;
+                }
+            });
+
+            setTodaysEntries(entriesByType);
+        } catch (error) {
+            console.error('Error loading journal entries:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleSave = async () => {
+        if (content.trim() || (activeType === 'mood' && moodRating)) {
+            try {
+                const tags = [`type:${activeType}`];
+                if (activeType === 'mood' && moodRating) {
+                    tags.push(`mood-rating:${moodRating}`);
+                }
+
+                const existingEntry = todaysEntries[activeType];
+
+                if (existingEntry) {
+                    // Update existing entry
+                    await journalDb.update(existingEntry.id, {
+                        content: content.trim(),
+                        tags,
+                    });
+                } else {
+                    // Create new entry
+                    await journalDb.create({
+                        date: today,
+                        content: content.trim(),
+                        tags,
+                    });
+                }
+
+                await loadEntries();
+                setSaved(true);
+                setTimeout(() => setSaved(false), 2000);
+            } catch (error) {
+                console.error('Error saving journal entry:', error);
+            }
+        }
+    };
+
+    const activeConfig = journalTypes.find(j => j.type === activeType)!;
+    const hasEntryForType = !!todaysEntries[activeType];
+
+    if (loading) {
+        return (
+            <Card variant="journal" className="animate-fade-in stagger-3">
+                <CardContent className="py-8 text-center text-muted-foreground">
+                    Loading...
+                </CardContent>
+            </Card>
+        );
+    }
+
+    return (
+        <Card variant="journal" className="animate-fade-in stagger-3">
+            <CardHeader className="pb-2">
+                <CardTitle className="flex items-center gap-2 text-journal">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-journal/20">
+                        <Star className="h-4 w-4" />
+                    </div>
+                    Quick Journal
+                </CardTitle>
+                <div className="flex gap-2 mt-2">
+                    {journalTypes.map(({ type, label, icon: Icon }) => (
+                        <Button
+                            key={type}
+                            variant={activeType === type ? 'journal' : 'ghost'}
+                            size="sm"
+                            onClick={() => setActiveType(type)}
+                            className="gap-1.5"
+                        >
+                            <Icon className="h-3 w-3" />
+                            {label}
+                            {todaysEntries[type] && (
+                                <span className="ml-1 h-1.5 w-1.5 rounded-full bg-success" />
+                            )}
+                        </Button>
+                    ))}
+                </div>
+            </CardHeader>
+            <CardContent className="space-y-3">
+                {activeType === 'mood' && (
+                    <div className="flex justify-center gap-2 py-2">
+                        {moodOptions.map((option) => (
+                            <button
+                                key={option.value}
+                                onClick={() => setMoodRating(option.value)}
+                                className={`flex flex-col items-center gap-1 rounded-lg p-2 transition-all ${moodRating === option.value
+                                    ? 'bg-journal/20 scale-110'
+                                    : 'hover:bg-secondary'
+                                    }`}
+                            >
+                                <span className="text-2xl">{option.emoji}</span>
+                                <span className="text-xs text-muted-foreground">{option.label}</span>
+                            </button>
+                        ))}
+                    </div>
+                )}
+
+                <Textarea
+                    placeholder={activeConfig.placeholder}
+                    value={content}
+                    onChange={(e) => setContent(e.target.value)}
+                    className="min-h-[100px] bg-background/50 border-journal/30 focus:border-journal resize-none"
+                />
+
+                <div className="flex items-center justify-between">
+                    <span className="text-xs text-muted-foreground">
+                        {hasEntryForType ? 'Entry exists for today' : 'No entry yet'}
+                    </span>
+                    <Button
+                        variant="journal"
+                        size="sm"
+                        onClick={handleSave}
+                        disabled={!content.trim() && !(activeType === 'mood' && moodRating)}
+                        className="gap-1.5"
+                    >
+                        {saved ? (
+                            <>
+                                <Star className="h-3 w-3 fill-current" />
+                                Saved!
+                            </>
+                        ) : (
+                            <>
+                                <Save className="h-3 w-3" />
+                                Save Entry
+                            </>
+                        )}
+                    </Button>
+                </div>
+            </CardContent>
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-quickstats-tsx"></a>📄 `src/components/QuickStats.tsx`
+
+**File Info:**
+- **Size**: 6.07 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/QuickStats.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:08:19 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:57 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `92b947f8123a21c6fb2af1a8903462ad`
+- **SHA256**: `e092ab274fb218e0803260ded90acff58001b04907e142b688377a788f57d90d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useEffect, useState } from 'react';
+import { Flame, Target, BookMarked, CheckCircle2 } from 'lucide-react';
+import { Card } from '@/components/ui/card';
+import { habitDb, todoDb, bookDb } from '@/lib/db';
+
+export function QuickStats() {
+    const [stats, setStats] = useState({
+        longestStreak: 0,
+        todayProgress: 0,
+        booksInProgress: 0,
+        totalCompleted: 0,
+    });
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        loadStats();
+    }, []);
+
+    const loadStats = async () => {
+        try {
+            setLoading(true);
+            const today = new Date().toISOString().split('T')[0];
+
+            // Get all data
+            const [habits, todos, books] = await Promise.all([
+                habitDb.getAllHabits(),
+                todoDb.getByDate(today),
+                bookDb.getAll(),
+            ]);
+
+            // Get completions for all habits
+            const allCompletions = await Promise.all(
+                (habits || []).map(h => habitDb.getCompletions(h.id))
+            ).then(results => results.flat());
+
+            // Calculate longest current streak
+            let maxStreak = 0;
+            (habits || []).forEach(habit => {
+                const habitCompletions = allCompletions
+                    .filter(c => c.habit_id === habit.id)
+                    .map(c => c.date)
+                    .sort()
+                    .reverse();
+
+                let streak = 0;
+                const todayDate = new Date(today);
+
+                for (let i = 0; i < 365; i++) {
+                    const checkDate = new Date(todayDate);
+                    checkDate.setDate(checkDate.getDate() - i);
+                    const dateStr = checkDate.toISOString().split('T')[0];
+
+                    if (habitCompletions.includes(dateStr)) {
+                        streak++;
+                    } else if (i > 0) {
+                        break;
+                    }
+                }
+
+                if (streak > maxStreak) maxStreak = streak;
+            });
+
+            // Today's habits progress
+            const completedHabitsToday = (habits || []).filter(h =>
+                allCompletions.some(c => c.habit_id === h.id && c.date === today)
+            ).length;
+            const todayProgress = habits && habits.length > 0
+                ? Math.round((completedHabitsToday / habits.length) * 100)
+                : 0;
+
+            // Books in progress
+            const booksInProgress = (books || []).filter(b => b.status === 'reading').length;
+
+            // Total todos completed today
+            const totalCompleted = (todos || []).filter(t => t.completed).length;
+
+            setStats({
+                longestStreak: maxStreak,
+                todayProgress,
+                booksInProgress,
+                totalCompleted,
+            });
+        } catch (error) {
+            console.error('Error loading stats:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const statCards = [
+        {
+            label: 'Best Streak',
+            value: stats.longestStreak,
+            suffix: 'days',
+            icon: Flame,
+            color: 'text-primary',
+            bg: 'bg-primary/10',
+        },
+        {
+            label: 'Today',
+            value: stats.todayProgress,
+            suffix: '%',
+            icon: Target,
+            color: 'text-habit',
+            bg: 'bg-habit/10',
+        },
+        {
+            label: 'Reading',
+            value: stats.booksInProgress,
+            suffix: 'books',
+            icon: BookMarked,
+            color: 'text-reading',
+            bg: 'bg-reading/10',
+        },
+        {
+            label: 'Done Today',
+            value: stats.totalCompleted,
+            suffix: 'tasks',
+            icon: CheckCircle2,
+            color: 'text-success',
+            bg: 'bg-success/10',
+        },
+    ];
+
+    if (loading) {
+        return (
+            <div className="grid grid-cols-2 gap-3 animate-fade-in stagger-1">
+                {statCards.map((stat) => (
+                    <Card key={stat.label} className="p-4 bg-card/50">
+                        <div className="flex items-start justify-between">
+                            <div>
+                                <p className="text-xs text-muted-foreground uppercase tracking-wider">
+                                    {stat.label}
+                                </p>
+                                <p className="text-2xl font-bold mt-1 text-muted-foreground">
+                                    ...
+                                </p>
+                            </div>
+                            <div className={`p-2 rounded-lg ${stat.bg}`}>
+                                <stat.icon className={`h-4 w-4 ${stat.color}`} />
+                            </div>
+                        </div>
+                    </Card>
+                ))}
+            </div>
+        );
+    }
+
+    return (
+        <div className="grid grid-cols-2 gap-3 animate-fade-in stagger-1">
+            {statCards.map((stat) => (
+                <Card key={stat.label} className="p-4 bg-card/50">
+                    <div className="flex items-start justify-between">
+                        <div>
+                            <p className="text-xs text-muted-foreground uppercase tracking-wider">
+                                {stat.label}
+                            </p>
+                            <p className="text-2xl font-bold mt-1">
+                                {stat.value}
+                                <span className="text-sm font-normal text-muted-foreground ml-1">
+                                    {stat.suffix}
+                                </span>
+                            </p>
+                        </div>
+                        <div className={`p-2 rounded-lg ${stat.bg}`}>
+                            <stat.icon className={`h-4 w-4 ${stat.color}`} />
+                        </div>
+                    </div>
+                </Card>
+            ))}
+        </div>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-components-readingprogress-tsx"></a>📄 `src/components/ReadingProgress.tsx`
+
+**File Info:**
+- **Size**: 9.36 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/ReadingProgress.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:08:25 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 04:08:44 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `fd19288674539b20a781f112e9385b54`
+- **SHA256**: `feec4a0e6651d0a1c8659f23f778a850b0400ebf4e858cc0c2d512bb7ee131e9`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { BookOpen, Plus, MoreHorizontal, Check } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { bookDb } from '@/lib/db';
+
+const statusConfig = {
+    want_to_read: { label: 'Not Started', color: 'text-muted-foreground' },
+    reading: { label: 'Reading', color: 'text-reading' },
+    completed: { label: 'Finished', color: 'text-success' },
+};
+
+export function ReadingProgress() {
+    const [books, setBooks] = useState<any[]>([]);
+    const [isAdding, setIsAdding] = useState(false);
+    const [newTitle, setNewTitle] = useState('');
+    const [newAuthor, setNewAuthor] = useState('');
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        loadBooks();
+    }, []);
+
+    const loadBooks = async () => {
+        try {
+            setLoading(true);
+            const data = await bookDb.getAll();
+            setBooks(data || []);
+        } catch (error) {
+            console.error('Error loading books:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleAddBook = async () => {
+        if (newTitle.trim()) {
+            try {
+                const book = await bookDb.create({
+                    title: newTitle.trim(),
+                    author: newAuthor.trim() || undefined,
+                });
+                setBooks([...books, book]);
+                setNewTitle('');
+                setNewAuthor('');
+                setIsAdding(false);
+            } catch (error) {
+                console.error('Error adding book:', error);
+            }
+        }
+    };
+
+    const handleUpdateStatus = async (id: string, status: 'want_to_read' | 'reading' | 'completed') => {
+        try {
+            const updates: any = { status };
+
+            if (status === 'reading') {
+                updates.started_date = new Date().toISOString().split('T')[0];
+            } else if (status === 'completed') {
+                updates.completed_date = new Date().toISOString().split('T')[0];
+            }
+
+            await bookDb.update(id, updates);
+            setBooks(books.map(b => b.id === id ? { ...b, ...updates } : b));
+        } catch (error) {
+            console.error('Error updating book status:', error);
+        }
+    };
+
+    const currentlyReading = books.filter(b => b.status === 'reading');
+    const finishedCount = books.filter(b => b.status === 'completed').length;
+
+    if (loading) {
+        return (
+            <Card variant="reading" className="animate-fade-in stagger-4">
+                <CardContent className="py-8 text-center text-muted-foreground">
+                    Loading...
+                </CardContent>
+            </Card>
+        );
+    }
+
+    return (
+        <Card variant="reading" className="animate-fade-in stagger-4">
+            <CardHeader className="flex flex-row items-center justify-between pb-2">
+                <div>
+                    <CardTitle className="flex items-center gap-2 text-reading">
+                        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-reading/20">
+                            <BookOpen className="h-4 w-4" />
+                        </div>
+                        Reading List
+                    </CardTitle>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                        {currentlyReading.length} reading · {finishedCount} finished
+                    </p>
+                </div>
+                <Button
+                    variant="reading"
+                    size="icon-sm"
+                    onClick={() => setIsAdding(!isAdding)}
+                >
+                    <Plus className="h-4 w-4" />
+                </Button>
+            </CardHeader>
+            <CardContent className="space-y-3">
+                {isAdding && (
+                    <div className="space-y-2 animate-fade-in p-3 rounded-lg bg-background/50 border border-reading/30">
+                        <Input
+                            placeholder="Book title..."
+                            value={newTitle}
+                            onChange={(e) => setNewTitle(e.target.value)}
+                            className="bg-background/50 border-reading/30"
+                            autoFocus
+                        />
+                        <div className="flex gap-2">
+                            <Input
+                                placeholder="Author (optional)"
+                                value={newAuthor}
+                                onChange={(e) => setNewAuthor(e.target.value)}
+                                className="bg-background/50 border-reading/30"
+                            />
+                            <Button variant="reading" size="sm" onClick={handleAddBook}>
+                                Add
+                            </Button>
+                        </div>
+                    </div>
+                )}
+
+                {books.length === 0 ? (
+                    <div className="py-6 text-center text-muted-foreground">
+                        <BookOpen className="h-8 w-8 mx-auto mb-2 opacity-50" />
+                        <p className="text-sm">No books yet. Start your reading list!</p>
+                    </div>
+                ) : (
+                    <div className="space-y-2">
+                        {books.map((book) => (
+                            <div
+                                key={book.id}
+                                className={`group flex items-center justify-between rounded-lg border p-3 transition-all ${book.status === 'reading'
+                                    ? 'border-reading/30 bg-reading/5'
+                                    : book.status === 'completed'
+                                        ? 'border-success/30 bg-success/5'
+                                        : 'border-border/50 bg-background/30'
+                                    }`}
+                            >
+                                <div className="flex items-center gap-3">
+                                    {book.status === 'completed' ? (
+                                        <div className="flex h-6 w-6 items-center justify-center rounded-md bg-success/20 text-success">
+                                            <Check className="h-3 w-3" />
+                                        </div>
+                                    ) : (
+                                        <div className={`h-6 w-6 rounded-md ${book.status === 'reading' ? 'bg-reading/20' : 'bg-muted'
+                                            }`} />
+                                    )}
+                                    <div>
+                                        <p className={`font-medium ${book.status === 'completed' ? 'text-muted-foreground' : ''}`}>
+                                            {book.title}
+                                        </p>
+                                        {book.author && (
+                                            <p className="text-xs text-muted-foreground">{book.author}</p>
+                                        )}
+                                    </div>
+                                </div>
+
+                                <div className="flex items-center gap-2">
+                                    <span className={`text-xs ${statusConfig[book.status as keyof typeof statusConfig].color}`}>
+                                        {statusConfig[book.status as keyof typeof statusConfig].label}
+                                    </span>
+                                    <DropdownMenu>
+                                        <DropdownMenuTrigger asChild>
+                                            <Button variant="ghost" size="icon-sm" className="opacity-0 group-hover:opacity-100">
+                                                <MoreHorizontal className="h-4 w-4" />
+                                            </Button>
+                                        </DropdownMenuTrigger>
+                                        <DropdownMenuContent align="end">
+                                            <DropdownMenuItem onClick={() => handleUpdateStatus(book.id, 'want_to_read')}>
+                                                Mark as Not Started
+                                            </DropdownMenuItem>
+                                            <DropdownMenuItem onClick={() => handleUpdateStatus(book.id, 'reading')}>
+                                                Start Reading
+                                            </DropdownMenuItem>
+                                            <DropdownMenuItem onClick={() => handleUpdateStatus(book.id, 'completed')}>
+                                                Mark as Finished
+                                            </DropdownMenuItem>
+                                        </DropdownMenuContent>
+                                    </DropdownMenu>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                )}
+            </CardContent>
+        </Card>
+    );
+}
+
+```
+
+---
+
+### <a id="📄-src-components-selfcarechecklist-tsx"></a>📄 `src/components/SelfCareChecklist.tsx`
+
+**File Info:**
+- **Size**: 7.11 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/components/SelfCareChecklist.tsx`
+- **Relative Path**: `src/components`
+- **Created**: 2026-01-05 02:08:34 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:19:59 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `c843cd1f3d9c6fae5ffd9c6f9cdbfb7e`
+- **SHA256**: `7dd5d04ebf48f3a1b5672dbcc62c3c4d86da2b4536126d6f95e9545567a46f95`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState, useEffect } from 'react';
+import { Droplets, Salad, Moon, Heart, Music, Sparkles, Sun } from 'lucide-react';
+import { Card } from '@/components/ui/card';
+import { Checkbox } from '@/components/ui/checkbox';
+import { selfCareDb } from '@/lib/db';
+
+const selfCareItems = [
+    { id: 'water', label: 'Drank 8 glasses of water', icon: Droplets, color: 'text-accent', category: 'physical' },
+    { id: 'eat', label: 'Ate something nourishing', icon: Salad, color: 'text-budget', category: 'physical' },
+    { id: 'sleep', label: 'Got enough rest', icon: Moon, color: 'text-bts', category: 'physical' },
+    { id: 'love', label: 'Did something I love', icon: Heart, color: 'text-love', category: 'mental' },
+    { id: 'music', label: 'Listened to BTS', icon: Music, color: 'text-primary', category: 'mental' },
+    { id: 'outside', label: 'Got some sunlight', icon: Sun, color: 'text-calendar', category: 'physical' },
+];
+
+export function SelfCareChecklist() {
+    const [checkedItems, setCheckedItems] = useState<Record<string, any>>({});
+    const [allComplete, setAllComplete] = useState(false);
+    const [loading, setLoading] = useState(true);
+    const today = new Date().toISOString().split('T')[0];
+
+    useEffect(() => {
+        loadChecklist();
+    }, [today]);
+
+    useEffect(() => {
+        const completedCount = Object.keys(checkedItems).length;
+        setAllComplete(completedCount === selfCareItems.length);
+    }, [checkedItems]);
+
+    const loadChecklist = async () => {
+        try {
+            setLoading(true);
+            const items = await selfCareDb.getByDate(today) as Array<{ item: string; id: string; completed: boolean }> | null;
+            const itemsMap: Record<string, any> = {};
+
+            items?.forEach(item => {
+                // Extract the item ID from the item text or use a custom field
+                const matchedItem = selfCareItems.find(sci => sci.label === item.item);
+                if (matchedItem) {
+                    itemsMap[matchedItem.id] = item;
+                }
+            });
+
+            setCheckedItems(itemsMap);
+        } catch (error) {
+            console.error('Error loading self-care checklist:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleCheck = async (id: string) => {
+        const item = selfCareItems.find(sci => sci.id === id);
+        if (!item) return;
+
+        try {
+            const existingItem = checkedItems[id];
+
+            if (existingItem) {
+                // Toggle existing item
+                await selfCareDb.toggle(existingItem.id, !existingItem.completed);
+                if (!existingItem.completed) {
+                    setCheckedItems(prev => ({
+                        ...prev,
+                        [id]: { ...existingItem, completed: true }
+                    }));
+                } else {
+                    // Remove from state if unchecked
+                    const newItems = { ...checkedItems };
+                    delete newItems[id];
+                    setCheckedItems(newItems);
+                }
+            } else {
+                // Create new item
+                const newItem = await selfCareDb.create({
+                    date: today,
+                    category: item.category,
+                    item: item.label,
+                }) as Record<string, any>;
+                setCheckedItems(prev => ({
+                    ...prev,
+                    [id]: { ...newItem, completed: true }
+                }));
+            }
+        } catch (error) {
+            console.error('Error updating self-care item:', error);
+        }
+    };
+
+    const completedCount = Object.values(checkedItems).filter(item => item?.completed).length;
+    const progress = (completedCount / selfCareItems.length) * 100;
+
+    if (loading) {
+        return (
+            <Card className="p-5 relative overflow-hidden bg-gradient-to-br from-card to-love/5 border-love/10">
+                <div className="py-8 text-center text-muted-foreground">
+                    Loading...
+                </div>
+            </Card>
+        );
+    }
+
+    return (
+        <Card className="p-5 relative overflow-hidden bg-gradient-to-br from-card to-love/5 border-love/10">
+            {allComplete && (
+                <div className="absolute -top-2 -right-2 text-3xl animate-float">👑</div>
+            )}
+
+            <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-2">
+                    <div className="p-1.5 rounded-full bg-primary/20">
+                        <Sparkles className="h-4 w-4 text-primary" />
+                    </div>
+                    <h3 className="font-semibold text-foreground">Self-Care Check</h3>
+                </div>
+                <span className="text-xs font-medium text-muted-foreground">
+                    {completedCount}/{selfCareItems.length}
+                </span>
+            </div>
+
+            <div className="h-2 w-full overflow-hidden rounded-full bg-muted mb-4">
+                <div
+                    className="h-full rounded-full bg-gradient-to-r from-primary to-love transition-all duration-500"
+                    style={{ width: `${progress}%` }}
+                />
+            </div>
+
+            <div className="space-y-2.5">
+                {selfCareItems.map(({ id, label, icon: Icon, color }) => {
+                    const isChecked = checkedItems[id]?.completed || false;
+
+                    return (
+                        <label
+                            key={id}
+                            className={`flex items-center gap-3 p-2.5 rounded-xl cursor-pointer transition-all ${isChecked
+                                ? 'bg-primary/10 border border-primary/20'
+                                : 'bg-muted/30 border border-transparent hover:bg-muted/50'
+                                }`}
+                        >
+                            <Checkbox
+                                checked={isChecked}
+                                onCheckedChange={() => handleCheck(id)}
+                                className="data-[state=checked]:bg-primary data-[state=checked]:border-primary"
+                            />
+                            <Icon className={`h-4 w-4 ${isChecked ? color : 'text-muted-foreground'}`} />
+                            <span className={`text-sm flex-1 ${isChecked ? 'text-foreground' : 'text-muted-foreground'}`}>
+                                {label}
+                            </span>
+                            {isChecked && <span className="text-xs">✓</span>}
+                        </label>
+                    );
+                })}
+            </div>
+
+            {allComplete && (
+                <div className="mt-4 p-3 rounded-xl bg-gradient-to-r from-primary/20 to-love/20 text-center animate-fade-in border border-primary/20">
+                    <p className="text-sm font-medium text-primary">
+                        You took care of yourself today! 💜 You're amazing!
+                    </p>
+                </div>
+            )}
+        </Card>
+    );
+}
+```
+
+---
+
+### <a id="📄-src-hooks-use-mobile-tsx"></a>📄 `src/hooks/use-mobile.tsx`
+
+**File Info:**
+- **Size**: 633 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/hooks/use-mobile.tsx`
+- **Relative Path**: `src/hooks`
+- **Created**: 2026-01-05 02:12:35 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:13:02 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `8fdac2871088fec43854515ba582dd98`
+- **SHA256**: `173bec228ee1c159b473b45a9aa6c5693082022ce48ac79c0c76647dbf570d66`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+
+const MOBILE_BREAKPOINT = 768;
+
+export function useIsMobile() {
+    const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined);
+
+    React.useEffect(() => {
+        const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`);
+        const onChange = () => {
+            setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);
+        };
+        mql.addEventListener("change", onChange);
+        setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);
+        return () => mql.removeEventListener("change", onChange);
+    }, []);
+
+    return !!isMobile;
+}
+
+```
+
+---
+
+### <a id="📄-src-hooks-use-toast-ts"></a>📄 `src/hooks/use-toast.ts`
+
+**File Info:**
+- **Size**: 3.68 KB
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/hooks/use-toast.ts`
+- **Relative Path**: `src/hooks`
+- **Created**: 2026-01-05 02:12:53 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 04:51:35 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `fb7a94f4e45c6be9dcd85b20b0132109`
+- **SHA256**: `d19dc11aad8004417a33ea79e96adfe78ade404d90b71c100a89f7b386d302cc`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import * as React from "react";
+
+type ToastVariant = "default" | "destructive";
+
+type ToastProps = {
+    id: string;
+    title?: React.ReactNode;
+    description?: React.ReactNode;
+    variant?: ToastVariant;
+    open?: boolean;
+    onOpenChange?: (open: boolean) => void;
+};
+
+const TOAST_LIMIT = 1;
+const TOAST_REMOVE_DELAY = 1000000;
+
+type State = { toasts: ToastProps[] };
+
+type Action =
+    | { type: "ADD_TOAST"; toast: ToastProps }
+    | { type: "UPDATE_TOAST"; toast: Partial<ToastProps> & { id: string } }
+    | { type: "DISMISS_TOAST"; toastId?: string }
+    | { type: "REMOVE_TOAST"; toastId?: string };
+
+let count = 0;
+function genId() {
+    count = (count + 1) % Number.MAX_SAFE_INTEGER;
+    return count.toString();
+}
+
+const toastTimeouts = new Map<string, ReturnType<typeof setTimeout>>();
+
+const addToRemoveQueue = (toastId: string) => {
+    if (toastTimeouts.has(toastId)) return;
+
+    const timeout = setTimeout(() => {
+        toastTimeouts.delete(toastId);
+        dispatch({ type: "REMOVE_TOAST", toastId });
+    }, TOAST_REMOVE_DELAY);
+
+    toastTimeouts.set(toastId, timeout);
+};
+
+export const reducer = (state: State, action: Action): State => {
+    switch (action.type) {
+        case "ADD_TOAST":
+            return {
+                ...state,
+                toasts: [action.toast, ...state.toasts].slice(0, TOAST_LIMIT),
+            };
+
+        case "UPDATE_TOAST":
+            return {
+                ...state,
+                toasts: state.toasts.map((t) =>
+                    t.id === action.toast.id ? { ...t, ...action.toast } : t
+                ),
+            };
+
+        case "DISMISS_TOAST": {
+            const { toastId } = action;
+
+            if (toastId) {
+                addToRemoveQueue(toastId);
+            } else {
+                state.toasts.forEach((toast) => addToRemoveQueue(toast.id));
+            }
+
+            return {
+                ...state,
+                toasts: state.toasts.map((t) =>
+                    t.id === toastId || toastId === undefined ? { ...t, open: false } : t
+                ),
+            };
+        }
+
+        case "REMOVE_TOAST":
+            if (action.toastId === undefined) {
+                return { ...state, toasts: [] };
+            }
+            return {
+                ...state,
+                toasts: state.toasts.filter((t) => t.id !== action.toastId),
+            };
+    }
+};
+
+const listeners: Array<(state: State) => void> = [];
+let memoryState: State = { toasts: [] };
+
+function dispatch(action: Action) {
+    memoryState = reducer(memoryState, action);
+    listeners.forEach((listener) => listener(memoryState));
+}
+
+type ToastInput = Omit<ToastProps, "id">;
+
+function toast(props: ToastInput) {
+    const id = genId();
+
+    const update = (next: Partial<ToastProps>) =>
+        dispatch({ type: "UPDATE_TOAST", toast: { ...next, id } });
+
+    const dismiss = () => dispatch({ type: "DISMISS_TOAST", toastId: id });
+
+    dispatch({
+        type: "ADD_TOAST",
+        toast: {
+            ...props,
+            id,
+            open: true,
+            onOpenChange: (open) => {
+                if (!open) dismiss();
+            },
+        },
+    });
+
+    return { id, dismiss, update };
+}
+
+function useToast() {
+    const [state, setState] = React.useState<State>(memoryState);
+
+    React.useEffect(() => {
+        listeners.push(setState);
+        return () => {
+            const index = listeners.indexOf(setState);
+            if (index > -1) listeners.splice(index, 1);
+        };
+    }, []);
+
+    return { ...state, toast, dismiss: (toastId?: string) => dispatch({ type: "DISMISS_TOAST", toastId }) };
+}
+
+export { useToast, toast };
+
+```
+
+---
+
+### <a id="📄-src-hooks-userealtimesubscription-ts"></a>📄 `src/hooks/useRealtimeSubscription.ts`
+
+**File Info:**
+- **Size**: 2.61 KB
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/hooks/useRealtimeSubscription.ts`
+- **Relative Path**: `src/hooks`
+- **Created**: 2026-01-05 05:24:32 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 05:31:02 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `68c5d6f4bf2d255dd726862127b724f8`
+- **SHA256**: `b76f612647ceb05b90bc2be5dcbb2c41d4c1bb6a4b0f24a4b73b7eb6f616fb27`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useEffect } from 'react';
+import { supabase } from '@/integrations/supabase/client';
+
+/**
+ * Custom hook for real-time Supabase subscriptions
+ * Updates data automatically when changes occur in the database
+ */
+export function useRealtimeSubscription(
+    table: string,
+    onInsert?: (payload: any) => void,
+    onUpdate?: (payload: any) => void,
+    onDelete?: (payload: any) => void
+) {
+    useEffect(() => {
+        const channel = supabase
+            .channel(`${table}-changes`)
+            .on(
+                'postgres_changes',
+                {
+                    event: 'INSERT',
+                    schema: 'public',
+                    table: table,
+                },
+                (payload) => {
+                    console.log(`[Realtime] INSERT on ${table}:`, payload);
+                    onInsert?.(payload);
+                }
+            )
+            .on(
+                'postgres_changes',
+                {
+                    event: 'UPDATE',
+                    schema: 'public',
+                    table: table,
+                },
+                (payload) => {
+                    console.log(`[Realtime] UPDATE on ${table}:`, payload);
+                    onUpdate?.(payload);
+                }
+            )
+            .on(
+                'postgres_changes',
+                {
+                    event: 'DELETE',
+                    schema: 'public',
+                    table: table,
+                },
+                (payload) => {
+                    console.log(`[Realtime] DELETE on ${table}:`, payload);
+                    onDelete?.(payload);
+                }
+            )
+            .subscribe((status) => {
+                console.log(`[Realtime] Subscription status for ${table}:`, status);
+            });
+
+        return () => {
+            console.log(`[Realtime] Unsubscribing from ${table}`);
+            supabase.removeChannel(channel);
+        };
+    }, [table, onInsert, onUpdate, onDelete]);
+}
+
+/**
+ * Example usage in a component:
+ * 
+ * function TodoComponent() {
+ *   const [todos, setTodos] = useState([]);
+ * 
+ *   useRealtimeSubscription(
+ *     'todos',
+ *     // On insert
+ *     (payload) => {
+ *       setTodos(prev => [...prev, payload.new]);
+ *     },
+ *     // On update
+ *     (payload) => {
+ *       setTodos(prev => prev.map(todo => 
+ *         todo.id === payload.new.id ? payload.new : todo
+ *       ));
+ *     },
+ *     // On delete
+ *     (payload) => {
+ *       setTodos(prev => prev.filter(todo => todo.id !== payload.old.id));
+ *     }
+ *   );
+ * 
+ *   return <div>...</div>;
+ * }
+ */
+```
+
+---
+
+### <a id="📄-src-integrations-supabase-client-ts"></a>📄 `src/integrations/supabase/client.ts`
+
+**File Info:**
+- **Size**: 439 B
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/integrations/supabase/client.ts`
+- **Relative Path**: `src/integrations/supabase`
+- **Created**: 2026-01-05 02:14:12 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 03:34:29 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `b8908b1fa717f1829d0654ab2a9099ff`
+- **SHA256**: `1293b775ec05f1fdbcd36e5815f8c79f136ec07f3066c22cb0a067d6889c306a`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { createClient } from '@supabase/supabase-js';
+import type { Database } from './types';
+
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+if (!supabaseUrl || !supabaseAnonKey) {
+    throw new Error('Missing Supabase environment variables. Please check your .env file.');
+}
+
+export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey);
+```
+
+---
+
+### <a id="📄-src-integrations-supabase-types-ts"></a>📄 `src/integrations/supabase/types.ts`
+
+**File Info:**
+- **Size**: 9.64 KB
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/integrations/supabase/types.ts`
+- **Relative Path**: `src/integrations/supabase`
+- **Created**: 2026-01-05 02:13:57 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:40:15 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `2717962ced0313e3caa6610d87692ef6`
+- **SHA256**: `2bce25dfc7299ec4ff3fc203ce8a8b7a429717babef3b8c2e06b8bacc079f898`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+export type Json =
+    | string
+    | number
+    | boolean
+    | null
+    | { [key: string]: Json | undefined }
+    | Json[]
+
+export type Database = {
+    public: {
+        Tables: {
+            journal_entries: {
+                Row: {
+                    id: string
+                    created_at: string
+                    date: string
+                    content: string
+                    tags: string[] | null
+                }
+                Insert: {
+                    id?: string
+                    created_at?: string
+                    date: string
+                    content: string
+                    tags?: string[] | null
+                }
+                Update: {
+                    id?: string
+                    created_at?: string
+                    date?: string
+                    content?: string
+                    tags?: string[] | null
+                }
+            }
+            moods: {
+                Row: {
+                    id: string
+                    created_at: string
+                    date: string
+                    mood: string
+                    note: string | null
+                }
+                Insert: {
+                    id?: string
+                    created_at?: string
+                    date: string
+                    mood: string
+                    note?: string | null
+                }
+                Update: {
+                    id?: string
+                    created_at?: string
+                    date?: string
+                    mood?: string
+                    note?: string | null
+                }
+            }
+            habits: {
+                Row: {
+                    id: string
+                    created_at: string
+                    name: string
+                    color: string | null
+                    icon: string | null
+                    archived: boolean
+                    frequency: 'daily' | 'weekly' | 'monthly'
+                    target_count: number
+                    days_of_week: number[] | null
+                    day_of_month: number | null
+                }
+                Insert: {
+                    id?: string
+                    created_at?: string
+                    name: string
+                    color?: string | null
+                    icon?: string | null
+                    archived?: boolean
+                    frequency?: 'daily' | 'weekly' | 'monthly'
+                    target_count?: number
+                    days_of_week?: number[] | null
+                    day_of_month?: number | null
+                }
+                Update: {
+                    id?: string
+                    created_at?: string
+                    name?: string
+                    color?: string | null
+                    icon?: string | null
+                    archived?: boolean
+                    frequency?: 'daily' | 'weekly' | 'monthly'
+                    target_count?: number
+                    days_of_week?: number[] | null
+                    day_of_month?: number | null
+                }
+            }
+            habit_completions: {
+                Row: {
+                    id: string
+                    habit_id: string
+                    date: string
+                }
+                Insert: {
+                    id?: string
+                    habit_id: string
+                    date: string
+                }
+                Update: {
+                    id?: string
+                    habit_id?: string
+                    date?: string
+                }
+            }
+            todos: {
+                Row: {
+                    id: string
+                    created_at: string
+                    date: string
+                    text: string
+                    completed: boolean
+                    priority: number
+                }
+                Insert: {
+                    id?: string
+                    created_at?: string
+                    date: string
+                    text: string
+                    completed?: boolean
+                    priority?: number
+                }
+                Update: {
+                    id?: string
+                    created_at?: string
+                    date?: string
+                    text?: string
+                    completed?: boolean
+                    priority?: number
+                }
+            }
+            reading_list: {
+                Row: {
+                    id: string
+                    created_at: string
+                    title: string
+                    author: string | null
+                    status: 'want_to_read' | 'reading' | 'completed'
+                    current_page: number
+                    total_pages: number | null
+                    started_date: string | null
+                    completed_date: string | null
+                    rating: number | null
+                    notes: string | null
+                }
+                Insert: {
+                    id?: string
+                    created_at?: string
+                    title: string
+                    author?: string | null
+                    status?: 'want_to_read' | 'reading' | 'completed'
+                    current_page?: number
+                    total_pages?: number | null
+                    started_date?: string | null
+                    completed_date?: string | null
+                    rating?: number | null
+                    notes?: string | null
+                }
+                Update: {
+                    id?: string
+                    created_at?: string
+                    title?: string
+                    author?: string | null
+                    status?: 'want_to_read' | 'reading' | 'completed'
+                    current_page?: number
+                    total_pages?: number | null
+                    started_date?: string | null
+                    completed_date?: string | null
+                    rating?: number | null
+                    notes?: string | null
+                }
+            }
+            self_care_items: {
+                Row: {
+                    id: string
+                    created_at: string
+                    date: string
+                    category: string
+                    item: string
+                    completed: boolean
+                }
+                Insert: {
+                    id?: string
+                    created_at?: string
+                    date: string
+                    category: string
+                    item: string
+                    completed?: boolean
+                }
+                Update: {
+                    id?: string
+                    created_at?: string
+                    date?: string
+                    category?: string
+                    item?: string
+                    completed?: boolean
+                }
+            }
+            calendar_events: {
+                Row: {
+                    id: string
+                    created_at: string
+                    date: string
+                    title: string
+                    description: string | null
+                    category: 'birthday' | 'appointment' | 'reminder' | 'other'
+                    time: string | null
+                    color: string | null
+                    is_recurring: boolean
+                    recurrence_pattern: string | null
+                }
+                Insert: {
+                    id?: string
+                    created_at?: string
+                    date?: string
+                    title?: string
+                    description?: string | null
+                    category?: 'birthday' | 'appointment' | 'reminder' | 'other'
+                    time?: string | null
+                    color?: string | null
+                    is_recurring?: boolean
+                    recurrence_pattern?: string | null
+                }
+                Update: {
+                    id?: string
+                    created_at?: string
+                    date?: string
+                    title?: string
+                    description?: string | null
+                    category?: 'birthday' | 'appointment' | 'reminder' | 'other'
+                    time?: string | null
+                    color?: string | null
+                    is_recurring?: boolean
+                    recurrence_pattern?: string | null
+                }
+            }
+
+            expenses: {
+                Row: {
+                    id: string
+                    created_at: string
+                    date: string
+                    category: string
+                    amount: number
+                    description: string | null
+                    type: 'expense' | 'income'
+                }
+
+                Insert: {
+                    id?: string
+                    created_at?: string
+                    date: string
+                    category: string
+                    amount: number
+                    description?: string | null
+                    type?: 'expense' | 'income'
+                }
+                Update: {
+                    id?: string
+                    created_at?: string
+                    date?: string
+                    category?: string
+                    amount?: number
+                    description?: string | null
+                    type?: 'expense' | 'income'
+                }
+            }
+        }
+        Views: {
+            [_ in never]: never
+        }
+        Functions: {
+            [_ in never]: never
+        }
+        Enums: {
+            [_ in never]: never
+        }
+        CompositeTypes: {
+            [_ in never]: never
+        }
+    }
+}
+```
+
+---
+
+### <a id="📄-src-lib-dateutils-ts"></a>📄 `src/lib/dateUtils.ts`
+
+**File Info:**
+- **Size**: 3.65 KB
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/lib/dateUtils.ts`
+- **Relative Path**: `src/lib`
+- **Created**: 2026-01-05 05:12:47 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-06 04:27:44 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `39039b42c1045ec611d5ec15e42d765d`
+- **SHA256**: `51cb47c3fda5c3717c468b537ce84711f4846d9a2d0fa26c40fa9ad5621f63e0`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+/**
+ * Date utility functions for habit tracking
+ * All functions work with local dates (YYYY-MM-DD format)
+ */
+
+/**
+ * Convert a Date object to YYYY-MM-DD format in local timezone
+ */
+export function localDateKey(date: Date): string {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+/**
+ * Get the weekday (0 = Sunday, 6 = Saturday) for a date
+ */
+export function localWeekday(date: Date): number {
+    return date.getDay();
+}
+
+/**
+ * Get the start of the week for a given date
+ * @param date - The date to find the week start for
+ * @param weekStartsOn - 0 for Sunday, 1 for Monday
+ */
+export function startOfWeek(date: Date, weekStartsOn: 0 | 1 = 0): Date {
+    const d = new Date(date);
+    const day = d.getDay();
+    const diff = (day < weekStartsOn ? 7 : 0) + day - weekStartsOn;
+    d.setDate(d.getDate() - diff);
+    d.setHours(0, 0, 0, 0);
+    return d;
+}
+
+/**
+ * Get the end of the week (exclusive) for a given date
+ * @param date - The date to find the week end for
+ * @param weekStartsOn - 0 for Sunday, 1 for Monday
+ */
+export function endOfWeekExclusive(date: Date, weekStartsOn: 0 | 1 = 0): Date {
+    const start = startOfWeek(date, weekStartsOn);
+    const end = new Date(start);
+    end.setDate(end.getDate() + 7);
+    return end;
+}
+
+/**
+ * Get the start of the month for a given date
+ */
+export function startOfMonth(date: Date): Date {
+    const d = new Date(date);
+    d.setDate(1);
+    d.setHours(0, 0, 0, 0);
+    return d;
+}
+
+/**
+ * Get the start of the next month (exclusive end of current month)
+ */
+export function startOfNextMonth(date: Date): Date {
+    const d = new Date(date);
+    d.setMonth(d.getMonth() + 1);
+    d.setDate(1);
+    d.setHours(0, 0, 0, 0);
+    return d;
+}
+
+/**
+ * Get the end of the month for a given date
+ */
+export function endOfMonth(date: Date): Date {
+    const d = new Date(date);
+    d.setMonth(d.getMonth() + 1);
+    d.setDate(0);
+    d.setHours(23, 59, 59, 999);
+    return d;
+}
+
+/**
+ * Check if two dates are the same day
+ */
+export function isSameDay(date1: Date, date2: Date): boolean {
+    return localDateKey(date1) === localDateKey(date2);
+}
+
+/**
+ * Get an array of dates for a range
+ */
+export function getDateRange(startDate: Date, endDate: Date): string[] {
+    const dates: string[] = [];
+    const current = new Date(startDate);
+    const end = new Date(endDate);
+
+    while (current <= end) {
+        dates.push(localDateKey(current));
+        current.setDate(current.getDate() + 1);
+    }
+
+    return dates;
+}
+
+/**
+ * Format a date key (YYYY-MM-DD) to a readable string
+ */
+export function formatDateKey(dateKey: string, options?: Intl.DateTimeFormatOptions): string {
+    const [year, month, day] = dateKey.split('-').map(Number);
+    const date = new Date(year, month - 1, day);
+
+    return date.toLocaleDateString('en-US', options || {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    });
+}
+
+/**
+ * Get the current date key
+ */
+export function getTodayKey(): string {
+    return localDateKey(new Date());
+}
+
+/**
+ * Check if a date key is today
+ */
+export function isToday(dateKey: string): boolean {
+    return dateKey === getTodayKey();
+}
+
+/**
+ * Check if a date key is in the past
+ */
+export function isPast(dateKey: string): boolean {
+    return dateKey < getTodayKey();
+}
+
+/**
+ * Check if a date key is in the future
+ */
+export function isFuture(dateKey: string): boolean {
+    return dateKey > getTodayKey();
+}
+```
+
+---
+
+### <a id="📄-src-lib-db-ts"></a>📄 `src/lib/db.ts`
+
+**File Info:**
+- **Size**: 16.42 KB
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/lib/db.ts`
+- **Relative Path**: `src/lib`
+- **Created**: 2026-01-05 03:56:07 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:29:27 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `74069a28efec56dbca7bcec9ad825c9f`
+- **SHA256**: `298b617761f30e47e45ce4b4602baeaee13377cd76f3aa242d786e13c3980a77`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { supabase } from '@/integrations/supabase/client';
+
+// ============================================================================
+// JOURNAL ENTRIES
+// ============================================================================
+
+export interface JournalEntry {
+    id: string;
+    created_at: string;
+    date: string;
+    content: string;
+    tags: string[] | null;
+}
+
+export const journalDb = {
+    async getAll() {
+        const { data, error } = await supabase
+            .from('journal_entries')
+            .select('*')
+            .order('date', { ascending: false });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async getByDate(date: string) {
+        const { data, error } = await supabase
+            .from('journal_entries')
+            .select('*')
+            .eq('date', date)
+            .single();
+
+        if (error && error.code !== 'PGRST116') throw error; // PGRST116 = no rows
+        return data;
+    },
+
+    async create(entry: { date: string; content: string; tags?: string[] }) {
+        const { data, error } = await supabase
+            .from('journal_entries')
+            .insert([entry])
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async update(id: string, updates: { content?: string; tags?: string[] }) {
+        const { data, error } = await supabase
+            .from('journal_entries')
+            .update(updates)
+            .eq('id', id)
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async delete(id: string) {
+        const { error } = await supabase
+            .from('journal_entries')
+            .delete()
+            .eq('id', id);
+
+        if (error) throw error;
+    }
+};
+
+// ============================================================================
+// MOODS
+// ============================================================================
+
+export interface Mood {
+    id: string;
+    created_at: string;
+    date: string;
+    mood: string;
+    note: string | null;
+}
+
+export const moodDb = {
+    async getAll() {
+        const { data, error } = await supabase
+            .from('moods')
+            .select('*')
+            .order('date', { ascending: false });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async getByDate(date: string) {
+        const { data, error } = await supabase
+            .from('moods')
+            .select('*')
+            .eq('date', date)
+            .single();
+
+        if (error && error.code !== 'PGRST116') throw error;
+        return data;
+    },
+
+    async create(mood: { date: string; mood: string; note?: string }) {
+        const { data, error } = await supabase
+            .from('moods')
+            .insert([mood])
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async update(id: string, updates: { mood?: string; note?: string }) {
+        const { data, error } = await supabase
+            .from('moods')
+            .update(updates)
+            .eq('id', id)
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    }
+};
+
+// ============================================================================
+// HABITS
+// ============================================================================
+
+export interface Habit {
+    id: string;
+    created_at: string;
+    name: string;
+    color: string | null;
+    icon: string | null;
+    archived: boolean;
+    frequency: 'daily' | 'weekly' | 'monthly';
+    target_count: number;
+    days_of_week: number[] | null;
+    day_of_month: number | null;
+}
+
+export interface HabitCompletion {
+    id: string;
+    habit_id: string;
+    date: string;
+}
+
+export const habitDb = {
+    async getAllHabits() {
+        const { data, error } = await supabase
+            .from('habits')
+            .select('*')
+            .eq('archived', false)
+            .order('created_at', { ascending: true });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async createHabit(habit: {
+        name: string;
+        color?: string;
+        icon?: string;
+        frequency?: 'daily' | 'weekly' | 'monthly';
+        target_count?: number;
+        days_of_week?: number[] | null;
+        day_of_month?: number | null;
+    }) {
+        const { data, error } = await supabase
+            .from('habits')
+            .insert([{
+                ...habit,
+                frequency: habit.frequency || 'daily',
+                target_count: habit.target_count || 1
+            }])
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async updateHabit(id: string, updates: {
+        name?: string;
+        color?: string;
+        icon?: string;
+        frequency?: 'daily' | 'weekly' | 'monthly';
+        target_count?: number;
+        days_of_week?: number[] | null;
+        day_of_month?: number | null;
+    }) {
+        const { data, error } = await supabase
+            .from('habits')
+            .update(updates)
+            .eq('id', id)
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async archiveHabit(id: string) {
+        const { error } = await supabase
+            .from('habits')
+            .update({ archived: true })
+            .eq('id', id);
+
+        if (error) throw error;
+    },
+
+    async getCompletions(habitId: string, startDate?: string, endDate?: string) {
+        let query = supabase
+            .from('habit_completions')
+            .select('*')
+            .eq('habit_id', habitId);
+
+        if (startDate) query = query.gte('date', startDate);
+        if (endDate) query = query.lte('date', endDate);
+
+        const { data, error } = await query.order('date', { ascending: false });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async getCompletionsInRange(startDate: string, endDate: string) {
+        const { data, error } = await supabase
+            .from('habit_completions')
+            .select('*')
+            .gte('date', startDate)
+            .lt('date', endDate)
+            .order('date', { ascending: false });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async toggleCompletion(habitId: string, date: string) {
+        // Check if completion exists
+        const { data: existing } = await supabase
+            .from('habit_completions')
+            .select('*')
+            .eq('habit_id', habitId)
+            .eq('date', date)
+            .single();
+
+        if (existing) {
+            // Delete if exists
+            const { error } = await supabase
+                .from('habit_completions')
+                .delete()
+                .eq('id', existing.id);
+
+            if (error) throw error;
+            return null;
+        } else {
+            // Create if doesn't exist - NO completed field!
+            const { data, error } = await supabase
+                .from('habit_completions')
+                .insert([{ habit_id: habitId, date }])  // ← REMOVE completed: true
+                .select()
+                .single();
+
+            if (error) throw error;
+            return data;
+        }
+    }
+};
+
+// ============================================================================
+// TODOS
+// ============================================================================
+
+export interface Todo {
+    id: string;
+    created_at: string;
+    date: string;
+    text: string;
+    completed: boolean;
+    priority: number;
+}
+
+export const todoDb = {
+    async getByDate(date: string) {
+        const { data, error } = await supabase
+            .from('todos')
+            .select('*')
+            .eq('date', date)
+            .order('priority', { ascending: false })
+            .order('created_at', { ascending: true });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async create(todo: { date: string; text: string; priority?: number }) {
+        const { data, error } = await supabase
+            .from('todos')
+            .insert([{ ...todo, priority: todo.priority || 0 }])
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async update(id: string, updates: { text?: string; completed?: boolean; priority?: number }) {
+        const { data, error } = await supabase
+            .from('todos')
+            .update(updates)
+            .eq('id', id)
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async delete(id: string) {
+        const { error } = await supabase
+            .from('todos')
+            .delete()
+            .eq('id', id);
+
+        if (error) throw error;
+    }
+};
+
+// ============================================================================
+// READING LIST
+// ============================================================================
+
+export interface Book {
+    id: string;
+    created_at: string;
+    title: string;
+    author: string | null;
+    status: 'want_to_read' | 'reading' | 'completed';
+    current_page: number;
+    total_pages: number | null;
+    started_date: string | null;
+    completed_date: string | null;
+    rating: number | null;
+    notes: string | null;
+}
+
+export const bookDb = {
+    async getAll() {
+        const { data, error } = await supabase
+            .from('reading_list')
+            .select('*')
+            .order('created_at', { ascending: false });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async getByStatus(status: string) {
+        const { data, error } = await supabase
+            .from('reading_list')
+            .select('*')
+            .eq('status', status)
+            .order('created_at', { ascending: false });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async create(book: { title: string; author?: string; total_pages?: number }) {
+        const { data, error } = await supabase
+            .from('reading_list')
+            .insert([{ ...book, status: 'want_to_read' }])
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async update(id: string, updates: Partial<Book>) {
+        const { data, error } = await supabase
+            .from('reading_list')
+            .update(updates)
+            .eq('id', id)
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async delete(id: string) {
+        const { error } = await supabase
+            .from('reading_list')
+            .delete()
+            .eq('id', id);
+
+        if (error) throw error;
+    }
+};
+
+// ============================================================================
+// SELF-CARE CHECKLIST
+// ============================================================================
+
+export interface SelfCareItem {
+    id: string;
+    created_at: string;
+    date: string;
+    category: string;
+    item: string;
+    completed: boolean;
+}
+
+export const selfCareDb = {
+    async getByDate(date: string) {
+        const { data, error } = await supabase
+            .from('self_care_items')
+            .select('*')
+            .eq('date', date)
+            .order('category', { ascending: true });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async create(item: { date: string; category: string; item: string }) {
+        const { data, error } = await supabase
+            .from('self_care_items')
+            .insert([item])
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async toggle(id: string, completed: boolean) {
+        const { data, error } = await supabase
+            .from('self_care_items')
+            .update({ completed })
+            .eq('id', id)
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async delete(id: string) {
+        const { error } = await supabase
+            .from('self_care_items')
+            .delete()
+            .eq('id', id);
+
+        if (error) throw error;
+    }
+};
+
+// ============================================================================
+// EXPENSES
+// ============================================================================
+
+export interface Expense {
+    id: string;
+    created_at: string;
+    date: string;
+    category: string;
+    amount: number;
+    description: string | null;
+    type: 'expense' | 'income';
+}
+
+export const expenseDb = {
+    async getByDateRange(startDate: string, endDate: string) {
+        const { data, error } = await supabase
+            .from('expenses')
+            .select('*')
+            .gte('date', startDate)
+            .lte('date', endDate)
+            .order('date', { ascending: false });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async create(expense: { date: string; category: string; amount: number; description?: string; type?: 'expense' | 'income' }) {
+        const { data, error } = await supabase
+            .from('expenses')
+            .insert([{ ...expense, type: expense.type || 'expense' }])
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async update(id: string, updates: Partial<Expense>) {
+        const { data, error } = await supabase
+            .from('expenses')
+            .update(updates)
+            .eq('id', id)
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async delete(id: string) {
+        const { error } = await supabase
+            .from('expenses')
+            .delete()
+            .eq('id', id);
+
+        if (error) throw error;
+    }
+};
+
+// ============================================================================
+// CALENDAR EVENTS
+// ============================================================================
+
+export interface CalendarEvent {
+    id: string;
+    created_at: string;
+    date: string;
+    title: string;
+    description: string | null;
+    category: 'birthday' | 'appointment' | 'reminder' | 'other';
+    time: string | null;
+    color: string | null;
+    is_recurring: boolean;
+    recurrence_pattern: string | null;
+}
+
+export const calendarDb = {
+    async getAll() {
+        const { data, error } = await supabase
+            .from('calendar_events')
+            .select('*')
+            .order('date', { ascending: true });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async getByDateRange(startDate: string, endDate: string) {
+        const { data, error } = await supabase
+            .from('calendar_events')
+            .select('*')
+            .gte('date', startDate)
+            .lte('date', endDate)
+            .order('date', { ascending: true });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async getByDate(date: string) {
+        const { data, error } = await supabase
+            .from('calendar_events')
+            .select('*')
+            .eq('date', date)
+            .order('time', { ascending: true });
+
+        if (error) throw error;
+        return data;
+    },
+
+    async create(event: {
+        date: string;
+        title: string;
+        description?: string;
+        category: 'birthday' | 'appointment' | 'reminder' | 'other';
+        time?: string;
+        color?: string;
+        is_recurring?: boolean;
+        recurrence_pattern?: string;
+    }) {
+        const { data, error } = await supabase
+            .from('calendar_events')
+            .insert([event])
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async update(id: string, updates: Partial<CalendarEvent>) {
+        const { data, error } = await supabase
+            .from('calendar_events')
+            .update(updates)
+            .eq('id', id)
+            .select()
+            .single();
+
+        if (error) throw error;
+        return data;
+    },
+
+    async delete(id: string) {
+        const { error } = await supabase
+            .from('calendar_events')
+            .delete()
+            .eq('id', id);
+
+        if (error) throw error;
+    }
+};
+```
+
+---
+
+### <a id="📄-src-lib-storage-ts"></a>📄 `src/lib/storage.ts`
+
+**File Info:**
+- **Size**: 9.43 KB
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/lib/storage.ts`
+- **Relative Path**: `src/lib`
+- **Created**: 2026-01-05 02:14:39 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 03:16:38 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `9f6e774dd310682695e53ef7efbaeee0`
+- **SHA256**: `93e03b5a51bd7f283904b321938b4ea6bd32df86ea280a229eedbfc707a176c8`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+// Local storage utilities for Tracker 2026
+// All data persists locally on the device
+
+const STORAGE_KEYS = {
+    HABITS: "tracker2026_habits",
+    HABIT_LOGS: "tracker2026_habit_logs",
+    TODOS: "tracker2026_todos",
+    JOURNALS: "tracker2026_journals",
+    BOOKS: "tracker2026_books",
+    BUDGETS: "tracker2026_budgets",
+    CALENDAR_TASKS: "tracker2026_calendar_tasks",
+} as const;
+
+// Types
+export interface Habit {
+    id: string;
+    name: string;
+    icon?: string;
+    createdAt: string;
+    color?: string;
+}
+
+export interface HabitLog {
+    habitId: string;
+    date: string; // YYYY-MM-DD format
+    completed: boolean;
+    completedAt?: string;
+}
+
+export interface Todo {
+    id: string;
+    date: string; // YYYY-MM-DD format
+    text: string;
+    completed: boolean;
+    createdAt: string;
+}
+
+export interface JournalEntry {
+    id: string;
+    date: string;
+    type: "highlight" | "mood" | "line";
+    content: string;
+    moodRating?: number; // 1-5 for mood journal
+    createdAt: string;
+}
+
+export interface Book {
+    id: string;
+    title: string;
+    author?: string;
+    startDate?: string;
+    targetEndDate?: string;
+    status: "not_started" | "in_progress" | "finished";
+    notes?: string;
+    createdAt: string;
+}
+
+export interface BudgetItem {
+    id: string;
+    name: string;
+    amount: number;
+    isRecurring: boolean;
+    category?: string;
+}
+
+export interface MonthlyBudget {
+    id: string;
+    month: string; // YYYY-MM format
+    items: BudgetItem[];
+    createdAt: string;
+}
+
+export interface CalendarTask {
+    id: string;
+    date: string;
+    text: string;
+    completed: boolean;
+    createdAt: string;
+}
+
+// Helper functions
+function getItem<T>(key: string, defaultValue: T): T {
+    try {
+        const item = localStorage.getItem(key);
+        return item ? (JSON.parse(item) as T) : defaultValue;
+    } catch {
+        return defaultValue;
+    }
+}
+
+function setItem<T>(key: string, value: T): void {
+    try {
+        localStorage.setItem(key, JSON.stringify(value));
+    } catch (error) {
+        console.error("Storage error:", error);
+    }
+}
+
+// Date utilities
+export function getTodayString(): string {
+    return new Date().toISOString().split("T")[0];
+}
+
+export function isToday(dateString: string): boolean {
+    return dateString === getTodayString();
+}
+
+export function isPastDate(dateString: string): boolean {
+    return dateString < getTodayString();
+}
+
+export function isFutureDate(dateString: string): boolean {
+    return dateString > getTodayString();
+}
+
+// Habits
+export function getHabits(): Habit[] {
+    return getItem(STORAGE_KEYS.HABITS, []);
+}
+
+export function saveHabits(habits: Habit[]): void {
+    setItem(STORAGE_KEYS.HABITS, habits);
+}
+
+export function addHabit(habit: Omit<Habit, "id" | "createdAt">): Habit {
+    const habits = getHabits();
+    const newHabit: Habit = {
+        ...habit,
+        id: crypto.randomUUID(),
+        createdAt: new Date().toISOString(),
+    };
+    habits.push(newHabit);
+    saveHabits(habits);
+    return newHabit;
+}
+
+export function removeHabit(id: string): void {
+    const habits = getHabits().filter((h) => h.id !== id);
+    saveHabits(habits);
+
+    // also remove logs for that habit
+    const logs = getHabitLogs().filter((l) => l.habitId !== id);
+    saveHabitLogs(logs);
+}
+
+// Habit logs
+export function getHabitLogs(): HabitLog[] {
+    return getItem(STORAGE_KEYS.HABIT_LOGS, []);
+}
+
+export function saveHabitLogs(logs: HabitLog[]): void {
+    setItem(STORAGE_KEYS.HABIT_LOGS, logs);
+}
+
+/**
+ * "No back-checking" rule is enforced in the UI by disabling past dates.
+ * This function toggles completion ONLY for today.
+ */
+export function toggleHabitForToday(habitId: string): void {
+    const today = getTodayString();
+    const logs = getHabitLogs();
+    const existing = logs.find((l) => l.habitId === habitId && l.date === today);
+
+    if (existing) {
+        existing.completed = !existing.completed;
+        existing.completedAt = existing.completed ? new Date().toISOString() : undefined;
+    } else {
+        logs.push({
+            habitId,
+            date: today,
+            completed: true,
+            completedAt: new Date().toISOString(),
+        });
+    }
+
+    saveHabitLogs(logs);
+}
+
+// Todos
+export function getTodos(): Todo[] {
+    return getItem(STORAGE_KEYS.TODOS, []);
+}
+
+export function saveTodos(todos: Todo[]): void {
+    setItem(STORAGE_KEYS.TODOS, todos);
+}
+
+export function getTodosForDate(date: string): Todo[] {
+    return getTodos().filter((t) => t.date === date);
+}
+
+export function addTodo(text: string, date: string): Todo {
+    const todos = getTodos();
+    const newTodo: Todo = {
+        id: crypto.randomUUID(),
+        date,
+        text,
+        completed: false,
+        createdAt: new Date().toISOString(),
+    };
+    todos.push(newTodo);
+    saveTodos(todos);
+    return newTodo;
+}
+
+export function toggleTodo(id: string): void {
+    const todos = getTodos();
+    const todo = todos.find((t) => t.id === id);
+    if (todo) {
+        todo.completed = !todo.completed;
+        saveTodos(todos);
+    }
+}
+
+export function removeTodo(id: string): void {
+    const todos = getTodos().filter((t) => t.id !== id);
+    saveTodos(todos);
+}
+
+// Journals
+export function getJournals(): JournalEntry[] {
+    return getItem(STORAGE_KEYS.JOURNALS, []);
+}
+
+export function saveJournals(journals: JournalEntry[]): void {
+    setItem(STORAGE_KEYS.JOURNALS, journals);
+}
+
+export function addJournalEntry(entry: Omit<JournalEntry, "id" | "createdAt">): JournalEntry {
+    const journals = getJournals();
+    const newEntry: JournalEntry = {
+        ...entry,
+        id: crypto.randomUUID(),
+        createdAt: new Date().toISOString(),
+    };
+    journals.push(newEntry);
+    saveJournals(journals);
+    return newEntry;
+}
+
+export function getJournalForDate(date: string, type?: JournalEntry["type"]): JournalEntry[] {
+    return getJournals().filter((j) => j.date === date && (!type || j.type === type));
+}
+
+// Books
+export function getBooks(): Book[] {
+    return getItem(STORAGE_KEYS.BOOKS, []);
+}
+
+export function saveBooks(books: Book[]): void {
+    setItem(STORAGE_KEYS.BOOKS, books);
+}
+
+export function addBook(book: Omit<Book, "id" | "createdAt">): Book {
+    const books = getBooks();
+    const newBook: Book = {
+        ...book,
+        id: crypto.randomUUID(),
+        createdAt: new Date().toISOString(),
+    };
+    books.push(newBook);
+    saveBooks(books);
+    return newBook;
+}
+
+export function updateBook(id: string, updates: Partial<Book>): void {
+    const books = getBooks();
+    const idx = books.findIndex((b) => b.id === id);
+    if (idx >= 0) {
+        books[idx] = { ...books[idx], ...updates };
+        saveBooks(books);
+    }
+}
+
+// Calendar tasks
+export function getCalendarTasks(): CalendarTask[] {
+    return getItem(STORAGE_KEYS.CALENDAR_TASKS, []);
+}
+
+export function saveCalendarTasks(tasks: CalendarTask[]): void {
+    setItem(STORAGE_KEYS.CALENDAR_TASKS, tasks);
+}
+
+export function getCalendarTasksForDate(date: string): CalendarTask[] {
+    return getCalendarTasks().filter((t) => t.date === date);
+}
+
+export function addCalendarTask(text: string, date: string): CalendarTask {
+    const tasks = getCalendarTasks();
+    const newTask: CalendarTask = {
+        id: crypto.randomUUID(),
+        date,
+        text,
+        completed: false,
+        createdAt: new Date().toISOString(),
+    };
+    tasks.push(newTask);
+    saveCalendarTasks(tasks);
+    return newTask;
+}
+
+export function toggleCalendarTask(id: string): void {
+    const tasks = getCalendarTasks();
+    const task = tasks.find((t) => t.id === id);
+    if (task) {
+        task.completed = !task.completed;
+        saveCalendarTasks(tasks);
+    }
+}
+
+export function removeCalendarTask(id: string): void {
+    const tasks = getCalendarTasks().filter((t) => t.id !== id);
+    saveCalendarTasks(tasks);
+}
+
+// Budgets (basic storage utilities, you can build generation logic on top)
+export function getBudgets(): MonthlyBudget[] {
+    return getItem(STORAGE_KEYS.BUDGETS, []);
+}
+
+export function saveBudgets(budgets: MonthlyBudget[]): void {
+    setItem(STORAGE_KEYS.BUDGETS, budgets);
+}
+
+export function getCurrentMonthBudget(): MonthlyBudget | undefined {
+    const currentMonth = new Date().toISOString().slice(0, 7);
+    return getBudgets().find((b) => b.month === currentMonth);
+}
+
+// Export/Import for backup
+export function exportAllData(): string {
+    const data = {
+        habits: getHabits(),
+        habitLogs: getHabitLogs(),
+        todos: getTodos(),
+        journals: getJournals(),
+        books: getBooks(),
+        budgets: getBudgets(),
+        calendarTasks: getCalendarTasks(),
+        exportedAt: new Date().toISOString(),
+    };
+    return JSON.stringify(data, null, 2);
+}
+
+export function importAllData(jsonString: string): boolean {
+    try {
+        const data = JSON.parse(jsonString);
+        if (data.habits) saveHabits(data.habits);
+        if (data.habitLogs) saveHabitLogs(data.habitLogs);
+        if (data.todos) saveTodos(data.todos);
+        if (data.journals) saveJournals(data.journals);
+        if (data.books) saveBooks(data.books);
+        if (data.budgets) saveBudgets(data.budgets);
+        if (data.calendarTasks) saveCalendarTasks(data.calendarTasks);
+        return true;
+    } catch {
+        return false;
+    }
+}
+
+```
+
+---
+
+### <a id="📄-src-lib-utils-ts"></a>📄 `src/lib/utils.ts`
+
+**File Info:**
+- **Size**: 177 B
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/lib/utils.ts`
+- **Relative Path**: `src/lib`
+- **Created**: 2026-01-05 02:14:42 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 03:38:20 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `8d59da3a4e9395adec3423a359b64fea`
+- **SHA256**: `d2d4859038918b428f847c50c9b374d0d4f344e578be3e561e074f46de25d601`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+    return twMerge(clsx(inputs));
+}
+
+```
+
+---
+
+### <a id="📄-src-pages-index-tsx"></a>📄 `src/pages/Index.tsx`
+
+**File Info:**
+- **Size**: 3.97 KB
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/pages/Index.tsx`
+- **Relative Path**: `src/pages`
+- **Created**: 2026-01-05 02:15:19 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-07 02:22:34 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `e31972485de549d8ce46be741c158c4d`
+- **SHA256**: `76cd74ac19dec792c9391e70da4864fcc4784bcc182970c1f34a19ac3c71fba8`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useState } from 'react';
+import { DateHeader } from '@/components/DateHeader';
+import { Navigation } from '@/components/Navigation';
+import { HabitTracker } from '@/components/HabitTracker';
+import { DailyTodos } from '@/components/DailyTodos';
+import { QuickJournal } from '@/components/QuickJournal';
+import { ReadingProgress } from '@/components/ReadingProgress';
+import { QuickStats } from '@/components/QuickStats';
+import { JournalHistory } from '@/components/JournalHistory';
+import { BudgetTracker } from '@/components/BudgetTracker';
+import { AnalyticsDashboard } from '@/components/AnalyticsDashboard';
+import { DataExport } from '@/components/DataExport';
+import { SelfCareChecklist } from '@/components/SelfCareChecklist';
+import { MoodBoard } from '@/components/MoodBoard';
+
+type Section = 'dashboard' | 'habits' | 'journal' | 'calendar' | 'reading' | 'budget' | 'analytics' | 'settings';
+
+const Index = () => {
+    const [activeSection, setActiveSection] = useState<Section>('dashboard');
+
+    return (
+        <div className="min-h-screen bg-background">
+            <Navigation activeSection={activeSection} onSectionChange={setActiveSection} />
+
+            <main className="pb-24 md:pb-8 md:ml-20">
+                <div className="container max-w-4xl py-6">
+                    <DateHeader />
+
+                    {activeSection === 'dashboard' && (
+                        <div className="space-y-6">
+                            <QuickStats />
+
+                            <div className="grid gap-6 lg:grid-cols-2">
+                                <div className="space-y-6">
+                                    <HabitTracker />
+                                    <DailyTodos />
+                                </div>
+                                <div className="space-y-6">
+                                    <QuickJournal />
+                                    <MoodBoard />
+                                    <SelfCareChecklist />
+                                    <ReadingProgress />
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {activeSection === 'habits' && (
+                        <div className="space-y-6">
+                            <HabitTracker />
+                            <AnalyticsDashboard />
+                        </div>
+                    )}
+
+                    {activeSection === 'journal' && (
+                        <div className="space-y-6">
+                            <QuickJournal />
+                            <JournalHistory />
+                        </div>
+                    )}
+
+                    {activeSection === 'calendar' && (
+                        <div className="max-w-2xl mx-auto">
+                            <div className="text-center py-12 text-muted-foreground">
+                                <p>Calendar view coming soon...</p>
+                            </div>
+                        </div>
+                    )}
+
+                    {activeSection === 'reading' && (
+                        <div className="max-w-2xl mx-auto">
+                            <ReadingProgress />
+                        </div>
+                    )}
+
+                    {activeSection === 'budget' && (
+                        <div className="space-y-6">
+                            <BudgetTracker />
+                        </div>
+                    )}
+
+                    {activeSection === 'analytics' && (
+                        <div className="space-y-6">
+                            <AnalyticsDashboard />
+                        </div>
+                    )}
+
+                    {activeSection === 'settings' && (
+                        <div className="space-y-6 max-w-2xl mx-auto">
+                            <DataExport />
+                        </div>
+                    )}
+                </div>
+            </main>
+        </div>
+    );
+};
+
+export default Index;
+```
+
+---
+
+### <a id="📄-src-pages-notfound-tsx"></a>📄 `src/pages/NotFound.tsx`
+
+**File Info:**
+- **Size**: 827 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/pages/NotFound.tsx`
+- **Relative Path**: `src/pages`
+- **Created**: 2026-01-05 02:15:14 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:47:09 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `8f5c576a6eda029e03b097086318193b`
+- **SHA256**: `8c76af6a18673d171b8b4a9a1fb6b6d78e985139ad0e087232f14452bc6b81b3`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+const NotFound = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        console.error("404 Error: User attempted to access non-existent route:", location.pathname);
+    }, [location.pathname]);
+
+    return (
+        <div className="flex min-h-screen items-center justify-center bg-muted">
+            <div className="text-center">
+                <h1 className="mb-4 text-4xl font-bold">404</h1>
+                <p className="mb-4 text-xl text-muted-foreground">Oops! Page not found</p>
+                <a href="/" className="text-primary underline hover:text-primary/90">
+                    Return to Home
+                </a>
+            </div>
+        </div>
+    );
+};
+
+export default NotFound;
+
+```
+
+---
+
+### <a id="📄-src-app-css"></a>📄 `src/App.css`
+
+**File Info:**
+- **Size**: 648 B
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/App.css`
+- **Relative Path**: `src`
+- **Created**: 2026-01-05 02:03:05 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:04:10 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `18aaedbf362cdbdf678b5addca90f73c`
+- **SHA256**: `1b75716b5511ad178574cd3e3656e5e8dd94544456944b4ff1d253c9ecc614d4`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+```
+
+---
+
+### <a id="📄-src-app-tsx"></a>📄 `src/App.tsx`
+
+**File Info:**
+- **Size**: 980 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/App.tsx`
+- **Relative Path**: `src`
+- **Created**: 2026-01-05 02:03:17 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:47:03 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `52a59ab6f49932005b5c1a291529f566`
+- **SHA256**: `f13b6133a2940b1e4d7412a3592a409e0d1ee2ad41ef465957e3d13331f8a6a1`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { Toaster } from "@/components/ui/toaster";
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Index from "./pages/Index";
+import NotFound from "./pages/NotFound";
+
+const queryClient = new QueryClient();
+
+const App = () => (
+    <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+            <Toaster />
+            <Sonner />
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Index />} />
+                    {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
+            </BrowserRouter>
+        </TooltipProvider>
+    </QueryClientProvider>
+);
+
+export default App;
+
+```
+
+---
+
+### <a id="📄-src-index-css"></a>📄 `src/index.css`
+
+**File Info:**
+- **Size**: 4.8 KB
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/index.css`
+- **Relative Path**: `src`
+- **Created**: 2026-01-05 02:03:30 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:48:40 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `0f7676b63a61b75502dbf53fda1853b8`
+- **SHA256**: `01bbe8c82af0fe4e0581843e6694815abe49a6d40d24c90d8a1f08702efbb738`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 220 20% 7%;
+        --foreground: 220 10% 92%;
+
+        --card: 220 18% 10%;
+        --card-foreground: 220 10% 92%;
+
+        --popover: 220 18% 12%;
+        --popover-foreground: 220 10% 92%;
+
+        --primary: 38 92% 50%;
+        --primary-foreground: 220 20% 7%;
+
+        --secondary: 220 15% 15%;
+        --secondary-foreground: 220 10% 85%;
+
+        --muted: 220 15% 18%;
+        --muted-foreground: 220 10% 55%;
+
+        --accent: 180 60% 45%;
+        --accent-foreground: 220 20% 7%;
+
+        --destructive: 0 72% 51%;
+        --destructive-foreground: 220 10% 92%;
+
+        --success: 142 71% 45%;
+        --success-foreground: 220 20% 7%;
+
+        --habit: 180 60% 45%;
+        --habit-foreground: 220 20% 7%;
+
+        --journal: 270 50% 55%;
+        --journal-foreground: 220 10% 92%;
+
+        --reading: 142 50% 45%;
+        --reading-foreground: 220 20% 7%;
+
+        --calendar: 210 80% 55%;
+        --calendar-foreground: 220 10% 92%;
+
+        --budget: 25 90% 55%;
+        --budget-foreground: 220 20% 7%;
+
+        --border: 220 15% 18%;
+        --input: 220 15% 15%;
+        --ring: 38 92% 50%;
+
+        --radius: 1rem;
+
+        --sidebar-background: 220 18% 8%;
+        --sidebar-foreground: 220 10% 85%;
+        --sidebar-primary: 38 92% 50%;
+        --sidebar-primary-foreground: 220 20% 7%;
+        --sidebar-accent: 220 15% 15%;
+        --sidebar-accent-foreground: 220 10% 85%;
+        --sidebar-border: 220 15% 15%;
+        --sidebar-ring: 38 92% 50%;
+    }
+
+    .dark {
+        --background: 220 20% 7%;
+        --foreground: 220 10% 92%;
+
+        --card: 220 18% 10%;
+        --card-foreground: 220 10% 92%;
+
+        --popover: 220 18% 12%;
+        --popover-foreground: 220 10% 92%;
+
+        --primary: 38 92% 50%;
+        --primary-foreground: 220 20% 7%;
+
+        --secondary: 220 15% 15%;
+        --secondary-foreground: 220 10% 85%;
+
+        --muted: 220 15% 18%;
+        --muted-foreground: 220 10% 55%;
+
+        --accent: 180 60% 45%;
+        --accent-foreground: 220 20% 7%;
+
+        --destructive: 0 72% 51%;
+        --destructive-foreground: 220 10% 92%;
+
+        --border: 220 15% 18%;
+        --input: 220 15% 15%;
+        --ring: 38 92% 50%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    html {
+        @apply antialiased;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+        @apply bg-background text-foreground font-sans;
+        font-family: 'Outfit', sans-serif;
+    }
+}
+
+@layer utilities {
+    .glass {
+        @apply bg-card/80 backdrop-blur-xl;
+    }
+
+    .glow-primary {
+        box-shadow: 0 0 40px -10px hsl(var(--primary) / 0.4);
+    }
+
+    .glow-success {
+        box-shadow: 0 0 20px -5px hsl(var(--success) / 0.5);
+    }
+
+    .habit-complete {
+        @apply bg-success/20 border-success/50;
+    }
+
+    .habit-missed {
+        @apply bg-destructive/10 border-destructive/30;
+    }
+
+    .habit-locked {
+        @apply bg-muted/30 border-border/50 opacity-50;
+    }
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/20 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/30;
+}
+
+/* Animations */
+@keyframes check-bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 20px -5px hsl(var(--primary) / 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 30px -5px hsl(var(--primary) / 0.5);
+    }
+}
+
+.animate-check {
+    animation: check-bounce 0.3s ease-out;
+}
+
+.animate-fade-in {
+    animation: fade-in 0.4s ease-out;
+}
+
+.animate-slide-up {
+    animation: slide-up 0.5s ease-out;
+}
+
+.animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Staggered animation delays */
+.stagger-1 {
+    animation-delay: 0.1s;
+}
+
+.stagger-2 {
+    animation-delay: 0.2s;
+}
+
+.stagger-3 {
+    animation-delay: 0.3s;
+}
+
+.stagger-4 {
+    animation-delay: 0.4s;
+}
+
+.stagger-5 {
+    animation-delay: 0.5s;
+}
+```
+
+---
+
+### <a id="📄-src-main-tsx"></a>📄 `src/main.tsx`
+
+**File Info:**
+- **Size**: 166 B
+- **Extension**: `.tsx`
+- **Language**: `typescript`
+- **Location**: `src/main.tsx`
+- **Relative Path**: `src`
+- **Created**: 2026-01-05 02:03:37 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:04:40 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `3ad492668e71c9fb3069381cb93760ed`
+- **SHA256**: `0e6f13d73ea54de0964c09ddd627297f201e439379075aaace03d2ae302f901b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
+import "./index.css";
+
+createRoot(document.getElementById("root")!).render(<App />);
+
+```
+
+---
+
+### <a id="📄-src-vite-env-d-ts"></a>📄 `src/vite-env.d.ts`
+
+**File Info:**
+- **Size**: 216 B
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `src/vite-env.d.ts`
+- **Relative Path**: `src`
+- **Created**: 2026-01-05 02:03:43 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 04:06:10 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `c5ffbd207cffa3665dd465e52f5986e9`
+- **SHA256**: `3587192e40cac86f5ab63155f52268a8089c39c2f970f8a3f85a8a2bb90bd54f`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+    readonly VITE_SUPABASE_URL: string
+    readonly VITE_SUPABASE_ANON_KEY: string
+}
+
+interface ImportMeta {
+    readonly env: ImportMetaEnv
+}
+```
+
+---
+
+### <a id="📄-supabase-config-toml"></a>📄 `supabase/config.toml`
+
+**File Info:**
+- **Size**: 35 B
+- **Extension**: `.toml`
+- **Language**: `text`
+- **Location**: `supabase/config.toml`
+- **Relative Path**: `supabase`
+- **Created**: 2026-01-05 02:01:17 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:01:41 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `d3d25c030eebc0d4fa14b2e1d52053a0`
+- **SHA256**: `2575b78173aa1d4feac45b2a07b6b4585127703a2833ebe6efada5f41e717e59`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+project_id = "iqczvxwahkxonywjwbqt"
+```
+
+---
+
+### <a id="📄-bun-lock"></a>📄 `bun.lock`
+
+**File Info:**
+- **Size**: 188.23 KB
+- **Extension**: `.lock`
+- **Language**: `text`
+- **Location**: `bun.lock`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:55:23 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:19 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `fb2130dfa6019db4b6b61e7c262e9611`
+- **SHA256**: `435a4ecf5e08ba401a3eccb3e4b06599a098b1083258b17ec4f603743bdb108f`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+{
+    "lockfileVersion": 1,
+    "configVersion": 1,
+    "workspaces": {
+        "": {
+            "name": "vite_react_shadcn_ts",
+            "dependencies": {
+                "@hookform/resolvers": "^3.10.0",
+                "@radix-ui/react-accordion": "^1.2.11",
+                "@radix-ui/react-alert-dialog": "^1.1.14",
+                "@radix-ui/react-aspect-ratio": "^1.1.7",
+                "@radix-ui/react-avatar": "^1.1.10",
+                "@radix-ui/react-checkbox": "^1.3.2",
+                "@radix-ui/react-collapsible": "^1.1.11",
+                "@radix-ui/react-context-menu": "^2.2.15",
+                "@radix-ui/react-dialog": "^1.1.14",
+                "@radix-ui/react-dropdown-menu": "^2.1.15",
+                "@radix-ui/react-hover-card": "^1.1.14",
+                "@radix-ui/react-label": "^2.1.7",
+                "@radix-ui/react-menubar": "^1.1.15",
+                "@radix-ui/react-navigation-menu": "^1.2.13",
+                "@radix-ui/react-popover": "^1.1.14",
+                "@radix-ui/react-progress": "^1.1.7",
+                "@radix-ui/react-radio-group": "^1.3.7",
+                "@radix-ui/react-scroll-area": "^1.2.9",
+                "@radix-ui/react-select": "^2.2.5",
+                "@radix-ui/react-separator": "^1.1.7",
+                "@radix-ui/react-slider": "^1.3.5",
+                "@radix-ui/react-slot": "^1.2.3",
+                "@radix-ui/react-switch": "^1.2.5",
+                "@radix-ui/react-tabs": "^1.1.12",
+                "@radix-ui/react-toast": "^1.2.14",
+                "@radix-ui/react-toggle": "^1.1.9",
+                "@radix-ui/react-toggle-group": "^1.1.10",
+                "@radix-ui/react-tooltip": "^1.2.7",
+                "@supabase/supabase-js": "^2.89.0",
+                "@tanstack/react-query": "^5.83.0",
+                "class-variance-authority": "^0.7.1",
+                "clsx": "^2.1.1",
+                "cmdk": "^1.1.1",
+                "date-fns": "^3.6.0",
+                "embla-carousel-react": "^8.6.0",
+                "input-otp": "^1.4.2",
+                "lucide-react": "^0.462.0",
+                "next-themes": "^0.3.0",
+                "react": "^18.3.1",
+                "react-day-picker": "^8.10.1",
+                "react-dom": "^18.3.1",
+                "react-hook-form": "^7.61.1",
+                "react-resizable-panels": "^2.1.9",
+                "react-router-dom": "^6.30.1",
+                "recharts": "^2.15.4",
+                "sonner": "^1.7.4",
+                "tailwind-merge": "^2.6.0",
+                "tailwindcss-animate": "^1.0.7",
+                "vaul": "^0.9.9",
+                "zod": "^3.25.76",
+            },
+            "devDependencies": {
+                "@eslint/js": "^9.32.0",
+                "@tailwindcss/typography": "^0.5.16",
+                "@types/node": "^22.16.5",
+                "@types/react": "^18.3.23",
+                "@types/react-dom": "^18.3.7",
+                "@vitejs/plugin-react-swc": "^3.11.0",
+                "autoprefixer": "^10.4.21",
+                "eslint": "^9.32.0",
+                "eslint-plugin-react-hooks": "^5.2.0",
+                "eslint-plugin-react-refresh": "^0.4.20",
+                "globals": "^15.15.0",
+                "lovable-tagger": "^1.1.13",
+                "postcss": "^8.5.6",
+                "tailwindcss": "^3.4.17",
+                "typescript": "^5.8.3",
+                "typescript-eslint": "^8.38.0",
+                "vite": "^5.4.19",
+            },
+        },
+    },
+    "packages": {
+        "@alloc/quick-lru": [
+            "@alloc/quick-lru@5.2.0",
+            "",
+            {},
+            "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw=="
+        ],
+        "@babel/runtime": [
+            "@babel/runtime@7.28.2",
+            "",
+            {},
+            "sha512-KHp2IflsnGywDjBWDkR9iEqiWSpc8GIi0lgTT3mOElT0PP1tG26P4tmFI2YvAdzgq9RGyoHZQEIEdZy6Ec5xCA=="
+        ],
+        "@esbuild/aix-ppc64": [
+            "@esbuild/aix-ppc64@0.25.0",
+            "",
+            {
+                "os": "aix",
+                "cpu": "ppc64"
+            },
+            "sha512-O7vun9Sf8DFjH2UtqK8Ku3LkquL9SZL8OLY1T5NZkA34+wG3OQF7cl4Ql8vdNzM6fzBbYfLaiRLIOZ+2FOCgBQ=="
+        ],
+        "@esbuild/android-arm": [
+            "@esbuild/android-arm@0.25.0",
+            "",
+            {
+                "os": "android",
+                "cpu": "arm"
+            },
+            "sha512-PTyWCYYiU0+1eJKmw21lWtC+d08JDZPQ5g+kFyxP0V+es6VPPSUhM6zk8iImp2jbV6GwjX4pap0JFbUQN65X1g=="
+        ],
+        "@esbuild/android-arm64": [
+            "@esbuild/android-arm64@0.25.0",
+            "",
+            {
+                "os": "android",
+                "cpu": "arm64"
+            },
+            "sha512-grvv8WncGjDSyUBjN9yHXNt+cq0snxXbDxy5pJtzMKGmmpPxeAmAhWxXI+01lU5rwZomDgD3kJwulEnhTRUd6g=="
+        ],
+        "@esbuild/android-x64": [
+            "@esbuild/android-x64@0.25.0",
+            "",
+            {
+                "os": "android",
+                "cpu": "x64"
+            },
+            "sha512-m/ix7SfKG5buCnxasr52+LI78SQ+wgdENi9CqyCXwjVR2X4Jkz+BpC3le3AoBPYTC9NHklwngVXvbJ9/Akhrfg=="
+        ],
+        "@esbuild/darwin-arm64": [
+            "@esbuild/darwin-arm64@0.25.0",
+            "",
+            {
+                "os": "darwin",
+                "cpu": "arm64"
+            },
+            "sha512-mVwdUb5SRkPayVadIOI78K7aAnPamoeFR2bT5nszFUZ9P8UpK4ratOdYbZZXYSqPKMHfS1wdHCJk1P1EZpRdvw=="
+        ],
+        "@esbuild/darwin-x64": [
+            "@esbuild/darwin-x64@0.25.0",
+            "",
+            {
+                "os": "darwin",
+                "cpu": "x64"
+            },
+            "sha512-DgDaYsPWFTS4S3nWpFcMn/33ZZwAAeAFKNHNa1QN0rI4pUjgqf0f7ONmXf6d22tqTY+H9FNdgeaAa+YIFUn2Rg=="
+        ],
+        "@esbuild/freebsd-arm64": [
+            "@esbuild/freebsd-arm64@0.25.0",
+            "",
+            {
+                "os": "freebsd",
+                "cpu": "arm64"
+            },
+            "sha512-VN4ocxy6dxefN1MepBx/iD1dH5K8qNtNe227I0mnTRjry8tj5MRk4zprLEdG8WPyAPb93/e4pSgi1SoHdgOa4w=="
+        ],
+        "@esbuild/freebsd-x64": [
+            "@esbuild/freebsd-x64@0.25.0",
+            "",
+            {
+                "os": "freebsd",
+                "cpu": "x64"
+            },
+            "sha512-mrSgt7lCh07FY+hDD1TxiTyIHyttn6vnjesnPoVDNmDfOmggTLXRv8Id5fNZey1gl/V2dyVK1VXXqVsQIiAk+A=="
+        ],
+        "@esbuild/linux-arm": [
+            "@esbuild/linux-arm@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm"
+            },
+            "sha512-vkB3IYj2IDo3g9xX7HqhPYxVkNQe8qTK55fraQyTzTX/fxaDtXiEnavv9geOsonh2Fd2RMB+i5cbhu2zMNWJwg=="
+        ],
+        "@esbuild/linux-arm64": [
+            "@esbuild/linux-arm64@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm64"
+            },
+            "sha512-9QAQjTWNDM/Vk2bgBl17yWuZxZNQIF0OUUuPZRKoDtqF2k4EtYbpyiG5/Dk7nqeK6kIJWPYldkOcBqjXjrUlmg=="
+        ],
+        "@esbuild/linux-ia32": [
+            "@esbuild/linux-ia32@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "ia32"
+            },
+            "sha512-43ET5bHbphBegyeqLb7I1eYn2P/JYGNmzzdidq/w0T8E2SsYL1U6un2NFROFRg1JZLTzdCoRomg8Rvf9M6W6Gg=="
+        ],
+        "@esbuild/linux-loong64": [
+            "@esbuild/linux-loong64@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "none"
+            },
+            "sha512-fC95c/xyNFueMhClxJmeRIj2yrSMdDfmqJnyOY4ZqsALkDrrKJfIg5NTMSzVBr5YW1jf+l7/cndBfP3MSDpoHw=="
+        ],
+        "@esbuild/linux-mips64el": [
+            "@esbuild/linux-mips64el@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "none"
+            },
+            "sha512-nkAMFju7KDW73T1DdH7glcyIptm95a7Le8irTQNO/qtkoyypZAnjchQgooFUDQhNAy4iu08N79W4T4pMBwhPwQ=="
+        ],
+        "@esbuild/linux-ppc64": [
+            "@esbuild/linux-ppc64@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "ppc64"
+            },
+            "sha512-NhyOejdhRGS8Iwv+KKR2zTq2PpysF9XqY+Zk77vQHqNbo/PwZCzB5/h7VGuREZm1fixhs4Q/qWRSi5zmAiO4Fw=="
+        ],
+        "@esbuild/linux-riscv64": [
+            "@esbuild/linux-riscv64@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "none"
+            },
+            "sha512-5S/rbP5OY+GHLC5qXp1y/Mx//e92L1YDqkiBbO9TQOvuFXM+iDqUNG5XopAnXoRH3FjIUDkeGcY1cgNvnXp/kA=="
+        ],
+        "@esbuild/linux-s390x": [
+            "@esbuild/linux-s390x@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "s390x"
+            },
+            "sha512-XM2BFsEBz0Fw37V0zU4CXfcfuACMrppsMFKdYY2WuTS3yi8O1nFOhil/xhKTmE1nPmVyvQJjJivgDT+xh8pXJA=="
+        ],
+        "@esbuild/linux-x64": [
+            "@esbuild/linux-x64@0.25.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "x64"
+            },
+            "sha512-9yl91rHw/cpwMCNytUDxwj2XjFpxML0y9HAOH9pNVQDpQrBxHy01Dx+vaMu0N1CKa/RzBD2hB4u//nfc+Sd3Cw=="
+        ],
+        "@esbuild/netbsd-arm64": [
+            "@esbuild/netbsd-arm64@0.25.0",
+            "",
+            {
+                "os": "none",
+                "cpu": "arm64"
+            },
+            "sha512-RuG4PSMPFfrkH6UwCAqBzauBWTygTvb1nxWasEJooGSJ/NwRw7b2HOwyRTQIU97Hq37l3npXoZGYMy3b3xYvPw=="
+        ],
+        "@esbuild/netbsd-x64": [
+            "@esbuild/netbsd-x64@0.25.0",
+            "",
+            {
+                "os": "none",
+                "cpu": "x64"
+            },
+            "sha512-jl+qisSB5jk01N5f7sPCsBENCOlPiS/xptD5yxOx2oqQfyourJwIKLRA2yqWdifj3owQZCL2sn6o08dBzZGQzA=="
+        ],
+        "@esbuild/openbsd-arm64": [
+            "@esbuild/openbsd-arm64@0.25.0",
+            "",
+            {
+                "os": "openbsd",
+                "cpu": "arm64"
+            },
+            "sha512-21sUNbq2r84YE+SJDfaQRvdgznTD8Xc0oc3p3iW/a1EVWeNj/SdUCbm5U0itZPQYRuRTW20fPMWMpcrciH2EJw=="
+        ],
+        "@esbuild/openbsd-x64": [
+            "@esbuild/openbsd-x64@0.25.0",
+            "",
+            {
+                "os": "openbsd",
+                "cpu": "x64"
+            },
+            "sha512-2gwwriSMPcCFRlPlKx3zLQhfN/2WjJ2NSlg5TKLQOJdV0mSxIcYNTMhk3H3ulL/cak+Xj0lY1Ym9ysDV1igceg=="
+        ],
+        "@esbuild/sunos-x64": [
+            "@esbuild/sunos-x64@0.25.0",
+            "",
+            {
+                "os": "sunos",
+                "cpu": "x64"
+            },
+            "sha512-bxI7ThgLzPrPz484/S9jLlvUAHYMzy6I0XiU1ZMeAEOBcS0VePBFxh1JjTQt3Xiat5b6Oh4x7UC7IwKQKIJRIg=="
+        ],
+        "@esbuild/win32-arm64": [
+            "@esbuild/win32-arm64@0.25.0",
+            "",
+            {
+                "os": "win32",
+                "cpu": "arm64"
+            },
+            "sha512-ZUAc2YK6JW89xTbXvftxdnYy3m4iHIkDtK3CLce8wg8M2L+YZhIvO1DKpxrd0Yr59AeNNkTiic9YLf6FTtXWMw=="
+        ],
+        "@esbuild/win32-ia32": [
+            "@esbuild/win32-ia32@0.25.0",
+            "",
+            {
+                "os": "win32",
+                "cpu": "ia32"
+            },
+            "sha512-eSNxISBu8XweVEWG31/JzjkIGbGIJN/TrRoiSVZwZ6pkC6VX4Im/WV2cz559/TXLcYbcrDN8JtKgd9DJVIo8GA=="
+        ],
+        "@esbuild/win32-x64": [
+            "@esbuild/win32-x64@0.25.0",
+            "",
+            {
+                "os": "win32",
+                "cpu": "x64"
+            },
+            "sha512-ZENoHJBxA20C2zFzh6AI4fT6RraMzjYw4xKWemRTRmRVtN9c5DcH9r/f2ihEkMjOW5eGgrwCslG/+Y/3bL+DHQ=="
+        ],
+        "@eslint-community/eslint-utils": [
+            "@eslint-community/eslint-utils@4.7.0",
+            "",
+            {
+                "dependencies": {
+                    "eslint-visitor-keys": "^3.4.3"
+                },
+                "peerDependencies": {
+                    "eslint": "^6.0.0 || ^7.0.0 || >=8.0.0"
+                }
+            },
+            "sha512-dyybb3AcajC7uha6CvhdVRJqaKyn7w2YKqKyAN37NKYgZT36w+iRb0Dymmc5qEJ549c/S31cMMSFd75bteCpCw=="
+        ],
+        "@eslint-community/regexpp": [
+            "@eslint-community/regexpp@4.12.1",
+            "",
+            {},
+            "sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ=="
+        ],
+        "@eslint/config-array": [
+            "@eslint/config-array@0.21.0",
+            "",
+            {
+                "dependencies": {
+                    "@eslint/object-schema": "^2.1.6",
+                    "debug": "^4.3.1",
+                    "minimatch": "^3.1.2"
+                }
+            },
+            "sha512-ENIdc4iLu0d93HeYirvKmrzshzofPw6VkZRKQGe9Nv46ZnWUzcF1xV01dcvEg/1wXUR61OmmlSfyeyO7EvjLxQ=="
+        ],
+        "@eslint/config-helpers": [
+            "@eslint/config-helpers@0.3.0",
+            "",
+            {},
+            "sha512-ViuymvFmcJi04qdZeDc2whTHryouGcDlaxPqarTD0ZE10ISpxGUVZGZDx4w01upyIynL3iu6IXH2bS1NhclQMw=="
+        ],
+        "@eslint/core": [
+            "@eslint/core@0.15.1",
+            "",
+            {
+                "dependencies": {
+                    "@types/json-schema": "^7.0.15"
+                }
+            },
+            "sha512-bkOp+iumZCCbt1K1CmWf0R9pM5yKpDv+ZXtvSyQpudrI9kuFLp+bM2WOPXImuD/ceQuaa8f5pj93Y7zyECIGNA=="
+        ],
+        "@eslint/eslintrc": [
+            "@eslint/eslintrc@3.3.1",
+            "",
+            {
+                "dependencies": {
+                    "ajv": "^6.12.4",
+                    "debug": "^4.3.2",
+                    "espree": "^10.0.1",
+                    "globals": "^14.0.0",
+                    "ignore": "^5.2.0",
+                    "import-fresh": "^3.2.1",
+                    "js-yaml": "^4.1.0",
+                    "minimatch": "^3.1.2",
+                    "strip-json-comments": "^3.1.1"
+                }
+            },
+            "sha512-gtF186CXhIl1p4pJNGZw8Yc6RlshoePRvE0X91oPGb3vZ8pM3qOS9W9NGPat9LziaBV7XrJWGylNQXkGcnM3IQ=="
+        ],
+        "@eslint/js": [
+            "@eslint/js@9.32.0",
+            "",
+            {},
+            "sha512-BBpRFZK3eX6uMLKz8WxFOBIFFcGFJ/g8XuwjTHCqHROSIsopI+ddn/d5Cfh36+7+e5edVS8dbSHnBNhrLEX0zg=="
+        ],
+        "@eslint/object-schema": [
+            "@eslint/object-schema@2.1.6",
+            "",
+            {},
+            "sha512-RBMg5FRL0I0gs51M/guSAj5/e14VQ4tpZnQNWwuDT66P14I43ItmPfIZRhO9fUVIPOAQXU47atlywZ/czoqFPA=="
+        ],
+        "@eslint/plugin-kit": [
+            "@eslint/plugin-kit@0.3.4",
+            "",
+            {
+                "dependencies": {
+                    "@eslint/core": "^0.15.1",
+                    "levn": "^0.4.1"
+                }
+            },
+            "sha512-Ul5l+lHEcw3L5+k8POx6r74mxEYKG5kOb6Xpy2gCRW6zweT6TEhAf8vhxGgjhqrd/VO/Dirhsb+1hNpD1ue9hw=="
+        ],
+        "@floating-ui/core": [
+            "@floating-ui/core@1.7.2",
+            "",
+            {
+                "dependencies": {
+                    "@floating-ui/utils": "^0.2.10"
+                }
+            },
+            "sha512-wNB5ooIKHQc+Kui96jE/n69rHFWAVoxn5CAzL1Xdd8FG03cgY3MLO+GF9U3W737fYDSgPWA6MReKhBQBop6Pcw=="
+        ],
+        "@floating-ui/dom": [
+            "@floating-ui/dom@1.7.2",
+            "",
+            {
+                "dependencies": {
+                    "@floating-ui/core": "^1.7.2",
+                    "@floating-ui/utils": "^0.2.10"
+                }
+            },
+            "sha512-7cfaOQuCS27HD7DX+6ib2OrnW+b4ZBwDNnCcT0uTyidcmyWb03FnQqJybDBoCnpdxwBSfA94UAYlRCt7mV+TbA=="
+        ],
+        "@floating-ui/react-dom": [
+            "@floating-ui/react-dom@2.1.4",
+            "",
+            {
+                "dependencies": {
+                    "@floating-ui/dom": "^1.7.2"
+                },
+                "peerDependencies": {
+                    "react": ">=16.8.0",
+                    "react-dom": ">=16.8.0"
+                }
+            },
+            "sha512-JbbpPhp38UmXDDAu60RJmbeme37Jbgsm7NrHGgzYYFKmblzRUh6Pa641dII6LsjwF4XlScDrde2UAzDo/b9KPw=="
+        ],
+        "@floating-ui/utils": [
+            "@floating-ui/utils@0.2.10",
+            "",
+            {},
+            "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ=="
+        ],
+        "@hookform/resolvers": [
+            "@hookform/resolvers@3.10.0",
+            "",
+            {
+                "peerDependencies": {
+                    "react-hook-form": "^7.0.0"
+                }
+            },
+            "sha512-79Dv+3mDF7i+2ajj7SkypSKHhl1cbln1OGavqrsF7p6mbUv11xpqpacPsGDCTRvCSjEEIez2ef1NveSVL3b0Ag=="
+        ],
+        "@humanfs/core": [
+            "@humanfs/core@0.19.1",
+            "",
+            {},
+            "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="
+        ],
+        "@humanfs/node": [
+            "@humanfs/node@0.16.6",
+            "",
+            {
+                "dependencies": {
+                    "@humanfs/core": "^0.19.1",
+                    "@humanwhocodes/retry": "^0.3.0"
+                }
+            },
+            "sha512-YuI2ZHQL78Q5HbhDiBA1X4LmYdXCKCMQIfw0pw7piHJwyREFebJUvrQN4cMssyES6x+vfUbx1CIpaQUKYdQZOw=="
+        ],
+        "@humanwhocodes/module-importer": [
+            "@humanwhocodes/module-importer@1.0.1",
+            "",
+            {},
+            "sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA=="
+        ],
+        "@humanwhocodes/retry": [
+            "@humanwhocodes/retry@0.4.3",
+            "",
+            {},
+            "sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ=="
+        ],
+        "@isaacs/cliui": [
+            "@isaacs/cliui@8.0.2",
+            "",
+            {
+                "dependencies": {
+                    "string-width": "^5.1.2",
+                    "string-width-cjs": "npm:string-width@^4.2.0",
+                    "strip-ansi": "^7.0.1",
+                    "strip-ansi-cjs": "npm:strip-ansi@^6.0.1",
+                    "wrap-ansi": "^8.1.0",
+                    "wrap-ansi-cjs": "npm:wrap-ansi@^7.0.0"
+                }
+            },
+            "sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA=="
+        ],
+        "@jridgewell/gen-mapping": [
+            "@jridgewell/gen-mapping@0.3.5",
+            "",
+            {
+                "dependencies": {
+                    "@jridgewell/set-array": "^1.2.1",
+                    "@jridgewell/sourcemap-codec": "^1.4.10",
+                    "@jridgewell/trace-mapping": "^0.3.24"
+                }
+            },
+            "sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg=="
+        ],
+        "@jridgewell/resolve-uri": [
+            "@jridgewell/resolve-uri@3.1.2",
+            "",
+            {},
+            "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw=="
+        ],
+        "@jridgewell/set-array": [
+            "@jridgewell/set-array@1.2.1",
+            "",
+            {},
+            "sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A=="
+        ],
+        "@jridgewell/sourcemap-codec": [
+            "@jridgewell/sourcemap-codec@1.5.0",
+            "",
+            {},
+            "sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ=="
+        ],
+        "@jridgewell/trace-mapping": [
+            "@jridgewell/trace-mapping@0.3.25",
+            "",
+            {
+                "dependencies": {
+                    "@jridgewell/resolve-uri": "^3.1.0",
+                    "@jridgewell/sourcemap-codec": "^1.4.14"
+                }
+            },
+            "sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ=="
+        ],
+        "@nodelib/fs.scandir": [
+            "@nodelib/fs.scandir@2.1.5",
+            "",
+            {
+                "dependencies": {
+                    "@nodelib/fs.stat": "2.0.5",
+                    "run-parallel": "^1.1.9"
+                }
+            },
+            "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
+        ],
+        "@nodelib/fs.stat": [
+            "@nodelib/fs.stat@2.0.5",
+            "",
+            {},
+            "sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A=="
+        ],
+        "@nodelib/fs.walk": [
+            "@nodelib/fs.walk@1.2.8",
+            "",
+            {
+                "dependencies": {
+                    "@nodelib/fs.scandir": "2.1.5",
+                    "fastq": "^1.6.0"
+                }
+            },
+            "sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg=="
+        ],
+        "@pkgjs/parseargs": [
+            "@pkgjs/parseargs@0.11.0",
+            "",
+            {},
+            "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="
+        ],
+        "@radix-ui/number": [
+            "@radix-ui/number@1.1.1",
+            "",
+            {},
+            "sha512-MkKCwxlXTgz6CFoJx3pCwn07GKp36+aZyu/u2Ln2VrA5DcdyCZkASEDBTd8x5whTQQL5CiYf4prXKLcgQdv29g=="
+        ],
+        "@radix-ui/primitive": [
+            "@radix-ui/primitive@1.1.2",
+            "",
+            {},
+            "sha512-XnbHrrprsNqZKQhStrSwgRUQzoCI1glLzdw79xiZPoofhGICeZRSQ3dIxAKH1gb3OHfNf4d6f+vAv3kil2eggA=="
+        ],
+        "@radix-ui/react-accordion": [
+            "@radix-ui/react-accordion@1.2.11",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-collapsible": "1.1.11",
+                    "@radix-ui/react-collection": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-l3W5D54emV2ues7jjeG1xcyN7S3jnK3zE2zHqgn0CmMsy9lNJwmgcrmaxS+7ipw15FAivzKNzH3d5EcGoFKw0A=="
+        ],
+        "@radix-ui/react-alert-dialog": [
+            "@radix-ui/react-alert-dialog@1.1.14",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-dialog": "1.1.14",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-slot": "1.2.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-IOZfZ3nPvN6lXpJTBCunFQPRSvK8MDgSc1FB85xnIpUKOw9en0dJj8JmCAxV7BiZdtYlUpmrQjoTFkVYtdoWzQ=="
+        ],
+        "@radix-ui/react-arrow": [
+            "@radix-ui/react-arrow@1.1.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-primitive": "2.1.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-F+M1tLhO+mlQaOWspE8Wstg+z6PwxwRd8oQ8IXceWz92kfAmalTRf0EjrouQeo7QssEPfCn05B4Ihs1K9WQ/7w=="
+        ],
+        "@radix-ui/react-aspect-ratio": [
+            "@radix-ui/react-aspect-ratio@1.1.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-primitive": "2.1.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-Yq6lvO9HQyPwev1onK1daHCHqXVLzPhSVjmsNjCa2Zcxy2f7uJD2itDtxknv6FzAKCwD1qQkeVDmX/cev13n/g=="
+        ],
+        "@radix-ui/react-avatar": [
+            "@radix-ui/react-avatar@1.1.10",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-is-hydrated": "0.1.0",
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-V8piFfWapM5OmNCXTzVQY+E1rDa53zY+MQ4Y7356v4fFz6vqCyUtIz2rUD44ZEdwg78/jKmMJHj07+C/Z/rcog=="
+        ],
+        "@radix-ui/react-checkbox": [
+            "@radix-ui/react-checkbox@1.3.2",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-use-previous": "1.1.1",
+                    "@radix-ui/react-use-size": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-yd+dI56KZqawxKZrJ31eENUwqc1QSqg4OZ15rybGjF2ZNwMO+wCyHzAVLRp9qoYJf7kYy0YpZ2b0JCzJ42HZpA=="
+        ],
+        "@radix-ui/react-collapsible": [
+            "@radix-ui/react-collapsible@1.1.11",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-2qrRsVGSCYasSz1RFOorXwl0H7g7J1frQtgpQgYrt+MOidtPAINHn9CPovQXb83r8ahapdx3Tu0fa/pdFFSdPg=="
+        ],
+        "@radix-ui/react-collection": [
+            "@radix-ui/react-collection@1.1.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-slot": "1.2.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-Fh9rGN0MoI4ZFUNyfFVNU4y9LUz93u9/0K+yLgA2bwRojxM8JU1DyvvMBabnZPBgMWREAJvU2jjVzq+LrFUglw=="
+        ],
+        "@radix-ui/react-compose-refs": [
+            "@radix-ui/react-compose-refs@1.1.2",
+            "",
+            {
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-z4eqJvfiNnFMHIIvXP3CY57y2WJs5g2v3X0zm9mEJkrkNv4rDxu+sg9Jh8EkXyeqBkB7SOcboo9dMVqhyrACIg=="
+        ],
+        "@radix-ui/react-context": [
+            "@radix-ui/react-context@1.1.2",
+            "",
+            {
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-jCi/QKUM2r1Ju5a3J64TH2A5SpKAgh0LpknyqdQ4m6DCV0xJ2HG1xARRwNGPQfi1SLdLWZ1OJz6F4OMBBNiGJA=="
+        ],
+        "@radix-ui/react-context-menu": [
+            "@radix-ui/react-context-menu@2.2.15",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-menu": "2.1.15",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-UsQUMjcYTsBjTSXw0P3GO0werEQvUY2plgRQuKoCTtkNr45q1DiL51j4m7gxhABzZ0BadoXNsIbg7F3KwiUBbw=="
+        ],
+        "@radix-ui/react-dialog": [
+            "@radix-ui/react-dialog@1.1.14",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-dismissable-layer": "1.1.10",
+                    "@radix-ui/react-focus-guards": "1.1.2",
+                    "@radix-ui/react-focus-scope": "1.1.7",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-portal": "1.1.9",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-slot": "1.2.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "aria-hidden": "^1.2.4",
+                    "react-remove-scroll": "^2.6.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-+CpweKjqpzTmwRwcYECQcNYbI8V9VSQt0SNFKeEBLgfucbsLssU6Ppq7wUdNXEGb573bMjFhVjKVll8rmV6zMw=="
+        ],
+        "@radix-ui/react-direction": [
+            "@radix-ui/react-direction@1.1.1",
+            "",
+            {
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-1UEWRX6jnOA2y4H5WczZ44gOOjTEmlqv1uNW4GAJEO5+bauCBhv8snY65Iw5/VOS/ghKN9gr2KjnLKxrsvoMVw=="
+        ],
+        "@radix-ui/react-dismissable-layer": [
+            "@radix-ui/react-dismissable-layer@1.1.10",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-escape-keydown": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-IM1zzRV4W3HtVgftdQiiOmA0AdJlCtMLe00FXaHwgt3rAnNsIyDqshvkIW3hj/iu5hu8ERP7KIYki6NkqDxAwQ=="
+        ],
+        "@radix-ui/react-dropdown-menu": [
+            "@radix-ui/react-dropdown-menu@2.1.15",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-menu": "2.1.15",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-mIBnOjgwo9AH3FyKaSWoSu/dYj6VdhJ7frEPiGTeXCdUFHjl9h3mFh2wwhEtINOmYXWhdpf1rY2minFsmaNgVQ=="
+        ],
+        "@radix-ui/react-focus-guards": [
+            "@radix-ui/react-focus-guards@1.1.2",
+            "",
+            {
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-fyjAACV62oPV925xFCrH8DR5xWhg9KYtJT4s3u54jxp+L/hbpTY2kIeEFFbFe+a/HCE94zGQMZLIpVTPVZDhaA=="
+        ],
+        "@radix-ui/react-focus-scope": [
+            "@radix-ui/react-focus-scope@1.1.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-t2ODlkXBQyn7jkl6TNaw/MtVEVvIGelJDCG41Okq/KwUsJBwQ4XVZsHAVUkK4mBv3ewiAS3PGuUWuY2BoK4ZUw=="
+        ],
+        "@radix-ui/react-hover-card": [
+            "@radix-ui/react-hover-card@1.1.14",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-dismissable-layer": "1.1.10",
+                    "@radix-ui/react-popper": "1.2.7",
+                    "@radix-ui/react-portal": "1.1.9",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-CPYZ24Mhirm+g6D8jArmLzjYu4Eyg3TTUHswR26QgzXBHBe64BO/RHOJKzmF/Dxb4y4f9PKyJdwm/O/AhNkb+Q=="
+        ],
+        "@radix-ui/react-id": [
+            "@radix-ui/react-id@1.1.1",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-kGkGegYIdQsOb4XjsfM97rXsiHaBwco+hFI66oO4s9LU+PLAC5oJ7khdOVFxkhsmlbpUqDAvXw11CluXP+jkHg=="
+        ],
+        "@radix-ui/react-label": [
+            "@radix-ui/react-label@2.1.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-primitive": "2.1.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-YT1GqPSL8kJn20djelMX7/cTRp/Y9w5IZHvfxQTVHrOqa2yMl7i/UfMqKRU5V7mEyKTrUVgJXhNQPVCG8PBLoQ=="
+        ],
+        "@radix-ui/react-menu": [
+            "@radix-ui/react-menu@2.1.15",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-collection": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-dismissable-layer": "1.1.10",
+                    "@radix-ui/react-focus-guards": "1.1.2",
+                    "@radix-ui/react-focus-scope": "1.1.7",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-popper": "1.2.7",
+                    "@radix-ui/react-portal": "1.1.9",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-roving-focus": "1.1.10",
+                    "@radix-ui/react-slot": "1.2.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "aria-hidden": "^1.2.4",
+                    "react-remove-scroll": "^2.6.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-tVlmA3Vb9n8SZSd+YSbuFR66l87Wiy4du+YE+0hzKQEANA+7cWKH1WgqcEX4pXqxUFQKrWQGHdvEfw00TjFiew=="
+        ],
+        "@radix-ui/react-menubar": [
+            "@radix-ui/react-menubar@1.1.15",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-collection": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-menu": "2.1.15",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-roving-focus": "1.1.10",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-Z71C7LGD+YDYo3TV81paUs8f3Zbmkvg6VLRQpKYfzioOE6n7fOhA3ApK/V/2Odolxjoc4ENk8AYCjohCNayd5A=="
+        ],
+        "@radix-ui/react-navigation-menu": [
+            "@radix-ui/react-navigation-menu@1.2.13",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-collection": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-dismissable-layer": "1.1.10",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-use-layout-effect": "1.1.1",
+                    "@radix-ui/react-use-previous": "1.1.1",
+                    "@radix-ui/react-visually-hidden": "1.2.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-WG8wWfDiJlSF5hELjwfjSGOXcBR/ZMhBFCGYe8vERpC39CQYZeq1PQ2kaYHdye3V95d06H89KGMsVCIE4LWo3g=="
+        ],
+        "@radix-ui/react-popover": [
+            "@radix-ui/react-popover@1.1.14",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-dismissable-layer": "1.1.10",
+                    "@radix-ui/react-focus-guards": "1.1.2",
+                    "@radix-ui/react-focus-scope": "1.1.7",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-popper": "1.2.7",
+                    "@radix-ui/react-portal": "1.1.9",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-slot": "1.2.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "aria-hidden": "^1.2.4",
+                    "react-remove-scroll": "^2.6.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-ODz16+1iIbGUfFEfKx2HTPKizg2MN39uIOV8MXeHnmdd3i/N9Wt7vU46wbHsqA0xoaQyXVcs0KIlBdOA2Y95bw=="
+        ],
+        "@radix-ui/react-popper": [
+            "@radix-ui/react-popper@1.2.7",
+            "",
+            {
+                "dependencies": {
+                    "@floating-ui/react-dom": "^2.0.0",
+                    "@radix-ui/react-arrow": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-layout-effect": "1.1.1",
+                    "@radix-ui/react-use-rect": "1.1.1",
+                    "@radix-ui/react-use-size": "1.1.1",
+                    "@radix-ui/rect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-IUFAccz1JyKcf/RjB552PlWwxjeCJB8/4KxT7EhBHOJM+mN7LdW+B3kacJXILm32xawcMMjb2i0cIZpo+f9kiQ=="
+        ],
+        "@radix-ui/react-portal": [
+            "@radix-ui/react-portal@1.1.9",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-bpIxvq03if6UNwXZ+HTK71JLh4APvnXntDc6XOX8UVq4XQOVl7lwok0AvIl+b8zgCw3fSaVTZMpAPPagXbKmHQ=="
+        ],
+        "@radix-ui/react-presence": [
+            "@radix-ui/react-presence@1.1.4",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-ueDqRbdc4/bkaQT3GIpLQssRlFgWaL/U2z/S31qRwwLWoxHLgry3SIfCwhxeQNbirEUXFa+lq3RL3oBYXtcmIA=="
+        ],
+        "@radix-ui/react-primitive": [
+            "@radix-ui/react-primitive@2.1.3",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-slot": "1.2.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-m9gTwRkhy2lvCPe6QJp4d3G1TYEUHn/FzJUtq9MjH46an1wJU+GdoGC5VLof8RX8Ft/DlpshApkhswDLZzHIcQ=="
+        ],
+        "@radix-ui/react-progress": [
+            "@radix-ui/react-progress@1.1.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-primitive": "2.1.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-vPdg/tF6YC/ynuBIJlk1mm7Le0VgW6ub6J2UWnTQ7/D23KXcPI1qy+0vBkgKgd38RCMJavBXpB83HPNFMTb0Fg=="
+        ],
+        "@radix-ui/react-radio-group": [
+            "@radix-ui/react-radio-group@1.3.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-roving-focus": "1.1.10",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-use-previous": "1.1.1",
+                    "@radix-ui/react-use-size": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-9w5XhD0KPOrm92OTTE0SysH3sYzHsSTHNvZgUBo/VZ80VdYyB5RneDbc0dKpURS24IxkoFRu/hI0i4XyfFwY6g=="
+        ],
+        "@radix-ui/react-roving-focus": [
+            "@radix-ui/react-roving-focus@1.1.10",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-collection": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-dT9aOXUen9JSsxnMPv/0VqySQf5eDQ6LCk5Sw28kamz8wSOW2bJdlX2Bg5VUIIcV+6XlHpWTIuTPCf/UNIyq8Q=="
+        ],
+        "@radix-ui/react-scroll-area": [
+            "@radix-ui/react-scroll-area@1.2.9",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/number": "1.1.1",
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-YSjEfBXnhUELsO2VzjdtYYD4CfQjvao+lhhrX5XsHD7/cyUNzljF1FHEbgTPN7LH2MClfwRMIsYlqTYpKTTe2A=="
+        ],
+        "@radix-ui/react-select": [
+            "@radix-ui/react-select@2.2.5",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/number": "1.1.1",
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-collection": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-dismissable-layer": "1.1.10",
+                    "@radix-ui/react-focus-guards": "1.1.2",
+                    "@radix-ui/react-focus-scope": "1.1.7",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-popper": "1.2.7",
+                    "@radix-ui/react-portal": "1.1.9",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-slot": "1.2.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-use-layout-effect": "1.1.1",
+                    "@radix-ui/react-use-previous": "1.1.1",
+                    "@radix-ui/react-visually-hidden": "1.2.3",
+                    "aria-hidden": "^1.2.4",
+                    "react-remove-scroll": "^2.6.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-HnMTdXEVuuyzx63ME0ut4+sEMYW6oouHWNGUZc7ddvUWIcfCva/AMoqEW/3wnEllriMWBa0RHspCYnfCWJQYmA=="
+        ],
+        "@radix-ui/react-separator": [
+            "@radix-ui/react-separator@1.1.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-primitive": "2.1.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-0HEb8R9E8A+jZjvmFCy/J4xhbXy3TV+9XSnGJ3KvTtjlIUy/YQ/p6UYZvi7YbeoeXdyU9+Y3scizK6hkY37baA=="
+        ],
+        "@radix-ui/react-slider": [
+            "@radix-ui/react-slider@1.3.5",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/number": "1.1.1",
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-collection": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-use-layout-effect": "1.1.1",
+                    "@radix-ui/react-use-previous": "1.1.1",
+                    "@radix-ui/react-use-size": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-rkfe2pU2NBAYfGaxa3Mqosi7VZEWX5CxKaanRv0vZd4Zhl9fvQrg0VM93dv3xGLGfrHuoTRF3JXH8nb9g+B3fw=="
+        ],
+        "@radix-ui/react-slot": [
+            "@radix-ui/react-slot@1.2.3",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-compose-refs": "1.1.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A=="
+        ],
+        "@radix-ui/react-switch": [
+            "@radix-ui/react-switch@1.2.5",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-use-previous": "1.1.1",
+                    "@radix-ui/react-use-size": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-5ijLkak6ZMylXsaImpZ8u4Rlf5grRmoc0p0QeX9VJtlrM4f5m3nCTX8tWga/zOA8PZYIR/t0p2Mnvd7InrJ6yQ=="
+        ],
+        "@radix-ui/react-tabs": [
+            "@radix-ui/react-tabs@1.1.12",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-roving-focus": "1.1.10",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-GTVAlRVrQrSw3cEARM0nAx73ixrWDPNZAruETn3oHCNP6SbZ/hNxdxp+u7VkIEv3/sFoLq1PfcHrl7Pnp0CDpw=="
+        ],
+        "@radix-ui/react-toast": [
+            "@radix-ui/react-toast@1.2.14",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-collection": "1.1.7",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-dismissable-layer": "1.1.10",
+                    "@radix-ui/react-portal": "1.1.9",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-callback-ref": "1.1.1",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-use-layout-effect": "1.1.1",
+                    "@radix-ui/react-visually-hidden": "1.2.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-nAP5FBxBJGQ/YfUB+r+O6USFVkWq3gAInkxyEnmvEV5jtSbfDhfa4hwX8CraCnbjMLsE7XSf/K75l9xXY7joWg=="
+        ],
+        "@radix-ui/react-toggle": [
+            "@radix-ui/react-toggle@1.1.9",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-ZoFkBBz9zv9GWer7wIjvdRxmh2wyc2oKWw6C6CseWd6/yq1DK/l5lJ+wnsmFwJZbBYqr02mrf8A2q/CVCuM3ZA=="
+        ],
+        "@radix-ui/react-toggle-group": [
+            "@radix-ui/react-toggle-group@1.1.10",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-direction": "1.1.1",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-roving-focus": "1.1.10",
+                    "@radix-ui/react-toggle": "1.1.9",
+                    "@radix-ui/react-use-controllable-state": "1.2.2"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-kiU694Km3WFLTC75DdqgM/3Jauf3rD9wxeS9XtyWFKsBUeZA337lC+6uUazT7I1DhanZ5gyD5Stf8uf2dbQxOQ=="
+        ],
+        "@radix-ui/react-tooltip": [
+            "@radix-ui/react-tooltip@1.2.7",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/primitive": "1.1.2",
+                    "@radix-ui/react-compose-refs": "1.1.2",
+                    "@radix-ui/react-context": "1.1.2",
+                    "@radix-ui/react-dismissable-layer": "1.1.10",
+                    "@radix-ui/react-id": "1.1.1",
+                    "@radix-ui/react-popper": "1.2.7",
+                    "@radix-ui/react-portal": "1.1.9",
+                    "@radix-ui/react-presence": "1.1.4",
+                    "@radix-ui/react-primitive": "2.1.3",
+                    "@radix-ui/react-slot": "1.2.3",
+                    "@radix-ui/react-use-controllable-state": "1.2.2",
+                    "@radix-ui/react-visually-hidden": "1.2.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-Ap+fNYwKTYJ9pzqW+Xe2HtMRbQ/EeWkj2qykZ6SuEV4iS/o1bZI5ssJbk4D2r8XuDuOBVz/tIx2JObtuqU+5Zw=="
+        ],
+        "@radix-ui/react-use-callback-ref": [
+            "@radix-ui/react-use-callback-ref@1.1.1",
+            "",
+            {
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-FkBMwD+qbGQeMu1cOHnuGB6x4yzPjho8ap5WtbEJ26umhgqVXbhekKUQO+hZEL1vU92a3wHwdp0HAcqAUF5iDg=="
+        ],
+        "@radix-ui/react-use-controllable-state": [
+            "@radix-ui/react-use-controllable-state@1.2.2",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-use-effect-event": "0.0.2",
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-BjasUjixPFdS+NKkypcyyN5Pmg83Olst0+c6vGov0diwTEo6mgdqVR6hxcEgFuh4QrAs7Rc+9KuGJ9TVCj0Zzg=="
+        ],
+        "@radix-ui/react-use-effect-event": [
+            "@radix-ui/react-use-effect-event@0.0.2",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-Qp8WbZOBe+blgpuUT+lw2xheLP8q0oatc9UpmiemEICxGvFLYmHm9QowVZGHtJlGbS6A6yJ3iViad/2cVjnOiA=="
+        ],
+        "@radix-ui/react-use-escape-keydown": [
+            "@radix-ui/react-use-escape-keydown@1.1.1",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-use-callback-ref": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-Il0+boE7w/XebUHyBjroE+DbByORGR9KKmITzbR7MyQ4akpORYP/ZmbhAr0DG7RmmBqoOnZdy2QlvajJ2QA59g=="
+        ],
+        "@radix-ui/react-use-is-hydrated": [
+            "@radix-ui/react-use-is-hydrated@0.1.0",
+            "",
+            {
+                "dependencies": {
+                    "use-sync-external-store": "^1.5.0"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-U+UORVEq+cTnRIaostJv9AGdV3G6Y+zbVd+12e18jQ5A3c0xL03IhnHuiU4UV69wolOQp5GfR58NW/EgdQhwOA=="
+        ],
+        "@radix-ui/react-use-layout-effect": [
+            "@radix-ui/react-use-layout-effect@1.1.1",
+            "",
+            {
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-RbJRS4UWQFkzHTTwVymMTUv8EqYhOp8dOOviLj2ugtTiXRaRQS7GLGxZTLL1jWhMeoSCf5zmcZkqTl9IiYfXcQ=="
+        ],
+        "@radix-ui/react-use-previous": [
+            "@radix-ui/react-use-previous@1.1.1",
+            "",
+            {
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-2dHfToCj/pzca2Ck724OZ5L0EVrr3eHRNsG/b3xQJLA2hZpVCS99bLAX+hm1IHXDEnzU6by5z/5MIY794/a8NQ=="
+        ],
+        "@radix-ui/react-use-rect": [
+            "@radix-ui/react-use-rect@1.1.1",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/rect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-QTYuDesS0VtuHNNvMh+CjlKJ4LJickCMUAqjlE3+j8w+RlRpwyX3apEQKGFzbZGdo7XNG1tXa+bQqIE7HIXT2w=="
+        ],
+        "@radix-ui/react-use-size": [
+            "@radix-ui/react-use-size@1.1.1",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-use-layout-effect": "1.1.1"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-ewrXRDTAqAXlkl6t/fkXWNAhFX9I+CkKlw6zjEwk86RSPKwZr3xpBRso655aqYafwtnbpHLj6toFzmd6xdVptQ=="
+        ],
+        "@radix-ui/react-visually-hidden": [
+            "@radix-ui/react-visually-hidden@1.2.3",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-primitive": "2.1.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "@types/react-dom": "*",
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-pzJq12tEaaIhqjbzpCuv/OypJY/BPavOofm+dbab+MHLajy277+1lLm6JFcGgF5eskJ6mquGirhXY2GD/8u8Ug=="
+        ],
+        "@radix-ui/rect": [
+            "@radix-ui/rect@1.1.1",
+            "",
+            {},
+            "sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw=="
+        ],
+        "@remix-run/router": [
+            "@remix-run/router@1.23.0",
+            "",
+            {},
+            "sha512-O3rHJzAQKamUz1fvE0Qaw0xSFqsA/yafi2iqeE0pvdFtCO1viYx8QL6f3Ln/aCCTLxs68SLf0KPM9eSeM8yBnA=="
+        ],
+        "@rolldown/pluginutils": [
+            "@rolldown/pluginutils@1.0.0-beta.27",
+            "",
+            {},
+            "sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA=="
+        ],
+        "@rollup/rollup-android-arm-eabi": [
+            "@rollup/rollup-android-arm-eabi@4.24.0",
+            "",
+            {
+                "os": "android",
+                "cpu": "arm"
+            },
+            "sha512-Q6HJd7Y6xdB48x8ZNVDOqsbh2uByBhgK8PiQgPhwkIw/HC/YX5Ghq2mQY5sRMZWHb3VsFkWooUVOZHKr7DmDIA=="
+        ],
+        "@rollup/rollup-android-arm64": [
+            "@rollup/rollup-android-arm64@4.24.0",
+            "",
+            {
+                "os": "android",
+                "cpu": "arm64"
+            },
+            "sha512-ijLnS1qFId8xhKjT81uBHuuJp2lU4x2yxa4ctFPtG+MqEE6+C5f/+X/bStmxapgmwLwiL3ih122xv8kVARNAZA=="
+        ],
+        "@rollup/rollup-darwin-arm64": [
+            "@rollup/rollup-darwin-arm64@4.24.0",
+            "",
+            {
+                "os": "darwin",
+                "cpu": "arm64"
+            },
+            "sha512-bIv+X9xeSs1XCk6DVvkO+S/z8/2AMt/2lMqdQbMrmVpgFvXlmde9mLcbQpztXm1tajC3raFDqegsH18HQPMYtA=="
+        ],
+        "@rollup/rollup-darwin-x64": [
+            "@rollup/rollup-darwin-x64@4.24.0",
+            "",
+            {
+                "os": "darwin",
+                "cpu": "x64"
+            },
+            "sha512-X6/nOwoFN7RT2svEQWUsW/5C/fYMBe4fnLK9DQk4SX4mgVBiTA9h64kjUYPvGQ0F/9xwJ5U5UfTbl6BEjaQdBQ=="
+        ],
+        "@rollup/rollup-linux-arm-gnueabihf": [
+            "@rollup/rollup-linux-arm-gnueabihf@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm"
+            },
+            "sha512-0KXvIJQMOImLCVCz9uvvdPgfyWo93aHHp8ui3FrtOP57svqrF/roSSR5pjqL2hcMp0ljeGlU4q9o/rQaAQ3AYA=="
+        ],
+        "@rollup/rollup-linux-arm-musleabihf": [
+            "@rollup/rollup-linux-arm-musleabihf@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm"
+            },
+            "sha512-it2BW6kKFVh8xk/BnHfakEeoLPv8STIISekpoF+nBgWM4d55CZKc7T4Dx1pEbTnYm/xEKMgy1MNtYuoA8RFIWw=="
+        ],
+        "@rollup/rollup-linux-arm64-gnu": [
+            "@rollup/rollup-linux-arm64-gnu@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm64"
+            },
+            "sha512-i0xTLXjqap2eRfulFVlSnM5dEbTVque/3Pi4g2y7cxrs7+a9De42z4XxKLYJ7+OhE3IgxvfQM7vQc43bwTgPwA=="
+        ],
+        "@rollup/rollup-linux-arm64-musl": [
+            "@rollup/rollup-linux-arm64-musl@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm64"
+            },
+            "sha512-9E6MKUJhDuDh604Qco5yP/3qn3y7SLXYuiC0Rpr89aMScS2UAmK1wHP2b7KAa1nSjWJc/f/Lc0Wl1L47qjiyQw=="
+        ],
+        "@rollup/rollup-linux-powerpc64le-gnu": [
+            "@rollup/rollup-linux-powerpc64le-gnu@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "ppc64"
+            },
+            "sha512-2XFFPJ2XMEiF5Zi2EBf4h73oR1V/lycirxZxHZNc93SqDN/IWhYYSYj8I9381ikUFXZrz2v7r2tOVk2NBwxrWw=="
+        ],
+        "@rollup/rollup-linux-riscv64-gnu": [
+            "@rollup/rollup-linux-riscv64-gnu@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "none"
+            },
+            "sha512-M3Dg4hlwuntUCdzU7KjYqbbd+BLq3JMAOhCKdBE3TcMGMZbKkDdJ5ivNdehOssMCIokNHFOsv7DO4rlEOfyKpg=="
+        ],
+        "@rollup/rollup-linux-s390x-gnu": [
+            "@rollup/rollup-linux-s390x-gnu@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "s390x"
+            },
+            "sha512-mjBaoo4ocxJppTorZVKWFpy1bfFj9FeCMJqzlMQGjpNPY9JwQi7OuS1axzNIk0nMX6jSgy6ZURDZ2w0QW6D56g=="
+        ],
+        "@rollup/rollup-linux-x64-gnu": [
+            "@rollup/rollup-linux-x64-gnu@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "x64"
+            },
+            "sha512-ZXFk7M72R0YYFN5q13niV0B7G8/5dcQ9JDp8keJSfr3GoZeXEoMHP/HlvqROA3OMbMdfr19IjCeNAnPUG93b6A=="
+        ],
+        "@rollup/rollup-linux-x64-musl": [
+            "@rollup/rollup-linux-x64-musl@4.24.0",
+            "",
+            {
+                "os": "linux",
+                "cpu": "x64"
+            },
+            "sha512-w1i+L7kAXZNdYl+vFvzSZy8Y1arS7vMgIy8wusXJzRrPyof5LAb02KGr1PD2EkRcl73kHulIID0M501lN+vobQ=="
+        ],
+        "@rollup/rollup-win32-arm64-msvc": [
+            "@rollup/rollup-win32-arm64-msvc@4.24.0",
+            "",
+            {
+                "os": "win32",
+                "cpu": "arm64"
+            },
+            "sha512-VXBrnPWgBpVDCVY6XF3LEW0pOU51KbaHhccHw6AS6vBWIC60eqsH19DAeeObl+g8nKAz04QFdl/Cefta0xQtUQ=="
+        ],
+        "@rollup/rollup-win32-ia32-msvc": [
+            "@rollup/rollup-win32-ia32-msvc@4.24.0",
+            "",
+            {
+                "os": "win32",
+                "cpu": "ia32"
+            },
+            "sha512-xrNcGDU0OxVcPTH/8n/ShH4UevZxKIO6HJFK0e15XItZP2UcaiLFd5kiX7hJnqCbSztUF8Qot+JWBC/QXRPYWQ=="
+        ],
+        "@rollup/rollup-win32-x64-msvc": [
+            "@rollup/rollup-win32-x64-msvc@4.24.0",
+            "",
+            {
+                "os": "win32",
+                "cpu": "x64"
+            },
+            "sha512-fbMkAF7fufku0N2dE5TBXcNlg0pt0cJue4xBRE2Qc5Vqikxr4VCgKj/ht6SMdFcOacVA9rqF70APJ8RN/4vMJw=="
+        ],
+        "@supabase/auth-js": [
+            "@supabase/auth-js@2.89.0",
+            "",
+            {
+                "dependencies": {
+                    "tslib": "2.8.1"
+                }
+            },
+            "sha512-wiWZdz8WMad8LQdJMWYDZ2SJtZP5MwMqzQq3ehtW2ngiI3UTgbKiFrvMUUS3KADiVlk4LiGfODB2mrYx7w2f8w=="
+        ],
+        "@supabase/functions-js": [
+            "@supabase/functions-js@2.89.0",
+            "",
+            {
+                "dependencies": {
+                    "tslib": "2.8.1"
+                }
+            },
+            "sha512-XEueaC5gMe5NufNYfBh9kPwJlP5M2f+Ogr8rvhmRDAZNHgY6mI35RCkYDijd92pMcNM7g8pUUJov93UGUnqfyw=="
+        ],
+        "@supabase/postgrest-js": [
+            "@supabase/postgrest-js@2.89.0",
+            "",
+            {
+                "dependencies": {
+                    "tslib": "2.8.1"
+                }
+            },
+            "sha512-/b0fKrxV9i7RNOEXMno/I1862RsYhuUo+Q6m6z3ar1f4ulTMXnDfv0y4YYxK2POcgrOXQOgKYQx1eArybyNvtg=="
+        ],
+        "@supabase/realtime-js": [
+            "@supabase/realtime-js@2.89.0",
+            "",
+            {
+                "dependencies": {
+                    "@types/phoenix": "^1.6.6",
+                    "@types/ws": "^8.18.1",
+                    "tslib": "2.8.1",
+                    "ws": "^8.18.2"
+                }
+            },
+            "sha512-aMOvfDb2a52u6PX6jrrjvACHXGV3zsOlWRzZsTIOAJa0hOVvRp01AwC1+nLTGUzxzezejrYeCX+KnnM1xHdl+w=="
+        ],
+        "@supabase/storage-js": [
+            "@supabase/storage-js@2.89.0",
+            "",
+            {
+                "dependencies": {
+                    "iceberg-js": "^0.8.1",
+                    "tslib": "2.8.1"
+                }
+            },
+            "sha512-6zKcXofk/M/4Eato7iqpRh+B+vnxeiTumCIP+Tz26xEqIiywzD9JxHq+udRrDuv6hXE+pmetvJd8n5wcf4MFRQ=="
+        ],
+        "@supabase/supabase-js": [
+            "@supabase/supabase-js@2.89.0",
+            "",
+            {
+                "dependencies": {
+                    "@supabase/auth-js": "2.89.0",
+                    "@supabase/functions-js": "2.89.0",
+                    "@supabase/postgrest-js": "2.89.0",
+                    "@supabase/realtime-js": "2.89.0",
+                    "@supabase/storage-js": "2.89.0"
+                }
+            },
+            "sha512-KlaRwSfFA0fD73PYVMHj5/iXFtQGCcX7PSx0FdQwYEEw9b2wqM7GxadY+5YwcmuEhalmjFB/YvqaoNVF+sWUlg=="
+        ],
+        "@swc/core": [
+            "@swc/core@1.13.2",
+            "",
+            {
+                "dependencies": {
+                    "@swc/counter": "^0.1.3",
+                    "@swc/types": "^0.1.23"
+                },
+                "optionalDependencies": {
+                    "@swc/core-darwin-arm64": "1.13.2",
+                    "@swc/core-darwin-x64": "1.13.2",
+                    "@swc/core-linux-arm-gnueabihf": "1.13.2",
+                    "@swc/core-linux-arm64-gnu": "1.13.2",
+                    "@swc/core-linux-arm64-musl": "1.13.2",
+                    "@swc/core-linux-x64-gnu": "1.13.2",
+                    "@swc/core-linux-x64-musl": "1.13.2",
+                    "@swc/core-win32-arm64-msvc": "1.13.2",
+                    "@swc/core-win32-ia32-msvc": "1.13.2",
+                    "@swc/core-win32-x64-msvc": "1.13.2"
+                },
+                "peerDependencies": {
+                    "@swc/helpers": ">=0.5.17"
+                },
+                "optionalPeers": [
+                    "@swc/helpers"
+                ]
+            },
+            "sha512-YWqn+0IKXDhqVLKoac4v2tV6hJqB/wOh8/Br8zjqeqBkKa77Qb0Kw2i7LOFzjFNZbZaPH6AlMGlBwNrxaauaAg=="
+        ],
+        "@swc/core-darwin-arm64": [
+            "@swc/core-darwin-arm64@1.13.2",
+            "",
+            {
+                "os": "darwin",
+                "cpu": "arm64"
+            },
+            "sha512-44p7ivuLSGFJ15Vly4ivLJjg3ARo4879LtEBAabcHhSZygpmkP8eyjyWxrH3OxkY1eRZSIJe8yRZPFw4kPXFPw=="
+        ],
+        "@swc/core-darwin-x64": [
+            "@swc/core-darwin-x64@1.13.2",
+            "",
+            {
+                "os": "darwin",
+                "cpu": "x64"
+            },
+            "sha512-Lb9EZi7X2XDAVmuUlBm2UvVAgSCbD3qKqDCxSI4jEOddzVOpNCnyZ/xEampdngUIyDDhhJLYU9duC+Mcsv5Y+A=="
+        ],
+        "@swc/core-linux-arm-gnueabihf": [
+            "@swc/core-linux-arm-gnueabihf@1.13.2",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm"
+            },
+            "sha512-9TDe/92ee1x57x+0OqL1huG4BeljVx0nWW4QOOxp8CCK67Rpc/HHl2wciJ0Kl9Dxf2NvpNtkPvqj9+BUmM9WVA=="
+        ],
+        "@swc/core-linux-arm64-gnu": [
+            "@swc/core-linux-arm64-gnu@1.13.2",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm64"
+            },
+            "sha512-KJUSl56DBk7AWMAIEcU83zl5mg3vlQYhLELhjwRFkGFMvghQvdqQ3zFOYa4TexKA7noBZa3C8fb24rI5sw9Exg=="
+        ],
+        "@swc/core-linux-arm64-musl": [
+            "@swc/core-linux-arm64-musl@1.13.2",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm64"
+            },
+            "sha512-teU27iG1oyWpNh9CzcGQ48ClDRt/RCem7mYO7ehd2FY102UeTws2+OzLESS1TS1tEZipq/5xwx3FzbVgiolCiQ=="
+        ],
+        "@swc/core-linux-x64-gnu": [
+            "@swc/core-linux-x64-gnu@1.13.2",
+            "",
+            {
+                "os": "linux",
+                "cpu": "x64"
+            },
+            "sha512-dRPsyPyqpLD0HMRCRpYALIh4kdOir8pPg4AhNQZLehKowigRd30RcLXGNVZcc31Ua8CiPI4QSgjOIxK+EQe4LQ=="
+        ],
+        "@swc/core-linux-x64-musl": [
+            "@swc/core-linux-x64-musl@1.13.2",
+            "",
+            {
+                "os": "linux",
+                "cpu": "x64"
+            },
+            "sha512-CCxETW+KkYEQDqz1SYC15YIWYheqFC+PJVOW76Maa/8yu8Biw+HTAcblKf2isrlUtK8RvrQN94v3UXkC2NzCEw=="
+        ],
+        "@swc/core-win32-arm64-msvc": [
+            "@swc/core-win32-arm64-msvc@1.13.2",
+            "",
+            {
+                "os": "win32",
+                "cpu": "arm64"
+            },
+            "sha512-Wv/QTA6PjyRLlmKcN6AmSI4jwSMRl0VTLGs57PHTqYRwwfwd7y4s2fIPJVBNbAlXd795dOEP6d/bGSQSyhOX3A=="
+        ],
+        "@swc/core-win32-ia32-msvc": [
+            "@swc/core-win32-ia32-msvc@1.13.2",
+            "",
+            {
+                "os": "win32",
+                "cpu": "ia32"
+            },
+            "sha512-PuCdtNynEkUNbUXX/wsyUC+t4mamIU5y00lT5vJcAvco3/r16Iaxl5UCzhXYaWZSNVZMzPp9qN8NlSL8M5pPxw=="
+        ],
+        "@swc/core-win32-x64-msvc": [
+            "@swc/core-win32-x64-msvc@1.13.2",
+            "",
+            {
+                "os": "win32",
+                "cpu": "x64"
+            },
+            "sha512-qlmMkFZJus8cYuBURx1a3YAG2G7IW44i+FEYV5/32ylKkzGNAr9tDJSA53XNnNXkAB5EXSPsOz7bn5C3JlEtdQ=="
+        ],
+        "@swc/counter": [
+            "@swc/counter@0.1.3",
+            "",
+            {},
+            "sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ=="
+        ],
+        "@swc/types": [
+            "@swc/types@0.1.23",
+            "",
+            {
+                "dependencies": {
+                    "@swc/counter": "^0.1.3"
+                }
+            },
+            "sha512-u1iIVZV9Q0jxY+yM2vw/hZGDNudsN85bBpTqzAQ9rzkxW9D+e3aEM4Han+ow518gSewkXgjmEK0BD79ZcNVgPw=="
+        ],
+        "@tailwindcss/typography": [
+            "@tailwindcss/typography@0.5.16",
+            "",
+            {
+                "dependencies": {
+                    "lodash.castarray": "^4.4.0",
+                    "lodash.isplainobject": "^4.0.6",
+                    "lodash.merge": "^4.6.2",
+                    "postcss-selector-parser": "6.0.10"
+                },
+                "peerDependencies": {
+                    "tailwindcss": ">=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1"
+                }
+            },
+            "sha512-0wDLwCVF5V3x3b1SGXPCDcdsbDHMBe+lkFzBRaHeLvNi+nrrnZ1lA18u+OTWO8iSWU2GxUOCvlXtDuqftc1oiA=="
+        ],
+        "@tanstack/query-core": [
+            "@tanstack/query-core@5.83.0",
+            "",
+            {},
+            "sha512-0M8dA+amXUkyz5cVUm/B+zSk3xkQAcuXuz5/Q/LveT4ots2rBpPTZOzd7yJa2Utsf8D2Upl5KyjhHRY+9lB/XA=="
+        ],
+        "@tanstack/react-query": [
+            "@tanstack/react-query@5.83.0",
+            "",
+            {
+                "dependencies": {
+                    "@tanstack/query-core": "5.83.0"
+                },
+                "peerDependencies": {
+                    "react": "^18 || ^19"
+                }
+            },
+            "sha512-/XGYhZ3foc5H0VM2jLSD/NyBRIOK4q9kfeml4+0x2DlL6xVuAcVEW+hTlTapAmejObg0i3eNqhkr2dT+eciwoQ=="
+        ],
+        "@types/d3-array": [
+            "@types/d3-array@3.2.1",
+            "",
+            {},
+            "sha512-Y2Jn2idRrLzUfAKV2LyRImR+y4oa2AntrgID95SHJxuMUrkNXmanDSed71sRNZysveJVt1hLLemQZIady0FpEg=="
+        ],
+        "@types/d3-color": [
+            "@types/d3-color@3.1.3",
+            "",
+            {},
+            "sha512-iO90scth9WAbmgv7ogoq57O9YpKmFBbmoEoCHDB2xMBY0+/KVrqAaCDyCE16dUspeOvIxFFRI+0sEtqDqy2b4A=="
+        ],
+        "@types/d3-ease": [
+            "@types/d3-ease@3.0.2",
+            "",
+            {},
+            "sha512-NcV1JjO5oDzoK26oMzbILE6HW7uVXOHLQvHshBUW4UMdZGfiY6v5BeQwh9a9tCzv+CeefZQHJt5SRgK154RtiA=="
+        ],
+        "@types/d3-interpolate": [
+            "@types/d3-interpolate@3.0.4",
+            "",
+            {
+                "dependencies": {
+                    "@types/d3-color": "*"
+                }
+            },
+            "sha512-mgLPETlrpVV1YRJIglr4Ez47g7Yxjl1lj7YKsiMCb27VJH9W8NVM6Bb9d8kkpG/uAQS5AmbA48q2IAolKKo1MA=="
+        ],
+        "@types/d3-path": [
+            "@types/d3-path@3.1.0",
+            "",
+            {},
+            "sha512-P2dlU/q51fkOc/Gfl3Ul9kicV7l+ra934qBFXCFhrZMOL6du1TM0pm1ThYvENukyOn5h9v+yMJ9Fn5JK4QozrQ=="
+        ],
+        "@types/d3-scale": [
+            "@types/d3-scale@4.0.8",
+            "",
+            {
+                "dependencies": {
+                    "@types/d3-time": "*"
+                }
+            },
+            "sha512-gkK1VVTr5iNiYJ7vWDI+yUFFlszhNMtVeneJ6lUTKPjprsvLLI9/tgEGiXJOnlINJA8FyA88gfnQsHbybVZrYQ=="
+        ],
+        "@types/d3-shape": [
+            "@types/d3-shape@3.1.6",
+            "",
+            {
+                "dependencies": {
+                    "@types/d3-path": "*"
+                }
+            },
+            "sha512-5KKk5aKGu2I+O6SONMYSNflgiP0WfZIQvVUMan50wHsLG1G94JlxEVnCpQARfTtzytuY0p/9PXXZb3I7giofIA=="
+        ],
+        "@types/d3-time": [
+            "@types/d3-time@3.0.3",
+            "",
+            {},
+            "sha512-2p6olUZ4w3s+07q3Tm2dbiMZy5pCDfYwtLXXHUnVzXgQlZ/OyPtUz6OL382BkOuGlLXqfT+wqv8Fw2v8/0geBw=="
+        ],
+        "@types/d3-timer": [
+            "@types/d3-timer@3.0.2",
+            "",
+            {},
+            "sha512-Ps3T8E8dZDam6fUyNiMkekK3XUsaUEik+idO9/YjPtfj2qruF8tFBXS7XhtE4iIXBLxhmLjP3SXpLhVf21I9Lw=="
+        ],
+        "@types/estree": [
+            "@types/estree@1.0.6",
+            "",
+            {},
+            "sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw=="
+        ],
+        "@types/json-schema": [
+            "@types/json-schema@7.0.15",
+            "",
+            {},
+            "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA=="
+        ],
+        "@types/node": [
+            "@types/node@22.16.5",
+            "",
+            {
+                "dependencies": {
+                    "undici-types": "~6.21.0"
+                }
+            },
+            "sha512-bJFoMATwIGaxxx8VJPeM8TonI8t579oRvgAuT8zFugJsJZgzqv0Fu8Mhp68iecjzG7cnN3mO2dJQ5uUM2EFrgQ=="
+        ],
+        "@types/phoenix": [
+            "@types/phoenix@1.6.7",
+            "",
+            {},
+            "sha512-oN9ive//QSBkf19rfDv45M7eZPi0eEXylht2OLEXicu5b4KoQ1OzXIw+xDSGWxSxe1JmepRR/ZH283vsu518/Q=="
+        ],
+        "@types/prop-types": [
+            "@types/prop-types@15.7.13",
+            "",
+            {},
+            "sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA=="
+        ],
+        "@types/react": [
+            "@types/react@18.3.23",
+            "",
+            {
+                "dependencies": {
+                    "@types/prop-types": "*",
+                    "csstype": "^3.0.2"
+                }
+            },
+            "sha512-/LDXMQh55EzZQ0uVAZmKKhfENivEvWz6E+EYzh+/MCjMhNsotd+ZHhBGIjFDTi6+fz0OhQQQLbTgdQIxxCsC0w=="
+        ],
+        "@types/react-dom": [
+            "@types/react-dom@18.3.7",
+            "",
+            {
+                "peerDependencies": {
+                    "@types/react": "^18.0.0"
+                }
+            },
+            "sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ=="
+        ],
+        "@types/ws": [
+            "@types/ws@8.18.1",
+            "",
+            {
+                "dependencies": {
+                    "@types/node": "*"
+                }
+            },
+            "sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg=="
+        ],
+        "@typescript-eslint/eslint-plugin": [
+            "@typescript-eslint/eslint-plugin@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@eslint-community/regexpp": "^4.10.0",
+                    "@typescript-eslint/scope-manager": "8.38.0",
+                    "@typescript-eslint/type-utils": "8.38.0",
+                    "@typescript-eslint/utils": "8.38.0",
+                    "@typescript-eslint/visitor-keys": "8.38.0",
+                    "graphemer": "^1.4.0",
+                    "ignore": "^7.0.0",
+                    "natural-compare": "^1.4.0",
+                    "ts-api-utils": "^2.1.0"
+                },
+                "peerDependencies": {
+                    "@typescript-eslint/parser": "^8.38.0",
+                    "eslint": "^8.57.0 || ^9.0.0",
+                    "typescript": ">=4.8.4 <5.9.0"
+                }
+            },
+            "sha512-CPoznzpuAnIOl4nhj4tRr4gIPj5AfKgkiJmGQDaq+fQnRJTYlcBjbX3wbciGmpoPf8DREufuPRe1tNMZnGdanA=="
+        ],
+        "@typescript-eslint/parser": [
+            "@typescript-eslint/parser@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@typescript-eslint/scope-manager": "8.38.0",
+                    "@typescript-eslint/types": "8.38.0",
+                    "@typescript-eslint/typescript-estree": "8.38.0",
+                    "@typescript-eslint/visitor-keys": "8.38.0",
+                    "debug": "^4.3.4"
+                },
+                "peerDependencies": {
+                    "eslint": "^8.57.0 || ^9.0.0",
+                    "typescript": ">=4.8.4 <5.9.0"
+                }
+            },
+            "sha512-Zhy8HCvBUEfBECzIl1PKqF4p11+d0aUJS1GeUiuqK9WmOug8YCmC4h4bjyBvMyAMI9sbRczmrYL5lKg/YMbrcQ=="
+        ],
+        "@typescript-eslint/project-service": [
+            "@typescript-eslint/project-service@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@typescript-eslint/tsconfig-utils": "^8.38.0",
+                    "@typescript-eslint/types": "^8.38.0",
+                    "debug": "^4.3.4"
+                },
+                "peerDependencies": {
+                    "typescript": ">=4.8.4 <5.9.0"
+                }
+            },
+            "sha512-dbK7Jvqcb8c9QfH01YB6pORpqX1mn5gDZc9n63Ak/+jD67oWXn3Gs0M6vddAN+eDXBCS5EmNWzbSxsn9SzFWWg=="
+        ],
+        "@typescript-eslint/scope-manager": [
+            "@typescript-eslint/scope-manager@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@typescript-eslint/types": "8.38.0",
+                    "@typescript-eslint/visitor-keys": "8.38.0"
+                }
+            },
+            "sha512-WJw3AVlFFcdT9Ri1xs/lg8LwDqgekWXWhH3iAF+1ZM+QPd7oxQ6jvtW/JPwzAScxitILUIFs0/AnQ/UWHzbATQ=="
+        ],
+        "@typescript-eslint/tsconfig-utils": [
+            "@typescript-eslint/tsconfig-utils@8.38.0",
+            "",
+            {
+                "peerDependencies": {
+                    "typescript": ">=4.8.4 <5.9.0"
+                }
+            },
+            "sha512-Lum9RtSE3EroKk/bYns+sPOodqb2Fv50XOl/gMviMKNvanETUuUcC9ObRbzrJ4VSd2JalPqgSAavwrPiPvnAiQ=="
+        ],
+        "@typescript-eslint/type-utils": [
+            "@typescript-eslint/type-utils@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@typescript-eslint/types": "8.38.0",
+                    "@typescript-eslint/typescript-estree": "8.38.0",
+                    "@typescript-eslint/utils": "8.38.0",
+                    "debug": "^4.3.4",
+                    "ts-api-utils": "^2.1.0"
+                },
+                "peerDependencies": {
+                    "eslint": "^8.57.0 || ^9.0.0",
+                    "typescript": ">=4.8.4 <5.9.0"
+                }
+            },
+            "sha512-c7jAvGEZVf0ao2z+nnz8BUaHZD09Agbh+DY7qvBQqLiz8uJzRgVPj5YvOh8I8uEiH8oIUGIfHzMwUcGVco/SJg=="
+        ],
+        "@typescript-eslint/types": [
+            "@typescript-eslint/types@8.38.0",
+            "",
+            {},
+            "sha512-wzkUfX3plUqij4YwWaJyqhiPE5UCRVlFpKn1oCRn2O1bJ592XxWJj8ROQ3JD5MYXLORW84063z3tZTb/cs4Tyw=="
+        ],
+        "@typescript-eslint/typescript-estree": [
+            "@typescript-eslint/typescript-estree@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@typescript-eslint/project-service": "8.38.0",
+                    "@typescript-eslint/tsconfig-utils": "8.38.0",
+                    "@typescript-eslint/types": "8.38.0",
+                    "@typescript-eslint/visitor-keys": "8.38.0",
+                    "debug": "^4.3.4",
+                    "fast-glob": "^3.3.2",
+                    "is-glob": "^4.0.3",
+                    "minimatch": "^9.0.4",
+                    "semver": "^7.6.0",
+                    "ts-api-utils": "^2.1.0"
+                },
+                "peerDependencies": {
+                    "typescript": ">=4.8.4 <5.9.0"
+                }
+            },
+            "sha512-fooELKcAKzxux6fA6pxOflpNS0jc+nOQEEOipXFNjSlBS6fqrJOVY/whSn70SScHrcJ2LDsxWrneFoWYSVfqhQ=="
+        ],
+        "@typescript-eslint/utils": [
+            "@typescript-eslint/utils@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@eslint-community/eslint-utils": "^4.7.0",
+                    "@typescript-eslint/scope-manager": "8.38.0",
+                    "@typescript-eslint/types": "8.38.0",
+                    "@typescript-eslint/typescript-estree": "8.38.0"
+                },
+                "peerDependencies": {
+                    "eslint": "^8.57.0 || ^9.0.0",
+                    "typescript": ">=4.8.4 <5.9.0"
+                }
+            },
+            "sha512-hHcMA86Hgt+ijJlrD8fX0j1j8w4C92zue/8LOPAFioIno+W0+L7KqE8QZKCcPGc/92Vs9x36w/4MPTJhqXdyvg=="
+        ],
+        "@typescript-eslint/visitor-keys": [
+            "@typescript-eslint/visitor-keys@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@typescript-eslint/types": "8.38.0",
+                    "eslint-visitor-keys": "^4.2.1"
+                }
+            },
+            "sha512-pWrTcoFNWuwHlA9CvlfSsGWs14JxfN1TH25zM5L7o0pRLhsoZkDnTsXfQRJBEWJoV5DL0jf+Z+sxiud+K0mq1g=="
+        ],
+        "@vitejs/plugin-react-swc": [
+            "@vitejs/plugin-react-swc@3.11.0",
+            "",
+            {
+                "dependencies": {
+                    "@rolldown/pluginutils": "1.0.0-beta.27",
+                    "@swc/core": "^1.12.11"
+                },
+                "peerDependencies": {
+                    "vite": "^4 || ^5 || ^6 || ^7"
+                }
+            },
+            "sha512-YTJCGFdNMHCMfjODYtxRNVAYmTWQ1Lb8PulP/2/f/oEEtglw8oKxKIZmmRkyXrVrHfsKOaVkAc3NT9/dMutO5w=="
+        ],
+        "acorn": [
+            "acorn@8.15.0",
+            "",
+            {
+                "bin": "bin/acorn"
+            },
+            "sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg=="
+        ],
+        "acorn-jsx": [
+            "acorn-jsx@5.3.2",
+            "",
+            {
+                "peerDependencies": {
+                    "acorn": "^6.0.0 || ^7.0.0 || ^8.0.0"
+                }
+            },
+            "sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ=="
+        ],
+        "ajv": [
+            "ajv@6.12.6",
+            "",
+            {
+                "dependencies": {
+                    "fast-deep-equal": "^3.1.1",
+                    "fast-json-stable-stringify": "^2.0.0",
+                    "json-schema-traverse": "^0.4.1",
+                    "uri-js": "^4.2.2"
+                }
+            },
+            "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g=="
+        ],
+        "ansi-regex": [
+            "ansi-regex@6.1.0",
+            "",
+            {},
+            "sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA=="
+        ],
+        "ansi-styles": [
+            "ansi-styles@4.3.0",
+            "",
+            {
+                "dependencies": {
+                    "color-convert": "^2.0.1"
+                }
+            },
+            "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg=="
+        ],
+        "any-promise": [
+            "any-promise@1.3.0",
+            "",
+            {},
+            "sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A=="
+        ],
+        "anymatch": [
+            "anymatch@3.1.3",
+            "",
+            {
+                "dependencies": {
+                    "normalize-path": "^3.0.0",
+                    "picomatch": "^2.0.4"
+                }
+            },
+            "sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw=="
+        ],
+        "arg": [
+            "arg@5.0.2",
+            "",
+            {},
+            "sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg=="
+        ],
+        "argparse": [
+            "argparse@2.0.1",
+            "",
+            {},
+            "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="
+        ],
+        "aria-hidden": [
+            "aria-hidden@1.2.4",
+            "",
+            {
+                "dependencies": {
+                    "tslib": "^2.0.0"
+                }
+            },
+            "sha512-y+CcFFwelSXpLZk/7fMB2mUbGtX9lKycf1MWJ7CaTIERyitVlyQx6C+sxcROU2BAJ24OiZyK+8wj2i8AlBoS3A=="
+        ],
+        "autoprefixer": [
+            "autoprefixer@10.4.21",
+            "",
+            {
+                "dependencies": {
+                    "browserslist": "^4.24.4",
+                    "caniuse-lite": "^1.0.30001702",
+                    "fraction.js": "^4.3.7",
+                    "normalize-range": "^0.1.2",
+                    "picocolors": "^1.1.1",
+                    "postcss-value-parser": "^4.2.0"
+                },
+                "peerDependencies": {
+                    "postcss": "^8.1.0"
+                },
+                "bin": "bin/autoprefixer"
+            },
+            "sha512-O+A6LWV5LDHSJD3LjHYoNi4VLsj/Whi7k6zG12xTYaU4cQ8oxQGckXNX8cRHK5yOZ/ppVHe0ZBXGzSV9jXdVbQ=="
+        ],
+        "balanced-match": [
+            "balanced-match@1.0.2",
+            "",
+            {},
+            "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="
+        ],
+        "binary-extensions": [
+            "binary-extensions@2.3.0",
+            "",
+            {},
+            "sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw=="
+        ],
+        "brace-expansion": [
+            "brace-expansion@1.1.12",
+            "",
+            {
+                "dependencies": {
+                    "balanced-match": "^1.0.0",
+                    "concat-map": "0.0.1"
+                }
+            },
+            "sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg=="
+        ],
+        "braces": [
+            "braces@3.0.3",
+            "",
+            {
+                "dependencies": {
+                    "fill-range": "^7.1.1"
+                }
+            },
+            "sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA=="
+        ],
+        "browserslist": [
+            "browserslist@4.25.1",
+            "",
+            {
+                "dependencies": {
+                    "caniuse-lite": "^1.0.30001726",
+                    "electron-to-chromium": "^1.5.173",
+                    "node-releases": "^2.0.19",
+                    "update-browserslist-db": "^1.1.3"
+                },
+                "bin": "cli.js"
+            },
+            "sha512-KGj0KoOMXLpSNkkEI6Z6mShmQy0bc1I+T7K9N81k4WWMrfz+6fQ6es80B/YLAeRoKvjYE1YSHHOW1qe9xIVzHw=="
+        ],
+        "callsites": [
+            "callsites@3.1.0",
+            "",
+            {},
+            "sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ=="
+        ],
+        "camelcase-css": [
+            "camelcase-css@2.0.1",
+            "",
+            {},
+            "sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA=="
+        ],
+        "caniuse-lite": [
+            "caniuse-lite@1.0.30001727",
+            "",
+            {},
+            "sha512-pB68nIHmbN6L/4C6MH1DokyR3bYqFwjaSs/sWDHGj4CTcFtQUQMuJftVwWkXq7mNWOybD3KhUv3oWHoGxgP14Q=="
+        ],
+        "chalk": [
+            "chalk@4.1.2",
+            "",
+            {
+                "dependencies": {
+                    "ansi-styles": "^4.1.0",
+                    "supports-color": "^7.1.0"
+                }
+            },
+            "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
+        ],
+        "chokidar": [
+            "chokidar@3.6.0",
+            "",
+            {
+                "dependencies": {
+                    "anymatch": "~3.1.2",
+                    "braces": "~3.0.2",
+                    "glob-parent": "~5.1.2",
+                    "is-binary-path": "~2.1.0",
+                    "is-glob": "~4.0.1",
+                    "normalize-path": "~3.0.0",
+                    "readdirp": "~3.6.0"
+                },
+                "optionalDependencies": {
+                    "fsevents": "~2.3.2"
+                }
+            },
+            "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
+        ],
+        "class-variance-authority": [
+            "class-variance-authority@0.7.1",
+            "",
+            {
+                "dependencies": {
+                    "clsx": "^2.1.1"
+                }
+            },
+            "sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg=="
+        ],
+        "clsx": [
+            "clsx@2.1.1",
+            "",
+            {},
+            "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA=="
+        ],
+        "cmdk": [
+            "cmdk@1.1.1",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-compose-refs": "^1.1.1",
+                    "@radix-ui/react-dialog": "^1.1.6",
+                    "@radix-ui/react-id": "^1.1.0",
+                    "@radix-ui/react-primitive": "^2.0.2"
+                },
+                "peerDependencies": {
+                    "react": "^18 || ^19 || ^19.0.0-rc",
+                    "react-dom": "^18 || ^19 || ^19.0.0-rc"
+                }
+            },
+            "sha512-Vsv7kFaXm+ptHDMZ7izaRsP70GgrW9NBNGswt9OZaVBLlE0SNpDq8eu/VGXyF9r7M0azK3Wy7OlYXsuyYLFzHg=="
+        ],
+        "color-convert": [
+            "color-convert@2.0.1",
+            "",
+            {
+                "dependencies": {
+                    "color-name": "~1.1.4"
+                }
+            },
+            "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="
+        ],
+        "color-name": [
+            "color-name@1.1.4",
+            "",
+            {},
+            "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
+        ],
+        "commander": [
+            "commander@4.1.1",
+            "",
+            {},
+            "sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA=="
+        ],
+        "concat-map": [
+            "concat-map@0.0.1",
+            "",
+            {},
+            "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg=="
+        ],
+        "cross-spawn": [
+            "cross-spawn@7.0.6",
+            "",
+            {
+                "dependencies": {
+                    "path-key": "^3.1.0",
+                    "shebang-command": "^2.0.0",
+                    "which": "^2.0.1"
+                }
+            },
+            "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA=="
+        ],
+        "cssesc": [
+            "cssesc@3.0.0",
+            "",
+            {
+                "bin": "bin/cssesc"
+            },
+            "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg=="
+        ],
+        "csstype": [
+            "csstype@3.1.3",
+            "",
+            {},
+            "sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw=="
+        ],
+        "d3-array": [
+            "d3-array@3.2.4",
+            "",
+            {
+                "dependencies": {
+                    "internmap": "1 - 2"
+                }
+            },
+            "sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg=="
+        ],
+        "d3-color": [
+            "d3-color@3.1.0",
+            "",
+            {},
+            "sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA=="
+        ],
+        "d3-ease": [
+            "d3-ease@3.0.1",
+            "",
+            {},
+            "sha512-wR/XK3D3XcLIZwpbvQwQ5fK+8Ykds1ip7A2Txe0yxncXSdq1L9skcG7blcedkOX+ZcgxGAmLX1FrRGbADwzi0w=="
+        ],
+        "d3-format": [
+            "d3-format@3.1.0",
+            "",
+            {},
+            "sha512-YyUI6AEuY/Wpt8KWLgZHsIU86atmikuoOmCfommt0LYHiQSPjvX2AcFc38PX0CBpr2RCyZhjex+NS/LPOv6YqA=="
+        ],
+        "d3-interpolate": [
+            "d3-interpolate@3.0.1",
+            "",
+            {
+                "dependencies": {
+                    "d3-color": "1 - 3"
+                }
+            },
+            "sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g=="
+        ],
+        "d3-path": [
+            "d3-path@3.1.0",
+            "",
+            {},
+            "sha512-p3KP5HCf/bvjBSSKuXid6Zqijx7wIfNW+J/maPs+iwR35at5JCbLUT0LzF1cnjbCHWhqzQTIN2Jpe8pRebIEFQ=="
+        ],
+        "d3-scale": [
+            "d3-scale@4.0.2",
+            "",
+            {
+                "dependencies": {
+                    "d3-array": "2.10.0 - 3",
+                    "d3-format": "1 - 3",
+                    "d3-interpolate": "1.2.0 - 3",
+                    "d3-time": "2.1.1 - 3",
+                    "d3-time-format": "2 - 4"
+                }
+            },
+            "sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ=="
+        ],
+        "d3-shape": [
+            "d3-shape@3.2.0",
+            "",
+            {
+                "dependencies": {
+                    "d3-path": "^3.1.0"
+                }
+            },
+            "sha512-SaLBuwGm3MOViRq2ABk3eLoxwZELpH6zhl3FbAoJ7Vm1gofKx6El1Ib5z23NUEhF9AsGl7y+dzLe5Cw2AArGTA=="
+        ],
+        "d3-time": [
+            "d3-time@3.1.0",
+            "",
+            {
+                "dependencies": {
+                    "d3-array": "2 - 3"
+                }
+            },
+            "sha512-VqKjzBLejbSMT4IgbmVgDjpkYrNWUYJnbCGo874u7MMKIWsILRX+OpX/gTk8MqjpT1A/c6HY2dCA77ZN0lkQ2Q=="
+        ],
+        "d3-time-format": [
+            "d3-time-format@4.1.0",
+            "",
+            {
+                "dependencies": {
+                    "d3-time": "1 - 3"
+                }
+            },
+            "sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg=="
+        ],
+        "d3-timer": [
+            "d3-timer@3.0.1",
+            "",
+            {},
+            "sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA=="
+        ],
+        "date-fns": [
+            "date-fns@3.6.0",
+            "",
+            {},
+            "sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww=="
+        ],
+        "debug": [
+            "debug@4.3.7",
+            "",
+            {
+                "dependencies": {
+                    "ms": "^2.1.3"
+                }
+            },
+            "sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ=="
+        ],
+        "decimal.js-light": [
+            "decimal.js-light@2.5.1",
+            "",
+            {},
+            "sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg=="
+        ],
+        "deep-is": [
+            "deep-is@0.1.4",
+            "",
+            {},
+            "sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ=="
+        ],
+        "detect-node-es": [
+            "detect-node-es@1.1.0",
+            "",
+            {},
+            "sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ=="
+        ],
+        "didyoumean": [
+            "didyoumean@1.2.2",
+            "",
+            {},
+            "sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw=="
+        ],
+        "dlv": [
+            "dlv@1.1.3",
+            "",
+            {},
+            "sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA=="
+        ],
+        "dom-helpers": [
+            "dom-helpers@5.2.1",
+            "",
+            {
+                "dependencies": {
+                    "@babel/runtime": "^7.8.7",
+                    "csstype": "^3.0.2"
+                }
+            },
+            "sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA=="
+        ],
+        "eastasianwidth": [
+            "eastasianwidth@0.2.0",
+            "",
+            {},
+            "sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA=="
+        ],
+        "electron-to-chromium": [
+            "electron-to-chromium@1.5.192",
+            "",
+            {},
+            "sha512-rP8Ez0w7UNw/9j5eSXCe10o1g/8B1P5SM90PCCMVkIRQn2R0LEHWz4Eh9RnxkniuDe1W0cTSOB3MLlkTGDcuCg=="
+        ],
+        "embla-carousel": [
+            "embla-carousel@8.6.0",
+            "",
+            {},
+            "sha512-SjWyZBHJPbqxHOzckOfo8lHisEaJWmwd23XppYFYVh10bU66/Pn5tkVkbkCMZVdbUE5eTCI2nD8OyIP4Z+uwkA=="
+        ],
+        "embla-carousel-react": [
+            "embla-carousel-react@8.6.0",
+            "",
+            {
+                "dependencies": {
+                    "embla-carousel": "8.6.0",
+                    "embla-carousel-reactive-utils": "8.6.0"
+                },
+                "peerDependencies": {
+                    "react": "^16.8.0 || ^17.0.1 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-0/PjqU7geVmo6F734pmPqpyHqiM99olvyecY7zdweCw+6tKEXnrE90pBiBbMMU8s5tICemzpQ3hi5EpxzGW+JA=="
+        ],
+        "embla-carousel-reactive-utils": [
+            "embla-carousel-reactive-utils@8.6.0",
+            "",
+            {
+                "peerDependencies": {
+                    "embla-carousel": "8.6.0"
+                }
+            },
+            "sha512-fMVUDUEx0/uIEDM0Mz3dHznDhfX+znCCDCeIophYb1QGVM7YThSWX+wz11zlYwWFOr74b4QLGg0hrGPJeG2s4A=="
+        ],
+        "emoji-regex": [
+            "emoji-regex@9.2.2",
+            "",
+            {},
+            "sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg=="
+        ],
+        "esbuild": [
+            "esbuild@0.25.0",
+            "",
+            {
+                "optionalDependencies": {
+                    "@esbuild/aix-ppc64": "0.25.0",
+                    "@esbuild/android-arm": "0.25.0",
+                    "@esbuild/android-arm64": "0.25.0",
+                    "@esbuild/android-x64": "0.25.0",
+                    "@esbuild/darwin-arm64": "0.25.0",
+                    "@esbuild/darwin-x64": "0.25.0",
+                    "@esbuild/freebsd-arm64": "0.25.0",
+                    "@esbuild/freebsd-x64": "0.25.0",
+                    "@esbuild/linux-arm": "0.25.0",
+                    "@esbuild/linux-arm64": "0.25.0",
+                    "@esbuild/linux-ia32": "0.25.0",
+                    "@esbuild/linux-loong64": "0.25.0",
+                    "@esbuild/linux-mips64el": "0.25.0",
+                    "@esbuild/linux-ppc64": "0.25.0",
+                    "@esbuild/linux-riscv64": "0.25.0",
+                    "@esbuild/linux-s390x": "0.25.0",
+                    "@esbuild/linux-x64": "0.25.0",
+                    "@esbuild/netbsd-arm64": "0.25.0",
+                    "@esbuild/netbsd-x64": "0.25.0",
+                    "@esbuild/openbsd-arm64": "0.25.0",
+                    "@esbuild/openbsd-x64": "0.25.0",
+                    "@esbuild/sunos-x64": "0.25.0",
+                    "@esbuild/win32-arm64": "0.25.0",
+                    "@esbuild/win32-ia32": "0.25.0",
+                    "@esbuild/win32-x64": "0.25.0"
+                },
+                "bin": "bin/esbuild"
+            },
+            "sha512-BXq5mqc8ltbaN34cDqWuYKyNhX8D/Z0J1xdtdQ8UcIIIyJyz+ZMKUt58tF3SrZ85jcfN/PZYhjR5uDQAYNVbuw=="
+        ],
+        "escalade": [
+            "escalade@3.2.0",
+            "",
+            {},
+            "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA=="
+        ],
+        "escape-string-regexp": [
+            "escape-string-regexp@4.0.0",
+            "",
+            {},
+            "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA=="
+        ],
+        "eslint": [
+            "eslint@9.32.0",
+            "",
+            {
+                "dependencies": {
+                    "@eslint-community/eslint-utils": "^4.2.0",
+                    "@eslint-community/regexpp": "^4.12.1",
+                    "@eslint/config-array": "^0.21.0",
+                    "@eslint/config-helpers": "^0.3.0",
+                    "@eslint/core": "^0.15.0",
+                    "@eslint/eslintrc": "^3.3.1",
+                    "@eslint/js": "9.32.0",
+                    "@eslint/plugin-kit": "^0.3.4",
+                    "@humanfs/node": "^0.16.6",
+                    "@humanwhocodes/module-importer": "^1.0.1",
+                    "@humanwhocodes/retry": "^0.4.2",
+                    "@types/estree": "^1.0.6",
+                    "@types/json-schema": "^7.0.15",
+                    "ajv": "^6.12.4",
+                    "chalk": "^4.0.0",
+                    "cross-spawn": "^7.0.6",
+                    "debug": "^4.3.2",
+                    "escape-string-regexp": "^4.0.0",
+                    "eslint-scope": "^8.4.0",
+                    "eslint-visitor-keys": "^4.2.1",
+                    "espree": "^10.4.0",
+                    "esquery": "^1.5.0",
+                    "esutils": "^2.0.2",
+                    "fast-deep-equal": "^3.1.3",
+                    "file-entry-cache": "^8.0.0",
+                    "find-up": "^5.0.0",
+                    "glob-parent": "^6.0.2",
+                    "ignore": "^5.2.0",
+                    "imurmurhash": "^0.1.4",
+                    "is-glob": "^4.0.0",
+                    "json-stable-stringify-without-jsonify": "^1.0.1",
+                    "lodash.merge": "^4.6.2",
+                    "minimatch": "^3.1.2",
+                    "natural-compare": "^1.4.0",
+                    "optionator": "^0.9.3"
+                },
+                "peerDependencies": {
+                    "jiti": "*"
+                },
+                "bin": "bin/eslint.js"
+            },
+            "sha512-LSehfdpgMeWcTZkWZVIJl+tkZ2nuSkyyB9C27MZqFWXuph7DvaowgcTvKqxvpLW1JZIk8PN7hFY3Rj9LQ7m7lg=="
+        ],
+        "eslint-plugin-react-hooks": [
+            "eslint-plugin-react-hooks@5.2.0",
+            "",
+            {
+                "peerDependencies": {
+                    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0"
+                }
+            },
+            "sha512-+f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy/sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg=="
+        ],
+        "eslint-plugin-react-refresh": [
+            "eslint-plugin-react-refresh@0.4.20",
+            "",
+            {
+                "peerDependencies": {
+                    "eslint": ">=8.40"
+                }
+            },
+            "sha512-XpbHQ2q5gUF8BGOX4dHe+71qoirYMhApEPZ7sfhF/dNnOF1UXnCMGZf79SFTBO7Bz5YEIT4TMieSlJBWhP9WBA=="
+        ],
+        "eslint-scope": [
+            "eslint-scope@8.4.0",
+            "",
+            {
+                "dependencies": {
+                    "esrecurse": "^4.3.0",
+                    "estraverse": "^5.2.0"
+                }
+            },
+            "sha512-sNXOfKCn74rt8RICKMvJS7XKV/Xk9kA7DyJr8mJik3S7Cwgy3qlkkmyS2uQB3jiJg6VNdZd/pDBJu0nvG2NlTg=="
+        ],
+        "eslint-visitor-keys": [
+            "eslint-visitor-keys@4.2.1",
+            "",
+            {},
+            "sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ=="
+        ],
+        "espree": [
+            "espree@10.4.0",
+            "",
+            {
+                "dependencies": {
+                    "acorn": "^8.15.0",
+                    "acorn-jsx": "^5.3.2",
+                    "eslint-visitor-keys": "^4.2.1"
+                }
+            },
+            "sha512-j6PAQ2uUr79PZhBjP5C5fhl8e39FmRnOjsD5lGnWrFU8i2G776tBK7+nP8KuQUTTyAZUwfQqXAgrVH5MbH9CYQ=="
+        ],
+        "esquery": [
+            "esquery@1.6.0",
+            "",
+            {
+                "dependencies": {
+                    "estraverse": "^5.1.0"
+                }
+            },
+            "sha512-ca9pw9fomFcKPvFLXhBKUK90ZvGibiGOvRJNbjljY7s7uq/5YO4BOzcYtJqExdx99rF6aAcnRxHmcUHcz6sQsg=="
+        ],
+        "esrecurse": [
+            "esrecurse@4.3.0",
+            "",
+            {
+                "dependencies": {
+                    "estraverse": "^5.2.0"
+                }
+            },
+            "sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag=="
+        ],
+        "estraverse": [
+            "estraverse@5.3.0",
+            "",
+            {},
+            "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA=="
+        ],
+        "esutils": [
+            "esutils@2.0.3",
+            "",
+            {},
+            "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g=="
+        ],
+        "eventemitter3": [
+            "eventemitter3@4.0.7",
+            "",
+            {},
+            "sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw=="
+        ],
+        "fast-deep-equal": [
+            "fast-deep-equal@3.1.3",
+            "",
+            {},
+            "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q=="
+        ],
+        "fast-equals": [
+            "fast-equals@5.2.2",
+            "",
+            {},
+            "sha512-V7/RktU11J3I36Nwq2JnZEM7tNm17eBJz+u25qdxBZeCKiX6BkVSZQjwWIr+IobgnZy+ag73tTZgZi7tr0LrBw=="
+        ],
+        "fast-glob": [
+            "fast-glob@3.3.2",
+            "",
+            {
+                "dependencies": {
+                    "@nodelib/fs.stat": "^2.0.2",
+                    "@nodelib/fs.walk": "^1.2.3",
+                    "glob-parent": "^5.1.2",
+                    "merge2": "^1.3.0",
+                    "micromatch": "^4.0.4"
+                }
+            },
+            "sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow=="
+        ],
+        "fast-json-stable-stringify": [
+            "fast-json-stable-stringify@2.1.0",
+            "",
+            {},
+            "sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw=="
+        ],
+        "fast-levenshtein": [
+            "fast-levenshtein@2.0.6",
+            "",
+            {},
+            "sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw=="
+        ],
+        "fastq": [
+            "fastq@1.17.1",
+            "",
+            {
+                "dependencies": {
+                    "reusify": "^1.0.4"
+                }
+            },
+            "sha512-sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w=="
+        ],
+        "file-entry-cache": [
+            "file-entry-cache@8.0.0",
+            "",
+            {
+                "dependencies": {
+                    "flat-cache": "^4.0.0"
+                }
+            },
+            "sha512-XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ=="
+        ],
+        "fill-range": [
+            "fill-range@7.1.1",
+            "",
+            {
+                "dependencies": {
+                    "to-regex-range": "^5.0.1"
+                }
+            },
+            "sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg=="
+        ],
+        "find-up": [
+            "find-up@5.0.0",
+            "",
+            {
+                "dependencies": {
+                    "locate-path": "^6.0.0",
+                    "path-exists": "^4.0.0"
+                }
+            },
+            "sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng=="
+        ],
+        "flat-cache": [
+            "flat-cache@4.0.1",
+            "",
+            {
+                "dependencies": {
+                    "flatted": "^3.2.9",
+                    "keyv": "^4.5.4"
+                }
+            },
+            "sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw=="
+        ],
+        "flatted": [
+            "flatted@3.3.1",
+            "",
+            {},
+            "sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw=="
+        ],
+        "foreground-child": [
+            "foreground-child@3.3.0",
+            "",
+            {
+                "dependencies": {
+                    "cross-spawn": "^7.0.0",
+                    "signal-exit": "^4.0.1"
+                }
+            },
+            "sha512-Ld2g8rrAyMYFXBhEqMz8ZAHBi4J4uS1i/CxGMDnjyFWddMXLVcDp051DZfu+t7+ab7Wv6SMqpWmyFIj5UbfFvg=="
+        ],
+        "fraction.js": [
+            "fraction.js@4.3.7",
+            "",
+            {},
+            "sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew=="
+        ],
+        "fsevents": [
+            "fsevents@2.3.3",
+            "",
+            {
+                "os": "darwin"
+            },
+            "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
+        ],
+        "function-bind": [
+            "function-bind@1.1.2",
+            "",
+            {},
+            "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA=="
+        ],
+        "get-nonce": [
+            "get-nonce@1.0.1",
+            "",
+            {},
+            "sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q=="
+        ],
+        "glob": [
+            "glob@10.4.5",
+            "",
+            {
+                "dependencies": {
+                    "foreground-child": "^3.1.0",
+                    "jackspeak": "^3.1.2",
+                    "minimatch": "^9.0.4",
+                    "minipass": "^7.1.2",
+                    "package-json-from-dist": "^1.0.0",
+                    "path-scurry": "^1.11.1"
+                },
+                "bin": "dist/esm/bin.mjs"
+            },
+            "sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg=="
+        ],
+        "glob-parent": [
+            "glob-parent@6.0.2",
+            "",
+            {
+                "dependencies": {
+                    "is-glob": "^4.0.3"
+                }
+            },
+            "sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A=="
+        ],
+        "globals": [
+            "globals@15.15.0",
+            "",
+            {},
+            "sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg=="
+        ],
+        "graphemer": [
+            "graphemer@1.4.0",
+            "",
+            {},
+            "sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag=="
+        ],
+        "has-flag": [
+            "has-flag@4.0.0",
+            "",
+            {},
+            "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ=="
+        ],
+        "hasown": [
+            "hasown@2.0.2",
+            "",
+            {
+                "dependencies": {
+                    "function-bind": "^1.1.2"
+                }
+            },
+            "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ=="
+        ],
+        "iceberg-js": [
+            "iceberg-js@0.8.1",
+            "",
+            {},
+            "sha512-1dhVQZXhcHje7798IVM+xoo/1ZdVfzOMIc8/rgVSijRK38EDqOJoGula9N/8ZI5RD8QTxNQtK/Gozpr+qUqRRA=="
+        ],
+        "ignore": [
+            "ignore@5.3.2",
+            "",
+            {},
+            "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g=="
+        ],
+        "import-fresh": [
+            "import-fresh@3.3.1",
+            "",
+            {
+                "dependencies": {
+                    "parent-module": "^1.0.0",
+                    "resolve-from": "^4.0.0"
+                }
+            },
+            "sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ=="
+        ],
+        "imurmurhash": [
+            "imurmurhash@0.1.4",
+            "",
+            {},
+            "sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA=="
+        ],
+        "input-otp": [
+            "input-otp@1.4.2",
+            "",
+            {
+                "peerDependencies": {
+                    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0.0 || ^19.0.0-rc",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-l3jWwYNvrEa6NTCt7BECfCm48GvwuZzkoeG3gBL2w4CHeOXW3eKFmf9UNYkNfYc3mxMrthMnxjIE07MT0zLBQA=="
+        ],
+        "internmap": [
+            "internmap@2.0.3",
+            "",
+            {},
+            "sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg=="
+        ],
+        "is-binary-path": [
+            "is-binary-path@2.1.0",
+            "",
+            {
+                "dependencies": {
+                    "binary-extensions": "^2.0.0"
+                }
+            },
+            "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw=="
+        ],
+        "is-core-module": [
+            "is-core-module@2.15.1",
+            "",
+            {
+                "dependencies": {
+                    "hasown": "^2.0.2"
+                }
+            },
+            "sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ=="
+        ],
+        "is-extglob": [
+            "is-extglob@2.1.1",
+            "",
+            {},
+            "sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ=="
+        ],
+        "is-fullwidth-code-point": [
+            "is-fullwidth-code-point@3.0.0",
+            "",
+            {},
+            "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg=="
+        ],
+        "is-glob": [
+            "is-glob@4.0.3",
+            "",
+            {
+                "dependencies": {
+                    "is-extglob": "^2.1.1"
+                }
+            },
+            "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg=="
+        ],
+        "is-number": [
+            "is-number@7.0.0",
+            "",
+            {},
+            "sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng=="
+        ],
+        "isexe": [
+            "isexe@2.0.0",
+            "",
+            {},
+            "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw=="
+        ],
+        "jackspeak": [
+            "jackspeak@3.4.3",
+            "",
+            {
+                "dependencies": {
+                    "@isaacs/cliui": "^8.0.2"
+                },
+                "optionalDependencies": {
+                    "@pkgjs/parseargs": "^0.11.0"
+                }
+            },
+            "sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw=="
+        ],
+        "jiti": [
+            "jiti@1.21.6",
+            "",
+            {
+                "bin": "bin/jiti.js"
+            },
+            "sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w=="
+        ],
+        "js-tokens": [
+            "js-tokens@4.0.0",
+            "",
+            {},
+            "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
+        ],
+        "js-yaml": [
+            "js-yaml@4.1.0",
+            "",
+            {
+                "dependencies": {
+                    "argparse": "^2.0.1"
+                },
+                "bin": "bin/js-yaml.js"
+            },
+            "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA=="
+        ],
+        "json-buffer": [
+            "json-buffer@3.0.1",
+            "",
+            {},
+            "sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ=="
+        ],
+        "json-schema-traverse": [
+            "json-schema-traverse@0.4.1",
+            "",
+            {},
+            "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg=="
+        ],
+        "json-stable-stringify-without-jsonify": [
+            "json-stable-stringify-without-jsonify@1.0.1",
+            "",
+            {},
+            "sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw=="
+        ],
+        "keyv": [
+            "keyv@4.5.4",
+            "",
+            {
+                "dependencies": {
+                    "json-buffer": "3.0.1"
+                }
+            },
+            "sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw=="
+        ],
+        "levn": [
+            "levn@0.4.1",
+            "",
+            {
+                "dependencies": {
+                    "prelude-ls": "^1.2.1",
+                    "type-check": "~0.4.0"
+                }
+            },
+            "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ=="
+        ],
+        "lilconfig": [
+            "lilconfig@3.1.3",
+            "",
+            {},
+            "sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw=="
+        ],
+        "lines-and-columns": [
+            "lines-and-columns@1.2.4",
+            "",
+            {},
+            "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg=="
+        ],
+        "locate-path": [
+            "locate-path@6.0.0",
+            "",
+            {
+                "dependencies": {
+                    "p-locate": "^5.0.0"
+                }
+            },
+            "sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw=="
+        ],
+        "lodash": [
+            "lodash@4.17.21",
+            "",
+            {},
+            "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+        ],
+        "lodash.castarray": [
+            "lodash.castarray@4.4.0",
+            "",
+            {},
+            "sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q=="
+        ],
+        "lodash.isplainobject": [
+            "lodash.isplainobject@4.0.6",
+            "",
+            {},
+            "sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA=="
+        ],
+        "lodash.merge": [
+            "lodash.merge@4.6.2",
+            "",
+            {},
+            "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ=="
+        ],
+        "loose-envify": [
+            "loose-envify@1.4.0",
+            "",
+            {
+                "dependencies": {
+                    "js-tokens": "^3.0.0 || ^4.0.0"
+                },
+                "bin": "cli.js"
+            },
+            "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="
+        ],
+        "lovable-tagger": [
+            "lovable-tagger@1.1.13",
+            "",
+            {
+                "dependencies": {
+                    "esbuild": "^0.25.0",
+                    "tailwindcss": "^3.4.17"
+                },
+                "peerDependencies": {
+                    "vite": ">=5.0.0 <8.0.0"
+                }
+            },
+            "sha512-RBEYDxao7Xf8ya29L0cd+ocE7Gs80xPOIOwwck65Hoie8YDKViuXi3UYV14DoNWIvaJ7WVPf7SG3cc844nFqGA=="
+        ],
+        "lru-cache": [
+            "lru-cache@10.4.3",
+            "",
+            {},
+            "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="
+        ],
+        "lucide-react": [
+            "lucide-react@0.462.0",
+            "",
+            {
+                "peerDependencies": {
+                    "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-NTL7EbAao9IFtuSivSZgrAh4fZd09Lr+6MTkqIxuHaH2nnYiYIzXPo06cOxHg9wKLdj6LL8TByG4qpePqwgx/g=="
+        ],
+        "merge2": [
+            "merge2@1.4.1",
+            "",
+            {},
+            "sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg=="
+        ],
+        "micromatch": [
+            "micromatch@4.0.8",
+            "",
+            {
+                "dependencies": {
+                    "braces": "^3.0.3",
+                    "picomatch": "^2.3.1"
+                }
+            },
+            "sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA=="
+        ],
+        "minimatch": [
+            "minimatch@3.1.2",
+            "",
+            {
+                "dependencies": {
+                    "brace-expansion": "^1.1.7"
+                }
+            },
+            "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw=="
+        ],
+        "minipass": [
+            "minipass@7.1.2",
+            "",
+            {},
+            "sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw=="
+        ],
+        "ms": [
+            "ms@2.1.3",
+            "",
+            {},
+            "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="
+        ],
+        "mz": [
+            "mz@2.7.0",
+            "",
+            {
+                "dependencies": {
+                    "any-promise": "^1.0.0",
+                    "object-assign": "^4.0.1",
+                    "thenify-all": "^1.0.0"
+                }
+            },
+            "sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q=="
+        ],
+        "nanoid": [
+            "nanoid@3.3.11",
+            "",
+            {
+                "bin": "bin/nanoid.cjs"
+            },
+            "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w=="
+        ],
+        "natural-compare": [
+            "natural-compare@1.4.0",
+            "",
+            {},
+            "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw=="
+        ],
+        "next-themes": [
+            "next-themes@0.3.0",
+            "",
+            {
+                "peerDependencies": {
+                    "react": "^16.8 || ^17 || ^18",
+                    "react-dom": "^16.8 || ^17 || ^18"
+                }
+            },
+            "sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w=="
+        ],
+        "node-releases": [
+            "node-releases@2.0.19",
+            "",
+            {},
+            "sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw=="
+        ],
+        "normalize-path": [
+            "normalize-path@3.0.0",
+            "",
+            {},
+            "sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA=="
+        ],
+        "normalize-range": [
+            "normalize-range@0.1.2",
+            "",
+            {},
+            "sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA=="
+        ],
+        "object-assign": [
+            "object-assign@4.1.1",
+            "",
+            {},
+            "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg=="
+        ],
+        "object-hash": [
+            "object-hash@3.0.0",
+            "",
+            {},
+            "sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw=="
+        ],
+        "optionator": [
+            "optionator@0.9.4",
+            "",
+            {
+                "dependencies": {
+                    "deep-is": "^0.1.3",
+                    "fast-levenshtein": "^2.0.6",
+                    "levn": "^0.4.1",
+                    "prelude-ls": "^1.2.1",
+                    "type-check": "^0.4.0",
+                    "word-wrap": "^1.2.5"
+                }
+            },
+            "sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g=="
+        ],
+        "p-limit": [
+            "p-limit@3.1.0",
+            "",
+            {
+                "dependencies": {
+                    "yocto-queue": "^0.1.0"
+                }
+            },
+            "sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ=="
+        ],
+        "p-locate": [
+            "p-locate@5.0.0",
+            "",
+            {
+                "dependencies": {
+                    "p-limit": "^3.0.2"
+                }
+            },
+            "sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw=="
+        ],
+        "package-json-from-dist": [
+            "package-json-from-dist@1.0.1",
+            "",
+            {},
+            "sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw=="
+        ],
+        "parent-module": [
+            "parent-module@1.0.1",
+            "",
+            {
+                "dependencies": {
+                    "callsites": "^3.0.0"
+                }
+            },
+            "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g=="
+        ],
+        "path-exists": [
+            "path-exists@4.0.0",
+            "",
+            {},
+            "sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w=="
+        ],
+        "path-key": [
+            "path-key@3.1.1",
+            "",
+            {},
+            "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q=="
+        ],
+        "path-parse": [
+            "path-parse@1.0.7",
+            "",
+            {},
+            "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw=="
+        ],
+        "path-scurry": [
+            "path-scurry@1.11.1",
+            "",
+            {
+                "dependencies": {
+                    "lru-cache": "^10.2.0",
+                    "minipass": "^5.0.0 || ^6.0.2 || ^7.0.0"
+                }
+            },
+            "sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA=="
+        ],
+        "picocolors": [
+            "picocolors@1.1.1",
+            "",
+            {},
+            "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA=="
+        ],
+        "picomatch": [
+            "picomatch@2.3.1",
+            "",
+            {},
+            "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
+        ],
+        "pify": [
+            "pify@2.3.0",
+            "",
+            {},
+            "sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog=="
+        ],
+        "pirates": [
+            "pirates@4.0.6",
+            "",
+            {},
+            "sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg=="
+        ],
+        "postcss": [
+            "postcss@8.5.6",
+            "",
+            {
+                "dependencies": {
+                    "nanoid": "^3.3.11",
+                    "picocolors": "^1.1.1",
+                    "source-map-js": "^1.2.1"
+                }
+            },
+            "sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg=="
+        ],
+        "postcss-import": [
+            "postcss-import@15.1.0",
+            "",
+            {
+                "dependencies": {
+                    "postcss-value-parser": "^4.0.0",
+                    "read-cache": "^1.0.0",
+                    "resolve": "^1.1.7"
+                },
+                "peerDependencies": {
+                    "postcss": "^8.0.0"
+                }
+            },
+            "sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew=="
+        ],
+        "postcss-js": [
+            "postcss-js@4.0.1",
+            "",
+            {
+                "dependencies": {
+                    "camelcase-css": "^2.0.1"
+                },
+                "peerDependencies": {
+                    "postcss": "^8.4.21"
+                }
+            },
+            "sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw=="
+        ],
+        "postcss-load-config": [
+            "postcss-load-config@4.0.2",
+            "",
+            {
+                "dependencies": {
+                    "lilconfig": "^3.0.0",
+                    "yaml": "^2.3.4"
+                },
+                "peerDependencies": {
+                    "postcss": ">=8.0.9",
+                    "ts-node": ">=9.0.0"
+                },
+                "optionalPeers": [
+                    "ts-node"
+                ]
+            },
+            "sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ=="
+        ],
+        "postcss-nested": [
+            "postcss-nested@6.2.0",
+            "",
+            {
+                "dependencies": {
+                    "postcss-selector-parser": "^6.1.1"
+                },
+                "peerDependencies": {
+                    "postcss": "^8.2.14"
+                }
+            },
+            "sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ=="
+        ],
+        "postcss-selector-parser": [
+            "postcss-selector-parser@6.0.10",
+            "",
+            {
+                "dependencies": {
+                    "cssesc": "^3.0.0",
+                    "util-deprecate": "^1.0.2"
+                }
+            },
+            "sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w=="
+        ],
+        "postcss-value-parser": [
+            "postcss-value-parser@4.2.0",
+            "",
+            {},
+            "sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ=="
+        ],
+        "prelude-ls": [
+            "prelude-ls@1.2.1",
+            "",
+            {},
+            "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="
+        ],
+        "prop-types": [
+            "prop-types@15.8.1",
+            "",
+            {
+                "dependencies": {
+                    "loose-envify": "^1.4.0",
+                    "object-assign": "^4.1.1",
+                    "react-is": "^16.13.1"
+                }
+            },
+            "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
+        ],
+        "punycode": [
+            "punycode@2.3.1",
+            "",
+            {},
+            "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg=="
+        ],
+        "queue-microtask": [
+            "queue-microtask@1.2.3",
+            "",
+            {},
+            "sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A=="
+        ],
+        "react": [
+            "react@18.3.1",
+            "",
+            {
+                "dependencies": {
+                    "loose-envify": "^1.1.0"
+                }
+            },
+            "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ=="
+        ],
+        "react-day-picker": [
+            "react-day-picker@8.10.1",
+            "",
+            {
+                "peerDependencies": {
+                    "date-fns": "^2.28.0 || ^3.0.0",
+                    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+                }
+            },
+            "sha512-TMx7fNbhLk15eqcMt+7Z7S2KF7mfTId/XJDjKE8f+IUcFn0l08/kI4FiYTL/0yuOLmEcbR4Fwe3GJf/NiiMnPA=="
+        ],
+        "react-dom": [
+            "react-dom@18.3.1",
+            "",
+            {
+                "dependencies": {
+                    "loose-envify": "^1.1.0",
+                    "scheduler": "^0.23.2"
+                },
+                "peerDependencies": {
+                    "react": "^18.3.1"
+                }
+            },
+            "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw=="
+        ],
+        "react-hook-form": [
+            "react-hook-form@7.61.1",
+            "",
+            {
+                "peerDependencies": {
+                    "react": "^16.8.0 || ^17 || ^18 || ^19"
+                }
+            },
+            "sha512-2vbXUFDYgqEgM2RcXcAT2PwDW/80QARi+PKmHy5q2KhuKvOlG8iIYgf7eIlIANR5trW9fJbP4r5aub3a4egsew=="
+        ],
+        "react-is": [
+            "react-is@18.3.1",
+            "",
+            {},
+            "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg=="
+        ],
+        "react-remove-scroll": [
+            "react-remove-scroll@2.7.1",
+            "",
+            {
+                "dependencies": {
+                    "react-remove-scroll-bar": "^2.3.7",
+                    "react-style-singleton": "^2.2.3",
+                    "tslib": "^2.1.0",
+                    "use-callback-ref": "^1.3.3",
+                    "use-sidecar": "^1.1.3"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-HpMh8+oahmIdOuS5aFKKY6Pyog+FNaZV/XyJOq7b4YFwsFHe5yYfdbIalI4k3vU2nSDql7YskmUseHsRrJqIPA=="
+        ],
+        "react-remove-scroll-bar": [
+            "react-remove-scroll-bar@2.3.8",
+            "",
+            {
+                "dependencies": {
+                    "react-style-singleton": "^2.2.2",
+                    "tslib": "^2.0.0"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+                }
+            },
+            "sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q=="
+        ],
+        "react-resizable-panels": [
+            "react-resizable-panels@2.1.9",
+            "",
+            {
+                "peerDependencies": {
+                    "react": "^16.14.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc",
+                    "react-dom": "^16.14.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-z77+X08YDIrgAes4jl8xhnUu1LNIRp4+E7cv4xHmLOxxUPO/ML7PSrE813b90vj7xvQ1lcf7g2uA9GeMZonjhQ=="
+        ],
+        "react-router": [
+            "react-router@6.30.1",
+            "",
+            {
+                "dependencies": {
+                    "@remix-run/router": "1.23.0"
+                },
+                "peerDependencies": {
+                    "react": ">=16.8"
+                }
+            },
+            "sha512-X1m21aEmxGXqENEPG3T6u0Th7g0aS4ZmoNynhbs+Cn+q+QGTLt+d5IQ2bHAXKzKcxGJjxACpVbnYQSCRcfxHlQ=="
+        ],
+        "react-router-dom": [
+            "react-router-dom@6.30.1",
+            "",
+            {
+                "dependencies": {
+                    "@remix-run/router": "1.23.0",
+                    "react-router": "6.30.1"
+                },
+                "peerDependencies": {
+                    "react": ">=16.8",
+                    "react-dom": ">=16.8"
+                }
+            },
+            "sha512-llKsgOkZdbPU1Eg3zK8lCn+sjD9wMRZZPuzmdWWX5SUs8OFkN5HnFVC0u5KMeMaC9aoancFI/KoLuKPqN+hxHw=="
+        ],
+        "react-smooth": [
+            "react-smooth@4.0.4",
+            "",
+            {
+                "dependencies": {
+                    "fast-equals": "^5.0.1",
+                    "prop-types": "^15.8.1",
+                    "react-transition-group": "^4.4.5"
+                },
+                "peerDependencies": {
+                    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+                    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+                }
+            },
+            "sha512-gnGKTpYwqL0Iii09gHobNolvX4Kiq4PKx6eWBCYYix+8cdw+cGo3do906l1NBPKkSWx1DghC1dlWG9L2uGd61Q=="
+        ],
+        "react-style-singleton": [
+            "react-style-singleton@2.2.3",
+            "",
+            {
+                "dependencies": {
+                    "get-nonce": "^1.0.0",
+                    "tslib": "^2.0.0"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ=="
+        ],
+        "react-transition-group": [
+            "react-transition-group@4.4.5",
+            "",
+            {
+                "dependencies": {
+                    "@babel/runtime": "^7.5.5",
+                    "dom-helpers": "^5.0.1",
+                    "loose-envify": "^1.4.0",
+                    "prop-types": "^15.6.2"
+                },
+                "peerDependencies": {
+                    "react": ">=16.6.0",
+                    "react-dom": ">=16.6.0"
+                }
+            },
+            "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g=="
+        ],
+        "read-cache": [
+            "read-cache@1.0.0",
+            "",
+            {
+                "dependencies": {
+                    "pify": "^2.3.0"
+                }
+            },
+            "sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA=="
+        ],
+        "readdirp": [
+            "readdirp@3.6.0",
+            "",
+            {
+                "dependencies": {
+                    "picomatch": "^2.2.1"
+                }
+            },
+            "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
+        ],
+        "recharts": [
+            "recharts@2.15.4",
+            "",
+            {
+                "dependencies": {
+                    "clsx": "^2.0.0",
+                    "eventemitter3": "^4.0.1",
+                    "lodash": "^4.17.21",
+                    "react-is": "^18.3.1",
+                    "react-smooth": "^4.0.4",
+                    "recharts-scale": "^0.4.4",
+                    "tiny-invariant": "^1.3.1",
+                    "victory-vendor": "^36.6.8"
+                },
+                "peerDependencies": {
+                    "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+                    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+                }
+            },
+            "sha512-UT/q6fwS3c1dHbXv2uFgYJ9BMFHu3fwnd7AYZaEQhXuYQ4hgsxLvsUXzGdKeZrW5xopzDCvuA2N41WJ88I7zIw=="
+        ],
+        "recharts-scale": [
+            "recharts-scale@0.4.5",
+            "",
+            {
+                "dependencies": {
+                    "decimal.js-light": "^2.4.1"
+                }
+            },
+            "sha512-kivNFO+0OcUNu7jQquLXAxz1FIwZj8nrj+YkOKc5694NbjCvcT6aSZiIzNzd2Kul4o4rTto8QVR9lMNtxD4G1w=="
+        ],
+        "resolve": [
+            "resolve@1.22.8",
+            "",
+            {
+                "dependencies": {
+                    "is-core-module": "^2.13.0",
+                    "path-parse": "^1.0.7",
+                    "supports-preserve-symlinks-flag": "^1.0.0"
+                },
+                "bin": "bin/resolve"
+            },
+            "sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw=="
+        ],
+        "resolve-from": [
+            "resolve-from@4.0.0",
+            "",
+            {},
+            "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g=="
+        ],
+        "reusify": [
+            "reusify@1.0.4",
+            "",
+            {},
+            "sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw=="
+        ],
+        "rollup": [
+            "rollup@4.24.0",
+            "",
+            {
+                "dependencies": {
+                    "@types/estree": "1.0.6"
+                },
+                "optionalDependencies": {
+                    "@rollup/rollup-android-arm-eabi": "4.24.0",
+                    "@rollup/rollup-android-arm64": "4.24.0",
+                    "@rollup/rollup-darwin-arm64": "4.24.0",
+                    "@rollup/rollup-darwin-x64": "4.24.0",
+                    "@rollup/rollup-linux-arm-gnueabihf": "4.24.0",
+                    "@rollup/rollup-linux-arm-musleabihf": "4.24.0",
+                    "@rollup/rollup-linux-arm64-gnu": "4.24.0",
+                    "@rollup/rollup-linux-arm64-musl": "4.24.0",
+                    "@rollup/rollup-linux-powerpc64le-gnu": "4.24.0",
+                    "@rollup/rollup-linux-riscv64-gnu": "4.24.0",
+                    "@rollup/rollup-linux-s390x-gnu": "4.24.0",
+                    "@rollup/rollup-linux-x64-gnu": "4.24.0",
+                    "@rollup/rollup-linux-x64-musl": "4.24.0",
+                    "@rollup/rollup-win32-arm64-msvc": "4.24.0",
+                    "@rollup/rollup-win32-ia32-msvc": "4.24.0",
+                    "@rollup/rollup-win32-x64-msvc": "4.24.0",
+                    "fsevents": "~2.3.2"
+                },
+                "bin": "dist/bin/rollup"
+            },
+            "sha512-DOmrlGSXNk1DM0ljiQA+i+o0rSLhtii1je5wgk60j49d1jHT5YYttBv1iWOnYSTG+fZZESUOSNiAl89SIet+Cg=="
+        ],
+        "run-parallel": [
+            "run-parallel@1.2.0",
+            "",
+            {
+                "dependencies": {
+                    "queue-microtask": "^1.2.2"
+                }
+            },
+            "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA=="
+        ],
+        "scheduler": [
+            "scheduler@0.23.2",
+            "",
+            {
+                "dependencies": {
+                    "loose-envify": "^1.1.0"
+                }
+            },
+            "sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ=="
+        ],
+        "semver": [
+            "semver@7.7.2",
+            "",
+            {
+                "bin": "bin/semver.js"
+            },
+            "sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA=="
+        ],
+        "shebang-command": [
+            "shebang-command@2.0.0",
+            "",
+            {
+                "dependencies": {
+                    "shebang-regex": "^3.0.0"
+                }
+            },
+            "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="
+        ],
+        "shebang-regex": [
+            "shebang-regex@3.0.0",
+            "",
+            {},
+            "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A=="
+        ],
+        "signal-exit": [
+            "signal-exit@4.1.0",
+            "",
+            {},
+            "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="
+        ],
+        "sonner": [
+            "sonner@1.7.4",
+            "",
+            {
+                "peerDependencies": {
+                    "react": "^18.0.0 || ^19.0.0 || ^19.0.0-rc",
+                    "react-dom": "^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-DIS8z4PfJRbIyfVFDVnK9rO3eYDtse4Omcm6bt0oEr5/jtLgysmjuBl1frJ9E/EQZrFmKx2A8m/s5s9CRXIzhw=="
+        ],
+        "source-map-js": [
+            "source-map-js@1.2.1",
+            "",
+            {},
+            "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA=="
+        ],
+        "string-width": [
+            "string-width@5.1.2",
+            "",
+            {
+                "dependencies": {
+                    "eastasianwidth": "^0.2.0",
+                    "emoji-regex": "^9.2.2",
+                    "strip-ansi": "^7.0.1"
+                }
+            },
+            "sha512-HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA=="
+        ],
+        "string-width-cjs": [
+            "string-width@4.2.3",
+            "",
+            {
+                "dependencies": {
+                    "emoji-regex": "^8.0.0",
+                    "is-fullwidth-code-point": "^3.0.0",
+                    "strip-ansi": "^6.0.1"
+                }
+            },
+            "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g=="
+        ],
+        "strip-ansi": [
+            "strip-ansi@7.1.0",
+            "",
+            {
+                "dependencies": {
+                    "ansi-regex": "^6.0.1"
+                }
+            },
+            "sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ=="
+        ],
+        "strip-ansi-cjs": [
+            "strip-ansi@6.0.1",
+            "",
+            {
+                "dependencies": {
+                    "ansi-regex": "^5.0.1"
+                }
+            },
+            "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="
+        ],
+        "strip-json-comments": [
+            "strip-json-comments@3.1.1",
+            "",
+            {},
+            "sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig=="
+        ],
+        "sucrase": [
+            "sucrase@3.35.0",
+            "",
+            {
+                "dependencies": {
+                    "@jridgewell/gen-mapping": "^0.3.2",
+                    "commander": "^4.0.0",
+                    "glob": "^10.3.10",
+                    "lines-and-columns": "^1.1.6",
+                    "mz": "^2.7.0",
+                    "pirates": "^4.0.1",
+                    "ts-interface-checker": "^0.1.9"
+                },
+                "bin": {
+                    "sucrase": "bin/sucrase",
+                    "sucrase-node": "bin/sucrase-node"
+                }
+            },
+            "sha512-8EbVDiu9iN/nESwxeSxDKe0dunta1GOlHufmSSXxMD2z2/tMZpDMpvXQGsc+ajGo8y2uYUmixaSRUc/QPoQ0GA=="
+        ],
+        "supports-color": [
+            "supports-color@7.2.0",
+            "",
+            {
+                "dependencies": {
+                    "has-flag": "^4.0.0"
+                }
+            },
+            "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="
+        ],
+        "supports-preserve-symlinks-flag": [
+            "supports-preserve-symlinks-flag@1.0.0",
+            "",
+            {},
+            "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="
+        ],
+        "tailwind-merge": [
+            "tailwind-merge@2.6.0",
+            "",
+            {},
+            "sha512-P+Vu1qXfzediirmHOC3xKGAYeZtPcV9g76X+xg2FD4tYgR71ewMA35Y3sCz3zhiN/dwefRpJX0yBcgwi1fXNQA=="
+        ],
+        "tailwindcss": [
+            "tailwindcss@3.4.17",
+            "",
+            {
+                "dependencies": {
+                    "@alloc/quick-lru": "^5.2.0",
+                    "arg": "^5.0.2",
+                    "chokidar": "^3.6.0",
+                    "didyoumean": "^1.2.2",
+                    "dlv": "^1.1.3",
+                    "fast-glob": "^3.3.2",
+                    "glob-parent": "^6.0.2",
+                    "is-glob": "^4.0.3",
+                    "jiti": "^1.21.6",
+                    "lilconfig": "^3.1.3",
+                    "micromatch": "^4.0.8",
+                    "normalize-path": "^3.0.0",
+                    "object-hash": "^3.0.0",
+                    "picocolors": "^1.1.1",
+                    "postcss": "^8.4.47",
+                    "postcss-import": "^15.1.0",
+                    "postcss-js": "^4.0.1",
+                    "postcss-load-config": "^4.0.2",
+                    "postcss-nested": "^6.2.0",
+                    "postcss-selector-parser": "^6.1.2",
+                    "resolve": "^1.22.8",
+                    "sucrase": "^3.35.0"
+                },
+                "bin": {
+                    "tailwind": "lib/cli.js",
+                    "tailwindcss": "lib/cli.js"
+                }
+            },
+            "sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og=="
+        ],
+        "tailwindcss-animate": [
+            "tailwindcss-animate@1.0.7",
+            "",
+            {
+                "peerDependencies": {
+                    "tailwindcss": ">=3.0.0 || insiders"
+                }
+            },
+            "sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA=="
+        ],
+        "thenify": [
+            "thenify@3.3.1",
+            "",
+            {
+                "dependencies": {
+                    "any-promise": "^1.0.0"
+                }
+            },
+            "sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw=="
+        ],
+        "thenify-all": [
+            "thenify-all@1.6.0",
+            "",
+            {
+                "dependencies": {
+                    "thenify": ">= 3.1.0 < 4"
+                }
+            },
+            "sha512-RNxQH/qI8/t3thXJDwcstUO4zeqo64+Uy/+sNVRBx4Xn2OX+OZ9oP+iJnNFqplFra2ZUVeKCSa2oVWi3T4uVmA=="
+        ],
+        "tiny-invariant": [
+            "tiny-invariant@1.3.3",
+            "",
+            {},
+            "sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg=="
+        ],
+        "to-regex-range": [
+            "to-regex-range@5.0.1",
+            "",
+            {
+                "dependencies": {
+                    "is-number": "^7.0.0"
+                }
+            },
+            "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ=="
+        ],
+        "ts-api-utils": [
+            "ts-api-utils@2.1.0",
+            "",
+            {
+                "peerDependencies": {
+                    "typescript": ">=4.8.4"
+                }
+            },
+            "sha512-CUgTZL1irw8u29bzrOD/nH85jqyc74D6SshFgujOIA7osm2Rz7dYH77agkx7H4FBNxDq7Cjf+IjaX/8zwFW+ZQ=="
+        ],
+        "ts-interface-checker": [
+            "ts-interface-checker@0.1.13",
+            "",
+            {},
+            "sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA=="
+        ],
+        "tslib": [
+            "tslib@2.8.1",
+            "",
+            {},
+            "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="
+        ],
+        "type-check": [
+            "type-check@0.4.0",
+            "",
+            {
+                "dependencies": {
+                    "prelude-ls": "^1.2.1"
+                }
+            },
+            "sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew=="
+        ],
+        "typescript": [
+            "typescript@5.8.3",
+            "",
+            {
+                "bin": {
+                    "tsc": "bin/tsc",
+                    "tsserver": "bin/tsserver"
+                }
+            },
+            "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ=="
+        ],
+        "typescript-eslint": [
+            "typescript-eslint@8.38.0",
+            "",
+            {
+                "dependencies": {
+                    "@typescript-eslint/eslint-plugin": "8.38.0",
+                    "@typescript-eslint/parser": "8.38.0",
+                    "@typescript-eslint/typescript-estree": "8.38.0",
+                    "@typescript-eslint/utils": "8.38.0"
+                },
+                "peerDependencies": {
+                    "eslint": "^8.57.0 || ^9.0.0",
+                    "typescript": ">=4.8.4 <5.9.0"
+                }
+            },
+            "sha512-FsZlrYK6bPDGoLeZRuvx2v6qrM03I0U0SnfCLPs/XCCPCFD80xU9Pg09H/K+XFa68uJuZo7l/Xhs+eDRg2l3hg=="
+        ],
+        "undici-types": [
+            "undici-types@6.21.0",
+            "",
+            {},
+            "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="
+        ],
+        "update-browserslist-db": [
+            "update-browserslist-db@1.1.3",
+            "",
+            {
+                "dependencies": {
+                    "escalade": "^3.2.0",
+                    "picocolors": "^1.1.1"
+                },
+                "peerDependencies": {
+                    "browserslist": ">= 4.21.0"
+                },
+                "bin": "cli.js"
+            },
+            "sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw=="
+        ],
+        "uri-js": [
+            "uri-js@4.4.1",
+            "",
+            {
+                "dependencies": {
+                    "punycode": "^2.1.0"
+                }
+            },
+            "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg=="
+        ],
+        "use-callback-ref": [
+            "use-callback-ref@1.3.3",
+            "",
+            {
+                "dependencies": {
+                    "tslib": "^2.0.0"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg=="
+        ],
+        "use-sidecar": [
+            "use-sidecar@1.1.3",
+            "",
+            {
+                "dependencies": {
+                    "detect-node-es": "^1.1.0",
+                    "tslib": "^2.0.0"
+                },
+                "peerDependencies": {
+                    "@types/react": "*",
+                    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+                }
+            },
+            "sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ=="
+        ],
+        "use-sync-external-store": [
+            "use-sync-external-store@1.5.0",
+            "",
+            {
+                "peerDependencies": {
+                    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+                }
+            },
+            "sha512-Rb46I4cGGVBmjamjphe8L/UnvJD+uPPtTkNvX5mZgqdbavhI4EbgIWJiIHXJ8bc/i9EQGPRh4DwEURJ552Do0A=="
+        ],
+        "util-deprecate": [
+            "util-deprecate@1.0.2",
+            "",
+            {},
+            "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
+        ],
+        "vaul": [
+            "vaul@0.9.9",
+            "",
+            {
+                "dependencies": {
+                    "@radix-ui/react-dialog": "^1.1.1"
+                },
+                "peerDependencies": {
+                    "react": "^16.8 || ^17.0 || ^18.0",
+                    "react-dom": "^16.8 || ^17.0 || ^18.0"
+                }
+            },
+            "sha512-7afKg48srluhZwIkaU+lgGtFCUsYBSGOl8vcc8N/M3YQlZFlynHD15AE+pwrYdc826o7nrIND4lL9Y6b9WWZZQ=="
+        ],
+        "victory-vendor": [
+            "victory-vendor@36.9.2",
+            "",
+            {
+                "dependencies": {
+                    "@types/d3-array": "^3.0.3",
+                    "@types/d3-ease": "^3.0.0",
+                    "@types/d3-interpolate": "^3.0.1",
+                    "@types/d3-scale": "^4.0.2",
+                    "@types/d3-shape": "^3.1.0",
+                    "@types/d3-time": "^3.0.0",
+                    "@types/d3-timer": "^3.0.0",
+                    "d3-array": "^3.1.6",
+                    "d3-ease": "^3.0.1",
+                    "d3-interpolate": "^3.0.1",
+                    "d3-scale": "^4.0.2",
+                    "d3-shape": "^3.1.0",
+                    "d3-time": "^3.0.0",
+                    "d3-timer": "^3.0.1"
+                }
+            },
+            "sha512-PnpQQMuxlwYdocC8fIJqVXvkeViHYzotI+NJrCuav0ZYFoq912ZHBk3mCeuj+5/VpodOjPe1z0Fk2ihgzlXqjQ=="
+        ],
+        "vite": [
+            "vite@5.4.19",
+            "",
+            {
+                "dependencies": {
+                    "esbuild": "^0.21.3",
+                    "postcss": "^8.4.43",
+                    "rollup": "^4.20.0"
+                },
+                "optionalDependencies": {
+                    "fsevents": "~2.3.3"
+                },
+                "peerDependencies": {
+                    "@types/node": "^18.0.0 || >=20.0.0",
+                    "less": "*",
+                    "lightningcss": "^1.21.0",
+                    "sass": "*",
+                    "sass-embedded": "*",
+                    "stylus": "*",
+                    "sugarss": "*",
+                    "terser": "^5.4.0"
+                },
+                "optionalPeers": [
+                    "less",
+                    "lightningcss",
+                    "sass",
+                    "sass-embedded",
+                    "stylus",
+                    "sugarss",
+                    "terser"
+                ],
+                "bin": "bin/vite.js"
+            },
+            "sha512-qO3aKv3HoQC8QKiNSTuUM1l9o/XX3+c+VTgLHbJWHZGeTPVAg2XwazI9UWzoxjIJCGCV2zU60uqMzjeLZuULqA=="
+        ],
+        "which": [
+            "which@2.0.2",
+            "",
+            {
+                "dependencies": {
+                    "isexe": "^2.0.0"
+                },
+                "bin": {
+                    "node-which": "bin/node-which"
+                }
+            },
+            "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="
+        ],
+        "word-wrap": [
+            "word-wrap@1.2.5",
+            "",
+            {},
+            "sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA=="
+        ],
+        "wrap-ansi": [
+            "wrap-ansi@8.1.0",
+            "",
+            {
+                "dependencies": {
+                    "ansi-styles": "^6.1.0",
+                    "string-width": "^5.0.1",
+                    "strip-ansi": "^7.0.1"
+                }
+            },
+            "sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ=="
+        ],
+        "wrap-ansi-cjs": [
+            "wrap-ansi@7.0.0",
+            "",
+            {
+                "dependencies": {
+                    "ansi-styles": "^4.0.0",
+                    "string-width": "^4.1.0",
+                    "strip-ansi": "^6.0.0"
+                }
+            },
+            "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q=="
+        ],
+        "ws": [
+            "ws@8.18.3",
+            "",
+            {
+                "peerDependencies": {
+                    "bufferutil": "^4.0.1",
+                    "utf-8-validate": ">=5.0.2"
+                },
+                "optionalPeers": [
+                    "bufferutil",
+                    "utf-8-validate"
+                ]
+            },
+            "sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg=="
+        ],
+        "yaml": [
+            "yaml@2.6.0",
+            "",
+            {
+                "bin": "bin.mjs"
+            },
+            "sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ=="
+        ],
+        "yocto-queue": [
+            "yocto-queue@0.1.0",
+            "",
+            {},
+            "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
+        ],
+        "zod": [
+            "zod@3.25.76",
+            "",
+            {},
+            "sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ=="
+        ],
+        "@eslint-community/eslint-utils/eslint-visitor-keys": [
+            "eslint-visitor-keys@3.4.3",
+            "",
+            {},
+            "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag=="
+        ],
+        "@eslint/eslintrc/globals": [
+            "globals@14.0.0",
+            "",
+            {},
+            "sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ=="
+        ],
+        "@humanfs/node/@humanwhocodes/retry": [
+            "@humanwhocodes/retry@0.3.1",
+            "",
+            {},
+            "sha512-JBxkERygn7Bv/GbN5Rv8Ul6LVknS+5Bp6RgDC/O8gEBU/yeH5Ui5C/OlWrTb6qct7LjjfT6Re2NxB0ln0yYybA=="
+        ],
+        "@typescript-eslint/eslint-plugin/ignore": [
+            "ignore@7.0.5",
+            "",
+            {},
+            "sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg=="
+        ],
+        "@typescript-eslint/typescript-estree/minimatch": [
+            "minimatch@9.0.5",
+            "",
+            {
+                "dependencies": {
+                    "brace-expansion": "^2.0.1"
+                }
+            },
+            "sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow=="
+        ],
+        "chokidar/glob-parent": [
+            "glob-parent@5.1.2",
+            "",
+            {
+                "dependencies": {
+                    "is-glob": "^4.0.1"
+                }
+            },
+            "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow=="
+        ],
+        "fast-glob/glob-parent": [
+            "glob-parent@5.1.2",
+            "",
+            {
+                "dependencies": {
+                    "is-glob": "^4.0.1"
+                }
+            },
+            "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow=="
+        ],
+        "glob/minimatch": [
+            "minimatch@9.0.5",
+            "",
+            {
+                "dependencies": {
+                    "brace-expansion": "^2.0.1"
+                }
+            },
+            "sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow=="
+        ],
+        "postcss-nested/postcss-selector-parser": [
+            "postcss-selector-parser@6.1.2",
+            "",
+            {
+                "dependencies": {
+                    "cssesc": "^3.0.0",
+                    "util-deprecate": "^1.0.2"
+                }
+            },
+            "sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg=="
+        ],
+        "prop-types/react-is": [
+            "react-is@16.13.1",
+            "",
+            {},
+            "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
+        ],
+        "string-width-cjs/emoji-regex": [
+            "emoji-regex@8.0.0",
+            "",
+            {},
+            "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
+        ],
+        "string-width-cjs/strip-ansi": [
+            "strip-ansi@6.0.1",
+            "",
+            {
+                "dependencies": {
+                    "ansi-regex": "^5.0.1"
+                }
+            },
+            "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="
+        ],
+        "strip-ansi-cjs/ansi-regex": [
+            "ansi-regex@5.0.1",
+            "",
+            {},
+            "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
+        ],
+        "tailwindcss/postcss-selector-parser": [
+            "postcss-selector-parser@6.1.2",
+            "",
+            {
+                "dependencies": {
+                    "cssesc": "^3.0.0",
+                    "util-deprecate": "^1.0.2"
+                }
+            },
+            "sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg=="
+        ],
+        "vite/esbuild": [
+            "esbuild@0.21.5",
+            "",
+            {
+                "optionalDependencies": {
+                    "@esbuild/aix-ppc64": "0.21.5",
+                    "@esbuild/android-arm": "0.21.5",
+                    "@esbuild/android-arm64": "0.21.5",
+                    "@esbuild/android-x64": "0.21.5",
+                    "@esbuild/darwin-arm64": "0.21.5",
+                    "@esbuild/darwin-x64": "0.21.5",
+                    "@esbuild/freebsd-arm64": "0.21.5",
+                    "@esbuild/freebsd-x64": "0.21.5",
+                    "@esbuild/linux-arm": "0.21.5",
+                    "@esbuild/linux-arm64": "0.21.5",
+                    "@esbuild/linux-ia32": "0.21.5",
+                    "@esbuild/linux-loong64": "0.21.5",
+                    "@esbuild/linux-mips64el": "0.21.5",
+                    "@esbuild/linux-ppc64": "0.21.5",
+                    "@esbuild/linux-riscv64": "0.21.5",
+                    "@esbuild/linux-s390x": "0.21.5",
+                    "@esbuild/linux-x64": "0.21.5",
+                    "@esbuild/netbsd-x64": "0.21.5",
+                    "@esbuild/openbsd-x64": "0.21.5",
+                    "@esbuild/sunos-x64": "0.21.5",
+                    "@esbuild/win32-arm64": "0.21.5",
+                    "@esbuild/win32-ia32": "0.21.5",
+                    "@esbuild/win32-x64": "0.21.5"
+                },
+                "bin": "bin/esbuild"
+            },
+            "sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw=="
+        ],
+        "wrap-ansi/ansi-styles": [
+            "ansi-styles@6.2.1",
+            "",
+            {},
+            "sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug=="
+        ],
+        "wrap-ansi-cjs/string-width": [
+            "string-width@4.2.3",
+            "",
+            {
+                "dependencies": {
+                    "emoji-regex": "^8.0.0",
+                    "is-fullwidth-code-point": "^3.0.0",
+                    "strip-ansi": "^6.0.1"
+                }
+            },
+            "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g=="
+        ],
+        "wrap-ansi-cjs/strip-ansi": [
+            "strip-ansi@6.0.1",
+            "",
+            {
+                "dependencies": {
+                    "ansi-regex": "^5.0.1"
+                }
+            },
+            "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="
+        ],
+        "@typescript-eslint/typescript-estree/minimatch/brace-expansion": [
+            "brace-expansion@2.0.2",
+            "",
+            {
+                "dependencies": {
+                    "balanced-match": "^1.0.0"
+                }
+            },
+            "sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ=="
+        ],
+        "glob/minimatch/brace-expansion": [
+            "brace-expansion@2.0.2",
+            "",
+            {
+                "dependencies": {
+                    "balanced-match": "^1.0.0"
+                }
+            },
+            "sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ=="
+        ],
+        "string-width-cjs/strip-ansi/ansi-regex": [
+            "ansi-regex@5.0.1",
+            "",
+            {},
+            "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
+        ],
+        "vite/esbuild/@esbuild/aix-ppc64": [
+            "@esbuild/aix-ppc64@0.21.5",
+            "",
+            {
+                "os": "aix",
+                "cpu": "ppc64"
+            },
+            "sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ=="
+        ],
+        "vite/esbuild/@esbuild/android-arm": [
+            "@esbuild/android-arm@0.21.5",
+            "",
+            {
+                "os": "android",
+                "cpu": "arm"
+            },
+            "sha512-vCPvzSjpPHEi1siZdlvAlsPxXl7WbOVUBBAowWug4rJHb68Ox8KualB+1ocNvT5fjv6wpkX6o/iEpbDrf68zcg=="
+        ],
+        "vite/esbuild/@esbuild/android-arm64": [
+            "@esbuild/android-arm64@0.21.5",
+            "",
+            {
+                "os": "android",
+                "cpu": "arm64"
+            },
+            "sha512-c0uX9VAUBQ7dTDCjq+wdyGLowMdtR/GoC2U5IYk/7D1H1JYC0qseD7+11iMP2mRLN9RcCMRcjC4YMclCzGwS/A=="
+        ],
+        "vite/esbuild/@esbuild/android-x64": [
+            "@esbuild/android-x64@0.21.5",
+            "",
+            {
+                "os": "android",
+                "cpu": "x64"
+            },
+            "sha512-D7aPRUUNHRBwHxzxRvp856rjUHRFW1SdQATKXH2hqA0kAZb1hKmi02OpYRacl0TxIGz/ZmXWlbZgjwWYaCakTA=="
+        ],
+        "vite/esbuild/@esbuild/darwin-arm64": [
+            "@esbuild/darwin-arm64@0.21.5",
+            "",
+            {
+                "os": "darwin",
+                "cpu": "arm64"
+            },
+            "sha512-DwqXqZyuk5AiWWf3UfLiRDJ5EDd49zg6O9wclZ7kUMv2WRFr4HKjXp/5t8JZ11QbQfUS6/cRCKGwYhtNAY88kQ=="
+        ],
+        "vite/esbuild/@esbuild/darwin-x64": [
+            "@esbuild/darwin-x64@0.21.5",
+            "",
+            {
+                "os": "darwin",
+                "cpu": "x64"
+            },
+            "sha512-se/JjF8NlmKVG4kNIuyWMV/22ZaerB+qaSi5MdrXtd6R08kvs2qCN4C09miupktDitvh8jRFflwGFBQcxZRjbw=="
+        ],
+        "vite/esbuild/@esbuild/freebsd-arm64": [
+            "@esbuild/freebsd-arm64@0.21.5",
+            "",
+            {
+                "os": "freebsd",
+                "cpu": "arm64"
+            },
+            "sha512-5JcRxxRDUJLX8JXp/wcBCy3pENnCgBR9bN6JsY4OmhfUtIHe3ZW0mawA7+RDAcMLrMIZaf03NlQiX9DGyB8h4g=="
+        ],
+        "vite/esbuild/@esbuild/freebsd-x64": [
+            "@esbuild/freebsd-x64@0.21.5",
+            "",
+            {
+                "os": "freebsd",
+                "cpu": "x64"
+            },
+            "sha512-J95kNBj1zkbMXtHVH29bBriQygMXqoVQOQYA+ISs0/2l3T9/kj42ow2mpqerRBxDJnmkUDCaQT/dfNXWX/ZZCQ=="
+        ],
+        "vite/esbuild/@esbuild/linux-arm": [
+            "@esbuild/linux-arm@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm"
+            },
+            "sha512-bPb5AHZtbeNGjCKVZ9UGqGwo8EUu4cLq68E95A53KlxAPRmUyYv2D6F0uUI65XisGOL1hBP5mTronbgo+0bFcA=="
+        ],
+        "vite/esbuild/@esbuild/linux-arm64": [
+            "@esbuild/linux-arm64@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "arm64"
+            },
+            "sha512-ibKvmyYzKsBeX8d8I7MH/TMfWDXBF3db4qM6sy+7re0YXya+K1cem3on9XgdT2EQGMu4hQyZhan7TeQ8XkGp4Q=="
+        ],
+        "vite/esbuild/@esbuild/linux-ia32": [
+            "@esbuild/linux-ia32@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "ia32"
+            },
+            "sha512-YvjXDqLRqPDl2dvRODYmmhz4rPeVKYvppfGYKSNGdyZkA01046pLWyRKKI3ax8fbJoK5QbxblURkwK/MWY18Tg=="
+        ],
+        "vite/esbuild/@esbuild/linux-loong64": [
+            "@esbuild/linux-loong64@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "none"
+            },
+            "sha512-uHf1BmMG8qEvzdrzAqg2SIG/02+4/DHB6a9Kbya0XDvwDEKCoC8ZRWI5JJvNdUjtciBGFQ5PuBlpEOXQj+JQSg=="
+        ],
+        "vite/esbuild/@esbuild/linux-mips64el": [
+            "@esbuild/linux-mips64el@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "none"
+            },
+            "sha512-IajOmO+KJK23bj52dFSNCMsz1QP1DqM6cwLUv3W1QwyxkyIWecfafnI555fvSGqEKwjMXVLokcV5ygHW5b3Jbg=="
+        ],
+        "vite/esbuild/@esbuild/linux-ppc64": [
+            "@esbuild/linux-ppc64@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "ppc64"
+            },
+            "sha512-1hHV/Z4OEfMwpLO8rp7CvlhBDnjsC3CttJXIhBi+5Aj5r+MBvy4egg7wCbe//hSsT+RvDAG7s81tAvpL2XAE4w=="
+        ],
+        "vite/esbuild/@esbuild/linux-riscv64": [
+            "@esbuild/linux-riscv64@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "none"
+            },
+            "sha512-2HdXDMd9GMgTGrPWnJzP2ALSokE/0O5HhTUvWIbD3YdjME8JwvSCnNGBnTThKGEB91OZhzrJ4qIIxk/SBmyDDA=="
+        ],
+        "vite/esbuild/@esbuild/linux-s390x": [
+            "@esbuild/linux-s390x@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "s390x"
+            },
+            "sha512-zus5sxzqBJD3eXxwvjN1yQkRepANgxE9lgOW2qLnmr8ikMTphkjgXu1HR01K4FJg8h1kEEDAqDcZQtbrRnB41A=="
+        ],
+        "vite/esbuild/@esbuild/linux-x64": [
+            "@esbuild/linux-x64@0.21.5",
+            "",
+            {
+                "os": "linux",
+                "cpu": "x64"
+            },
+            "sha512-1rYdTpyv03iycF1+BhzrzQJCdOuAOtaqHTWJZCWvijKD2N5Xu0TtVC8/+1faWqcP9iBCWOmjmhoH94dH82BxPQ=="
+        ],
+        "vite/esbuild/@esbuild/netbsd-x64": [
+            "@esbuild/netbsd-x64@0.21.5",
+            "",
+            {
+                "os": "none",
+                "cpu": "x64"
+            },
+            "sha512-Woi2MXzXjMULccIwMnLciyZH4nCIMpWQAs049KEeMvOcNADVxo0UBIQPfSmxB3CWKedngg7sWZdLvLczpe0tLg=="
+        ],
+        "vite/esbuild/@esbuild/openbsd-x64": [
+            "@esbuild/openbsd-x64@0.21.5",
+            "",
+            {
+                "os": "openbsd",
+                "cpu": "x64"
+            },
+            "sha512-HLNNw99xsvx12lFBUwoT8EVCsSvRNDVxNpjZ7bPn947b8gJPzeHWyNVhFsaerc0n3TsbOINvRP2byTZ5LKezow=="
+        ],
+        "vite/esbuild/@esbuild/sunos-x64": [
+            "@esbuild/sunos-x64@0.21.5",
+            "",
+            {
+                "os": "sunos",
+                "cpu": "x64"
+            },
+            "sha512-6+gjmFpfy0BHU5Tpptkuh8+uw3mnrvgs+dSPQXQOv3ekbordwnzTVEb4qnIvQcYXq6gzkyTnoZ9dZG+D4garKg=="
+        ],
+        "vite/esbuild/@esbuild/win32-arm64": [
+            "@esbuild/win32-arm64@0.21.5",
+            "",
+            {
+                "os": "win32",
+                "cpu": "arm64"
+            },
+            "sha512-Z0gOTd75VvXqyq7nsl93zwahcTROgqvuAcYDUr+vOv8uHhNSKROyU961kgtCD1e95IqPKSQKH7tBTslnS3tA8A=="
+        ],
+        "vite/esbuild/@esbuild/win32-ia32": [
+            "@esbuild/win32-ia32@0.21.5",
+            "",
+            {
+                "os": "win32",
+                "cpu": "ia32"
+            },
+            "sha512-SWXFF1CL2RVNMaVs+BBClwtfZSvDgtL//G/smwAc5oVK/UPu2Gu9tIaRgFmYFFKrmg3SyAjSrElf0TiJ1v8fYA=="
+        ],
+        "vite/esbuild/@esbuild/win32-x64": [
+            "@esbuild/win32-x64@0.21.5",
+            "",
+            {
+                "os": "win32",
+                "cpu": "x64"
+            },
+            "sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw=="
+        ],
+        "wrap-ansi-cjs/string-width/emoji-regex": [
+            "emoji-regex@8.0.0",
+            "",
+            {},
+            "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
+        ],
+        "wrap-ansi-cjs/strip-ansi/ansi-regex": [
+            "ansi-regex@5.0.1",
+            "",
+            {},
+            "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
+        ],
+    }
+}
+```
+
+---
+
+### <a id="📄-components-json"></a>📄 `components.json`
+
+**File Info:**
+- **Size**: 488 B
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `components.json`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:55:35 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:22 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `b90034f7216a3d871276dab7dab775ed`
+- **SHA256**: `02edfae0693d363059e81eae1c1376867ebb7acf675ea7f2f49f02474a261ea0`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+    "$schema": "https://ui.shadcn.com/schema.json",
+    "style": "default",
+    "rsc": false,
+    "tsx": true,
+    "tailwind": {
+        "config": "tailwind.config.ts",
+        "css": "src/index.css",
+        "baseColor": "slate",
+        "cssVariables": true,
+        "prefix": ""
+    },
+    "aliases": {
+        "components": "@/components",
+        "utils": "@/lib/utils",
+        "ui": "@/components/ui",
+        "lib": "@/lib",
+        "hooks": "@/hooks"
+    }
+}
+```
+
+---
+
+### <a id="📄-eslint-config-js"></a>📄 `eslint.config.js`
+
+**File Info:**
+- **Size**: 871 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `eslint.config.js`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:55:40 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:23 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `425d5db99752966b5675cd78a8e6912f`
+- **SHA256**: `0a126b7dee14675a61b8f89d8427361298badf55324193b27ef582a63c9359b1`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import js from "@eslint/js";
+import globals from "globals";
+import reactHooks from "eslint-plugin-react-hooks";
+import reactRefresh from "eslint-plugin-react-refresh";
+import tseslint from "typescript-eslint";
+
+export default tseslint.config(
+    { ignores: ["dist"] },
+    {
+        extends: [js.configs.recommended, ...tseslint.configs.recommended],
+        files: ["**/*.{ts,tsx}"],
+        languageOptions: {
+            ecmaVersion: 2020,
+            globals: globals.browser,
+        },
+        plugins: {
+            "react-hooks": reactHooks,
+            "react-refresh": reactRefresh,
+        },
+        rules: {
+            ...reactHooks.configs.recommended.rules,
+            "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
+            "@typescript-eslint/no-unused-vars": "off",
+        },
+    },
+);
+
+```
+
+---
+
+### <a id="📄-index-html"></a>📄 `index.html`
+
+**File Info:**
+- **Size**: 1.35 KB
+- **Extension**: `.html`
+- **Language**: `html`
+- **Location**: `index.html`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:11:10 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 01:59:31 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `220bb5bf5360120360222f1617bc42cb`
+- **SHA256**: `37d4533529e26feafb74834a4923a4b05dd90a198cd83e9e29f7ec747535b940`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Tracker 2026" />
+    <meta name="theme-color" content="#0f1318" />
+    <title>Tracker 2026</title>
+    <meta name="description" content="Personal progress tracking app for 2026 - habits, journaling, tasks, reading, and budgeting" />
+
+    <meta property="og:title" content="Tracker 2026" />
+    <meta property="og:description" content="Personal progress tracking app for 2026" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <style>
+      .safe-area-pb {
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+    </style>
+  </head>
+
+  <body class="dark">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
+```
+
+---
+
+### <a id="📄-package-lock-json"></a>📄 `package-lock.json`
+
+**File Info:**
+- **Size**: 291.25 KB
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `package-lock.json`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 02:43:12 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 03:20:53 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `586abdc0ab579e08ee02bf90264b2bd7`
+- **SHA256**: `7513d88e485b039d63a24d89224d8b02109bb2532ec9f9a61e52feeafa8dc7b0`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+    "name": "vite_react_shadcn_ts",
+    "version": "0.0.0",
+    "lockfileVersion": 3,
+    "requires": true,
+    "packages": {
+        "": {
+            "name": "vite_react_shadcn_ts",
+            "version": "0.0.0",
+            "dependencies": {
+                "@hookform/resolvers": "^3.10.0",
+                "@radix-ui/react-accordion": "^1.2.12",
+                "@radix-ui/react-alert-dialog": "^1.1.15",
+                "@radix-ui/react-aspect-ratio": "^1.1.7",
+                "@radix-ui/react-avatar": "^1.1.10",
+                "@radix-ui/react-checkbox": "^1.3.2",
+                "@radix-ui/react-collapsible": "^1.1.11",
+                "@radix-ui/react-context-menu": "^2.2.15",
+                "@radix-ui/react-dialog": "^1.1.14",
+                "@radix-ui/react-dropdown-menu": "^2.1.15",
+                "@radix-ui/react-hover-card": "^1.1.14",
+                "@radix-ui/react-label": "^2.1.7",
+                "@radix-ui/react-menubar": "^1.1.15",
+                "@radix-ui/react-navigation-menu": "^1.2.13",
+                "@radix-ui/react-popover": "^1.1.14",
+                "@radix-ui/react-progress": "^1.1.7",
+                "@radix-ui/react-radio-group": "^1.3.7",
+                "@radix-ui/react-scroll-area": "^1.2.9",
+                "@radix-ui/react-select": "^2.2.5",
+                "@radix-ui/react-separator": "^1.1.7",
+                "@radix-ui/react-slider": "^1.3.5",
+                "@radix-ui/react-slot": "^1.2.3",
+                "@radix-ui/react-switch": "^1.2.5",
+                "@radix-ui/react-tabs": "^1.1.12",
+                "@radix-ui/react-toast": "^1.2.14",
+                "@radix-ui/react-toggle": "^1.1.9",
+                "@radix-ui/react-toggle-group": "^1.1.10",
+                "@radix-ui/react-tooltip": "^1.2.7",
+                "@supabase/supabase-js": "^2.89.0",
+                "@tanstack/react-query": "^5.83.0",
+                "class-variance-authority": "^0.7.1",
+                "clsx": "^2.1.1",
+                "cmdk": "^1.1.1",
+                "date-fns": "^3.6.0",
+                "embla-carousel-react": "^8.6.0",
+                "input-otp": "^1.4.2",
+                "lucide-react": "^0.462.0",
+                "next-themes": "^0.3.0",
+                "react": "^18.3.1",
+                "react-day-picker": "^8.10.1",
+                "react-dom": "^18.3.1",
+                "react-hook-form": "^7.61.1",
+                "react-resizable-panels": "^2.1.9",
+                "react-router-dom": "^6.30.1",
+                "recharts": "^2.15.4",
+                "sonner": "^1.7.4",
+                "tailwind-merge": "^2.6.0",
+                "tailwindcss-animate": "^1.0.7",
+                "vaul": "^0.9.9",
+                "zod": "^3.25.76"
+            },
+            "devDependencies": {
+                "@eslint/js": "^9.32.0",
+                "@tailwindcss/typography": "^0.5.16",
+                "@types/node": "^22.16.5",
+                "@types/react": "^18.3.23",
+                "@types/react-dom": "^18.3.7",
+                "@vitejs/plugin-react-swc": "^3.11.0",
+                "autoprefixer": "^10.4.21",
+                "eslint": "^9.32.0",
+                "eslint-plugin-react-hooks": "^5.2.0",
+                "eslint-plugin-react-refresh": "^0.4.20",
+                "globals": "^15.15.0",
+                "lovable-tagger": "^1.1.13",
+                "postcss": "^8.5.6",
+                "tailwindcss": "^3.4.17",
+                "typescript": "^5.8.3",
+                "typescript-eslint": "^8.38.0",
+                "vite": "^7.3.0"
+            }
+        },
+        "node_modules/@alloc/quick-lru": {
+            "version": "5.2.0",
+            "resolved": "https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz",
+            "integrity": "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/@babel/runtime": {
+            "version": "7.28.4",
+            "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz",
+            "integrity": "sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=6.9.0"
+            }
+        },
+        "node_modules/@esbuild/aix-ppc64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.25.12.tgz",
+            "integrity": "sha512-Hhmwd6CInZ3dwpuGTF8fJG6yoWmsToE+vYgD4nytZVxcu1ulHpUQRAB1UJ8+N1Am3Mz4+xOByoQoSZf4D+CpkA==",
+            "cpu": [
+                "ppc64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "aix"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/android-arm": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.25.12.tgz",
+            "integrity": "sha512-VJ+sKvNA/GE7Ccacc9Cha7bpS8nyzVv0jdVgwNDaR4gDMC/2TTRc33Ip8qrNYUcpkOHUT5OZ0bUcNNVZQ9RLlg==",
+            "cpu": [
+                "arm"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "android"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/android-arm64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.25.12.tgz",
+            "integrity": "sha512-6AAmLG7zwD1Z159jCKPvAxZd4y/VTO0VkprYy+3N2FtJ8+BQWFXU+OxARIwA46c5tdD9SsKGZ/1ocqBS/gAKHg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "android"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/android-x64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.25.12.tgz",
+            "integrity": "sha512-5jbb+2hhDHx5phYR2By8GTWEzn6I9UqR11Kwf22iKbNpYrsmRB18aX/9ivc5cabcUiAT/wM+YIZ6SG9QO6a8kg==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "android"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/darwin-arm64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.12.tgz",
+            "integrity": "sha512-N3zl+lxHCifgIlcMUP5016ESkeQjLj/959RxxNYIthIg+CQHInujFuXeWbWMgnTo4cp5XVHqFPmpyu9J65C1Yg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/darwin-x64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.25.12.tgz",
+            "integrity": "sha512-HQ9ka4Kx21qHXwtlTUVbKJOAnmG1ipXhdWTmNXiPzPfWKpXqASVcWdnf2bnL73wgjNrFXAa3yYvBSd9pzfEIpA==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/freebsd-arm64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.25.12.tgz",
+            "integrity": "sha512-gA0Bx759+7Jve03K1S0vkOu5Lg/85dou3EseOGUes8flVOGxbhDDh/iZaoek11Y8mtyKPGF3vP8XhnkDEAmzeg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "freebsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/freebsd-x64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.25.12.tgz",
+            "integrity": "sha512-TGbO26Yw2xsHzxtbVFGEXBFH0FRAP7gtcPE7P5yP7wGy7cXK2oO7RyOhL5NLiqTlBh47XhmIUXuGciXEqYFfBQ==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "freebsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-arm": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.25.12.tgz",
+            "integrity": "sha512-lPDGyC1JPDou8kGcywY0YILzWlhhnRjdof3UlcoqYmS9El818LLfJJc3PXXgZHrHCAKs/Z2SeZtDJr5MrkxtOw==",
+            "cpu": [
+                "arm"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-arm64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.25.12.tgz",
+            "integrity": "sha512-8bwX7a8FghIgrupcxb4aUmYDLp8pX06rGh5HqDT7bB+8Rdells6mHvrFHHW2JAOPZUbnjUpKTLg6ECyzvas2AQ==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-ia32": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.25.12.tgz",
+            "integrity": "sha512-0y9KrdVnbMM2/vG8KfU0byhUN+EFCny9+8g202gYqSSVMonbsCfLjUO+rCci7pM0WBEtz+oK/PIwHkzxkyharA==",
+            "cpu": [
+                "ia32"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-loong64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.25.12.tgz",
+            "integrity": "sha512-h///Lr5a9rib/v1GGqXVGzjL4TMvVTv+s1DPoxQdz7l/AYv6LDSxdIwzxkrPW438oUXiDtwM10o9PmwS/6Z0Ng==",
+            "cpu": [
+                "loong64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-mips64el": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.25.12.tgz",
+            "integrity": "sha512-iyRrM1Pzy9GFMDLsXn1iHUm18nhKnNMWscjmp4+hpafcZjrr2WbT//d20xaGljXDBYHqRcl8HnxbX6uaA/eGVw==",
+            "cpu": [
+                "mips64el"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-ppc64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.25.12.tgz",
+            "integrity": "sha512-9meM/lRXxMi5PSUqEXRCtVjEZBGwB7P/D4yT8UG/mwIdze2aV4Vo6U5gD3+RsoHXKkHCfSxZKzmDssVlRj1QQA==",
+            "cpu": [
+                "ppc64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-riscv64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.25.12.tgz",
+            "integrity": "sha512-Zr7KR4hgKUpWAwb1f3o5ygT04MzqVrGEGXGLnj15YQDJErYu/BGg+wmFlIDOdJp0PmB0lLvxFIOXZgFRrdjR0w==",
+            "cpu": [
+                "riscv64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-s390x": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.25.12.tgz",
+            "integrity": "sha512-MsKncOcgTNvdtiISc/jZs/Zf8d0cl/t3gYWX8J9ubBnVOwlk65UIEEvgBORTiljloIWnBzLs4qhzPkJcitIzIg==",
+            "cpu": [
+                "s390x"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/linux-x64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.25.12.tgz",
+            "integrity": "sha512-uqZMTLr/zR/ed4jIGnwSLkaHmPjOjJvnm6TVVitAa08SLS9Z0VM8wIRx7gWbJB5/J54YuIMInDquWyYvQLZkgw==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/netbsd-arm64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.25.12.tgz",
+            "integrity": "sha512-xXwcTq4GhRM7J9A8Gv5boanHhRa/Q9KLVmcyXHCTaM4wKfIpWkdXiMog/KsnxzJ0A1+nD+zoecuzqPmCRyBGjg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "netbsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/netbsd-x64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.25.12.tgz",
+            "integrity": "sha512-Ld5pTlzPy3YwGec4OuHh1aCVCRvOXdH8DgRjfDy/oumVovmuSzWfnSJg+VtakB9Cm0gxNO9BzWkj6mtO1FMXkQ==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "netbsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/openbsd-arm64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.12.tgz",
+            "integrity": "sha512-fF96T6KsBo/pkQI950FARU9apGNTSlZGsv1jZBAlcLL1MLjLNIWPBkj5NlSz8aAzYKg+eNqknrUJ24QBybeR5A==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "openbsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/openbsd-x64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.25.12.tgz",
+            "integrity": "sha512-MZyXUkZHjQxUvzK7rN8DJ3SRmrVrke8ZyRusHlP+kuwqTcfWLyqMOE3sScPPyeIXN/mDJIfGXvcMqCgYKekoQw==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "openbsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/openharmony-arm64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.25.12.tgz",
+            "integrity": "sha512-rm0YWsqUSRrjncSXGA7Zv78Nbnw4XL6/dzr20cyrQf7ZmRcsovpcRBdhD43Nuk3y7XIoW2OxMVvwuRvk9XdASg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "openharmony"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/sunos-x64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.25.12.tgz",
+            "integrity": "sha512-3wGSCDyuTHQUzt0nV7bocDy72r2lI33QL3gkDNGkod22EsYl04sMf0qLb8luNKTOmgF/eDEDP5BFNwoBKH441w==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "sunos"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/win32-arm64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.25.12.tgz",
+            "integrity": "sha512-rMmLrur64A7+DKlnSuwqUdRKyd3UE7oPJZmnljqEptesKM8wx9J8gx5u0+9Pq0fQQW8vqeKebwNXdfOyP+8Bsg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/win32-ia32": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.25.12.tgz",
+            "integrity": "sha512-HkqnmmBoCbCwxUKKNPBixiWDGCpQGVsrQfJoVGYLPT41XWF8lHuE5N6WhVia2n4o5QK5M4tYr21827fNhi4byQ==",
+            "cpu": [
+                "ia32"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@esbuild/win32-x64": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz",
+            "integrity": "sha512-alJC0uCZpTFrSL0CCDjcgleBXPnCrEAhTBILpeAp7M/OFgoqtAetfBzX0xM00MUsVVPpVjlPuMbREqnZCXaTnA==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/@eslint-community/eslint-utils": {
+            "version": "4.9.1",
+            "resolved": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.1.tgz",
+            "integrity": "sha512-phrYmNiYppR7znFEdqgfWHXR6NCkZEK7hwWDHZUjit/2/U0r6XvkDl0SYnoM51Hq7FhCGdLDT6zxCCOY1hexsQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "eslint-visitor-keys": "^3.4.3"
+            },
+            "engines": {
+                "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+            },
+            "funding": {
+                "url": "https://opencollective.com/eslint"
+            },
+            "peerDependencies": {
+                "eslint": "^6.0.0 || ^7.0.0 || >=8.0.0"
+            }
+        },
+        "node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys": {
+            "version": "3.4.3",
+            "resolved": "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz",
+            "integrity": "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "engines": {
+                "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+            },
+            "funding": {
+                "url": "https://opencollective.com/eslint"
+            }
+        },
+        "node_modules/@eslint-community/regexpp": {
+            "version": "4.12.2",
+            "resolved": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz",
+            "integrity": "sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": "^12.0.0 || ^14.0.0 || >=16.0.0"
+            }
+        },
+        "node_modules/@eslint/config-array": {
+            "version": "0.21.1",
+            "resolved": "https://registry.npmjs.org/@eslint/config-array/-/config-array-0.21.1.tgz",
+            "integrity": "sha512-aw1gNayWpdI/jSYVgzN5pL0cfzU02GT3NBpeT/DXbx1/1x7ZKxFPd9bwrzygx/qiwIQiJ1sw/zD8qY/kRvlGHA==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "dependencies": {
+                "@eslint/object-schema": "^2.1.7",
+                "debug": "^4.3.1",
+                "minimatch": "^3.1.2"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            }
+        },
+        "node_modules/@eslint/config-helpers": {
+            "version": "0.4.2",
+            "resolved": "https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.4.2.tgz",
+            "integrity": "sha512-gBrxN88gOIf3R7ja5K9slwNayVcZgK6SOUORm2uBzTeIEfeVaIhOpCtTox3P6R7o2jLFwLFTLnC7kU/RGcYEgw==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "dependencies": {
+                "@eslint/core": "^0.17.0"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            }
+        },
+        "node_modules/@eslint/core": {
+            "version": "0.17.0",
+            "resolved": "https://registry.npmjs.org/@eslint/core/-/core-0.17.0.tgz",
+            "integrity": "sha512-yL/sLrpmtDaFEiUj1osRP4TI2MDz1AddJL+jZ7KSqvBuliN4xqYY54IfdN8qD8Toa6g1iloph1fxQNkjOxrrpQ==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "dependencies": {
+                "@types/json-schema": "^7.0.15"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            }
+        },
+        "node_modules/@eslint/eslintrc": {
+            "version": "3.3.3",
+            "resolved": "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.3.tgz",
+            "integrity": "sha512-Kr+LPIUVKz2qkx1HAMH8q1q6azbqBAsXJUxBl/ODDuVPX45Z9DfwB8tPjTi6nNZ8BuM3nbJxC5zCAg5elnBUTQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "ajv": "^6.12.4",
+                "debug": "^4.3.2",
+                "espree": "^10.0.1",
+                "globals": "^14.0.0",
+                "ignore": "^5.2.0",
+                "import-fresh": "^3.2.1",
+                "js-yaml": "^4.1.1",
+                "minimatch": "^3.1.2",
+                "strip-json-comments": "^3.1.1"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "url": "https://opencollective.com/eslint"
+            }
+        },
+        "node_modules/@eslint/eslintrc/node_modules/globals": {
+            "version": "14.0.0",
+            "resolved": "https://registry.npmjs.org/globals/-/globals-14.0.0.tgz",
+            "integrity": "sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=18"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/@eslint/js": {
+            "version": "9.39.2",
+            "resolved": "https://registry.npmjs.org/@eslint/js/-/js-9.39.2.tgz",
+            "integrity": "sha512-q1mjIoW1VX4IvSocvM/vbTiveKC4k9eLrajNEuSsmjymSDEbpGddtpfOoN7YGAqBK3NG+uqo8ia4PDTt8buCYA==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "url": "https://eslint.org/donate"
+            }
+        },
+        "node_modules/@eslint/object-schema": {
+            "version": "2.1.7",
+            "resolved": "https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.7.tgz",
+            "integrity": "sha512-VtAOaymWVfZcmZbp6E2mympDIHvyjXs/12LqWYjVw6qjrfF+VK+fyG33kChz3nnK+SU5/NeHOqrTEHS8sXO3OA==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            }
+        },
+        "node_modules/@eslint/plugin-kit": {
+            "version": "0.4.1",
+            "resolved": "https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.4.1.tgz",
+            "integrity": "sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "dependencies": {
+                "@eslint/core": "^0.17.0",
+                "levn": "^0.4.1"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            }
+        },
+        "node_modules/@floating-ui/core": {
+            "version": "1.7.3",
+            "resolved": "https://registry.npmjs.org/@floating-ui/core/-/core-1.7.3.tgz",
+            "integrity": "sha512-sGnvb5dmrJaKEZ+LDIpguvdX3bDlEllmv4/ClQ9awcmCZrlx5jQyyMWFM5kBI+EyNOCDDiKk8il0zeuX3Zlg/w==",
+            "license": "MIT",
+            "dependencies": {
+                "@floating-ui/utils": "^0.2.10"
+            }
+        },
+        "node_modules/@floating-ui/dom": {
+            "version": "1.7.4",
+            "resolved": "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.4.tgz",
+            "integrity": "sha512-OOchDgh4F2CchOX94cRVqhvy7b3AFb+/rQXyswmzmGakRfkMgoWVjfnLWkRirfLEfuD4ysVW16eXzwt3jHIzKA==",
+            "license": "MIT",
+            "dependencies": {
+                "@floating-ui/core": "^1.7.3",
+                "@floating-ui/utils": "^0.2.10"
+            }
+        },
+        "node_modules/@floating-ui/react-dom": {
+            "version": "2.1.6",
+            "resolved": "https://registry.npmjs.org/@floating-ui/react-dom/-/react-dom-2.1.6.tgz",
+            "integrity": "sha512-4JX6rEatQEvlmgU80wZyq9RT96HZJa88q8hp0pBd+LrczeDI4o6uA2M+uvxngVHo4Ihr8uibXxH6+70zhAFrVw==",
+            "license": "MIT",
+            "dependencies": {
+                "@floating-ui/dom": "^1.7.4"
+            },
+            "peerDependencies": {
+                "react": ">=16.8.0",
+                "react-dom": ">=16.8.0"
+            }
+        },
+        "node_modules/@floating-ui/utils": {
+            "version": "0.2.10",
+            "resolved": "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.10.tgz",
+            "integrity": "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==",
+            "license": "MIT"
+        },
+        "node_modules/@hookform/resolvers": {
+            "version": "3.10.0",
+            "resolved": "https://registry.npmjs.org/@hookform/resolvers/-/resolvers-3.10.0.tgz",
+            "integrity": "sha512-79Dv+3mDF7i+2ajj7SkypSKHhl1cbln1OGavqrsF7p6mbUv11xpqpacPsGDCTRvCSjEEIez2ef1NveSVL3b0Ag==",
+            "license": "MIT",
+            "peerDependencies": {
+                "react-hook-form": "^7.0.0"
+            }
+        },
+        "node_modules/@humanfs/core": {
+            "version": "0.19.1",
+            "resolved": "https://registry.npmjs.org/@humanfs/core/-/core-0.19.1.tgz",
+            "integrity": "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "engines": {
+                "node": ">=18.18.0"
+            }
+        },
+        "node_modules/@humanfs/node": {
+            "version": "0.16.7",
+            "resolved": "https://registry.npmjs.org/@humanfs/node/-/node-0.16.7.tgz",
+            "integrity": "sha512-/zUx+yOsIrG4Y43Eh2peDeKCxlRt/gET6aHfaKpuq267qXdYDFViVHfMaLyygZOnl0kGWxFIgsBy8QFuTLUXEQ==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "dependencies": {
+                "@humanfs/core": "^0.19.1",
+                "@humanwhocodes/retry": "^0.4.0"
+            },
+            "engines": {
+                "node": ">=18.18.0"
+            }
+        },
+        "node_modules/@humanwhocodes/module-importer": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz",
+            "integrity": "sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "engines": {
+                "node": ">=12.22"
+            },
+            "funding": {
+                "type": "github",
+                "url": "https://github.com/sponsors/nzakas"
+            }
+        },
+        "node_modules/@humanwhocodes/retry": {
+            "version": "0.4.3",
+            "resolved": "https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz",
+            "integrity": "sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "engines": {
+                "node": ">=18.18"
+            },
+            "funding": {
+                "type": "github",
+                "url": "https://github.com/sponsors/nzakas"
+            }
+        },
+        "node_modules/@jridgewell/gen-mapping": {
+            "version": "0.3.13",
+            "resolved": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
+            "integrity": "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==",
+            "license": "MIT",
+            "dependencies": {
+                "@jridgewell/sourcemap-codec": "^1.5.0",
+                "@jridgewell/trace-mapping": "^0.3.24"
+            }
+        },
+        "node_modules/@jridgewell/resolve-uri": {
+            "version": "3.1.2",
+            "resolved": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+            "integrity": "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=6.0.0"
+            }
+        },
+        "node_modules/@jridgewell/sourcemap-codec": {
+            "version": "1.5.5",
+            "resolved": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz",
+            "integrity": "sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==",
+            "license": "MIT"
+        },
+        "node_modules/@jridgewell/trace-mapping": {
+            "version": "0.3.31",
+            "resolved": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",
+            "integrity": "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==",
+            "license": "MIT",
+            "dependencies": {
+                "@jridgewell/resolve-uri": "^3.1.0",
+                "@jridgewell/sourcemap-codec": "^1.4.14"
+            }
+        },
+        "node_modules/@nodelib/fs.scandir": {
+            "version": "2.1.5",
+            "resolved": "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz",
+            "integrity": "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==",
+            "license": "MIT",
+            "dependencies": {
+                "@nodelib/fs.stat": "2.0.5",
+                "run-parallel": "^1.1.9"
+            },
+            "engines": {
+                "node": ">= 8"
+            }
+        },
+        "node_modules/@nodelib/fs.stat": {
+            "version": "2.0.5",
+            "resolved": "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz",
+            "integrity": "sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 8"
+            }
+        },
+        "node_modules/@nodelib/fs.walk": {
+            "version": "1.2.8",
+            "resolved": "https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz",
+            "integrity": "sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==",
+            "license": "MIT",
+            "dependencies": {
+                "@nodelib/fs.scandir": "2.1.5",
+                "fastq": "^1.6.0"
+            },
+            "engines": {
+                "node": ">= 8"
+            }
+        },
+        "node_modules/@radix-ui/number": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/number/-/number-1.1.1.tgz",
+            "integrity": "sha512-MkKCwxlXTgz6CFoJx3pCwn07GKp36+aZyu/u2Ln2VrA5DcdyCZkASEDBTd8x5whTQQL5CiYf4prXKLcgQdv29g==",
+            "license": "MIT"
+        },
+        "node_modules/@radix-ui/primitive": {
+            "version": "1.1.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.3.tgz",
+            "integrity": "sha512-JTF99U/6XIjCBo0wqkU5sK10glYe27MRRsfwoiq5zzOEZLHU3A3KCMa5X/azekYRCJ0HlwI0crAXS/5dEHTzDg==",
+            "license": "MIT"
+        },
+        "node_modules/@radix-ui/react-accordion": {
+            "version": "1.2.12",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.12.tgz",
+            "integrity": "sha512-T4nygeh9YE9dLRPhAHSeOZi7HBXo+0kYIPJXayZfvWOWA0+n3dESrZbjfDPUABkUNym6Hd+f2IR113To8D2GPA==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-collapsible": "1.1.12",
+                "@radix-ui/react-collection": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-alert-dialog": {
+            "version": "1.1.15",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-alert-dialog/-/react-alert-dialog-1.1.15.tgz",
+            "integrity": "sha512-oTVLkEw5GpdRe29BqJ0LSDFWI3qu0vR1M0mUkOQWDIUnY/QIkLpgDMWuKxP94c2NAC2LGcgVhG1ImF3jkZ5wXw==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-dialog": "1.1.15",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-slot": "1.2.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-alert-dialog/node_modules/@radix-ui/react-slot": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+            "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-arrow": {
+            "version": "1.1.7",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.7.tgz",
+            "integrity": "sha512-F+M1tLhO+mlQaOWspE8Wstg+z6PwxwRd8oQ8IXceWz92kfAmalTRf0EjrouQeo7QssEPfCn05B4Ihs1K9WQ/7w==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-primitive": "2.1.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-aspect-ratio": {
+            "version": "1.1.8",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-aspect-ratio/-/react-aspect-ratio-1.1.8.tgz",
+            "integrity": "sha512-5nZrJTF7gH+e0nZS7/QxFz6tJV4VimhQb1avEgtsJxvvIp5JilL+c58HICsKzPxghdwaDt48hEfPM1au4zGy+w==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-primitive": "2.1.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-aspect-ratio/node_modules/@radix-ui/react-primitive": {
+            "version": "2.1.4",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.4.tgz",
+            "integrity": "sha512-9hQc4+GNVtJAIEPEqlYqW5RiYdrr8ea5XQ0ZOnD6fgru+83kqT15mq2OCcbe8KnjRZl5vF3ks69AKz3kh1jrhg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-slot": "1.2.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-avatar": {
+            "version": "1.1.11",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-avatar/-/react-avatar-1.1.11.tgz",
+            "integrity": "sha512-0Qk603AHGV28BOBO34p7IgD5m+V5Sg/YovfayABkoDDBM5d3NCx0Mp4gGrjzLGes1jV5eNOE1r3itqOR33VC6Q==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-context": "1.1.3",
+                "@radix-ui/react-primitive": "2.1.4",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-is-hydrated": "0.1.0",
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-avatar/node_modules/@radix-ui/react-context": {
+            "version": "1.1.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.3.tgz",
+            "integrity": "sha512-ieIFACdMpYfMEjF0rEf5KLvfVyIkOz6PDGyNnP+u+4xQ6jny3VCgA4OgXOwNx2aUkxn8zx9fiVcM8CfFYv9Lxw==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-avatar/node_modules/@radix-ui/react-primitive": {
+            "version": "2.1.4",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.4.tgz",
+            "integrity": "sha512-9hQc4+GNVtJAIEPEqlYqW5RiYdrr8ea5XQ0ZOnD6fgru+83kqT15mq2OCcbe8KnjRZl5vF3ks69AKz3kh1jrhg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-slot": "1.2.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-checkbox": {
+            "version": "1.3.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-checkbox/-/react-checkbox-1.3.3.tgz",
+            "integrity": "sha512-wBbpv+NQftHDdG86Qc0pIyXk5IR3tM8Vd0nWLKDcX8nNn4nXFOFwsKuqw2okA/1D/mpaAkmuyndrPJTYDNZtFw==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-use-previous": "1.1.1",
+                "@radix-ui/react-use-size": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-collapsible": {
+            "version": "1.1.12",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.12.tgz",
+            "integrity": "sha512-Uu+mSh4agx2ib1uIGPP4/CKNULyajb3p92LsVXmH2EHVMTfZWpll88XJ0j4W0z3f8NK1eYl1+Mf/szHPmcHzyA==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-collection": {
+            "version": "1.1.7",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.7.tgz",
+            "integrity": "sha512-Fh9rGN0MoI4ZFUNyfFVNU4y9LUz93u9/0K+yLgA2bwRojxM8JU1DyvvMBabnZPBgMWREAJvU2jjVzq+LrFUglw==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-slot": "1.2.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-collection/node_modules/@radix-ui/react-slot": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+            "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-compose-refs": {
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz",
+            "integrity": "sha512-z4eqJvfiNnFMHIIvXP3CY57y2WJs5g2v3X0zm9mEJkrkNv4rDxu+sg9Jh8EkXyeqBkB7SOcboo9dMVqhyrACIg==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-context": {
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz",
+            "integrity": "sha512-jCi/QKUM2r1Ju5a3J64TH2A5SpKAgh0LpknyqdQ4m6DCV0xJ2HG1xARRwNGPQfi1SLdLWZ1OJz6F4OMBBNiGJA==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-context-menu": {
+            "version": "2.2.16",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-context-menu/-/react-context-menu-2.2.16.tgz",
+            "integrity": "sha512-O8morBEW+HsVG28gYDZPTrT9UUovQUlJue5YO836tiTJhuIWBm/zQHc7j388sHWtdH/xUZurK9olD2+pcqx5ww==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-menu": "2.1.16",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-dialog": {
+            "version": "1.1.15",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.15.tgz",
+            "integrity": "sha512-TCglVRtzlffRNxRMEyR36DGBLJpeusFcgMVD9PZEzAKnUs1lKCgX5u9BmC2Yg+LL9MgZDugFFs1Vl+Jp4t/PGw==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-dismissable-layer": "1.1.11",
+                "@radix-ui/react-focus-guards": "1.1.3",
+                "@radix-ui/react-focus-scope": "1.1.7",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-portal": "1.1.9",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-slot": "1.2.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "aria-hidden": "^1.2.4",
+                "react-remove-scroll": "^2.6.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-dialog/node_modules/@radix-ui/react-slot": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+            "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-direction": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-direction/-/react-direction-1.1.1.tgz",
+            "integrity": "sha512-1UEWRX6jnOA2y4H5WczZ44gOOjTEmlqv1uNW4GAJEO5+bauCBhv8snY65Iw5/VOS/ghKN9gr2KjnLKxrsvoMVw==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-dismissable-layer": {
+            "version": "1.1.11",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.11.tgz",
+            "integrity": "sha512-Nqcp+t5cTB8BinFkZgXiMJniQH0PsUt2k51FUhbdfeKvc4ACcG2uQniY/8+h1Yv6Kza4Q7lD7PQV0z0oicE0Mg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-escape-keydown": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-dropdown-menu": {
+            "version": "2.1.16",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.16.tgz",
+            "integrity": "sha512-1PLGQEynI/3OX/ftV54COn+3Sud/Mn8vALg2rWnBLnRaGtJDduNW/22XjlGgPdpcIbiQxjKtb7BkcjP00nqfJw==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-menu": "2.1.16",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-focus-guards": {
+            "version": "1.1.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.3.tgz",
+            "integrity": "sha512-0rFg/Rj2Q62NCm62jZw0QX7a3sz6QCQU0LpZdNrJX8byRGaGVTqbrW9jAoIAHyMQqsNpeZ81YgSizOt5WXq0Pw==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-focus-scope": {
+            "version": "1.1.7",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz",
+            "integrity": "sha512-t2ODlkXBQyn7jkl6TNaw/MtVEVvIGelJDCG41Okq/KwUsJBwQ4XVZsHAVUkK4mBv3ewiAS3PGuUWuY2BoK4ZUw==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-hover-card": {
+            "version": "1.1.15",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-hover-card/-/react-hover-card-1.1.15.tgz",
+            "integrity": "sha512-qgTkjNT1CfKMoP0rcasmlH2r1DAiYicWsDsufxl940sT2wHNEWWv6FMWIQXWhVdmC1d/HYfbhQx60KYyAtKxjg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-dismissable-layer": "1.1.11",
+                "@radix-ui/react-popper": "1.2.8",
+                "@radix-ui/react-portal": "1.1.9",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-id": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz",
+            "integrity": "sha512-kGkGegYIdQsOb4XjsfM97rXsiHaBwco+hFI66oO4s9LU+PLAC5oJ7khdOVFxkhsmlbpUqDAvXw11CluXP+jkHg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-label": {
+            "version": "2.1.8",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-label/-/react-label-2.1.8.tgz",
+            "integrity": "sha512-FmXs37I6hSBVDlO4y764TNz1rLgKwjJMQ0EGte6F3Cb3f4bIuHB/iLa/8I9VKkmOy+gNHq8rql3j686ACVV21A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-primitive": "2.1.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-label/node_modules/@radix-ui/react-primitive": {
+            "version": "2.1.4",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.4.tgz",
+            "integrity": "sha512-9hQc4+GNVtJAIEPEqlYqW5RiYdrr8ea5XQ0ZOnD6fgru+83kqT15mq2OCcbe8KnjRZl5vF3ks69AKz3kh1jrhg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-slot": "1.2.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-menu": {
+            "version": "2.1.16",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.16.tgz",
+            "integrity": "sha512-72F2T+PLlphrqLcAotYPp0uJMr5SjP5SL01wfEspJbru5Zs5vQaSHb4VB3ZMJPimgHHCHG7gMOeOB9H3Hdmtxg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-collection": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-dismissable-layer": "1.1.11",
+                "@radix-ui/react-focus-guards": "1.1.3",
+                "@radix-ui/react-focus-scope": "1.1.7",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-popper": "1.2.8",
+                "@radix-ui/react-portal": "1.1.9",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-roving-focus": "1.1.11",
+                "@radix-ui/react-slot": "1.2.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "aria-hidden": "^1.2.4",
+                "react-remove-scroll": "^2.6.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-menu/node_modules/@radix-ui/react-slot": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+            "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-menubar": {
+            "version": "1.1.16",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-menubar/-/react-menubar-1.1.16.tgz",
+            "integrity": "sha512-EB1FktTz5xRRi2Er974AUQZWg2yVBb1yjip38/lgwtCVRd3a+maUoGHN/xs9Yv8SY8QwbSEb+YrxGadVWbEutA==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-collection": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-menu": "2.1.16",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-roving-focus": "1.1.11",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-navigation-menu": {
+            "version": "1.2.14",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.14.tgz",
+            "integrity": "sha512-YB9mTFQvCOAQMHU+C/jVl96WmuWeltyUEpRJJky51huhds5W2FQr1J8D/16sQlf0ozxkPK8uF3niQMdUwZPv5w==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-collection": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-dismissable-layer": "1.1.11",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-use-layout-effect": "1.1.1",
+                "@radix-ui/react-use-previous": "1.1.1",
+                "@radix-ui/react-visually-hidden": "1.2.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-popover": {
+            "version": "1.1.15",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-popover/-/react-popover-1.1.15.tgz",
+            "integrity": "sha512-kr0X2+6Yy/vJzLYJUPCZEc8SfQcf+1COFoAqauJm74umQhta9M7lNJHP7QQS3vkvcGLQUbWpMzwrXYwrYztHKA==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-dismissable-layer": "1.1.11",
+                "@radix-ui/react-focus-guards": "1.1.3",
+                "@radix-ui/react-focus-scope": "1.1.7",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-popper": "1.2.8",
+                "@radix-ui/react-portal": "1.1.9",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-slot": "1.2.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "aria-hidden": "^1.2.4",
+                "react-remove-scroll": "^2.6.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-popover/node_modules/@radix-ui/react-slot": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+            "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-popper": {
+            "version": "1.2.8",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.8.tgz",
+            "integrity": "sha512-0NJQ4LFFUuWkE7Oxf0htBKS6zLkkjBH+hM1uk7Ng705ReR8m/uelduy1DBo0PyBXPKVnBA6YBlU94MBGXrSBCw==",
+            "license": "MIT",
+            "dependencies": {
+                "@floating-ui/react-dom": "^2.0.0",
+                "@radix-ui/react-arrow": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-layout-effect": "1.1.1",
+                "@radix-ui/react-use-rect": "1.1.1",
+                "@radix-ui/react-use-size": "1.1.1",
+                "@radix-ui/rect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-portal": {
+            "version": "1.1.9",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz",
+            "integrity": "sha512-bpIxvq03if6UNwXZ+HTK71JLh4APvnXntDc6XOX8UVq4XQOVl7lwok0AvIl+b8zgCw3fSaVTZMpAPPagXbKmHQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-presence": {
+            "version": "1.1.5",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.5.tgz",
+            "integrity": "sha512-/jfEwNDdQVBCNvjkGit4h6pMOzq8bHkopq458dPt2lMjx+eBQUohZNG9A7DtO/O5ukSbxuaNGXMjHicgwy6rQQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-primitive": {
+            "version": "2.1.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz",
+            "integrity": "sha512-m9gTwRkhy2lvCPe6QJp4d3G1TYEUHn/FzJUtq9MjH46an1wJU+GdoGC5VLof8RX8Ft/DlpshApkhswDLZzHIcQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-slot": "1.2.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-primitive/node_modules/@radix-ui/react-slot": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+            "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-progress": {
+            "version": "1.1.8",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-progress/-/react-progress-1.1.8.tgz",
+            "integrity": "sha512-+gISHcSPUJ7ktBy9RnTqbdKW78bcGke3t6taawyZ71pio1JewwGSJizycs7rLhGTvMJYCQB1DBK4KQsxs7U8dA==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-context": "1.1.3",
+                "@radix-ui/react-primitive": "2.1.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-progress/node_modules/@radix-ui/react-context": {
+            "version": "1.1.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.3.tgz",
+            "integrity": "sha512-ieIFACdMpYfMEjF0rEf5KLvfVyIkOz6PDGyNnP+u+4xQ6jny3VCgA4OgXOwNx2aUkxn8zx9fiVcM8CfFYv9Lxw==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-progress/node_modules/@radix-ui/react-primitive": {
+            "version": "2.1.4",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.4.tgz",
+            "integrity": "sha512-9hQc4+GNVtJAIEPEqlYqW5RiYdrr8ea5XQ0ZOnD6fgru+83kqT15mq2OCcbe8KnjRZl5vF3ks69AKz3kh1jrhg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-slot": "1.2.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-radio-group": {
+            "version": "1.3.8",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-radio-group/-/react-radio-group-1.3.8.tgz",
+            "integrity": "sha512-VBKYIYImA5zsxACdisNQ3BjCBfmbGH3kQlnFVqlWU4tXwjy7cGX8ta80BcrO+WJXIn5iBylEH3K6ZTlee//lgQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-roving-focus": "1.1.11",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-use-previous": "1.1.1",
+                "@radix-ui/react-use-size": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-roving-focus": {
+            "version": "1.1.11",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.11.tgz",
+            "integrity": "sha512-7A6S9jSgm/S+7MdtNDSb+IU859vQqJ/QAtcYQcfFC6W8RS4IxIZDldLR0xqCFZ6DCyrQLjLPsxtTNch5jVA4lA==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-collection": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-scroll-area": {
+            "version": "1.2.10",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-scroll-area/-/react-scroll-area-1.2.10.tgz",
+            "integrity": "sha512-tAXIa1g3sM5CGpVT0uIbUx/U3Gs5N8T52IICuCtObaos1S8fzsrPXG5WObkQN3S6NVl6wKgPhAIiBGbWnvc97A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/number": "1.1.1",
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-select": {
+            "version": "2.2.6",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-select/-/react-select-2.2.6.tgz",
+            "integrity": "sha512-I30RydO+bnn2PQztvo25tswPH+wFBjehVGtmagkU78yMdwTwVf12wnAOF+AeP8S2N8xD+5UPbGhkUfPyvT+mwQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/number": "1.1.1",
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-collection": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-dismissable-layer": "1.1.11",
+                "@radix-ui/react-focus-guards": "1.1.3",
+                "@radix-ui/react-focus-scope": "1.1.7",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-popper": "1.2.8",
+                "@radix-ui/react-portal": "1.1.9",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-slot": "1.2.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-use-layout-effect": "1.1.1",
+                "@radix-ui/react-use-previous": "1.1.1",
+                "@radix-ui/react-visually-hidden": "1.2.3",
+                "aria-hidden": "^1.2.4",
+                "react-remove-scroll": "^2.6.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-select/node_modules/@radix-ui/react-slot": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+            "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-separator": {
+            "version": "1.1.8",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.8.tgz",
+            "integrity": "sha512-sDvqVY4itsKwwSMEe0jtKgfTh+72Sy3gPmQpjqcQneqQ4PFmr/1I0YA+2/puilhggCe2gJcx5EBAYFkWkdpa5g==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-primitive": "2.1.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-separator/node_modules/@radix-ui/react-primitive": {
+            "version": "2.1.4",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.4.tgz",
+            "integrity": "sha512-9hQc4+GNVtJAIEPEqlYqW5RiYdrr8ea5XQ0ZOnD6fgru+83kqT15mq2OCcbe8KnjRZl5vF3ks69AKz3kh1jrhg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-slot": "1.2.4"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-slider": {
+            "version": "1.3.6",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slider/-/react-slider-1.3.6.tgz",
+            "integrity": "sha512-JPYb1GuM1bxfjMRlNLE+BcmBC8onfCi60Blk7OBqi2MLTFdS+8401U4uFjnwkOr49BLmXxLC6JHkvAsx5OJvHw==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/number": "1.1.1",
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-collection": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-use-layout-effect": "1.1.1",
+                "@radix-ui/react-use-previous": "1.1.1",
+                "@radix-ui/react-use-size": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-slot": {
+            "version": "1.2.4",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.4.tgz",
+            "integrity": "sha512-Jl+bCv8HxKnlTLVrcDE8zTMJ09R9/ukw4qBs/oZClOfoQk/cOTbDn+NceXfV7j09YPVQUryJPHurafcSg6EVKA==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-switch": {
+            "version": "1.2.6",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.2.6.tgz",
+            "integrity": "sha512-bByzr1+ep1zk4VubeEVViV592vu2lHE2BZY5OnzehZqOOgogN80+mNtCqPkhn2gklJqOpxWgPoYTSnhBCqpOXQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-use-previous": "1.1.1",
+                "@radix-ui/react-use-size": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-tabs": {
+            "version": "1.1.13",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-tabs/-/react-tabs-1.1.13.tgz",
+            "integrity": "sha512-7xdcatg7/U+7+Udyoj2zodtI9H/IIopqo+YOIcZOq1nJwXWBZ9p8xiu5llXlekDbZkca79a/fozEYQXIA4sW6A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-roving-focus": "1.1.11",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-toast": {
+            "version": "1.2.15",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-toast/-/react-toast-1.2.15.tgz",
+            "integrity": "sha512-3OSz3TacUWy4WtOXV38DggwxoqJK4+eDkNMl5Z/MJZaoUPaP4/9lf81xXMe1I2ReTAptverZUpbPY4wWwWyL5g==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-collection": "1.1.7",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-dismissable-layer": "1.1.11",
+                "@radix-ui/react-portal": "1.1.9",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-callback-ref": "1.1.1",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-use-layout-effect": "1.1.1",
+                "@radix-ui/react-visually-hidden": "1.2.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-toggle": {
+            "version": "1.1.10",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-toggle/-/react-toggle-1.1.10.tgz",
+            "integrity": "sha512-lS1odchhFTeZv3xwHH31YPObmJn8gOg7Lq12inrr0+BH/l3Tsq32VfjqH1oh80ARM3mlkfMic15n0kg4sD1poQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-toggle-group": {
+            "version": "1.1.11",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-toggle-group/-/react-toggle-group-1.1.11.tgz",
+            "integrity": "sha512-5umnS0T8JQzQT6HbPyO7Hh9dgd82NmS36DQr+X/YJ9ctFNCiiQd6IJAYYZ33LUwm8M+taCz5t2ui29fHZc4Y6Q==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-direction": "1.1.1",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-roving-focus": "1.1.11",
+                "@radix-ui/react-toggle": "1.1.10",
+                "@radix-ui/react-use-controllable-state": "1.2.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-tooltip": {
+            "version": "1.2.8",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-tooltip/-/react-tooltip-1.2.8.tgz",
+            "integrity": "sha512-tY7sVt1yL9ozIxvmbtN5qtmH2krXcBCfjEiCgKGLqunJHvgvZG2Pcl2oQ3kbcZARb1BGEHdkLzcYGO8ynVlieg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/primitive": "1.1.3",
+                "@radix-ui/react-compose-refs": "1.1.2",
+                "@radix-ui/react-context": "1.1.2",
+                "@radix-ui/react-dismissable-layer": "1.1.11",
+                "@radix-ui/react-id": "1.1.1",
+                "@radix-ui/react-popper": "1.2.8",
+                "@radix-ui/react-portal": "1.1.9",
+                "@radix-ui/react-presence": "1.1.5",
+                "@radix-ui/react-primitive": "2.1.3",
+                "@radix-ui/react-slot": "1.2.3",
+                "@radix-ui/react-use-controllable-state": "1.2.2",
+                "@radix-ui/react-visually-hidden": "1.2.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-tooltip/node_modules/@radix-ui/react-slot": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+            "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "1.1.2"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-callback-ref": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz",
+            "integrity": "sha512-FkBMwD+qbGQeMu1cOHnuGB6x4yzPjho8ap5WtbEJ26umhgqVXbhekKUQO+hZEL1vU92a3wHwdp0HAcqAUF5iDg==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-controllable-state": {
+            "version": "1.2.2",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz",
+            "integrity": "sha512-BjasUjixPFdS+NKkypcyyN5Pmg83Olst0+c6vGov0diwTEo6mgdqVR6hxcEgFuh4QrAs7Rc+9KuGJ9TVCj0Zzg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-use-effect-event": "0.0.2",
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-effect-event": {
+            "version": "0.0.2",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz",
+            "integrity": "sha512-Qp8WbZOBe+blgpuUT+lw2xheLP8q0oatc9UpmiemEICxGvFLYmHm9QowVZGHtJlGbS6A6yJ3iViad/2cVjnOiA==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-escape-keydown": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz",
+            "integrity": "sha512-Il0+boE7w/XebUHyBjroE+DbByORGR9KKmITzbR7MyQ4akpORYP/ZmbhAr0DG7RmmBqoOnZdy2QlvajJ2QA59g==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-use-callback-ref": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-is-hydrated": {
+            "version": "0.1.0",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-is-hydrated/-/react-use-is-hydrated-0.1.0.tgz",
+            "integrity": "sha512-U+UORVEq+cTnRIaostJv9AGdV3G6Y+zbVd+12e18jQ5A3c0xL03IhnHuiU4UV69wolOQp5GfR58NW/EgdQhwOA==",
+            "license": "MIT",
+            "dependencies": {
+                "use-sync-external-store": "^1.5.0"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-layout-effect": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz",
+            "integrity": "sha512-RbJRS4UWQFkzHTTwVymMTUv8EqYhOp8dOOviLj2ugtTiXRaRQS7GLGxZTLL1jWhMeoSCf5zmcZkqTl9IiYfXcQ==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-previous": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-previous/-/react-use-previous-1.1.1.tgz",
+            "integrity": "sha512-2dHfToCj/pzca2Ck724OZ5L0EVrr3eHRNsG/b3xQJLA2hZpVCS99bLAX+hm1IHXDEnzU6by5z/5MIY794/a8NQ==",
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-rect": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-rect/-/react-use-rect-1.1.1.tgz",
+            "integrity": "sha512-QTYuDesS0VtuHNNvMh+CjlKJ4LJickCMUAqjlE3+j8w+RlRpwyX3apEQKGFzbZGdo7XNG1tXa+bQqIE7HIXT2w==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/rect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-use-size": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-use-size/-/react-use-size-1.1.1.tgz",
+            "integrity": "sha512-ewrXRDTAqAXlkl6t/fkXWNAhFX9I+CkKlw6zjEwk86RSPKwZr3xpBRso655aqYafwtnbpHLj6toFzmd6xdVptQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-use-layout-effect": "1.1.1"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/react-visually-hidden": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.2.3.tgz",
+            "integrity": "sha512-pzJq12tEaaIhqjbzpCuv/OypJY/BPavOofm+dbab+MHLajy277+1lLm6JFcGgF5eskJ6mquGirhXY2GD/8u8Ug==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-primitive": "2.1.3"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "@types/react-dom": "*",
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                },
+                "@types/react-dom": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@radix-ui/rect": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/@radix-ui/rect/-/rect-1.1.1.tgz",
+            "integrity": "sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw==",
+            "license": "MIT"
+        },
+        "node_modules/@remix-run/router": {
+            "version": "1.23.1",
+            "resolved": "https://registry.npmjs.org/@remix-run/router/-/router-1.23.1.tgz",
+            "integrity": "sha512-vDbaOzF7yT2Qs4vO6XV1MHcJv+3dgR1sT+l3B8xxOVhUC336prMvqrvsLL/9Dnw2xr6Qhz4J0dmS0llNAbnUmQ==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=14.0.0"
+            }
+        },
+        "node_modules/@rolldown/pluginutils": {
+            "version": "1.0.0-beta.27",
+            "resolved": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz",
+            "integrity": "sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/@rollup/rollup-android-arm-eabi": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.54.0.tgz",
+            "integrity": "sha512-OywsdRHrFvCdvsewAInDKCNyR3laPA2mc9bRYJ6LBp5IyvF3fvXbbNR0bSzHlZVFtn6E0xw2oZlyjg4rKCVcng==",
+            "cpu": [
+                "arm"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "android"
+            ]
+        },
+        "node_modules/@rollup/rollup-android-arm64": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.54.0.tgz",
+            "integrity": "sha512-Skx39Uv+u7H224Af+bDgNinitlmHyQX1K/atIA32JP3JQw6hVODX5tkbi2zof/E69M1qH2UoN3Xdxgs90mmNYw==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "android"
+            ]
+        },
+        "node_modules/@rollup/rollup-darwin-arm64": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.54.0.tgz",
+            "integrity": "sha512-k43D4qta/+6Fq+nCDhhv9yP2HdeKeP56QrUUTW7E6PhZP1US6NDqpJj4MY0jBHlJivVJD5P8NxrjuobZBJTCRw==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ]
+        },
+        "node_modules/@rollup/rollup-darwin-x64": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.54.0.tgz",
+            "integrity": "sha512-cOo7biqwkpawslEfox5Vs8/qj83M/aZCSSNIWpVzfU2CYHa2G3P1UN5WF01RdTHSgCkri7XOlTdtk17BezlV3A==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ]
+        },
+        "node_modules/@rollup/rollup-freebsd-arm64": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.54.0.tgz",
+            "integrity": "sha512-miSvuFkmvFbgJ1BevMa4CPCFt5MPGw094knM64W9I0giUIMMmRYcGW/JWZDriaw/k1kOBtsWh1z6nIFV1vPNtA==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "freebsd"
+            ]
+        },
+        "node_modules/@rollup/rollup-freebsd-x64": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.54.0.tgz",
+            "integrity": "sha512-KGXIs55+b/ZfZsq9aR026tmr/+7tq6VG6MsnrvF4H8VhwflTIuYh+LFUlIsRdQSgrgmtM3fVATzEAj4hBQlaqQ==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "freebsd"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-arm-gnueabihf": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.54.0.tgz",
+            "integrity": "sha512-EHMUcDwhtdRGlXZsGSIuXSYwD5kOT9NVnx9sqzYiwAc91wfYOE1g1djOEDseZJKKqtHAHGwnGPQu3kytmfaXLQ==",
+            "cpu": [
+                "arm"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-arm-musleabihf": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.54.0.tgz",
+            "integrity": "sha512-+pBrqEjaakN2ySv5RVrj/qLytYhPKEUwk+e3SFU5jTLHIcAtqh2rLrd/OkbNuHJpsBgxsD8ccJt5ga/SeG0JmA==",
+            "cpu": [
+                "arm"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-arm64-gnu": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.54.0.tgz",
+            "integrity": "sha512-NSqc7rE9wuUaRBsBp5ckQ5CVz5aIRKCwsoa6WMF7G01sX3/qHUw/z4pv+D+ahL1EIKy6Enpcnz1RY8pf7bjwng==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-arm64-musl": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.54.0.tgz",
+            "integrity": "sha512-gr5vDbg3Bakga5kbdpqx81m2n9IX8M6gIMlQQIXiLTNeQW6CucvuInJ91EuCJ/JYvc+rcLLsDFcfAD1K7fMofg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-loong64-gnu": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.54.0.tgz",
+            "integrity": "sha512-gsrtB1NA3ZYj2vq0Rzkylo9ylCtW/PhpLEivlgWe0bpgtX5+9j9EZa0wtZiCjgu6zmSeZWyI/e2YRX1URozpIw==",
+            "cpu": [
+                "loong64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-ppc64-gnu": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.54.0.tgz",
+            "integrity": "sha512-y3qNOfTBStmFNq+t4s7Tmc9hW2ENtPg8FeUD/VShI7rKxNW7O4fFeaYbMsd3tpFlIg1Q8IapFgy7Q9i2BqeBvA==",
+            "cpu": [
+                "ppc64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-riscv64-gnu": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.54.0.tgz",
+            "integrity": "sha512-89sepv7h2lIVPsFma8iwmccN7Yjjtgz0Rj/Ou6fEqg3HDhpCa+Et+YSufy27i6b0Wav69Qv4WBNl3Rs6pwhebQ==",
+            "cpu": [
+                "riscv64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-riscv64-musl": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.54.0.tgz",
+            "integrity": "sha512-ZcU77ieh0M2Q8Ur7D5X7KvK+UxbXeDHwiOt/CPSBTI1fBmeDMivW0dPkdqkT4rOgDjrDDBUed9x4EgraIKoR2A==",
+            "cpu": [
+                "riscv64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-s390x-gnu": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.54.0.tgz",
+            "integrity": "sha512-2AdWy5RdDF5+4YfG/YesGDDtbyJlC9LHmL6rZw6FurBJ5n4vFGupsOBGfwMRjBYH7qRQowT8D/U4LoSvVwOhSQ==",
+            "cpu": [
+                "s390x"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-x64-gnu": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.54.0.tgz",
+            "integrity": "sha512-WGt5J8Ij/rvyqpFexxk3ffKqqbLf9AqrTBbWDk7ApGUzaIs6V+s2s84kAxklFwmMF/vBNGrVdYgbblCOFFezMQ==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-linux-x64-musl": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.54.0.tgz",
+            "integrity": "sha512-JzQmb38ATzHjxlPHuTH6tE7ojnMKM2kYNzt44LO/jJi8BpceEC8QuXYA908n8r3CNuG/B3BV8VR3Hi1rYtmPiw==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@rollup/rollup-openharmony-arm64": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.54.0.tgz",
+            "integrity": "sha512-huT3fd0iC7jigGh7n3q/+lfPcXxBi+om/Rs3yiFxjvSxbSB6aohDFXbWvlspaqjeOh+hx7DDHS+5Es5qRkWkZg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "openharmony"
+            ]
+        },
+        "node_modules/@rollup/rollup-win32-arm64-msvc": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.54.0.tgz",
+            "integrity": "sha512-c2V0W1bsKIKfbLMBu/WGBz6Yci8nJ/ZJdheE0EwB73N3MvHYKiKGs3mVilX4Gs70eGeDaMqEob25Tw2Gb9Nqyw==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ]
+        },
+        "node_modules/@rollup/rollup-win32-ia32-msvc": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.54.0.tgz",
+            "integrity": "sha512-woEHgqQqDCkAzrDhvDipnSirm5vxUXtSKDYTVpZG3nUdW/VVB5VdCYA2iReSj/u3yCZzXID4kuKG7OynPnB3WQ==",
+            "cpu": [
+                "ia32"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ]
+        },
+        "node_modules/@rollup/rollup-win32-x64-gnu": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.54.0.tgz",
+            "integrity": "sha512-dzAc53LOuFvHwbCEOS0rPbXp6SIhAf2txMP5p6mGyOXXw5mWY8NGGbPMPrs4P1WItkfApDathBj/NzMLUZ9rtQ==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ]
+        },
+        "node_modules/@rollup/rollup-win32-x64-msvc": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.54.0.tgz",
+            "integrity": "sha512-hYT5d3YNdSh3mbCU1gwQyPgQd3T2ne0A3KG8KSBdav5TiBg6eInVmV+TeR5uHufiIgSFg0XsOWGW5/RhNcSvPg==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ]
+        },
+        "node_modules/@supabase/auth-js": {
+            "version": "2.89.0",
+            "resolved": "https://registry.npmjs.org/@supabase/auth-js/-/auth-js-2.89.0.tgz",
+            "integrity": "sha512-wiWZdz8WMad8LQdJMWYDZ2SJtZP5MwMqzQq3ehtW2ngiI3UTgbKiFrvMUUS3KADiVlk4LiGfODB2mrYx7w2f8w==",
+            "license": "MIT",
+            "dependencies": {
+                "tslib": "2.8.1"
+            },
+            "engines": {
+                "node": ">=20.0.0"
+            }
+        },
+        "node_modules/@supabase/functions-js": {
+            "version": "2.89.0",
+            "resolved": "https://registry.npmjs.org/@supabase/functions-js/-/functions-js-2.89.0.tgz",
+            "integrity": "sha512-XEueaC5gMe5NufNYfBh9kPwJlP5M2f+Ogr8rvhmRDAZNHgY6mI35RCkYDijd92pMcNM7g8pUUJov93UGUnqfyw==",
+            "license": "MIT",
+            "dependencies": {
+                "tslib": "2.8.1"
+            },
+            "engines": {
+                "node": ">=20.0.0"
+            }
+        },
+        "node_modules/@supabase/postgrest-js": {
+            "version": "2.89.0",
+            "resolved": "https://registry.npmjs.org/@supabase/postgrest-js/-/postgrest-js-2.89.0.tgz",
+            "integrity": "sha512-/b0fKrxV9i7RNOEXMno/I1862RsYhuUo+Q6m6z3ar1f4ulTMXnDfv0y4YYxK2POcgrOXQOgKYQx1eArybyNvtg==",
+            "license": "MIT",
+            "dependencies": {
+                "tslib": "2.8.1"
+            },
+            "engines": {
+                "node": ">=20.0.0"
+            }
+        },
+        "node_modules/@supabase/realtime-js": {
+            "version": "2.89.0",
+            "resolved": "https://registry.npmjs.org/@supabase/realtime-js/-/realtime-js-2.89.0.tgz",
+            "integrity": "sha512-aMOvfDb2a52u6PX6jrrjvACHXGV3zsOlWRzZsTIOAJa0hOVvRp01AwC1+nLTGUzxzezejrYeCX+KnnM1xHdl+w==",
+            "license": "MIT",
+            "dependencies": {
+                "@types/phoenix": "^1.6.6",
+                "@types/ws": "^8.18.1",
+                "tslib": "2.8.1",
+                "ws": "^8.18.2"
+            },
+            "engines": {
+                "node": ">=20.0.0"
+            }
+        },
+        "node_modules/@supabase/storage-js": {
+            "version": "2.89.0",
+            "resolved": "https://registry.npmjs.org/@supabase/storage-js/-/storage-js-2.89.0.tgz",
+            "integrity": "sha512-6zKcXofk/M/4Eato7iqpRh+B+vnxeiTumCIP+Tz26xEqIiywzD9JxHq+udRrDuv6hXE+pmetvJd8n5wcf4MFRQ==",
+            "license": "MIT",
+            "dependencies": {
+                "iceberg-js": "^0.8.1",
+                "tslib": "2.8.1"
+            },
+            "engines": {
+                "node": ">=20.0.0"
+            }
+        },
+        "node_modules/@supabase/supabase-js": {
+            "version": "2.89.0",
+            "resolved": "https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-2.89.0.tgz",
+            "integrity": "sha512-KlaRwSfFA0fD73PYVMHj5/iXFtQGCcX7PSx0FdQwYEEw9b2wqM7GxadY+5YwcmuEhalmjFB/YvqaoNVF+sWUlg==",
+            "license": "MIT",
+            "dependencies": {
+                "@supabase/auth-js": "2.89.0",
+                "@supabase/functions-js": "2.89.0",
+                "@supabase/postgrest-js": "2.89.0",
+                "@supabase/realtime-js": "2.89.0",
+                "@supabase/storage-js": "2.89.0"
+            },
+            "engines": {
+                "node": ">=20.0.0"
+            }
+        },
+        "node_modules/@swc/core": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core/-/core-1.15.8.tgz",
+            "integrity": "sha512-T8keoJjXaSUoVBCIjgL6wAnhADIb09GOELzKg10CjNg+vLX48P93SME6jTfte9MZIm5m+Il57H3rTSk/0kzDUw==",
+            "dev": true,
+            "hasInstallScript": true,
+            "license": "Apache-2.0",
+            "dependencies": {
+                "@swc/counter": "^0.1.3",
+                "@swc/types": "^0.1.25"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/swc"
+            },
+            "optionalDependencies": {
+                "@swc/core-darwin-arm64": "1.15.8",
+                "@swc/core-darwin-x64": "1.15.8",
+                "@swc/core-linux-arm-gnueabihf": "1.15.8",
+                "@swc/core-linux-arm64-gnu": "1.15.8",
+                "@swc/core-linux-arm64-musl": "1.15.8",
+                "@swc/core-linux-x64-gnu": "1.15.8",
+                "@swc/core-linux-x64-musl": "1.15.8",
+                "@swc/core-win32-arm64-msvc": "1.15.8",
+                "@swc/core-win32-ia32-msvc": "1.15.8",
+                "@swc/core-win32-x64-msvc": "1.15.8"
+            },
+            "peerDependencies": {
+                "@swc/helpers": ">=0.5.17"
+            },
+            "peerDependenciesMeta": {
+                "@swc/helpers": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/@swc/core-darwin-arm64": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.15.8.tgz",
+            "integrity": "sha512-M9cK5GwyWWRkRGwwCbREuj6r8jKdES/haCZ3Xckgkl8MUQJZA3XB7IXXK1IXRNeLjg6m7cnoMICpXv1v1hlJOg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-darwin-x64": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-darwin-x64/-/core-darwin-x64-1.15.8.tgz",
+            "integrity": "sha512-j47DasuOvXl80sKJHSi2X25l44CMc3VDhlJwA7oewC1nV1VsSzwX+KOwE5tLnfORvVJJyeiXgJORNYg4jeIjYQ==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-linux-arm-gnueabihf": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.15.8.tgz",
+            "integrity": "sha512-siAzDENu2rUbwr9+fayWa26r5A9fol1iORG53HWxQL1J8ym4k7xt9eME0dMPXlYZDytK5r9sW8zEA10F2U3Xwg==",
+            "cpu": [
+                "arm"
+            ],
+            "dev": true,
+            "license": "Apache-2.0",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-linux-arm64-gnu": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.15.8.tgz",
+            "integrity": "sha512-o+1y5u6k2FfPYbTRUPvurwzNt5qd0NTumCTFscCNuBksycloXY16J8L+SMW5QRX59n4Hp9EmFa3vpvNHRVv1+Q==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-linux-arm64-musl": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.15.8.tgz",
+            "integrity": "sha512-koiCqL09EwOP1S2RShCI7NbsQuG6r2brTqUYE7pV7kZm9O17wZ0LSz22m6gVibpwEnw8jI3IE1yYsQTVpluALw==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-linux-x64-gnu": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.15.8.tgz",
+            "integrity": "sha512-4p6lOMU3bC+Vd5ARtKJ/FxpIC5G8v3XLoPEZ5s7mLR8h7411HWC/LmTXDHcrSXRC55zvAVia1eldy6zDLz8iFQ==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-linux-x64-musl": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.15.8.tgz",
+            "integrity": "sha512-z3XBnbrZAL+6xDGAhJoN4lOueIxC/8rGrJ9tg+fEaeqLEuAtHSW2QHDHxDwkxZMjuF/pZ6MUTjHjbp8wLbuRLA==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-win32-arm64-msvc": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.15.8.tgz",
+            "integrity": "sha512-djQPJ9Rh9vP8GTS/Df3hcc6XP6xnG5c8qsngWId/BLA9oX6C7UzCPAn74BG/wGb9a6j4w3RINuoaieJB3t+7iQ==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-win32-ia32-msvc": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.15.8.tgz",
+            "integrity": "sha512-/wfAgxORg2VBaUoFdytcVBVCgf1isWZIEXB9MZEUty4wwK93M/PxAkjifOho9RN3WrM3inPLabICRCEgdHpKKQ==",
+            "cpu": [
+                "ia32"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/core-win32-x64-msvc": {
+            "version": "1.15.8",
+            "resolved": "https://registry.npmjs.org/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.15.8.tgz",
+            "integrity": "sha512-GpMePrh9Sl4d61o4KAHOOv5is5+zt6BEXCOCgs/H0FLGeii7j9bWDE8ExvKFy2GRRZVNR1ugsnzaGWHKM6kuzA==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "Apache-2.0 AND MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/@swc/counter": {
+            "version": "0.1.3",
+            "resolved": "https://registry.npmjs.org/@swc/counter/-/counter-0.1.3.tgz",
+            "integrity": "sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==",
+            "dev": true,
+            "license": "Apache-2.0"
+        },
+        "node_modules/@swc/types": {
+            "version": "0.1.25",
+            "resolved": "https://registry.npmjs.org/@swc/types/-/types-0.1.25.tgz",
+            "integrity": "sha512-iAoY/qRhNH8a/hBvm3zKj9qQ4oc2+3w1unPJa2XvTK3XjeLXtzcCingVPw/9e5mn1+0yPqxcBGp9Jf0pkfMb1g==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "dependencies": {
+                "@swc/counter": "^0.1.3"
+            }
+        },
+        "node_modules/@tailwindcss/typography": {
+            "version": "0.5.19",
+            "resolved": "https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.5.19.tgz",
+            "integrity": "sha512-w31dd8HOx3k9vPtcQh5QHP9GwKcgbMp87j58qi6xgiBnFFtKEAgCWnDw4qUT8aHwkCp8bKvb/KGKWWHedP0AAg==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "postcss-selector-parser": "6.0.10"
+            },
+            "peerDependencies": {
+                "tailwindcss": ">=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1"
+            }
+        },
+        "node_modules/@tanstack/query-core": {
+            "version": "5.90.16",
+            "resolved": "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.90.16.tgz",
+            "integrity": "sha512-MvtWckSVufs/ja463/K4PyJeqT+HMlJWtw6PrCpywznd2NSgO3m4KwO9RqbFqGg6iDE8vVMFWMeQI4Io3eEYww==",
+            "license": "MIT",
+            "funding": {
+                "type": "github",
+                "url": "https://github.com/sponsors/tannerlinsley"
+            }
+        },
+        "node_modules/@tanstack/react-query": {
+            "version": "5.90.16",
+            "resolved": "https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.90.16.tgz",
+            "integrity": "sha512-bpMGOmV4OPmif7TNMteU/Ehf/hoC0Kf98PDc0F4BZkFrEapRMEqI/V6YS0lyzwSV6PQpY1y4xxArUIfBW5LVxQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@tanstack/query-core": "5.90.16"
+            },
+            "funding": {
+                "type": "github",
+                "url": "https://github.com/sponsors/tannerlinsley"
+            },
+            "peerDependencies": {
+                "react": "^18 || ^19"
+            }
+        },
+        "node_modules/@types/d3-array": {
+            "version": "3.2.2",
+            "resolved": "https://registry.npmjs.org/@types/d3-array/-/d3-array-3.2.2.tgz",
+            "integrity": "sha512-hOLWVbm7uRza0BYXpIIW5pxfrKe0W+D5lrFiAEYR+pb6w3N2SwSMaJbXdUfSEv+dT4MfHBLtn5js0LAWaO6otw==",
+            "license": "MIT"
+        },
+        "node_modules/@types/d3-color": {
+            "version": "3.1.3",
+            "resolved": "https://registry.npmjs.org/@types/d3-color/-/d3-color-3.1.3.tgz",
+            "integrity": "sha512-iO90scth9WAbmgv7ogoq57O9YpKmFBbmoEoCHDB2xMBY0+/KVrqAaCDyCE16dUspeOvIxFFRI+0sEtqDqy2b4A==",
+            "license": "MIT"
+        },
+        "node_modules/@types/d3-ease": {
+            "version": "3.0.2",
+            "resolved": "https://registry.npmjs.org/@types/d3-ease/-/d3-ease-3.0.2.tgz",
+            "integrity": "sha512-NcV1JjO5oDzoK26oMzbILE6HW7uVXOHLQvHshBUW4UMdZGfiY6v5BeQwh9a9tCzv+CeefZQHJt5SRgK154RtiA==",
+            "license": "MIT"
+        },
+        "node_modules/@types/d3-interpolate": {
+            "version": "3.0.4",
+            "resolved": "https://registry.npmjs.org/@types/d3-interpolate/-/d3-interpolate-3.0.4.tgz",
+            "integrity": "sha512-mgLPETlrpVV1YRJIglr4Ez47g7Yxjl1lj7YKsiMCb27VJH9W8NVM6Bb9d8kkpG/uAQS5AmbA48q2IAolKKo1MA==",
+            "license": "MIT",
+            "dependencies": {
+                "@types/d3-color": "*"
+            }
+        },
+        "node_modules/@types/d3-path": {
+            "version": "3.1.1",
+            "resolved": "https://registry.npmjs.org/@types/d3-path/-/d3-path-3.1.1.tgz",
+            "integrity": "sha512-VMZBYyQvbGmWyWVea0EHs/BwLgxc+MKi1zLDCONksozI4YJMcTt8ZEuIR4Sb1MMTE8MMW49v0IwI5+b7RmfWlg==",
+            "license": "MIT"
+        },
+        "node_modules/@types/d3-scale": {
+            "version": "4.0.9",
+            "resolved": "https://registry.npmjs.org/@types/d3-scale/-/d3-scale-4.0.9.tgz",
+            "integrity": "sha512-dLmtwB8zkAeO/juAMfnV+sItKjlsw2lKdZVVy6LRr0cBmegxSABiLEpGVmSJJ8O08i4+sGR6qQtb6WtuwJdvVw==",
+            "license": "MIT",
+            "dependencies": {
+                "@types/d3-time": "*"
+            }
+        },
+        "node_modules/@types/d3-shape": {
+            "version": "3.1.7",
+            "resolved": "https://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.1.7.tgz",
+            "integrity": "sha512-VLvUQ33C+3J+8p+Daf+nYSOsjB4GXp19/S/aGo60m9h1v6XaxjiT82lKVWJCfzhtuZ3yD7i/TPeC/fuKLLOSmg==",
+            "license": "MIT",
+            "dependencies": {
+                "@types/d3-path": "*"
+            }
+        },
+        "node_modules/@types/d3-time": {
+            "version": "3.0.4",
+            "resolved": "https://registry.npmjs.org/@types/d3-time/-/d3-time-3.0.4.tgz",
+            "integrity": "sha512-yuzZug1nkAAaBlBBikKZTgzCeA+k1uy4ZFwWANOfKw5z5LRhV0gNA7gNkKm7HoK+HRN0wX3EkxGk0fpbWhmB7g==",
+            "license": "MIT"
+        },
+        "node_modules/@types/d3-timer": {
+            "version": "3.0.2",
+            "resolved": "https://registry.npmjs.org/@types/d3-timer/-/d3-timer-3.0.2.tgz",
+            "integrity": "sha512-Ps3T8E8dZDam6fUyNiMkekK3XUsaUEik+idO9/YjPtfj2qruF8tFBXS7XhtE4iIXBLxhmLjP3SXpLhVf21I9Lw==",
+            "license": "MIT"
+        },
+        "node_modules/@types/estree": {
+            "version": "1.0.8",
+            "resolved": "https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz",
+            "integrity": "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/@types/json-schema": {
+            "version": "7.0.15",
+            "resolved": "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz",
+            "integrity": "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/@types/node": {
+            "version": "22.19.3",
+            "resolved": "https://registry.npmjs.org/@types/node/-/node-22.19.3.tgz",
+            "integrity": "sha512-1N9SBnWYOJTrNZCdh/yJE+t910Y128BoyY+zBLWhL3r0TYzlTmFdXrPwHL9DyFZmlEXNQQolTZh3KHV31QDhyA==",
+            "license": "MIT",
+            "dependencies": {
+                "undici-types": "~6.21.0"
+            }
+        },
+        "node_modules/@types/phoenix": {
+            "version": "1.6.7",
+            "resolved": "https://registry.npmjs.org/@types/phoenix/-/phoenix-1.6.7.tgz",
+            "integrity": "sha512-oN9ive//QSBkf19rfDv45M7eZPi0eEXylht2OLEXicu5b4KoQ1OzXIw+xDSGWxSxe1JmepRR/ZH283vsu518/Q==",
+            "license": "MIT"
+        },
+        "node_modules/@types/prop-types": {
+            "version": "15.7.15",
+            "resolved": "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.15.tgz",
+            "integrity": "sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==",
+            "devOptional": true,
+            "license": "MIT"
+        },
+        "node_modules/@types/react": {
+            "version": "18.3.27",
+            "resolved": "https://registry.npmjs.org/@types/react/-/react-18.3.27.tgz",
+            "integrity": "sha512-cisd7gxkzjBKU2GgdYrTdtQx1SORymWyaAFhaxQPK9bYO9ot3Y5OikQRvY0VYQtvwjeQnizCINJAenh/V7MK2w==",
+            "devOptional": true,
+            "license": "MIT",
+            "dependencies": {
+                "@types/prop-types": "*",
+                "csstype": "^3.2.2"
+            }
+        },
+        "node_modules/@types/react-dom": {
+            "version": "18.3.7",
+            "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-18.3.7.tgz",
+            "integrity": "sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==",
+            "devOptional": true,
+            "license": "MIT",
+            "peerDependencies": {
+                "@types/react": "^18.0.0"
+            }
+        },
+        "node_modules/@types/ws": {
+            "version": "8.18.1",
+            "resolved": "https://registry.npmjs.org/@types/ws/-/ws-8.18.1.tgz",
+            "integrity": "sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==",
+            "license": "MIT",
+            "dependencies": {
+                "@types/node": "*"
+            }
+        },
+        "node_modules/@typescript-eslint/eslint-plugin": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.51.0.tgz",
+            "integrity": "sha512-XtssGWJvypyM2ytBnSnKtHYOGT+4ZwTnBVl36TA4nRO2f4PRNGz5/1OszHzcZCvcBMh+qb7I06uoCmLTRdR9og==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@eslint-community/regexpp": "^4.10.0",
+                "@typescript-eslint/scope-manager": "8.51.0",
+                "@typescript-eslint/type-utils": "8.51.0",
+                "@typescript-eslint/utils": "8.51.0",
+                "@typescript-eslint/visitor-keys": "8.51.0",
+                "ignore": "^7.0.0",
+                "natural-compare": "^1.4.0",
+                "ts-api-utils": "^2.2.0"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            },
+            "peerDependencies": {
+                "@typescript-eslint/parser": "^8.51.0",
+                "eslint": "^8.57.0 || ^9.0.0",
+                "typescript": ">=4.8.4 <6.0.0"
+            }
+        },
+        "node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore": {
+            "version": "7.0.5",
+            "resolved": "https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz",
+            "integrity": "sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">= 4"
+            }
+        },
+        "node_modules/@typescript-eslint/parser": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.51.0.tgz",
+            "integrity": "sha512-3xP4XzzDNQOIqBMWogftkwxhg5oMKApqY0BAflmLZiFYHqyhSOxv/cd/zPQLTcCXr4AkaKb25joocY0BD1WC6A==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@typescript-eslint/scope-manager": "8.51.0",
+                "@typescript-eslint/types": "8.51.0",
+                "@typescript-eslint/typescript-estree": "8.51.0",
+                "@typescript-eslint/visitor-keys": "8.51.0",
+                "debug": "^4.3.4"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            },
+            "peerDependencies": {
+                "eslint": "^8.57.0 || ^9.0.0",
+                "typescript": ">=4.8.4 <6.0.0"
+            }
+        },
+        "node_modules/@typescript-eslint/project-service": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.51.0.tgz",
+            "integrity": "sha512-Luv/GafO07Z7HpiI7qeEW5NW8HUtZI/fo/kE0YbtQEFpJRUuR0ajcWfCE5bnMvL7QQFrmT/odMe8QZww8X2nfQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@typescript-eslint/tsconfig-utils": "^8.51.0",
+                "@typescript-eslint/types": "^8.51.0",
+                "debug": "^4.3.4"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            },
+            "peerDependencies": {
+                "typescript": ">=4.8.4 <6.0.0"
+            }
+        },
+        "node_modules/@typescript-eslint/scope-manager": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.51.0.tgz",
+            "integrity": "sha512-JhhJDVwsSx4hiOEQPeajGhCWgBMBwVkxC/Pet53EpBVs7zHHtayKefw1jtPaNRXpI9RA2uocdmpdfE7T+NrizA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@typescript-eslint/types": "8.51.0",
+                "@typescript-eslint/visitor-keys": "8.51.0"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            }
+        },
+        "node_modules/@typescript-eslint/tsconfig-utils": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.51.0.tgz",
+            "integrity": "sha512-Qi5bSy/vuHeWyir2C8u/uqGMIlIDu8fuiYWv48ZGlZ/k+PRPHtaAu7erpc7p5bzw2WNNSniuxoMSO4Ar6V9OXw==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            },
+            "peerDependencies": {
+                "typescript": ">=4.8.4 <6.0.0"
+            }
+        },
+        "node_modules/@typescript-eslint/type-utils": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.51.0.tgz",
+            "integrity": "sha512-0XVtYzxnobc9K0VU7wRWg1yiUrw4oQzexCG2V2IDxxCxhqBMSMbjB+6o91A+Uc0GWtgjCa3Y8bi7hwI0Tu4n5Q==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@typescript-eslint/types": "8.51.0",
+                "@typescript-eslint/typescript-estree": "8.51.0",
+                "@typescript-eslint/utils": "8.51.0",
+                "debug": "^4.3.4",
+                "ts-api-utils": "^2.2.0"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            },
+            "peerDependencies": {
+                "eslint": "^8.57.0 || ^9.0.0",
+                "typescript": ">=4.8.4 <6.0.0"
+            }
+        },
+        "node_modules/@typescript-eslint/types": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/types/-/types-8.51.0.tgz",
+            "integrity": "sha512-TizAvWYFM6sSscmEakjY3sPqGwxZRSywSsPEiuZF6d5GmGD9Gvlsv0f6N8FvAAA0CD06l3rIcWNbsN1e5F/9Ag==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            }
+        },
+        "node_modules/@typescript-eslint/typescript-estree": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.51.0.tgz",
+            "integrity": "sha512-1qNjGqFRmlq0VW5iVlcyHBbCjPB7y6SxpBkrbhNWMy/65ZoncXCEPJxkRZL8McrseNH6lFhaxCIaX+vBuFnRng==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@typescript-eslint/project-service": "8.51.0",
+                "@typescript-eslint/tsconfig-utils": "8.51.0",
+                "@typescript-eslint/types": "8.51.0",
+                "@typescript-eslint/visitor-keys": "8.51.0",
+                "debug": "^4.3.4",
+                "minimatch": "^9.0.4",
+                "semver": "^7.6.0",
+                "tinyglobby": "^0.2.15",
+                "ts-api-utils": "^2.2.0"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            },
+            "peerDependencies": {
+                "typescript": ">=4.8.4 <6.0.0"
+            }
+        },
+        "node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion": {
+            "version": "2.0.2",
+            "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.2.tgz",
+            "integrity": "sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "balanced-match": "^1.0.0"
+            }
+        },
+        "node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch": {
+            "version": "9.0.5",
+            "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-9.0.5.tgz",
+            "integrity": "sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==",
+            "dev": true,
+            "license": "ISC",
+            "dependencies": {
+                "brace-expansion": "^2.0.1"
+            },
+            "engines": {
+                "node": ">=16 || 14 >=14.17"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/isaacs"
+            }
+        },
+        "node_modules/@typescript-eslint/utils": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.51.0.tgz",
+            "integrity": "sha512-11rZYxSe0zabiKaCP2QAwRf/dnmgFgvTmeDTtZvUvXG3UuAdg/GU02NExmmIXzz3vLGgMdtrIosI84jITQOxUA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@eslint-community/eslint-utils": "^4.7.0",
+                "@typescript-eslint/scope-manager": "8.51.0",
+                "@typescript-eslint/types": "8.51.0",
+                "@typescript-eslint/typescript-estree": "8.51.0"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            },
+            "peerDependencies": {
+                "eslint": "^8.57.0 || ^9.0.0",
+                "typescript": ">=4.8.4 <6.0.0"
+            }
+        },
+        "node_modules/@typescript-eslint/visitor-keys": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.51.0.tgz",
+            "integrity": "sha512-mM/JRQOzhVN1ykejrvwnBRV3+7yTKK8tVANVN3o1O0t0v7o+jqdVu9crPy5Y9dov15TJk/FTIgoUGHrTOVL3Zg==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@typescript-eslint/types": "8.51.0",
+                "eslint-visitor-keys": "^4.2.1"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            }
+        },
+        "node_modules/@vitejs/plugin-react-swc": {
+            "version": "3.11.0",
+            "resolved": "https://registry.npmjs.org/@vitejs/plugin-react-swc/-/plugin-react-swc-3.11.0.tgz",
+            "integrity": "sha512-YTJCGFdNMHCMfjODYtxRNVAYmTWQ1Lb8PulP/2/f/oEEtglw8oKxKIZmmRkyXrVrHfsKOaVkAc3NT9/dMutO5w==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@rolldown/pluginutils": "1.0.0-beta.27",
+                "@swc/core": "^1.12.11"
+            },
+            "peerDependencies": {
+                "vite": "^4 || ^5 || ^6 || ^7"
+            }
+        },
+        "node_modules/acorn": {
+            "version": "8.15.0",
+            "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz",
+            "integrity": "sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==",
+            "dev": true,
+            "license": "MIT",
+            "bin": {
+                "acorn": "bin/acorn"
+            },
+            "engines": {
+                "node": ">=0.4.0"
+            }
+        },
+        "node_modules/acorn-jsx": {
+            "version": "5.3.2",
+            "resolved": "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz",
+            "integrity": "sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==",
+            "dev": true,
+            "license": "MIT",
+            "peerDependencies": {
+                "acorn": "^6.0.0 || ^7.0.0 || ^8.0.0"
+            }
+        },
+        "node_modules/ajv": {
+            "version": "6.12.6",
+            "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz",
+            "integrity": "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "fast-deep-equal": "^3.1.1",
+                "fast-json-stable-stringify": "^2.0.0",
+                "json-schema-traverse": "^0.4.1",
+                "uri-js": "^4.2.2"
+            },
+            "funding": {
+                "type": "github",
+                "url": "https://github.com/sponsors/epoberezkin"
+            }
+        },
+        "node_modules/ansi-styles": {
+            "version": "4.3.0",
+            "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz",
+            "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "color-convert": "^2.0.1"
+            },
+            "engines": {
+                "node": ">=8"
+            },
+            "funding": {
+                "url": "https://github.com/chalk/ansi-styles?sponsor=1"
+            }
+        },
+        "node_modules/any-promise": {
+            "version": "1.3.0",
+            "resolved": "https://registry.npmjs.org/any-promise/-/any-promise-1.3.0.tgz",
+            "integrity": "sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==",
+            "license": "MIT"
+        },
+        "node_modules/anymatch": {
+            "version": "3.1.3",
+            "resolved": "https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz",
+            "integrity": "sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==",
+            "license": "ISC",
+            "dependencies": {
+                "normalize-path": "^3.0.0",
+                "picomatch": "^2.0.4"
+            },
+            "engines": {
+                "node": ">= 8"
+            }
+        },
+        "node_modules/arg": {
+            "version": "5.0.2",
+            "resolved": "https://registry.npmjs.org/arg/-/arg-5.0.2.tgz",
+            "integrity": "sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==",
+            "license": "MIT"
+        },
+        "node_modules/argparse": {
+            "version": "2.0.1",
+            "resolved": "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz",
+            "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==",
+            "dev": true,
+            "license": "Python-2.0"
+        },
+        "node_modules/aria-hidden": {
+            "version": "1.2.6",
+            "resolved": "https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz",
+            "integrity": "sha512-ik3ZgC9dY/lYVVM++OISsaYDeg1tb0VtP5uL3ouh1koGOaUMDPpbFIei4JkFimWUFPn90sbMNMXQAIVOlnYKJA==",
+            "license": "MIT",
+            "dependencies": {
+                "tslib": "^2.0.0"
+            },
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/autoprefixer": {
+            "version": "10.4.23",
+            "resolved": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.23.tgz",
+            "integrity": "sha512-YYTXSFulfwytnjAPlw8QHncHJmlvFKtczb8InXaAx9Q0LbfDnfEYDE55omerIJKihhmU61Ft+cAOSzQVaBUmeA==",
+            "dev": true,
+            "funding": [
+                {
+                    "type": "opencollective",
+                    "url": "https://opencollective.com/postcss/"
+                },
+                {
+                    "type": "tidelift",
+                    "url": "https://tidelift.com/funding/github/npm/autoprefixer"
+                },
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "MIT",
+            "dependencies": {
+                "browserslist": "^4.28.1",
+                "caniuse-lite": "^1.0.30001760",
+                "fraction.js": "^5.3.4",
+                "picocolors": "^1.1.1",
+                "postcss-value-parser": "^4.2.0"
+            },
+            "bin": {
+                "autoprefixer": "bin/autoprefixer"
+            },
+            "engines": {
+                "node": "^10 || ^12 || >=14"
+            },
+            "peerDependencies": {
+                "postcss": "^8.1.0"
+            }
+        },
+        "node_modules/balanced-match": {
+            "version": "1.0.2",
+            "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz",
+            "integrity": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/baseline-browser-mapping": {
+            "version": "2.9.11",
+            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.11.tgz",
+            "integrity": "sha512-Sg0xJUNDU1sJNGdfGWhVHX0kkZ+HWcvmVymJbj6NSgZZmW/8S9Y2HQ5euytnIgakgxN6papOAWiwDo1ctFDcoQ==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "bin": {
+                "baseline-browser-mapping": "dist/cli.js"
+            }
+        },
+        "node_modules/binary-extensions": {
+            "version": "2.3.0",
+            "resolved": "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz",
+            "integrity": "sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=8"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/brace-expansion": {
+            "version": "1.1.12",
+            "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.12.tgz",
+            "integrity": "sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "balanced-match": "^1.0.0",
+                "concat-map": "0.0.1"
+            }
+        },
+        "node_modules/braces": {
+            "version": "3.0.3",
+            "resolved": "https://registry.npmjs.org/braces/-/braces-3.0.3.tgz",
+            "integrity": "sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==",
+            "license": "MIT",
+            "dependencies": {
+                "fill-range": "^7.1.1"
+            },
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/browserslist": {
+            "version": "4.28.1",
+            "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz",
+            "integrity": "sha512-ZC5Bd0LgJXgwGqUknZY/vkUQ04r8NXnJZ3yYi4vDmSiZmC/pdSN0NbNRPxZpbtO4uAfDUAFffO8IZoM3Gj8IkA==",
+            "dev": true,
+            "funding": [
+                {
+                    "type": "opencollective",
+                    "url": "https://opencollective.com/browserslist"
+                },
+                {
+                    "type": "tidelift",
+                    "url": "https://tidelift.com/funding/github/npm/browserslist"
+                },
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "MIT",
+            "dependencies": {
+                "baseline-browser-mapping": "^2.9.0",
+                "caniuse-lite": "^1.0.30001759",
+                "electron-to-chromium": "^1.5.263",
+                "node-releases": "^2.0.27",
+                "update-browserslist-db": "^1.2.0"
+            },
+            "bin": {
+                "browserslist": "cli.js"
+            },
+            "engines": {
+                "node": "^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7"
+            }
+        },
+        "node_modules/callsites": {
+            "version": "3.1.0",
+            "resolved": "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz",
+            "integrity": "sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=6"
+            }
+        },
+        "node_modules/camelcase-css": {
+            "version": "2.0.1",
+            "resolved": "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz",
+            "integrity": "sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 6"
+            }
+        },
+        "node_modules/caniuse-lite": {
+            "version": "1.0.30001762",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001762.tgz",
+            "integrity": "sha512-PxZwGNvH7Ak8WX5iXzoK1KPZttBXNPuaOvI2ZYU7NrlM+d9Ov+TUvlLOBNGzVXAntMSMMlJPd+jY6ovrVjSmUw==",
+            "dev": true,
+            "funding": [
+                {
+                    "type": "opencollective",
+                    "url": "https://opencollective.com/browserslist"
+                },
+                {
+                    "type": "tidelift",
+                    "url": "https://tidelift.com/funding/github/npm/caniuse-lite"
+                },
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "CC-BY-4.0"
+        },
+        "node_modules/chalk": {
+            "version": "4.1.2",
+            "resolved": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz",
+            "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "ansi-styles": "^4.1.0",
+                "supports-color": "^7.1.0"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "url": "https://github.com/chalk/chalk?sponsor=1"
+            }
+        },
+        "node_modules/chokidar": {
+            "version": "3.6.0",
+            "resolved": "https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz",
+            "integrity": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==",
+            "license": "MIT",
+            "dependencies": {
+                "anymatch": "~3.1.2",
+                "braces": "~3.0.2",
+                "glob-parent": "~5.1.2",
+                "is-binary-path": "~2.1.0",
+                "is-glob": "~4.0.1",
+                "normalize-path": "~3.0.0",
+                "readdirp": "~3.6.0"
+            },
+            "engines": {
+                "node": ">= 8.10.0"
+            },
+            "funding": {
+                "url": "https://paulmillr.com/funding/"
+            },
+            "optionalDependencies": {
+                "fsevents": "~2.3.2"
+            }
+        },
+        "node_modules/chokidar/node_modules/glob-parent": {
+            "version": "5.1.2",
+            "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz",
+            "integrity": "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==",
+            "license": "ISC",
+            "dependencies": {
+                "is-glob": "^4.0.1"
+            },
+            "engines": {
+                "node": ">= 6"
+            }
+        },
+        "node_modules/class-variance-authority": {
+            "version": "0.7.1",
+            "resolved": "https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz",
+            "integrity": "sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==",
+            "license": "Apache-2.0",
+            "dependencies": {
+                "clsx": "^2.1.1"
+            },
+            "funding": {
+                "url": "https://polar.sh/cva"
+            }
+        },
+        "node_modules/clsx": {
+            "version": "2.1.1",
+            "resolved": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+            "integrity": "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=6"
+            }
+        },
+        "node_modules/cmdk": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/cmdk/-/cmdk-1.1.1.tgz",
+            "integrity": "sha512-Vsv7kFaXm+ptHDMZ7izaRsP70GgrW9NBNGswt9OZaVBLlE0SNpDq8eu/VGXyF9r7M0azK3Wy7OlYXsuyYLFzHg==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-compose-refs": "^1.1.1",
+                "@radix-ui/react-dialog": "^1.1.6",
+                "@radix-ui/react-id": "^1.1.0",
+                "@radix-ui/react-primitive": "^2.0.2"
+            },
+            "peerDependencies": {
+                "react": "^18 || ^19 || ^19.0.0-rc",
+                "react-dom": "^18 || ^19 || ^19.0.0-rc"
+            }
+        },
+        "node_modules/color-convert": {
+            "version": "2.0.1",
+            "resolved": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",
+            "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "color-name": "~1.1.4"
+            },
+            "engines": {
+                "node": ">=7.0.0"
+            }
+        },
+        "node_modules/color-name": {
+            "version": "1.1.4",
+            "resolved": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz",
+            "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/commander": {
+            "version": "4.1.1",
+            "resolved": "https://registry.npmjs.org/commander/-/commander-4.1.1.tgz",
+            "integrity": "sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 6"
+            }
+        },
+        "node_modules/concat-map": {
+            "version": "0.0.1",
+            "resolved": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz",
+            "integrity": "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/cross-spawn": {
+            "version": "7.0.6",
+            "resolved": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz",
+            "integrity": "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "path-key": "^3.1.0",
+                "shebang-command": "^2.0.0",
+                "which": "^2.0.1"
+            },
+            "engines": {
+                "node": ">= 8"
+            }
+        },
+        "node_modules/cssesc": {
+            "version": "3.0.0",
+            "resolved": "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz",
+            "integrity": "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==",
+            "license": "MIT",
+            "bin": {
+                "cssesc": "bin/cssesc"
+            },
+            "engines": {
+                "node": ">=4"
+            }
+        },
+        "node_modules/csstype": {
+            "version": "3.2.3",
+            "resolved": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+            "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+            "license": "MIT"
+        },
+        "node_modules/d3-array": {
+            "version": "3.2.4",
+            "resolved": "https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz",
+            "integrity": "sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==",
+            "license": "ISC",
+            "dependencies": {
+                "internmap": "1 - 2"
+            },
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-color": {
+            "version": "3.1.0",
+            "resolved": "https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz",
+            "integrity": "sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==",
+            "license": "ISC",
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-ease": {
+            "version": "3.0.1",
+            "resolved": "https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz",
+            "integrity": "sha512-wR/XK3D3XcLIZwpbvQwQ5fK+8Ykds1ip7A2Txe0yxncXSdq1L9skcG7blcedkOX+ZcgxGAmLX1FrRGbADwzi0w==",
+            "license": "BSD-3-Clause",
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-format": {
+            "version": "3.1.0",
+            "resolved": "https://registry.npmjs.org/d3-format/-/d3-format-3.1.0.tgz",
+            "integrity": "sha512-YyUI6AEuY/Wpt8KWLgZHsIU86atmikuoOmCfommt0LYHiQSPjvX2AcFc38PX0CBpr2RCyZhjex+NS/LPOv6YqA==",
+            "license": "ISC",
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-interpolate": {
+            "version": "3.0.1",
+            "resolved": "https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz",
+            "integrity": "sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==",
+            "license": "ISC",
+            "dependencies": {
+                "d3-color": "1 - 3"
+            },
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-path": {
+            "version": "3.1.0",
+            "resolved": "https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz",
+            "integrity": "sha512-p3KP5HCf/bvjBSSKuXid6Zqijx7wIfNW+J/maPs+iwR35at5JCbLUT0LzF1cnjbCHWhqzQTIN2Jpe8pRebIEFQ==",
+            "license": "ISC",
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-scale": {
+            "version": "4.0.2",
+            "resolved": "https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz",
+            "integrity": "sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==",
+            "license": "ISC",
+            "dependencies": {
+                "d3-array": "2.10.0 - 3",
+                "d3-format": "1 - 3",
+                "d3-interpolate": "1.2.0 - 3",
+                "d3-time": "2.1.1 - 3",
+                "d3-time-format": "2 - 4"
+            },
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-shape": {
+            "version": "3.2.0",
+            "resolved": "https://registry.npmjs.org/d3-shape/-/d3-shape-3.2.0.tgz",
+            "integrity": "sha512-SaLBuwGm3MOViRq2ABk3eLoxwZELpH6zhl3FbAoJ7Vm1gofKx6El1Ib5z23NUEhF9AsGl7y+dzLe5Cw2AArGTA==",
+            "license": "ISC",
+            "dependencies": {
+                "d3-path": "^3.1.0"
+            },
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-time": {
+            "version": "3.1.0",
+            "resolved": "https://registry.npmjs.org/d3-time/-/d3-time-3.1.0.tgz",
+            "integrity": "sha512-VqKjzBLejbSMT4IgbmVgDjpkYrNWUYJnbCGo874u7MMKIWsILRX+OpX/gTk8MqjpT1A/c6HY2dCA77ZN0lkQ2Q==",
+            "license": "ISC",
+            "dependencies": {
+                "d3-array": "2 - 3"
+            },
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-time-format": {
+            "version": "4.1.0",
+            "resolved": "https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz",
+            "integrity": "sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==",
+            "license": "ISC",
+            "dependencies": {
+                "d3-time": "1 - 3"
+            },
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/d3-timer": {
+            "version": "3.0.1",
+            "resolved": "https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz",
+            "integrity": "sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==",
+            "license": "ISC",
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/date-fns": {
+            "version": "3.6.0",
+            "resolved": "https://registry.npmjs.org/date-fns/-/date-fns-3.6.0.tgz",
+            "integrity": "sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==",
+            "license": "MIT",
+            "funding": {
+                "type": "github",
+                "url": "https://github.com/sponsors/kossnocorp"
+            }
+        },
+        "node_modules/debug": {
+            "version": "4.4.3",
+            "resolved": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+            "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "ms": "^2.1.3"
+            },
+            "engines": {
+                "node": ">=6.0"
+            },
+            "peerDependenciesMeta": {
+                "supports-color": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/decimal.js-light": {
+            "version": "2.5.1",
+            "resolved": "https://registry.npmjs.org/decimal.js-light/-/decimal.js-light-2.5.1.tgz",
+            "integrity": "sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==",
+            "license": "MIT"
+        },
+        "node_modules/deep-is": {
+            "version": "0.1.4",
+            "resolved": "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz",
+            "integrity": "sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/detect-node-es": {
+            "version": "1.1.0",
+            "resolved": "https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz",
+            "integrity": "sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==",
+            "license": "MIT"
+        },
+        "node_modules/didyoumean": {
+            "version": "1.2.2",
+            "resolved": "https://registry.npmjs.org/didyoumean/-/didyoumean-1.2.2.tgz",
+            "integrity": "sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==",
+            "license": "Apache-2.0"
+        },
+        "node_modules/dlv": {
+            "version": "1.1.3",
+            "resolved": "https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz",
+            "integrity": "sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==",
+            "license": "MIT"
+        },
+        "node_modules/dom-helpers": {
+            "version": "5.2.1",
+            "resolved": "https://registry.npmjs.org/dom-helpers/-/dom-helpers-5.2.1.tgz",
+            "integrity": "sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==",
+            "license": "MIT",
+            "dependencies": {
+                "@babel/runtime": "^7.8.7",
+                "csstype": "^3.0.2"
+            }
+        },
+        "node_modules/electron-to-chromium": {
+            "version": "1.5.267",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.267.tgz",
+            "integrity": "sha512-0Drusm6MVRXSOJpGbaSVgcQsuB4hEkMpHXaVstcPmhu5LIedxs1xNK/nIxmQIU/RPC0+1/o0AVZfBTkTNJOdUw==",
+            "dev": true,
+            "license": "ISC"
+        },
+        "node_modules/embla-carousel": {
+            "version": "8.6.0",
+            "resolved": "https://registry.npmjs.org/embla-carousel/-/embla-carousel-8.6.0.tgz",
+            "integrity": "sha512-SjWyZBHJPbqxHOzckOfo8lHisEaJWmwd23XppYFYVh10bU66/Pn5tkVkbkCMZVdbUE5eTCI2nD8OyIP4Z+uwkA==",
+            "license": "MIT"
+        },
+        "node_modules/embla-carousel-react": {
+            "version": "8.6.0",
+            "resolved": "https://registry.npmjs.org/embla-carousel-react/-/embla-carousel-react-8.6.0.tgz",
+            "integrity": "sha512-0/PjqU7geVmo6F734pmPqpyHqiM99olvyecY7zdweCw+6tKEXnrE90pBiBbMMU8s5tICemzpQ3hi5EpxzGW+JA==",
+            "license": "MIT",
+            "dependencies": {
+                "embla-carousel": "8.6.0",
+                "embla-carousel-reactive-utils": "8.6.0"
+            },
+            "peerDependencies": {
+                "react": "^16.8.0 || ^17.0.1 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+            }
+        },
+        "node_modules/embla-carousel-reactive-utils": {
+            "version": "8.6.0",
+            "resolved": "https://registry.npmjs.org/embla-carousel-reactive-utils/-/embla-carousel-reactive-utils-8.6.0.tgz",
+            "integrity": "sha512-fMVUDUEx0/uIEDM0Mz3dHznDhfX+znCCDCeIophYb1QGVM7YThSWX+wz11zlYwWFOr74b4QLGg0hrGPJeG2s4A==",
+            "license": "MIT",
+            "peerDependencies": {
+                "embla-carousel": "8.6.0"
+            }
+        },
+        "node_modules/esbuild": {
+            "version": "0.25.12",
+            "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz",
+            "integrity": "sha512-bbPBYYrtZbkt6Os6FiTLCTFxvq4tt3JKall1vRwshA3fdVztsLAatFaZobhkBC8/BrPetoa0oksYoKXoG4ryJg==",
+            "dev": true,
+            "hasInstallScript": true,
+            "license": "MIT",
+            "bin": {
+                "esbuild": "bin/esbuild"
+            },
+            "engines": {
+                "node": ">=18"
+            },
+            "optionalDependencies": {
+                "@esbuild/aix-ppc64": "0.25.12",
+                "@esbuild/android-arm": "0.25.12",
+                "@esbuild/android-arm64": "0.25.12",
+                "@esbuild/android-x64": "0.25.12",
+                "@esbuild/darwin-arm64": "0.25.12",
+                "@esbuild/darwin-x64": "0.25.12",
+                "@esbuild/freebsd-arm64": "0.25.12",
+                "@esbuild/freebsd-x64": "0.25.12",
+                "@esbuild/linux-arm": "0.25.12",
+                "@esbuild/linux-arm64": "0.25.12",
+                "@esbuild/linux-ia32": "0.25.12",
+                "@esbuild/linux-loong64": "0.25.12",
+                "@esbuild/linux-mips64el": "0.25.12",
+                "@esbuild/linux-ppc64": "0.25.12",
+                "@esbuild/linux-riscv64": "0.25.12",
+                "@esbuild/linux-s390x": "0.25.12",
+                "@esbuild/linux-x64": "0.25.12",
+                "@esbuild/netbsd-arm64": "0.25.12",
+                "@esbuild/netbsd-x64": "0.25.12",
+                "@esbuild/openbsd-arm64": "0.25.12",
+                "@esbuild/openbsd-x64": "0.25.12",
+                "@esbuild/openharmony-arm64": "0.25.12",
+                "@esbuild/sunos-x64": "0.25.12",
+                "@esbuild/win32-arm64": "0.25.12",
+                "@esbuild/win32-ia32": "0.25.12",
+                "@esbuild/win32-x64": "0.25.12"
+            }
+        },
+        "node_modules/escalade": {
+            "version": "3.2.0",
+            "resolved": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",
+            "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=6"
+            }
+        },
+        "node_modules/escape-string-regexp": {
+            "version": "4.0.0",
+            "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz",
+            "integrity": "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/eslint": {
+            "version": "9.39.2",
+            "resolved": "https://registry.npmjs.org/eslint/-/eslint-9.39.2.tgz",
+            "integrity": "sha512-LEyamqS7W5HB3ujJyvi0HQK/dtVINZvd5mAAp9eT5S/ujByGjiZLCzPcHVzuXbpJDJF/cxwHlfceVUDZ2lnSTw==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@eslint-community/eslint-utils": "^4.8.0",
+                "@eslint-community/regexpp": "^4.12.1",
+                "@eslint/config-array": "^0.21.1",
+                "@eslint/config-helpers": "^0.4.2",
+                "@eslint/core": "^0.17.0",
+                "@eslint/eslintrc": "^3.3.1",
+                "@eslint/js": "9.39.2",
+                "@eslint/plugin-kit": "^0.4.1",
+                "@humanfs/node": "^0.16.6",
+                "@humanwhocodes/module-importer": "^1.0.1",
+                "@humanwhocodes/retry": "^0.4.2",
+                "@types/estree": "^1.0.6",
+                "ajv": "^6.12.4",
+                "chalk": "^4.0.0",
+                "cross-spawn": "^7.0.6",
+                "debug": "^4.3.2",
+                "escape-string-regexp": "^4.0.0",
+                "eslint-scope": "^8.4.0",
+                "eslint-visitor-keys": "^4.2.1",
+                "espree": "^10.4.0",
+                "esquery": "^1.5.0",
+                "esutils": "^2.0.2",
+                "fast-deep-equal": "^3.1.3",
+                "file-entry-cache": "^8.0.0",
+                "find-up": "^5.0.0",
+                "glob-parent": "^6.0.2",
+                "ignore": "^5.2.0",
+                "imurmurhash": "^0.1.4",
+                "is-glob": "^4.0.0",
+                "json-stable-stringify-without-jsonify": "^1.0.1",
+                "lodash.merge": "^4.6.2",
+                "minimatch": "^3.1.2",
+                "natural-compare": "^1.4.0",
+                "optionator": "^0.9.3"
+            },
+            "bin": {
+                "eslint": "bin/eslint.js"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "url": "https://eslint.org/donate"
+            },
+            "peerDependencies": {
+                "jiti": "*"
+            },
+            "peerDependenciesMeta": {
+                "jiti": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/eslint-plugin-react-hooks": {
+            "version": "5.2.0",
+            "resolved": "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.2.0.tgz",
+            "integrity": "sha512-+f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy/sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=10"
+            },
+            "peerDependencies": {
+                "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0"
+            }
+        },
+        "node_modules/eslint-plugin-react-refresh": {
+            "version": "0.4.26",
+            "resolved": "https://registry.npmjs.org/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.26.tgz",
+            "integrity": "sha512-1RETEylht2O6FM/MvgnyvT+8K21wLqDNg4qD51Zj3guhjt433XbnnkVttHMyaVyAFD03QSV4LPS5iE3VQmO7XQ==",
+            "dev": true,
+            "license": "MIT",
+            "peerDependencies": {
+                "eslint": ">=8.40"
+            }
+        },
+        "node_modules/eslint-scope": {
+            "version": "8.4.0",
+            "resolved": "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.4.0.tgz",
+            "integrity": "sha512-sNXOfKCn74rt8RICKMvJS7XKV/Xk9kA7DyJr8mJik3S7Cwgy3qlkkmyS2uQB3jiJg6VNdZd/pDBJu0nvG2NlTg==",
+            "dev": true,
+            "license": "BSD-2-Clause",
+            "dependencies": {
+                "esrecurse": "^4.3.0",
+                "estraverse": "^5.2.0"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "url": "https://opencollective.com/eslint"
+            }
+        },
+        "node_modules/eslint-visitor-keys": {
+            "version": "4.2.1",
+            "resolved": "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.2.1.tgz",
+            "integrity": "sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "url": "https://opencollective.com/eslint"
+            }
+        },
+        "node_modules/espree": {
+            "version": "10.4.0",
+            "resolved": "https://registry.npmjs.org/espree/-/espree-10.4.0.tgz",
+            "integrity": "sha512-j6PAQ2uUr79PZhBjP5C5fhl8e39FmRnOjsD5lGnWrFU8i2G776tBK7+nP8KuQUTTyAZUwfQqXAgrVH5MbH9CYQ==",
+            "dev": true,
+            "license": "BSD-2-Clause",
+            "dependencies": {
+                "acorn": "^8.15.0",
+                "acorn-jsx": "^5.3.2",
+                "eslint-visitor-keys": "^4.2.1"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "url": "https://opencollective.com/eslint"
+            }
+        },
+        "node_modules/esquery": {
+            "version": "1.7.0",
+            "resolved": "https://registry.npmjs.org/esquery/-/esquery-1.7.0.tgz",
+            "integrity": "sha512-Ap6G0WQwcU/LHsvLwON1fAQX9Zp0A2Y6Y/cJBl9r/JbW90Zyg4/zbG6zzKa2OTALELarYHmKu0GhpM5EO+7T0g==",
+            "dev": true,
+            "license": "BSD-3-Clause",
+            "dependencies": {
+                "estraverse": "^5.1.0"
+            },
+            "engines": {
+                "node": ">=0.10"
+            }
+        },
+        "node_modules/esrecurse": {
+            "version": "4.3.0",
+            "resolved": "https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz",
+            "integrity": "sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==",
+            "dev": true,
+            "license": "BSD-2-Clause",
+            "dependencies": {
+                "estraverse": "^5.2.0"
+            },
+            "engines": {
+                "node": ">=4.0"
+            }
+        },
+        "node_modules/estraverse": {
+            "version": "5.3.0",
+            "resolved": "https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz",
+            "integrity": "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==",
+            "dev": true,
+            "license": "BSD-2-Clause",
+            "engines": {
+                "node": ">=4.0"
+            }
+        },
+        "node_modules/esutils": {
+            "version": "2.0.3",
+            "resolved": "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz",
+            "integrity": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
+            "dev": true,
+            "license": "BSD-2-Clause",
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/eventemitter3": {
+            "version": "4.0.7",
+            "resolved": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz",
+            "integrity": "sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==",
+            "license": "MIT"
+        },
+        "node_modules/fast-deep-equal": {
+            "version": "3.1.3",
+            "resolved": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz",
+            "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/fast-equals": {
+            "version": "5.4.0",
+            "resolved": "https://registry.npmjs.org/fast-equals/-/fast-equals-5.4.0.tgz",
+            "integrity": "sha512-jt2DW/aNFNwke7AUd+Z+e6pz39KO5rzdbbFCg2sGafS4mk13MI7Z8O5z9cADNn5lhGODIgLwug6TZO2ctf7kcw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=6.0.0"
+            }
+        },
+        "node_modules/fast-glob": {
+            "version": "3.3.3",
+            "resolved": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz",
+            "integrity": "sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==",
+            "license": "MIT",
+            "dependencies": {
+                "@nodelib/fs.stat": "^2.0.2",
+                "@nodelib/fs.walk": "^1.2.3",
+                "glob-parent": "^5.1.2",
+                "merge2": "^1.3.0",
+                "micromatch": "^4.0.8"
+            },
+            "engines": {
+                "node": ">=8.6.0"
+            }
+        },
+        "node_modules/fast-glob/node_modules/glob-parent": {
+            "version": "5.1.2",
+            "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz",
+            "integrity": "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==",
+            "license": "ISC",
+            "dependencies": {
+                "is-glob": "^4.0.1"
+            },
+            "engines": {
+                "node": ">= 6"
+            }
+        },
+        "node_modules/fast-json-stable-stringify": {
+            "version": "2.1.0",
+            "resolved": "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz",
+            "integrity": "sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/fast-levenshtein": {
+            "version": "2.0.6",
+            "resolved": "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz",
+            "integrity": "sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/fastq": {
+            "version": "1.20.1",
+            "resolved": "https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz",
+            "integrity": "sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==",
+            "license": "ISC",
+            "dependencies": {
+                "reusify": "^1.0.4"
+            }
+        },
+        "node_modules/file-entry-cache": {
+            "version": "8.0.0",
+            "resolved": "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-8.0.0.tgz",
+            "integrity": "sha512-XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "flat-cache": "^4.0.0"
+            },
+            "engines": {
+                "node": ">=16.0.0"
+            }
+        },
+        "node_modules/fill-range": {
+            "version": "7.1.1",
+            "resolved": "https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz",
+            "integrity": "sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==",
+            "license": "MIT",
+            "dependencies": {
+                "to-regex-range": "^5.0.1"
+            },
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/find-up": {
+            "version": "5.0.0",
+            "resolved": "https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz",
+            "integrity": "sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "locate-path": "^6.0.0",
+                "path-exists": "^4.0.0"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/flat-cache": {
+            "version": "4.0.1",
+            "resolved": "https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz",
+            "integrity": "sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "flatted": "^3.2.9",
+                "keyv": "^4.5.4"
+            },
+            "engines": {
+                "node": ">=16"
+            }
+        },
+        "node_modules/flatted": {
+            "version": "3.3.3",
+            "resolved": "https://registry.npmjs.org/flatted/-/flatted-3.3.3.tgz",
+            "integrity": "sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==",
+            "dev": true,
+            "license": "ISC"
+        },
+        "node_modules/fraction.js": {
+            "version": "5.3.4",
+            "resolved": "https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz",
+            "integrity": "sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": "*"
+            },
+            "funding": {
+                "type": "github",
+                "url": "https://github.com/sponsors/rawify"
+            }
+        },
+        "node_modules/fsevents": {
+            "version": "2.3.3",
+            "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+            "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+            "hasInstallScript": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ],
+            "engines": {
+                "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+            }
+        },
+        "node_modules/function-bind": {
+            "version": "1.1.2",
+            "resolved": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz",
+            "integrity": "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==",
+            "license": "MIT",
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/get-nonce": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz",
+            "integrity": "sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=6"
+            }
+        },
+        "node_modules/glob-parent": {
+            "version": "6.0.2",
+            "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz",
+            "integrity": "sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==",
+            "license": "ISC",
+            "dependencies": {
+                "is-glob": "^4.0.3"
+            },
+            "engines": {
+                "node": ">=10.13.0"
+            }
+        },
+        "node_modules/globals": {
+            "version": "15.15.0",
+            "resolved": "https://registry.npmjs.org/globals/-/globals-15.15.0.tgz",
+            "integrity": "sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=18"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/has-flag": {
+            "version": "4.0.0",
+            "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz",
+            "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/hasown": {
+            "version": "2.0.2",
+            "resolved": "https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz",
+            "integrity": "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==",
+            "license": "MIT",
+            "dependencies": {
+                "function-bind": "^1.1.2"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            }
+        },
+        "node_modules/iceberg-js": {
+            "version": "0.8.1",
+            "resolved": "https://registry.npmjs.org/iceberg-js/-/iceberg-js-0.8.1.tgz",
+            "integrity": "sha512-1dhVQZXhcHje7798IVM+xoo/1ZdVfzOMIc8/rgVSijRK38EDqOJoGula9N/8ZI5RD8QTxNQtK/Gozpr+qUqRRA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=20.0.0"
+            }
+        },
+        "node_modules/ignore": {
+            "version": "5.3.2",
+            "resolved": "https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz",
+            "integrity": "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">= 4"
+            }
+        },
+        "node_modules/import-fresh": {
+            "version": "3.3.1",
+            "resolved": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz",
+            "integrity": "sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "parent-module": "^1.0.0",
+                "resolve-from": "^4.0.0"
+            },
+            "engines": {
+                "node": ">=6"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/imurmurhash": {
+            "version": "0.1.4",
+            "resolved": "https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz",
+            "integrity": "sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=0.8.19"
+            }
+        },
+        "node_modules/input-otp": {
+            "version": "1.4.2",
+            "resolved": "https://registry.npmjs.org/input-otp/-/input-otp-1.4.2.tgz",
+            "integrity": "sha512-l3jWwYNvrEa6NTCt7BECfCm48GvwuZzkoeG3gBL2w4CHeOXW3eKFmf9UNYkNfYc3mxMrthMnxjIE07MT0zLBQA==",
+            "license": "MIT",
+            "peerDependencies": {
+                "react": "^16.8 || ^17.0 || ^18.0 || ^19.0.0 || ^19.0.0-rc",
+                "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0.0 || ^19.0.0-rc"
+            }
+        },
+        "node_modules/internmap": {
+            "version": "2.0.3",
+            "resolved": "https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz",
+            "integrity": "sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==",
+            "license": "ISC",
+            "engines": {
+                "node": ">=12"
+            }
+        },
+        "node_modules/is-binary-path": {
+            "version": "2.1.0",
+            "resolved": "https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz",
+            "integrity": "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==",
+            "license": "MIT",
+            "dependencies": {
+                "binary-extensions": "^2.0.0"
+            },
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/is-core-module": {
+            "version": "2.16.1",
+            "resolved": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz",
+            "integrity": "sha512-UfoeMA6fIJ8wTYFEUjelnaGI67v6+N7qXJEvQuIGa99l4xsCruSYOVSQ0uPANn4dAzm8lkYPaKLrrijLq7x23w==",
+            "license": "MIT",
+            "dependencies": {
+                "hasown": "^2.0.2"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/is-extglob": {
+            "version": "2.1.1",
+            "resolved": "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz",
+            "integrity": "sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/is-glob": {
+            "version": "4.0.3",
+            "resolved": "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz",
+            "integrity": "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==",
+            "license": "MIT",
+            "dependencies": {
+                "is-extglob": "^2.1.1"
+            },
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/is-number": {
+            "version": "7.0.0",
+            "resolved": "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz",
+            "integrity": "sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=0.12.0"
+            }
+        },
+        "node_modules/isexe": {
+            "version": "2.0.0",
+            "resolved": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz",
+            "integrity": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+            "dev": true,
+            "license": "ISC"
+        },
+        "node_modules/jiti": {
+            "version": "1.21.7",
+            "resolved": "https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz",
+            "integrity": "sha512-/imKNG4EbWNrVjoNC/1H5/9GFy+tqjGBHCaSsN+P2RnPqjsLmv6UD3Ej+Kj8nBWaRAwyk7kK5ZUc+OEatnTR3A==",
+            "license": "MIT",
+            "bin": {
+                "jiti": "bin/jiti.js"
+            }
+        },
+        "node_modules/js-tokens": {
+            "version": "4.0.0",
+            "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",
+            "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+            "license": "MIT"
+        },
+        "node_modules/js-yaml": {
+            "version": "4.1.1",
+            "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz",
+            "integrity": "sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "argparse": "^2.0.1"
+            },
+            "bin": {
+                "js-yaml": "bin/js-yaml.js"
+            }
+        },
+        "node_modules/json-buffer": {
+            "version": "3.0.1",
+            "resolved": "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz",
+            "integrity": "sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/json-schema-traverse": {
+            "version": "0.4.1",
+            "resolved": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz",
+            "integrity": "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/json-stable-stringify-without-jsonify": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz",
+            "integrity": "sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/keyv": {
+            "version": "4.5.4",
+            "resolved": "https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz",
+            "integrity": "sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "json-buffer": "3.0.1"
+            }
+        },
+        "node_modules/levn": {
+            "version": "0.4.1",
+            "resolved": "https://registry.npmjs.org/levn/-/levn-0.4.1.tgz",
+            "integrity": "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "prelude-ls": "^1.2.1",
+                "type-check": "~0.4.0"
+            },
+            "engines": {
+                "node": ">= 0.8.0"
+            }
+        },
+        "node_modules/lilconfig": {
+            "version": "3.1.3",
+            "resolved": "https://registry.npmjs.org/lilconfig/-/lilconfig-3.1.3.tgz",
+            "integrity": "sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=14"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/antonk52"
+            }
+        },
+        "node_modules/lines-and-columns": {
+            "version": "1.2.4",
+            "resolved": "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz",
+            "integrity": "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==",
+            "license": "MIT"
+        },
+        "node_modules/locate-path": {
+            "version": "6.0.0",
+            "resolved": "https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz",
+            "integrity": "sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "p-locate": "^5.0.0"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/lodash": {
+            "version": "4.17.21",
+            "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+            "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+            "license": "MIT"
+        },
+        "node_modules/lodash.merge": {
+            "version": "4.6.2",
+            "resolved": "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz",
+            "integrity": "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/loose-envify": {
+            "version": "1.4.0",
+            "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz",
+            "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+            "license": "MIT",
+            "dependencies": {
+                "js-tokens": "^3.0.0 || ^4.0.0"
+            },
+            "bin": {
+                "loose-envify": "cli.js"
+            }
+        },
+        "node_modules/lovable-tagger": {
+            "version": "1.1.13",
+            "resolved": "https://registry.npmjs.org/lovable-tagger/-/lovable-tagger-1.1.13.tgz",
+            "integrity": "sha512-RBEYDxao7Xf8ya29L0cd+ocE7Gs80xPOIOwwck65Hoie8YDKViuXi3UYV14DoNWIvaJ7WVPf7SG3cc844nFqGA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "esbuild": "^0.25.0",
+                "tailwindcss": "^3.4.17"
+            },
+            "peerDependencies": {
+                "vite": ">=5.0.0 <8.0.0"
+            }
+        },
+        "node_modules/lucide-react": {
+            "version": "0.462.0",
+            "resolved": "https://registry.npmjs.org/lucide-react/-/lucide-react-0.462.0.tgz",
+            "integrity": "sha512-NTL7EbAao9IFtuSivSZgrAh4fZd09Lr+6MTkqIxuHaH2nnYiYIzXPo06cOxHg9wKLdj6LL8TByG4qpePqwgx/g==",
+            "license": "ISC",
+            "peerDependencies": {
+                "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc"
+            }
+        },
+        "node_modules/merge2": {
+            "version": "1.4.1",
+            "resolved": "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz",
+            "integrity": "sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 8"
+            }
+        },
+        "node_modules/micromatch": {
+            "version": "4.0.8",
+            "resolved": "https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz",
+            "integrity": "sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==",
+            "license": "MIT",
+            "dependencies": {
+                "braces": "^3.0.3",
+                "picomatch": "^2.3.1"
+            },
+            "engines": {
+                "node": ">=8.6"
+            }
+        },
+        "node_modules/minimatch": {
+            "version": "3.1.2",
+            "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz",
+            "integrity": "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==",
+            "dev": true,
+            "license": "ISC",
+            "dependencies": {
+                "brace-expansion": "^1.1.7"
+            },
+            "engines": {
+                "node": "*"
+            }
+        },
+        "node_modules/ms": {
+            "version": "2.1.3",
+            "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+            "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/mz": {
+            "version": "2.7.0",
+            "resolved": "https://registry.npmjs.org/mz/-/mz-2.7.0.tgz",
+            "integrity": "sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==",
+            "license": "MIT",
+            "dependencies": {
+                "any-promise": "^1.0.0",
+                "object-assign": "^4.0.1",
+                "thenify-all": "^1.0.0"
+            }
+        },
+        "node_modules/nanoid": {
+            "version": "3.3.11",
+            "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz",
+            "integrity": "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==",
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "MIT",
+            "bin": {
+                "nanoid": "bin/nanoid.cjs"
+            },
+            "engines": {
+                "node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"
+            }
+        },
+        "node_modules/natural-compare": {
+            "version": "1.4.0",
+            "resolved": "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz",
+            "integrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/next-themes": {
+            "version": "0.3.0",
+            "resolved": "https://registry.npmjs.org/next-themes/-/next-themes-0.3.0.tgz",
+            "integrity": "sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w==",
+            "license": "MIT",
+            "peerDependencies": {
+                "react": "^16.8 || ^17 || ^18",
+                "react-dom": "^16.8 || ^17 || ^18"
+            }
+        },
+        "node_modules/node-releases": {
+            "version": "2.0.27",
+            "resolved": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.27.tgz",
+            "integrity": "sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA==",
+            "dev": true,
+            "license": "MIT"
+        },
+        "node_modules/normalize-path": {
+            "version": "3.0.0",
+            "resolved": "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz",
+            "integrity": "sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/object-assign": {
+            "version": "4.1.1",
+            "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
+            "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/object-hash": {
+            "version": "3.0.0",
+            "resolved": "https://registry.npmjs.org/object-hash/-/object-hash-3.0.0.tgz",
+            "integrity": "sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 6"
+            }
+        },
+        "node_modules/optionator": {
+            "version": "0.9.4",
+            "resolved": "https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz",
+            "integrity": "sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "deep-is": "^0.1.3",
+                "fast-levenshtein": "^2.0.6",
+                "levn": "^0.4.1",
+                "prelude-ls": "^1.2.1",
+                "type-check": "^0.4.0",
+                "word-wrap": "^1.2.5"
+            },
+            "engines": {
+                "node": ">= 0.8.0"
+            }
+        },
+        "node_modules/p-limit": {
+            "version": "3.1.0",
+            "resolved": "https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz",
+            "integrity": "sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "yocto-queue": "^0.1.0"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/p-locate": {
+            "version": "5.0.0",
+            "resolved": "https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz",
+            "integrity": "sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "p-limit": "^3.0.2"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/parent-module": {
+            "version": "1.0.1",
+            "resolved": "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz",
+            "integrity": "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "callsites": "^3.0.0"
+            },
+            "engines": {
+                "node": ">=6"
+            }
+        },
+        "node_modules/path-exists": {
+            "version": "4.0.0",
+            "resolved": "https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz",
+            "integrity": "sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/path-key": {
+            "version": "3.1.1",
+            "resolved": "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz",
+            "integrity": "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/path-parse": {
+            "version": "1.0.7",
+            "resolved": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz",
+            "integrity": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
+            "license": "MIT"
+        },
+        "node_modules/picocolors": {
+            "version": "1.1.1",
+            "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+            "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+            "license": "ISC"
+        },
+        "node_modules/picomatch": {
+            "version": "2.3.1",
+            "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz",
+            "integrity": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=8.6"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/jonschlinkert"
+            }
+        },
+        "node_modules/pify": {
+            "version": "2.3.0",
+            "resolved": "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz",
+            "integrity": "sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/pirates": {
+            "version": "4.0.7",
+            "resolved": "https://registry.npmjs.org/pirates/-/pirates-4.0.7.tgz",
+            "integrity": "sha512-TfySrs/5nm8fQJDcBDuUng3VOUKsd7S+zqvbOTiGXHfxX4wK31ard+hoNuvkicM/2YFzlpDgABOevKSsB4G/FA==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 6"
+            }
+        },
+        "node_modules/postcss": {
+            "version": "8.5.6",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz",
+            "integrity": "sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==",
+            "funding": [
+                {
+                    "type": "opencollective",
+                    "url": "https://opencollective.com/postcss/"
+                },
+                {
+                    "type": "tidelift",
+                    "url": "https://tidelift.com/funding/github/npm/postcss"
+                },
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "MIT",
+            "dependencies": {
+                "nanoid": "^3.3.11",
+                "picocolors": "^1.1.1",
+                "source-map-js": "^1.2.1"
+            },
+            "engines": {
+                "node": "^10 || ^12 || >=14"
+            }
+        },
+        "node_modules/postcss-import": {
+            "version": "15.1.0",
+            "resolved": "https://registry.npmjs.org/postcss-import/-/postcss-import-15.1.0.tgz",
+            "integrity": "sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==",
+            "license": "MIT",
+            "dependencies": {
+                "postcss-value-parser": "^4.0.0",
+                "read-cache": "^1.0.0",
+                "resolve": "^1.1.7"
+            },
+            "engines": {
+                "node": ">=14.0.0"
+            },
+            "peerDependencies": {
+                "postcss": "^8.0.0"
+            }
+        },
+        "node_modules/postcss-js": {
+            "version": "4.1.0",
+            "resolved": "https://registry.npmjs.org/postcss-js/-/postcss-js-4.1.0.tgz",
+            "integrity": "sha512-oIAOTqgIo7q2EOwbhb8UalYePMvYoIeRY2YKntdpFQXNosSu3vLrniGgmH9OKs/qAkfoj5oB3le/7mINW1LCfw==",
+            "funding": [
+                {
+                    "type": "opencollective",
+                    "url": "https://opencollective.com/postcss/"
+                },
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "MIT",
+            "dependencies": {
+                "camelcase-css": "^2.0.1"
+            },
+            "engines": {
+                "node": "^12 || ^14 || >= 16"
+            },
+            "peerDependencies": {
+                "postcss": "^8.4.21"
+            }
+        },
+        "node_modules/postcss-load-config": {
+            "version": "6.0.1",
+            "resolved": "https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-6.0.1.tgz",
+            "integrity": "sha512-oPtTM4oerL+UXmx+93ytZVN82RrlY/wPUV8IeDxFrzIjXOLF1pN+EmKPLbubvKHT2HC20xXsCAH2Z+CKV6Oz/g==",
+            "funding": [
+                {
+                    "type": "opencollective",
+                    "url": "https://opencollective.com/postcss/"
+                },
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "MIT",
+            "dependencies": {
+                "lilconfig": "^3.1.1"
+            },
+            "engines": {
+                "node": ">= 18"
+            },
+            "peerDependencies": {
+                "jiti": ">=1.21.0",
+                "postcss": ">=8.0.9",
+                "tsx": "^4.8.1",
+                "yaml": "^2.4.2"
+            },
+            "peerDependenciesMeta": {
+                "jiti": {
+                    "optional": true
+                },
+                "postcss": {
+                    "optional": true
+                },
+                "tsx": {
+                    "optional": true
+                },
+                "yaml": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/postcss-nested": {
+            "version": "6.2.0",
+            "resolved": "https://registry.npmjs.org/postcss-nested/-/postcss-nested-6.2.0.tgz",
+            "integrity": "sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==",
+            "funding": [
+                {
+                    "type": "opencollective",
+                    "url": "https://opencollective.com/postcss/"
+                },
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "MIT",
+            "dependencies": {
+                "postcss-selector-parser": "^6.1.1"
+            },
+            "engines": {
+                "node": ">=12.0"
+            },
+            "peerDependencies": {
+                "postcss": "^8.2.14"
+            }
+        },
+        "node_modules/postcss-nested/node_modules/postcss-selector-parser": {
+            "version": "6.1.2",
+            "resolved": "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz",
+            "integrity": "sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==",
+            "license": "MIT",
+            "dependencies": {
+                "cssesc": "^3.0.0",
+                "util-deprecate": "^1.0.2"
+            },
+            "engines": {
+                "node": ">=4"
+            }
+        },
+        "node_modules/postcss-selector-parser": {
+            "version": "6.0.10",
+            "resolved": "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz",
+            "integrity": "sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "cssesc": "^3.0.0",
+                "util-deprecate": "^1.0.2"
+            },
+            "engines": {
+                "node": ">=4"
+            }
+        },
+        "node_modules/postcss-value-parser": {
+            "version": "4.2.0",
+            "resolved": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz",
+            "integrity": "sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==",
+            "license": "MIT"
+        },
+        "node_modules/prelude-ls": {
+            "version": "1.2.1",
+            "resolved": "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz",
+            "integrity": "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.8.0"
+            }
+        },
+        "node_modules/prop-types": {
+            "version": "15.8.1",
+            "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz",
+            "integrity": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
+            "license": "MIT",
+            "dependencies": {
+                "loose-envify": "^1.4.0",
+                "object-assign": "^4.1.1",
+                "react-is": "^16.13.1"
+            }
+        },
+        "node_modules/prop-types/node_modules/react-is": {
+            "version": "16.13.1",
+            "resolved": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz",
+            "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+            "license": "MIT"
+        },
+        "node_modules/punycode": {
+            "version": "2.3.1",
+            "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz",
+            "integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=6"
+            }
+        },
+        "node_modules/queue-microtask": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz",
+            "integrity": "sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==",
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/feross"
+                },
+                {
+                    "type": "patreon",
+                    "url": "https://www.patreon.com/feross"
+                },
+                {
+                    "type": "consulting",
+                    "url": "https://feross.org/support"
+                }
+            ],
+            "license": "MIT"
+        },
+        "node_modules/react": {
+            "version": "18.3.1",
+            "resolved": "https://registry.npmjs.org/react/-/react-18.3.1.tgz",
+            "integrity": "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==",
+            "license": "MIT",
+            "dependencies": {
+                "loose-envify": "^1.1.0"
+            },
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/react-day-picker": {
+            "version": "8.10.1",
+            "resolved": "https://registry.npmjs.org/react-day-picker/-/react-day-picker-8.10.1.tgz",
+            "integrity": "sha512-TMx7fNbhLk15eqcMt+7Z7S2KF7mfTId/XJDjKE8f+IUcFn0l08/kI4FiYTL/0yuOLmEcbR4Fwe3GJf/NiiMnPA==",
+            "license": "MIT",
+            "funding": {
+                "type": "individual",
+                "url": "https://github.com/sponsors/gpbl"
+            },
+            "peerDependencies": {
+                "date-fns": "^2.28.0 || ^3.0.0",
+                "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+            }
+        },
+        "node_modules/react-dom": {
+            "version": "18.3.1",
+            "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz",
+            "integrity": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==",
+            "license": "MIT",
+            "dependencies": {
+                "loose-envify": "^1.1.0",
+                "scheduler": "^0.23.2"
+            },
+            "peerDependencies": {
+                "react": "^18.3.1"
+            }
+        },
+        "node_modules/react-hook-form": {
+            "version": "7.70.0",
+            "resolved": "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.70.0.tgz",
+            "integrity": "sha512-COOMajS4FI3Wuwrs3GPpi/Jeef/5W1DRR84Yl5/ShlT3dKVFUfoGiEZ/QE6Uw8P4T2/CLJdcTVYKvWBMQTEpvw==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=18.0.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/react-hook-form"
+            },
+            "peerDependencies": {
+                "react": "^16.8.0 || ^17 || ^18 || ^19"
+            }
+        },
+        "node_modules/react-is": {
+            "version": "18.3.1",
+            "resolved": "https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz",
+            "integrity": "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==",
+            "license": "MIT"
+        },
+        "node_modules/react-remove-scroll": {
+            "version": "2.7.2",
+            "resolved": "https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.2.tgz",
+            "integrity": "sha512-Iqb9NjCCTt6Hf+vOdNIZGdTiH1QSqr27H/Ek9sv/a97gfueI/5h1s3yRi1nngzMUaOOToin5dI1dXKdXiF+u0Q==",
+            "license": "MIT",
+            "dependencies": {
+                "react-remove-scroll-bar": "^2.3.7",
+                "react-style-singleton": "^2.2.3",
+                "tslib": "^2.1.0",
+                "use-callback-ref": "^1.3.3",
+                "use-sidecar": "^1.1.3"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/react-remove-scroll-bar": {
+            "version": "2.3.8",
+            "resolved": "https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz",
+            "integrity": "sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==",
+            "license": "MIT",
+            "dependencies": {
+                "react-style-singleton": "^2.2.2",
+                "tslib": "^2.0.0"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/react-resizable-panels": {
+            "version": "2.1.9",
+            "resolved": "https://registry.npmjs.org/react-resizable-panels/-/react-resizable-panels-2.1.9.tgz",
+            "integrity": "sha512-z77+X08YDIrgAes4jl8xhnUu1LNIRp4+E7cv4xHmLOxxUPO/ML7PSrE813b90vj7xvQ1lcf7g2uA9GeMZonjhQ==",
+            "license": "MIT",
+            "peerDependencies": {
+                "react": "^16.14.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc",
+                "react-dom": "^16.14.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+            }
+        },
+        "node_modules/react-router": {
+            "version": "6.30.2",
+            "resolved": "https://registry.npmjs.org/react-router/-/react-router-6.30.2.tgz",
+            "integrity": "sha512-H2Bm38Zu1bm8KUE5NVWRMzuIyAV8p/JrOaBJAwVmp37AXG72+CZJlEBw6pdn9i5TBgLMhNDgijS4ZlblpHyWTA==",
+            "license": "MIT",
+            "dependencies": {
+                "@remix-run/router": "1.23.1"
+            },
+            "engines": {
+                "node": ">=14.0.0"
+            },
+            "peerDependencies": {
+                "react": ">=16.8"
+            }
+        },
+        "node_modules/react-router-dom": {
+            "version": "6.30.2",
+            "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.30.2.tgz",
+            "integrity": "sha512-l2OwHn3UUnEVUqc6/1VMmR1cvZryZ3j3NzapC2eUXO1dB0sYp5mvwdjiXhpUbRb21eFow3qSxpP8Yv6oAU824Q==",
+            "license": "MIT",
+            "dependencies": {
+                "@remix-run/router": "1.23.1",
+                "react-router": "6.30.2"
+            },
+            "engines": {
+                "node": ">=14.0.0"
+            },
+            "peerDependencies": {
+                "react": ">=16.8",
+                "react-dom": ">=16.8"
+            }
+        },
+        "node_modules/react-smooth": {
+            "version": "4.0.4",
+            "resolved": "https://registry.npmjs.org/react-smooth/-/react-smooth-4.0.4.tgz",
+            "integrity": "sha512-gnGKTpYwqL0Iii09gHobNolvX4Kiq4PKx6eWBCYYix+8cdw+cGo3do906l1NBPKkSWx1DghC1dlWG9L2uGd61Q==",
+            "license": "MIT",
+            "dependencies": {
+                "fast-equals": "^5.0.1",
+                "prop-types": "^15.8.1",
+                "react-transition-group": "^4.4.5"
+            },
+            "peerDependencies": {
+                "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+                "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+            }
+        },
+        "node_modules/react-style-singleton": {
+            "version": "2.2.3",
+            "resolved": "https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz",
+            "integrity": "sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==",
+            "license": "MIT",
+            "dependencies": {
+                "get-nonce": "^1.0.0",
+                "tslib": "^2.0.0"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/react-transition-group": {
+            "version": "4.4.5",
+            "resolved": "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz",
+            "integrity": "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==",
+            "license": "BSD-3-Clause",
+            "dependencies": {
+                "@babel/runtime": "^7.5.5",
+                "dom-helpers": "^5.0.1",
+                "loose-envify": "^1.4.0",
+                "prop-types": "^15.6.2"
+            },
+            "peerDependencies": {
+                "react": ">=16.6.0",
+                "react-dom": ">=16.6.0"
+            }
+        },
+        "node_modules/read-cache": {
+            "version": "1.0.0",
+            "resolved": "https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz",
+            "integrity": "sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==",
+            "license": "MIT",
+            "dependencies": {
+                "pify": "^2.3.0"
+            }
+        },
+        "node_modules/readdirp": {
+            "version": "3.6.0",
+            "resolved": "https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz",
+            "integrity": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==",
+            "license": "MIT",
+            "dependencies": {
+                "picomatch": "^2.2.1"
+            },
+            "engines": {
+                "node": ">=8.10.0"
+            }
+        },
+        "node_modules/recharts": {
+            "version": "2.15.4",
+            "resolved": "https://registry.npmjs.org/recharts/-/recharts-2.15.4.tgz",
+            "integrity": "sha512-UT/q6fwS3c1dHbXv2uFgYJ9BMFHu3fwnd7AYZaEQhXuYQ4hgsxLvsUXzGdKeZrW5xopzDCvuA2N41WJ88I7zIw==",
+            "license": "MIT",
+            "dependencies": {
+                "clsx": "^2.0.0",
+                "eventemitter3": "^4.0.1",
+                "lodash": "^4.17.21",
+                "react-is": "^18.3.1",
+                "react-smooth": "^4.0.4",
+                "recharts-scale": "^0.4.4",
+                "tiny-invariant": "^1.3.1",
+                "victory-vendor": "^36.6.8"
+            },
+            "engines": {
+                "node": ">=14"
+            },
+            "peerDependencies": {
+                "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+                "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+            }
+        },
+        "node_modules/recharts-scale": {
+            "version": "0.4.5",
+            "resolved": "https://registry.npmjs.org/recharts-scale/-/recharts-scale-0.4.5.tgz",
+            "integrity": "sha512-kivNFO+0OcUNu7jQquLXAxz1FIwZj8nrj+YkOKc5694NbjCvcT6aSZiIzNzd2Kul4o4rTto8QVR9lMNtxD4G1w==",
+            "license": "MIT",
+            "dependencies": {
+                "decimal.js-light": "^2.4.1"
+            }
+        },
+        "node_modules/resolve": {
+            "version": "1.22.11",
+            "resolved": "https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz",
+            "integrity": "sha512-RfqAvLnMl313r7c9oclB1HhUEAezcpLjz95wFH4LVuhk9JF/r22qmVP9AMmOU4vMX7Q8pN8jwNg/CSpdFnMjTQ==",
+            "license": "MIT",
+            "dependencies": {
+                "is-core-module": "^2.16.1",
+                "path-parse": "^1.0.7",
+                "supports-preserve-symlinks-flag": "^1.0.0"
+            },
+            "bin": {
+                "resolve": "bin/resolve"
+            },
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/resolve-from": {
+            "version": "4.0.0",
+            "resolved": "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz",
+            "integrity": "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=4"
+            }
+        },
+        "node_modules/reusify": {
+            "version": "1.1.0",
+            "resolved": "https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz",
+            "integrity": "sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==",
+            "license": "MIT",
+            "engines": {
+                "iojs": ">=1.0.0",
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/rollup": {
+            "version": "4.54.0",
+            "resolved": "https://registry.npmjs.org/rollup/-/rollup-4.54.0.tgz",
+            "integrity": "sha512-3nk8Y3a9Ea8szgKhinMlGMhGMw89mqule3KWczxhIzqudyHdCIOHw8WJlj/r329fACjKLEh13ZSk7oE22kyeIw==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@types/estree": "1.0.8"
+            },
+            "bin": {
+                "rollup": "dist/bin/rollup"
+            },
+            "engines": {
+                "node": ">=18.0.0",
+                "npm": ">=8.0.0"
+            },
+            "optionalDependencies": {
+                "@rollup/rollup-android-arm-eabi": "4.54.0",
+                "@rollup/rollup-android-arm64": "4.54.0",
+                "@rollup/rollup-darwin-arm64": "4.54.0",
+                "@rollup/rollup-darwin-x64": "4.54.0",
+                "@rollup/rollup-freebsd-arm64": "4.54.0",
+                "@rollup/rollup-freebsd-x64": "4.54.0",
+                "@rollup/rollup-linux-arm-gnueabihf": "4.54.0",
+                "@rollup/rollup-linux-arm-musleabihf": "4.54.0",
+                "@rollup/rollup-linux-arm64-gnu": "4.54.0",
+                "@rollup/rollup-linux-arm64-musl": "4.54.0",
+                "@rollup/rollup-linux-loong64-gnu": "4.54.0",
+                "@rollup/rollup-linux-ppc64-gnu": "4.54.0",
+                "@rollup/rollup-linux-riscv64-gnu": "4.54.0",
+                "@rollup/rollup-linux-riscv64-musl": "4.54.0",
+                "@rollup/rollup-linux-s390x-gnu": "4.54.0",
+                "@rollup/rollup-linux-x64-gnu": "4.54.0",
+                "@rollup/rollup-linux-x64-musl": "4.54.0",
+                "@rollup/rollup-openharmony-arm64": "4.54.0",
+                "@rollup/rollup-win32-arm64-msvc": "4.54.0",
+                "@rollup/rollup-win32-ia32-msvc": "4.54.0",
+                "@rollup/rollup-win32-x64-gnu": "4.54.0",
+                "@rollup/rollup-win32-x64-msvc": "4.54.0",
+                "fsevents": "~2.3.2"
+            }
+        },
+        "node_modules/run-parallel": {
+            "version": "1.2.0",
+            "resolved": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz",
+            "integrity": "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==",
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/feross"
+                },
+                {
+                    "type": "patreon",
+                    "url": "https://www.patreon.com/feross"
+                },
+                {
+                    "type": "consulting",
+                    "url": "https://feross.org/support"
+                }
+            ],
+            "license": "MIT",
+            "dependencies": {
+                "queue-microtask": "^1.2.2"
+            }
+        },
+        "node_modules/scheduler": {
+            "version": "0.23.2",
+            "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz",
+            "integrity": "sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==",
+            "license": "MIT",
+            "dependencies": {
+                "loose-envify": "^1.1.0"
+            }
+        },
+        "node_modules/semver": {
+            "version": "7.7.3",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-7.7.3.tgz",
+            "integrity": "sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==",
+            "dev": true,
+            "license": "ISC",
+            "bin": {
+                "semver": "bin/semver.js"
+            },
+            "engines": {
+                "node": ">=10"
+            }
+        },
+        "node_modules/shebang-command": {
+            "version": "2.0.0",
+            "resolved": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz",
+            "integrity": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "shebang-regex": "^3.0.0"
+            },
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/shebang-regex": {
+            "version": "3.0.0",
+            "resolved": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz",
+            "integrity": "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/sonner": {
+            "version": "1.7.4",
+            "resolved": "https://registry.npmjs.org/sonner/-/sonner-1.7.4.tgz",
+            "integrity": "sha512-DIS8z4PfJRbIyfVFDVnK9rO3eYDtse4Omcm6bt0oEr5/jtLgysmjuBl1frJ9E/EQZrFmKx2A8m/s5s9CRXIzhw==",
+            "license": "MIT",
+            "peerDependencies": {
+                "react": "^18.0.0 || ^19.0.0 || ^19.0.0-rc",
+                "react-dom": "^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+            }
+        },
+        "node_modules/source-map-js": {
+            "version": "1.2.1",
+            "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz",
+            "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==",
+            "license": "BSD-3-Clause",
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/strip-json-comments": {
+            "version": "3.1.1",
+            "resolved": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz",
+            "integrity": "sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=8"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/sucrase": {
+            "version": "3.35.1",
+            "resolved": "https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz",
+            "integrity": "sha512-DhuTmvZWux4H1UOnWMB3sk0sbaCVOoQZjv8u1rDoTV0HTdGem9hkAZtl4JZy8P2z4Bg0nT+YMeOFyVr4zcG5Tw==",
+            "license": "MIT",
+            "dependencies": {
+                "@jridgewell/gen-mapping": "^0.3.2",
+                "commander": "^4.0.0",
+                "lines-and-columns": "^1.1.6",
+                "mz": "^2.7.0",
+                "pirates": "^4.0.1",
+                "tinyglobby": "^0.2.11",
+                "ts-interface-checker": "^0.1.9"
+            },
+            "bin": {
+                "sucrase": "bin/sucrase",
+                "sucrase-node": "bin/sucrase-node"
+            },
+            "engines": {
+                "node": ">=16 || 14 >=14.17"
+            }
+        },
+        "node_modules/supports-color": {
+            "version": "7.2.0",
+            "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
+            "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "has-flag": "^4.0.0"
+            },
+            "engines": {
+                "node": ">=8"
+            }
+        },
+        "node_modules/supports-preserve-symlinks-flag": {
+            "version": "1.0.0",
+            "resolved": "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz",
+            "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
+            "license": "MIT",
+            "engines": {
+                "node": ">= 0.4"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/ljharb"
+            }
+        },
+        "node_modules/tailwind-merge": {
+            "version": "2.6.0",
+            "resolved": "https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-2.6.0.tgz",
+            "integrity": "sha512-P+Vu1qXfzediirmHOC3xKGAYeZtPcV9g76X+xg2FD4tYgR71ewMA35Y3sCz3zhiN/dwefRpJX0yBcgwi1fXNQA==",
+            "license": "MIT",
+            "funding": {
+                "type": "github",
+                "url": "https://github.com/sponsors/dcastil"
+            }
+        },
+        "node_modules/tailwindcss": {
+            "version": "3.4.19",
+            "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz",
+            "integrity": "sha512-3ofp+LL8E+pK/JuPLPggVAIaEuhvIz4qNcf3nA1Xn2o/7fb7s/TYpHhwGDv1ZU3PkBluUVaF8PyCHcm48cKLWQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@alloc/quick-lru": "^5.2.0",
+                "arg": "^5.0.2",
+                "chokidar": "^3.6.0",
+                "didyoumean": "^1.2.2",
+                "dlv": "^1.1.3",
+                "fast-glob": "^3.3.2",
+                "glob-parent": "^6.0.2",
+                "is-glob": "^4.0.3",
+                "jiti": "^1.21.7",
+                "lilconfig": "^3.1.3",
+                "micromatch": "^4.0.8",
+                "normalize-path": "^3.0.0",
+                "object-hash": "^3.0.0",
+                "picocolors": "^1.1.1",
+                "postcss": "^8.4.47",
+                "postcss-import": "^15.1.0",
+                "postcss-js": "^4.0.1",
+                "postcss-load-config": "^4.0.2 || ^5.0 || ^6.0",
+                "postcss-nested": "^6.2.0",
+                "postcss-selector-parser": "^6.1.2",
+                "resolve": "^1.22.8",
+                "sucrase": "^3.35.0"
+            },
+            "bin": {
+                "tailwind": "lib/cli.js",
+                "tailwindcss": "lib/cli.js"
+            },
+            "engines": {
+                "node": ">=14.0.0"
+            }
+        },
+        "node_modules/tailwindcss-animate": {
+            "version": "1.0.7",
+            "resolved": "https://registry.npmjs.org/tailwindcss-animate/-/tailwindcss-animate-1.0.7.tgz",
+            "integrity": "sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==",
+            "license": "MIT",
+            "peerDependencies": {
+                "tailwindcss": ">=3.0.0 || insiders"
+            }
+        },
+        "node_modules/tailwindcss/node_modules/postcss-selector-parser": {
+            "version": "6.1.2",
+            "resolved": "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz",
+            "integrity": "sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==",
+            "license": "MIT",
+            "dependencies": {
+                "cssesc": "^3.0.0",
+                "util-deprecate": "^1.0.2"
+            },
+            "engines": {
+                "node": ">=4"
+            }
+        },
+        "node_modules/thenify": {
+            "version": "3.3.1",
+            "resolved": "https://registry.npmjs.org/thenify/-/thenify-3.3.1.tgz",
+            "integrity": "sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==",
+            "license": "MIT",
+            "dependencies": {
+                "any-promise": "^1.0.0"
+            }
+        },
+        "node_modules/thenify-all": {
+            "version": "1.6.0",
+            "resolved": "https://registry.npmjs.org/thenify-all/-/thenify-all-1.6.0.tgz",
+            "integrity": "sha512-RNxQH/qI8/t3thXJDwcstUO4zeqo64+Uy/+sNVRBx4Xn2OX+OZ9oP+iJnNFqplFra2ZUVeKCSa2oVWi3T4uVmA==",
+            "license": "MIT",
+            "dependencies": {
+                "thenify": ">= 3.1.0 < 4"
+            },
+            "engines": {
+                "node": ">=0.8"
+            }
+        },
+        "node_modules/tiny-invariant": {
+            "version": "1.3.3",
+            "resolved": "https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.3.3.tgz",
+            "integrity": "sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==",
+            "license": "MIT"
+        },
+        "node_modules/tinyglobby": {
+            "version": "0.2.15",
+            "resolved": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz",
+            "integrity": "sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==",
+            "license": "MIT",
+            "dependencies": {
+                "fdir": "^6.5.0",
+                "picomatch": "^4.0.3"
+            },
+            "engines": {
+                "node": ">=12.0.0"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/SuperchupuDev"
+            }
+        },
+        "node_modules/tinyglobby/node_modules/fdir": {
+            "version": "6.5.0",
+            "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+            "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=12.0.0"
+            },
+            "peerDependencies": {
+                "picomatch": "^3 || ^4"
+            },
+            "peerDependenciesMeta": {
+                "picomatch": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/tinyglobby/node_modules/picomatch": {
+            "version": "4.0.3",
+            "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz",
+            "integrity": "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=12"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/jonschlinkert"
+            }
+        },
+        "node_modules/to-regex-range": {
+            "version": "5.0.1",
+            "resolved": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz",
+            "integrity": "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==",
+            "license": "MIT",
+            "dependencies": {
+                "is-number": "^7.0.0"
+            },
+            "engines": {
+                "node": ">=8.0"
+            }
+        },
+        "node_modules/ts-api-utils": {
+            "version": "2.4.0",
+            "resolved": "https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.4.0.tgz",
+            "integrity": "sha512-3TaVTaAv2gTiMB35i3FiGJaRfwb3Pyn/j3m/bfAvGe8FB7CF6u+LMYqYlDh7reQf7UNvoTvdfAqHGmPGOSsPmA==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=18.12"
+            },
+            "peerDependencies": {
+                "typescript": ">=4.8.4"
+            }
+        },
+        "node_modules/ts-interface-checker": {
+            "version": "0.1.13",
+            "resolved": "https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz",
+            "integrity": "sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==",
+            "license": "Apache-2.0"
+        },
+        "node_modules/tslib": {
+            "version": "2.8.1",
+            "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz",
+            "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
+            "license": "0BSD"
+        },
+        "node_modules/type-check": {
+            "version": "0.4.0",
+            "resolved": "https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz",
+            "integrity": "sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "prelude-ls": "^1.2.1"
+            },
+            "engines": {
+                "node": ">= 0.8.0"
+            }
+        },
+        "node_modules/typescript": {
+            "version": "5.9.3",
+            "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+            "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+            "dev": true,
+            "license": "Apache-2.0",
+            "bin": {
+                "tsc": "bin/tsc",
+                "tsserver": "bin/tsserver"
+            },
+            "engines": {
+                "node": ">=14.17"
+            }
+        },
+        "node_modules/typescript-eslint": {
+            "version": "8.51.0",
+            "resolved": "https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.51.0.tgz",
+            "integrity": "sha512-jh8ZuM5oEh2PSdyQG9YAEM1TCGuWenLSuSUhf/irbVUNW9O5FhbFVONviN2TgMTBnUmyHv7E56rYnfLZK6TkiA==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "@typescript-eslint/eslint-plugin": "8.51.0",
+                "@typescript-eslint/parser": "8.51.0",
+                "@typescript-eslint/typescript-estree": "8.51.0",
+                "@typescript-eslint/utils": "8.51.0"
+            },
+            "engines": {
+                "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+            },
+            "funding": {
+                "type": "opencollective",
+                "url": "https://opencollective.com/typescript-eslint"
+            },
+            "peerDependencies": {
+                "eslint": "^8.57.0 || ^9.0.0",
+                "typescript": ">=4.8.4 <6.0.0"
+            }
+        },
+        "node_modules/undici-types": {
+            "version": "6.21.0",
+            "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz",
+            "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==",
+            "license": "MIT"
+        },
+        "node_modules/update-browserslist-db": {
+            "version": "1.2.3",
+            "resolved": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz",
+            "integrity": "sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==",
+            "dev": true,
+            "funding": [
+                {
+                    "type": "opencollective",
+                    "url": "https://opencollective.com/browserslist"
+                },
+                {
+                    "type": "tidelift",
+                    "url": "https://tidelift.com/funding/github/npm/browserslist"
+                },
+                {
+                    "type": "github",
+                    "url": "https://github.com/sponsors/ai"
+                }
+            ],
+            "license": "MIT",
+            "dependencies": {
+                "escalade": "^3.2.0",
+                "picocolors": "^1.1.1"
+            },
+            "bin": {
+                "update-browserslist-db": "cli.js"
+            },
+            "peerDependencies": {
+                "browserslist": ">= 4.21.0"
+            }
+        },
+        "node_modules/uri-js": {
+            "version": "4.4.1",
+            "resolved": "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz",
+            "integrity": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
+            "dev": true,
+            "license": "BSD-2-Clause",
+            "dependencies": {
+                "punycode": "^2.1.0"
+            }
+        },
+        "node_modules/use-callback-ref": {
+            "version": "1.3.3",
+            "resolved": "https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz",
+            "integrity": "sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==",
+            "license": "MIT",
+            "dependencies": {
+                "tslib": "^2.0.0"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/use-sidecar": {
+            "version": "1.1.3",
+            "resolved": "https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz",
+            "integrity": "sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ==",
+            "license": "MIT",
+            "dependencies": {
+                "detect-node-es": "^1.1.0",
+                "tslib": "^2.0.0"
+            },
+            "engines": {
+                "node": ">=10"
+            },
+            "peerDependencies": {
+                "@types/react": "*",
+                "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+            },
+            "peerDependenciesMeta": {
+                "@types/react": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/use-sync-external-store": {
+            "version": "1.6.0",
+            "resolved": "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz",
+            "integrity": "sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==",
+            "license": "MIT",
+            "peerDependencies": {
+                "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+            }
+        },
+        "node_modules/util-deprecate": {
+            "version": "1.0.2",
+            "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+            "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==",
+            "license": "MIT"
+        },
+        "node_modules/vaul": {
+            "version": "0.9.9",
+            "resolved": "https://registry.npmjs.org/vaul/-/vaul-0.9.9.tgz",
+            "integrity": "sha512-7afKg48srluhZwIkaU+lgGtFCUsYBSGOl8vcc8N/M3YQlZFlynHD15AE+pwrYdc826o7nrIND4lL9Y6b9WWZZQ==",
+            "license": "MIT",
+            "dependencies": {
+                "@radix-ui/react-dialog": "^1.1.1"
+            },
+            "peerDependencies": {
+                "react": "^16.8 || ^17.0 || ^18.0",
+                "react-dom": "^16.8 || ^17.0 || ^18.0"
+            }
+        },
+        "node_modules/victory-vendor": {
+            "version": "36.9.2",
+            "resolved": "https://registry.npmjs.org/victory-vendor/-/victory-vendor-36.9.2.tgz",
+            "integrity": "sha512-PnpQQMuxlwYdocC8fIJqVXvkeViHYzotI+NJrCuav0ZYFoq912ZHBk3mCeuj+5/VpodOjPe1z0Fk2ihgzlXqjQ==",
+            "license": "MIT AND ISC",
+            "dependencies": {
+                "@types/d3-array": "^3.0.3",
+                "@types/d3-ease": "^3.0.0",
+                "@types/d3-interpolate": "^3.0.1",
+                "@types/d3-scale": "^4.0.2",
+                "@types/d3-shape": "^3.1.0",
+                "@types/d3-time": "^3.0.0",
+                "@types/d3-timer": "^3.0.0",
+                "d3-array": "^3.1.6",
+                "d3-ease": "^3.0.1",
+                "d3-interpolate": "^3.0.1",
+                "d3-scale": "^4.0.2",
+                "d3-shape": "^3.1.0",
+                "d3-time": "^3.0.0",
+                "d3-timer": "^3.0.1"
+            }
+        },
+        "node_modules/vite": {
+            "version": "7.3.0",
+            "resolved": "https://registry.npmjs.org/vite/-/vite-7.3.0.tgz",
+            "integrity": "sha512-dZwN5L1VlUBewiP6H9s2+B3e3Jg96D0vzN+Ry73sOefebhYr9f94wwkMNN/9ouoU8pV1BqA1d1zGk8928cx0rg==",
+            "dev": true,
+            "license": "MIT",
+            "dependencies": {
+                "esbuild": "^0.27.0",
+                "fdir": "^6.5.0",
+                "picomatch": "^4.0.3",
+                "postcss": "^8.5.6",
+                "rollup": "^4.43.0",
+                "tinyglobby": "^0.2.15"
+            },
+            "bin": {
+                "vite": "bin/vite.js"
+            },
+            "engines": {
+                "node": "^20.19.0 || >=22.12.0"
+            },
+            "funding": {
+                "url": "https://github.com/vitejs/vite?sponsor=1"
+            },
+            "optionalDependencies": {
+                "fsevents": "~2.3.3"
+            },
+            "peerDependencies": {
+                "@types/node": "^20.19.0 || >=22.12.0",
+                "jiti": ">=1.21.0",
+                "less": "^4.0.0",
+                "lightningcss": "^1.21.0",
+                "sass": "^1.70.0",
+                "sass-embedded": "^1.70.0",
+                "stylus": ">=0.54.8",
+                "sugarss": "^5.0.0",
+                "terser": "^5.16.0",
+                "tsx": "^4.8.1",
+                "yaml": "^2.4.2"
+            },
+            "peerDependenciesMeta": {
+                "@types/node": {
+                    "optional": true
+                },
+                "jiti": {
+                    "optional": true
+                },
+                "less": {
+                    "optional": true
+                },
+                "lightningcss": {
+                    "optional": true
+                },
+                "sass": {
+                    "optional": true
+                },
+                "sass-embedded": {
+                    "optional": true
+                },
+                "stylus": {
+                    "optional": true
+                },
+                "sugarss": {
+                    "optional": true
+                },
+                "terser": {
+                    "optional": true
+                },
+                "tsx": {
+                    "optional": true
+                },
+                "yaml": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/aix-ppc64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.27.2.tgz",
+            "integrity": "sha512-GZMB+a0mOMZs4MpDbj8RJp4cw+w1WV5NYD6xzgvzUJ5Ek2jerwfO2eADyI6ExDSUED+1X8aMbegahsJi+8mgpw==",
+            "cpu": [
+                "ppc64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "aix"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/android-arm": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.27.2.tgz",
+            "integrity": "sha512-DVNI8jlPa7Ujbr1yjU2PfUSRtAUZPG9I1RwW4F4xFB1Imiu2on0ADiI/c3td+KmDtVKNbi+nffGDQMfcIMkwIA==",
+            "cpu": [
+                "arm"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "android"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/android-arm64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.27.2.tgz",
+            "integrity": "sha512-pvz8ZZ7ot/RBphf8fv60ljmaoydPU12VuXHImtAs0XhLLw+EXBi2BLe3OYSBslR4rryHvweW5gmkKFwTiFy6KA==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "android"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/android-x64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.27.2.tgz",
+            "integrity": "sha512-z8Ank4Byh4TJJOh4wpz8g2vDy75zFL0TlZlkUkEwYXuPSgX8yzep596n6mT7905kA9uHZsf/o2OJZubl2l3M7A==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "android"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/darwin-arm64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.27.2.tgz",
+            "integrity": "sha512-davCD2Zc80nzDVRwXTcQP/28fiJbcOwvdolL0sOiOsbwBa72kegmVU0Wrh1MYrbuCL98Omp5dVhQFWRKR2ZAlg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/darwin-x64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.27.2.tgz",
+            "integrity": "sha512-ZxtijOmlQCBWGwbVmwOF/UCzuGIbUkqB1faQRf5akQmxRJ1ujusWsb3CVfk/9iZKr2L5SMU5wPBi1UWbvL+VQA==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/freebsd-arm64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.27.2.tgz",
+            "integrity": "sha512-lS/9CN+rgqQ9czogxlMcBMGd+l8Q3Nj1MFQwBZJyoEKI50XGxwuzznYdwcav6lpOGv5BqaZXqvBSiB/kJ5op+g==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "freebsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/freebsd-x64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.27.2.tgz",
+            "integrity": "sha512-tAfqtNYb4YgPnJlEFu4c212HYjQWSO/w/h/lQaBK7RbwGIkBOuNKQI9tqWzx7Wtp7bTPaGC6MJvWI608P3wXYA==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "freebsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-arm": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.27.2.tgz",
+            "integrity": "sha512-vWfq4GaIMP9AIe4yj1ZUW18RDhx6EPQKjwe7n8BbIecFtCQG4CfHGaHuh7fdfq+y3LIA2vGS/o9ZBGVxIDi9hw==",
+            "cpu": [
+                "arm"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-arm64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.27.2.tgz",
+            "integrity": "sha512-hYxN8pr66NsCCiRFkHUAsxylNOcAQaxSSkHMMjcpx0si13t1LHFphxJZUiGwojB1a/Hd5OiPIqDdXONia6bhTw==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-ia32": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.27.2.tgz",
+            "integrity": "sha512-MJt5BRRSScPDwG2hLelYhAAKh9imjHK5+NE/tvnRLbIqUWa+0E9N4WNMjmp/kXXPHZGqPLxggwVhz7QP8CTR8w==",
+            "cpu": [
+                "ia32"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-loong64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.27.2.tgz",
+            "integrity": "sha512-lugyF1atnAT463aO6KPshVCJK5NgRnU4yb3FUumyVz+cGvZbontBgzeGFO1nF+dPueHD367a2ZXe1NtUkAjOtg==",
+            "cpu": [
+                "loong64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-mips64el": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.27.2.tgz",
+            "integrity": "sha512-nlP2I6ArEBewvJ2gjrrkESEZkB5mIoaTswuqNFRv/WYd+ATtUpe9Y09RnJvgvdag7he0OWgEZWhviS1OTOKixw==",
+            "cpu": [
+                "mips64el"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-ppc64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.27.2.tgz",
+            "integrity": "sha512-C92gnpey7tUQONqg1n6dKVbx3vphKtTHJaNG2Ok9lGwbZil6DrfyecMsp9CrmXGQJmZ7iiVXvvZH6Ml5hL6XdQ==",
+            "cpu": [
+                "ppc64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-riscv64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.27.2.tgz",
+            "integrity": "sha512-B5BOmojNtUyN8AXlK0QJyvjEZkWwy/FKvakkTDCziX95AowLZKR6aCDhG7LeF7uMCXEJqwa8Bejz5LTPYm8AvA==",
+            "cpu": [
+                "riscv64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-s390x": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.27.2.tgz",
+            "integrity": "sha512-p4bm9+wsPwup5Z8f4EpfN63qNagQ47Ua2znaqGH6bqLlmJ4bx97Y9JdqxgGZ6Y8xVTixUnEkoKSHcpRlDnNr5w==",
+            "cpu": [
+                "s390x"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/linux-x64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.27.2.tgz",
+            "integrity": "sha512-uwp2Tip5aPmH+NRUwTcfLb+W32WXjpFejTIOWZFw/v7/KnpCDKG66u4DLcurQpiYTiYwQ9B7KOeMJvLCu/OvbA==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/netbsd-arm64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.27.2.tgz",
+            "integrity": "sha512-Kj6DiBlwXrPsCRDeRvGAUb/LNrBASrfqAIok+xB0LxK8CHqxZ037viF13ugfsIpePH93mX7xfJp97cyDuTZ3cw==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "netbsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/netbsd-x64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.27.2.tgz",
+            "integrity": "sha512-HwGDZ0VLVBY3Y+Nw0JexZy9o/nUAWq9MlV7cahpaXKW6TOzfVno3y3/M8Ga8u8Yr7GldLOov27xiCnqRZf0tCA==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "netbsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/openbsd-arm64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.27.2.tgz",
+            "integrity": "sha512-DNIHH2BPQ5551A7oSHD0CKbwIA/Ox7+78/AWkbS5QoRzaqlev2uFayfSxq68EkonB+IKjiuxBFoV8ESJy8bOHA==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "openbsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/openbsd-x64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.27.2.tgz",
+            "integrity": "sha512-/it7w9Nb7+0KFIzjalNJVR5bOzA9Vay+yIPLVHfIQYG/j+j9VTH84aNB8ExGKPU4AzfaEvN9/V4HV+F+vo8OEg==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "openbsd"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/openharmony-arm64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.27.2.tgz",
+            "integrity": "sha512-LRBbCmiU51IXfeXk59csuX/aSaToeG7w48nMwA6049Y4J4+VbWALAuXcs+qcD04rHDuSCSRKdmY63sruDS5qag==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "openharmony"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/sunos-x64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.27.2.tgz",
+            "integrity": "sha512-kMtx1yqJHTmqaqHPAzKCAkDaKsffmXkPHThSfRwZGyuqyIeBvf08KSsYXl+abf5HDAPMJIPnbBfXvP2ZC2TfHg==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "sunos"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/win32-arm64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.27.2.tgz",
+            "integrity": "sha512-Yaf78O/B3Kkh+nKABUF++bvJv5Ijoy9AN1ww904rOXZFLWVc5OLOfL56W+C8F9xn5JQZa3UX6m+IktJnIb1Jjg==",
+            "cpu": [
+                "arm64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/win32-ia32": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.27.2.tgz",
+            "integrity": "sha512-Iuws0kxo4yusk7sw70Xa2E2imZU5HoixzxfGCdxwBdhiDgt9vX9VUCBhqcwY7/uh//78A1hMkkROMJq9l27oLQ==",
+            "cpu": [
+                "ia32"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/@esbuild/win32-x64": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz",
+            "integrity": "sha512-sRdU18mcKf7F+YgheI/zGf5alZatMUTKj/jNS6l744f9u3WFu4v7twcUI9vu4mknF4Y9aDlblIie0IM+5xxaqQ==",
+            "cpu": [
+                "x64"
+            ],
+            "dev": true,
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "win32"
+            ],
+            "engines": {
+                "node": ">=18"
+            }
+        },
+        "node_modules/vite/node_modules/esbuild": {
+            "version": "0.27.2",
+            "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.27.2.tgz",
+            "integrity": "sha512-HyNQImnsOC7X9PMNaCIeAm4ISCQXs5a5YasTXVliKv4uuBo1dKrG0A+uQS8M5eXjVMnLg3WgXaKvprHlFJQffw==",
+            "dev": true,
+            "hasInstallScript": true,
+            "license": "MIT",
+            "bin": {
+                "esbuild": "bin/esbuild"
+            },
+            "engines": {
+                "node": ">=18"
+            },
+            "optionalDependencies": {
+                "@esbuild/aix-ppc64": "0.27.2",
+                "@esbuild/android-arm": "0.27.2",
+                "@esbuild/android-arm64": "0.27.2",
+                "@esbuild/android-x64": "0.27.2",
+                "@esbuild/darwin-arm64": "0.27.2",
+                "@esbuild/darwin-x64": "0.27.2",
+                "@esbuild/freebsd-arm64": "0.27.2",
+                "@esbuild/freebsd-x64": "0.27.2",
+                "@esbuild/linux-arm": "0.27.2",
+                "@esbuild/linux-arm64": "0.27.2",
+                "@esbuild/linux-ia32": "0.27.2",
+                "@esbuild/linux-loong64": "0.27.2",
+                "@esbuild/linux-mips64el": "0.27.2",
+                "@esbuild/linux-ppc64": "0.27.2",
+                "@esbuild/linux-riscv64": "0.27.2",
+                "@esbuild/linux-s390x": "0.27.2",
+                "@esbuild/linux-x64": "0.27.2",
+                "@esbuild/netbsd-arm64": "0.27.2",
+                "@esbuild/netbsd-x64": "0.27.2",
+                "@esbuild/openbsd-arm64": "0.27.2",
+                "@esbuild/openbsd-x64": "0.27.2",
+                "@esbuild/openharmony-arm64": "0.27.2",
+                "@esbuild/sunos-x64": "0.27.2",
+                "@esbuild/win32-arm64": "0.27.2",
+                "@esbuild/win32-ia32": "0.27.2",
+                "@esbuild/win32-x64": "0.27.2"
+            }
+        },
+        "node_modules/vite/node_modules/fdir": {
+            "version": "6.5.0",
+            "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+            "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=12.0.0"
+            },
+            "peerDependencies": {
+                "picomatch": "^3 || ^4"
+            },
+            "peerDependenciesMeta": {
+                "picomatch": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/vite/node_modules/picomatch": {
+            "version": "4.0.3",
+            "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz",
+            "integrity": "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=12"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/jonschlinkert"
+            }
+        },
+        "node_modules/which": {
+            "version": "2.0.2",
+            "resolved": "https://registry.npmjs.org/which/-/which-2.0.2.tgz",
+            "integrity": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
+            "dev": true,
+            "license": "ISC",
+            "dependencies": {
+                "isexe": "^2.0.0"
+            },
+            "bin": {
+                "node-which": "bin/node-which"
+            },
+            "engines": {
+                "node": ">= 8"
+            }
+        },
+        "node_modules/word-wrap": {
+            "version": "1.2.5",
+            "resolved": "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.5.tgz",
+            "integrity": "sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=0.10.0"
+            }
+        },
+        "node_modules/ws": {
+            "version": "8.18.3",
+            "resolved": "https://registry.npmjs.org/ws/-/ws-8.18.3.tgz",
+            "integrity": "sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==",
+            "license": "MIT",
+            "engines": {
+                "node": ">=10.0.0"
+            },
+            "peerDependencies": {
+                "bufferutil": "^4.0.1",
+                "utf-8-validate": ">=5.0.2"
+            },
+            "peerDependenciesMeta": {
+                "bufferutil": {
+                    "optional": true
+                },
+                "utf-8-validate": {
+                    "optional": true
+                }
+            }
+        },
+        "node_modules/yocto-queue": {
+            "version": "0.1.0",
+            "resolved": "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz",
+            "integrity": "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==",
+            "dev": true,
+            "license": "MIT",
+            "engines": {
+                "node": ">=10"
+            },
+            "funding": {
+                "url": "https://github.com/sponsors/sindresorhus"
+            }
+        },
+        "node_modules/zod": {
+            "version": "3.25.76",
+            "resolved": "https://registry.npmjs.org/zod/-/zod-3.25.76.tgz",
+            "integrity": "sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==",
+            "license": "MIT",
+            "funding": {
+                "url": "https://github.com/sponsors/colinhacks"
+            }
+        }
+    }
+}
+
+```
+
+---
+
+### <a id="📄-package-json"></a>📄 `package.json`
+
+**File Info:**
+- **Size**: 3.07 KB
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `package.json`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:56:36 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:26 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `166c7632ab34c78a8aec16aa5ccaf34f`
+- **SHA256**: `34d87712740b07ce6dcbf654ad7ad1f546dafb4dd693c468406eeaa7f9f5a566`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+    "name": "vite_react_shadcn_ts",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build:dev": "vite build --mode development",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@hookform/resolvers": "^3.10.0",
+        "@radix-ui/react-accordion": "^1.2.12",
+        "@radix-ui/react-alert-dialog": "^1.1.15",
+        "@radix-ui/react-aspect-ratio": "^1.1.7",
+        "@radix-ui/react-avatar": "^1.1.10",
+        "@radix-ui/react-checkbox": "^1.3.2",
+        "@radix-ui/react-collapsible": "^1.1.11",
+        "@radix-ui/react-context-menu": "^2.2.15",
+        "@radix-ui/react-dialog": "^1.1.14",
+        "@radix-ui/react-dropdown-menu": "^2.1.15",
+        "@radix-ui/react-hover-card": "^1.1.14",
+        "@radix-ui/react-label": "^2.1.7",
+        "@radix-ui/react-menubar": "^1.1.15",
+        "@radix-ui/react-navigation-menu": "^1.2.13",
+        "@radix-ui/react-popover": "^1.1.14",
+        "@radix-ui/react-progress": "^1.1.7",
+        "@radix-ui/react-radio-group": "^1.3.7",
+        "@radix-ui/react-scroll-area": "^1.2.9",
+        "@radix-ui/react-select": "^2.2.5",
+        "@radix-ui/react-separator": "^1.1.7",
+        "@radix-ui/react-slider": "^1.3.5",
+        "@radix-ui/react-slot": "^1.2.3",
+        "@radix-ui/react-switch": "^1.2.5",
+        "@radix-ui/react-tabs": "^1.1.12",
+        "@radix-ui/react-toast": "^1.2.14",
+        "@radix-ui/react-toggle": "^1.1.9",
+        "@radix-ui/react-toggle-group": "^1.1.10",
+        "@radix-ui/react-tooltip": "^1.2.7",
+        "@supabase/supabase-js": "^2.89.0",
+        "@tanstack/react-query": "^5.83.0",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "cmdk": "^1.1.1",
+        "date-fns": "^3.6.0",
+        "embla-carousel-react": "^8.6.0",
+        "input-otp": "^1.4.2",
+        "lucide-react": "^0.462.0",
+        "next-themes": "^0.3.0",
+        "react": "^18.3.1",
+        "react-day-picker": "^8.10.1",
+        "react-dom": "^18.3.1",
+        "react-hook-form": "^7.61.1",
+        "react-resizable-panels": "^2.1.9",
+        "react-router-dom": "^6.30.1",
+        "recharts": "^2.15.4",
+        "sonner": "^1.7.4",
+        "tailwind-merge": "^2.6.0",
+        "tailwindcss-animate": "^1.0.7",
+        "vaul": "^0.9.9",
+        "zod": "^3.25.76"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.32.0",
+        "@tailwindcss/typography": "^0.5.16",
+        "@types/node": "^22.16.5",
+        "@types/react": "^18.3.23",
+        "@types/react-dom": "^18.3.7",
+        "@vitejs/plugin-react-swc": "^3.11.0",
+        "autoprefixer": "^10.4.21",
+        "eslint": "^9.32.0",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "eslint-plugin-react-refresh": "^0.4.20",
+        "globals": "^15.15.0",
+        "lovable-tagger": "^1.1.13",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^3.4.17",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.38.0",
+        "vite": "^7.3.0"
+    }
+}
+```
+
+---
+
+### <a id="📄-postcss-config-js"></a>📄 `postcss.config.js`
+
+**File Info:**
+- **Size**: 99 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `postcss.config.js`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:56:40 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:27 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `1126d0453a7a4d02ebb3ba79893c7c3f`
+- **SHA256**: `218def8d8635601327c5c7c2084d958f316e71e55bc2daece2a627b34ed87b72`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+export default {
+    plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+    },
+};
+
+```
+
+---
+
+### <a id="📄-readme-md"></a>📄 `README.md`
+
+**File Info:**
+- **Size**: 2.12 KB
+- **Extension**: `.md`
+- **Language**: `text`
+- **Location**: `README.md`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:56:46 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:28 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `003aada7e9b20d16262b48dba4442792`
+- **SHA256**: `b58565eb7c0c73dd1fe516cd237238899e8b9a6fdbc7e65c22334853aafa168a`
+- **Encoding**: ASCII
+
+**File code content:**
+
+````markdown
+# Welcome to your Lovable project
+
+## Project info
+
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+
+## How can I edit this code?
+
+There are several ways of editing your application.
+
+**Use Lovable**
+
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+
+Changes made via Lovable will be committed automatically to this repo.
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+~~~~sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+~~~~
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+````
+
+---
+
+### <a id="📄-tailwind-config-ts"></a>📄 `tailwind.config.ts`
+
+**File Info:**
+- **Size**: 4.31 KB
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `tailwind.config.ts`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:56:51 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:30 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `e7183fec2bdb42a8b49e3617a2f45355`
+- **SHA256**: `07e10c684bdf3792bb01920329d02d8a8d62fa519be1925bd5e0a77dbc2fb927`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import type { Config } from "tailwindcss";
+
+export default {
+    darkMode: ["class"],
+    content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+    prefix: "",
+    theme: {
+        container: {
+            center: true,
+            padding: "1.5rem",
+            screens: {
+                "2xl": "1400px",
+            },
+        },
+        extend: {
+            fontFamily: {
+                sans: ['Outfit', 'system-ui', 'sans-serif'],
+            },
+            colors: {
+                border: "hsl(var(--border))",
+                input: "hsl(var(--input))",
+                ring: "hsl(var(--ring))",
+                background: "hsl(var(--background))",
+                foreground: "hsl(var(--foreground))",
+                primary: {
+                    DEFAULT: "hsl(var(--primary))",
+                    foreground: "hsl(var(--primary-foreground))",
+                },
+                secondary: {
+                    DEFAULT: "hsl(var(--secondary))",
+                    foreground: "hsl(var(--secondary-foreground))",
+                },
+                destructive: {
+                    DEFAULT: "hsl(var(--destructive))",
+                    foreground: "hsl(var(--destructive-foreground))",
+                },
+                success: {
+                    DEFAULT: "hsl(var(--success))",
+                    foreground: "hsl(var(--success-foreground))",
+                },
+                muted: {
+                    DEFAULT: "hsl(var(--muted))",
+                    foreground: "hsl(var(--muted-foreground))",
+                },
+                accent: {
+                    DEFAULT: "hsl(var(--accent))",
+                    foreground: "hsl(var(--accent-foreground))",
+                },
+                popover: {
+                    DEFAULT: "hsl(var(--popover))",
+                    foreground: "hsl(var(--popover-foreground))",
+                },
+                card: {
+                    DEFAULT: "hsl(var(--card))",
+                    foreground: "hsl(var(--card-foreground))",
+                },
+                habit: {
+                    DEFAULT: "hsl(var(--habit))",
+                    foreground: "hsl(var(--habit-foreground))",
+                },
+                journal: {
+                    DEFAULT: "hsl(var(--journal))",
+                    foreground: "hsl(var(--journal-foreground))",
+                },
+                reading: {
+                    DEFAULT: "hsl(var(--reading))",
+                    foreground: "hsl(var(--reading-foreground))",
+                },
+                calendar: {
+                    DEFAULT: "hsl(var(--calendar))",
+                    foreground: "hsl(var(--calendar-foreground))",
+                },
+                budget: {
+                    DEFAULT: "hsl(var(--budget))",
+                    foreground: "hsl(var(--budget-foreground))",
+                },
+                sidebar: {
+                    DEFAULT: "hsl(var(--sidebar-background))",
+                    foreground: "hsl(var(--sidebar-foreground))",
+                    primary: "hsl(var(--sidebar-primary))",
+                    "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
+                    accent: "hsl(var(--sidebar-accent))",
+                    "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
+                    border: "hsl(var(--sidebar-border))",
+                    ring: "hsl(var(--sidebar-ring))",
+                },
+            },
+            borderRadius: {
+                lg: "var(--radius)",
+                md: "calc(var(--radius) - 2px)",
+                sm: "calc(var(--radius) - 4px)",
+            },
+            keyframes: {
+                "accordion-down": {
+                    from: { height: "0" },
+                    to: { height: "var(--radix-accordion-content-height)" },
+                },
+                "accordion-up": {
+                    from: { height: "var(--radix-accordion-content-height)" },
+                    to: { height: "0" },
+                },
+            },
+            animation: {
+                "accordion-down": "accordion-down 0.2s ease-out",
+                "accordion-up": "accordion-up 0.2s ease-out",
+            },
+        },
+    },
+    plugins: [require("tailwindcss-animate")],
+} satisfies Config;
+
+```
+
+---
+
+### <a id="📄-tsconfig-app-json"></a>📄 `tsconfig.app.json`
+
+**File Info:**
+- **Size**: 792 B
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `tsconfig.app.json`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:56:59 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:49:57 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `5ffa5955a92d13b8a9b475a58ac5f244`
+- **SHA256**: `7c89e6879112a9a0cdbb0fc58a3eed7c8c2e6b5ba6c16d61360c7025bed69bbf`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+    "compilerOptions": {
+        "allowImportingTsExtensions": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "lib": [
+            "ES2020",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "module": "ESNext",
+        "moduleDetection": "force",
+        "moduleResolution": "bundler",
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitAny": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "skipLibCheck": true,
+        "strict": false,
+        "target": "ES2020",
+        "useDefineForClassFields": true
+    },
+    "include": [
+        "src"
+    ]
+}
+```
+
+---
+
+### <a id="📄-tsconfig-json"></a>📄 `tsconfig.json`
+
+**File Info:**
+- **Size**: 509 B
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `tsconfig.json`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:57:11 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:36 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `674c3b716a9d68d2c96b1bf45440bd46`
+- **SHA256**: `4162d9283d764d3048264d197ee9691c3ed8dba78c846df7b858cb826699846b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noImplicitAny": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "skipLibCheck": true,
+        "strictNullChecks": false
+    },
+    "files": [],
+    "references": [
+        {
+            "path": "./tsconfig.app.json"
+        },
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}
+```
+
+---
+
+### <a id="📄-tsconfig-node-json"></a>📄 `tsconfig.node.json`
+
+**File Info:**
+- **Size**: 603 B
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `tsconfig.node.json`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:57:16 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:37 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `04865eb3f1cbdf0c0a9d7864774d6f8d`
+- **SHA256**: `c9c783857efcb436ae54abd114ad04f45c0493fbd74a7a7549503875fa5cc143`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": [
+            "ES2023"
+        ],
+        "module": "ESNext",
+        "skipLibCheck": true,
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "isolatedModules": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": [
+        "vite.config.ts"
+    ]
+}
+```
+
+---
+
+### <a id="📄-vite-config-ts"></a>📄 `vite.config.ts`
+
+**File Info:**
+- **Size**: 504 B
+- **Extension**: `.ts`
+- **Language**: `typescript`
+- **Location**: `vite.config.ts`
+- **Relative Path**: `root`
+- **Created**: 2026-01-05 01:57:27 (Etc/GMT+5 / GMT-05:00)
+- **Modified**: 2026-01-05 02:50:42 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `0cfeceb75015220e1e60e0f83e34ead7`
+- **SHA256**: `2d64a63c17b2986b3b5a7cb3c75b82d2cbea636389a67494cfdc46ac42f1469e`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```typescript
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import path from "path";
+import { componentTagger } from "lovable-tagger";
+
+// https://vitejs.dev/config/
+export default defineConfig(({ mode }) => ({
+    server: {
+        host: "::",
+        port: 8080,
+    },
+    plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+    resolve: {
+        alias: {
+            "@": path.resolve(__dirname, "./src"),
+        },
+    },
+}));
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `tsconfig.app.tsbuildinfo`
+- `tsconfig.node.tsbuildinfo`
+
