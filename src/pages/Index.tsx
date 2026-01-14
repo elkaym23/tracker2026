@@ -12,6 +12,7 @@ import { AnalyticsDashboard } from '@/components/AnalyticsDashboard';
 import { DataExport } from '@/components/DataExport';
 import { SelfCareChecklist } from '@/components/SelfCareChecklist';
 import { MoodBoard } from '@/components/MoodBoard';
+import { CalendarView } from '@/components/CalendarView';
 
 type Section = 'dashboard' | 'habits' | 'journal' | 'calendar' | 'reading' | 'budget' | 'analytics' | 'settings';
 
@@ -61,9 +62,7 @@ const Index = () => {
 
                     {activeSection === 'calendar' && (
                         <div className="max-w-2xl mx-auto">
-                            <div className="text-center py-12 text-muted-foreground">
-                                <p>Calendar view coming soon...</p>
-                            </div>
+                            <CalendarView />
                         </div>
                     )}
 

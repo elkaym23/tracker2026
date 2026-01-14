@@ -3,7 +3,7 @@
 ## 📊 Project Information
 
 - **Project Name**: `tracker2026`
-- **Generated On**: 2026-01-14 16:48:04 (Etc/GMT+5 / GMT-05:00)
+- **Generated On**: 2026-01-14 17:04:29 (Etc/GMT+5 / GMT-05:00)
 - **Total Files Processed**: 100
 - **Export Tool**: Easy Whole Project to Single Text File for LLMs v1.1.0
 - **Tool Author**: Jota / José Guilherme Pandolfi
@@ -106,7 +106,7 @@
 │   │   ├── 📄 storage.ts (9.43 KB)
 │   │   └── 📄 utils.ts (177 B)
 │   ├── 📁 pages/
-│   │   ├── 📄 Index.tsx (3.97 KB)
+│   │   ├── 📄 Index.tsx (3.89 KB)
 │   │   └── 📄 NotFound.tsx (827 B)
 │   ├── 📄 App.css (648 B)
 │   ├── 📄 App.tsx (980 B)
@@ -10978,15 +10978,15 @@ export function cn(...inputs: ClassValue[]) {
 ### <a id="📄-src-pages-index-tsx"></a>📄 `src/pages/Index.tsx`
 
 **File Info:**
-- **Size**: 3.97 KB
+- **Size**: 3.89 KB
 - **Extension**: `.tsx`
 - **Language**: `typescript`
 - **Location**: `src/pages/Index.tsx`
 - **Relative Path**: `src/pages`
 - **Created**: 2026-01-05 02:15:19 (Etc/GMT+5 / GMT-05:00)
-- **Modified**: 2026-01-07 02:22:34 (Etc/GMT+5 / GMT-05:00)
-- **MD5**: `e31972485de549d8ce46be741c158c4d`
-- **SHA256**: `76cd74ac19dec792c9391e70da4864fcc4784bcc182970c1f34a19ac3c71fba8`
+- **Modified**: 2026-01-14 17:04:29 (Etc/GMT+5 / GMT-05:00)
+- **MD5**: `67303551ae57ce5122d80018ae6e6976`
+- **SHA256**: `c0f756c50b3fc9a85548c7c677b1883f7f8621a657ff843543a7f6128634b4af`
 - **Encoding**: ASCII
 
 **File code content:**
@@ -11006,6 +11006,7 @@ import { AnalyticsDashboard } from '@/components/AnalyticsDashboard';
 import { DataExport } from '@/components/DataExport';
 import { SelfCareChecklist } from '@/components/SelfCareChecklist';
 import { MoodBoard } from '@/components/MoodBoard';
+import { CalendarView } from '@/components/CalendarView';
 
 type Section = 'dashboard' | 'habits' | 'journal' | 'calendar' | 'reading' | 'budget' | 'analytics' | 'settings';
 
@@ -11055,9 +11056,7 @@ const Index = () => {
 
                     {activeSection === 'calendar' && (
                         <div className="max-w-2xl mx-auto">
-                            <div className="text-center py-12 text-muted-foreground">
-                                <p>Calendar view coming soon...</p>
-                            </div>
+                            <CalendarView />
                         </div>
                     )}
 
